@@ -1,4 +1,5 @@
-#+Title: Patterns of patterns
+#+Title: PATTERNS OF PATTERNS
+#+Date: June 14th 2021
 #+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
 #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
 #+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
@@ -31,113 +32,123 @@
    :CUSTOM_ID: background
    :END:
 
-For the moment, let’s set to one any side specialist notion of a
-‘pattern’ and think about patterns in a fundamental way.  Some
-patterns repeat in /space/ (e.g., a tiling). Some patterns repeat in
-/time/ (e.g., a beat).  Some patterns repeat in both /space and time/
-(e.g., a wave).  However, patterns cannot repeat exactly, or forever.
-The elements that comprise a pattern are subject to spatial or
-temporal displacement, and other forms of variation.
+Let’s begin by setting to one side any specialist notion of ‘patterns’
+that we may have in mind, and think about patterns in a fundamental
+way.  Some patterns repeat in /space/ (like a tiling). Some patterns
+repeat in /time/ (like a beat).  Some patterns repeat in both /space and
+time/ (like a wave).  However, patterns cannot repeat exactly, or
+forever.  The elements that comprise a pattern are subject to spatial
+or temporal displacement, and other forms of variation.
 
 Now, let’s explore the notion of ‘design pattern’ from this
 foundation.  Leitner supplied the following summary: "[Design]
-Patterns are shared as complete methodic descriptions intended /for
-practical use by experts and non-experts/" \citep{leitner2015a}
-[emphasis added].  As we look into the matter further, two central
-elements emerge.  Like an ellipse, the concept of the design pattern
-has two foci: context and community.
+Patterns are shared as complete methodic descriptions intended for
+practical use by experts and non-experts" \citep{leitner2015a}.  As we
+look into the matter further, two central features emerge.  Like an
+ellipse, the concept of the design pattern has two main foci: context
+and community.
 
-- The /context/ is the type of activity which is being considered, such as designing a building, or writing software.
-- /Communities/ include stakeholders --- experts and non-experts alike --- who are involved with or affected by a particular project.
+- /Context/ shapes and constrains the type of activity which is being considered, such as designing a building, or writing software.
+- /Community/ encompasses the stakeholders --- experts and non-experts alike --- who are involved with or affected by a particular project.
 
-Integral to the basic conception of a design pattern is the notion
-that people who use it — i.e., the community — do so in order to
-overcome some real or potential conflict
-\citep[pp.~9-10]{alexander1970a}.  In fact, Alexander emphasises that
-‘design’ is not needed when the conflict has an obvious or
-straightforward solution.  Perhaps in such cases it isn’t a very
-serious conflict!
+Integral to the basic concept of a design pattern is a third feature
+that describes the interaction of the the community and the context:
+this is that they use the pattern to overcome some real or potential
+conflict that they experience within this context.  Alexander and
+Poyner emphasised that ‘design’ is not needed when the conflict has an
+obvious or straightforward solution.  For example, you typically would
+not need a design process surrounding /sitting in a chair/, because
+“under normal conditions each one of the tendencies which arises in
+this situation can take care of itself”
+\citep[p.~311]{alexander1970a}.
 
 All of this means that design patterns need to achieve something
-fairly subtle.  Design patterns synthesize a repeatable solution to a
-type of conflict that itself repeats within a particular context.
-Furthermore, they do this a way that makes the solution teachable,
-learnable, and otherwise replicable a given community.
+fairly subtle.  Each represents the synthesis of a repeatable solution
+to a type of conflict which itself repeats within a particular
+context.  Furthermore, it does this a way that makes the solution
+teachable, learnable, and otherwise replicable within a given
+community.  However, if the design pattern makes the solution to the
+problem too obvious, then “design”, /per se/, is no longer needed![fn::
+For example, Peter Norvig argued that we see fewer design patterns in
+dynamic and functional languages, because these languages embed many
+of the concepts that the patterns that are explicitly used in OOP
+/describe/.]  Accordingly, we might say that the design pattern carries
+with it a fragment of irreducible complexity.  This perspective may or
+may not be surprising.  Let’s have another look by way of two
+contrasting metaphors.
 
-# today more and more design problems are reaching insoluble levels of complexity... a background... specialist information, widespread, disorganized... specialists... never best clear — This is definitely
-
-# Traditional builder knew about alcoves — and you learned the
-# patterns, you didn’t need to write them down (cf. PNG culture as a
-# boundary case).
-
-# nowadays we have new kinds of materials... we now need to think it w/
-# modern materials
-
-# “IKEA effect” people actually like them because they put things together
-
-# Problems were so rare that there were not actual designers!
-
-# Down to the level of “brass tacks”
-
-# Copy had to be exact — personal intuition — emphasis on intuition
-# 2 hemispheres, 2 cultures
-# — logic and geometry vs intuition
-
-# In a well-functioning there are interconnections between brain centres
-# (and turn each other off, selectively; the society of mind isn’t having a civil!)
-
-# So, remind people what Alexander said at the beginning
-# — cf. the critiques of patterns taxonomy — almost like the LITANY CONCEPT
-# — have others mentioned things about ‘open source’?
-
-On the other hand, there is also something of a paradox here.  If the
-design pattern made the solution to the problem too obvious, then no
-design would no longer be needed.  The main upshot from this is that
-design patterns represent irreducible complexity.
-
-This is a challenge for the We can illustrate this point with a pair
-of metaphors.  Kohls proposed to treat each pattern as a journey, “a
-path as a solution to reach a goal.”  In this treatment, patterns are
+The first metaphor comes from Christian Kohls, who proposed to treat
+each design pattern as a journey: “a path as a solution to reach a
+goal” cite:kohls2010a.  In this metaphor, design patterns are
 understood to have an initial condition and an end condition, defined
-within some context, along with some cost function.  The corresponding
-problem is that of finding a low-cost way to move from the initial
-state to the goal.  Once found, the path is repeatable in the sense
-that it is sharable.  Here we introduce a counter-metaphor: Joseph
-Campbell’s monomyth of the hero, which he described as an `archetypal
-pattern' embedded in myths and stories across diverse cultures and
-historical periods \citep{campbell1949a}.  The “hero’s journey” is
-also a path, however it does not have the same kind of optimality
-conditions.  In fact, like /other forms of open-ended learning/,
-discovery may often be a poor fit for optimisation-driven paradigms.
+within some context, which also defines a cost function on traversals
+of paths.  There are two problems: the more elementary problem is to
+traverse the terrain and travel from the start state to the end state
+at low cost; the second problem is to find a reliable way to do this.
+Once found, the low-cost path is a repeatable solution in the sense
+that it can be described to and traversed by others.
+
+The second metaphor comes from Joseph Campbell, who described a kind
+of “archetypal pattern” cite:shalloway2005a, one that can be found
+embedded in myths and stories across diverse cultures and historical
+periods.  The “hero’s journey” is also typically described with a path
+cite:campbell1949a, however, in this case the path runs in a circle,
+and focuses on the transformations of the hero who traverses it.
+Although an account of the journey can be shared, traversal is
+effectively presumed to be single-use.  The cost is typically “high.”
+Nevertheless, once a myth or metaphor is established by way of a
+shared narrative, the journey can be reenacted through ritual or
+engaged with in other ways that solve a range of social problems
+cite:handelman1998a.
+
+All of this should be taken as a big hint that Kohls’s metaphor does
+not fully express the complexity that is embedded in a design pattern.
+However it does, itself, hint at this complexity, because it implies a
+regress.  Where we initially had /one/ problem (traversal + low-cost),
+now we have at least one more (traversal + low-cost + sharable).  The
+additional problem calls out for a solution, and perhaps also for a
+method.  Naturally, we should expect to see patterns for finding,
+writing, and discussing patterns: and we do.
+
+However, none of this material fully explains where design patterns
+come from, or where they are going to — not an an obviously graspable
+way.  In other words, to really get a handle on /the future of the
+pattern theory/ cite:alexander1999a, we need another method.
 
 ** Causal Layered Analysis
 
-As we reflect back on the previous section and remark ‘design
-patterns’ have multiple levels.  We can use this to introduce
-Inayatullah’s formalism:
+Reflecting back on the previous section, we can surmise that ‘design
+patterns’ have multiple levels.  We will use the material we just
+covered to directly introduce Inayatullah’s cite:inayatullah1998b
+formalism:
 
-- At the *surface level*, we have the familiar kinds of patterns that
-  are published in papers, discussed at PLoP, or put into use in
-  designs of various kinds (e.g., Christopher Alexander’s “Entryway
-  Transition” pattern, “alcoves everywhere”, etc.).
-- Beyond that, we have the *social phenomena* that cause those patterns
-  to emerge (e.g., more people living in cities, combined with the
-  possibility of a more community-driven approach to design).
+- At the *surface level*, there are all of the familiar kinds of
+  patterns that are published in papers, discussed at PLoP, or put
+  into use in designs of various kinds (e.g., Christopher Alexander’s
+  “Entryway Transition” pattern, but also his remarks about how people
+  who attempted to apply his methods ended up placing “alcoves
+  everywhere”, etc.).  This is sometimes also referred to as the
+  *problem level*, and in the patterns discourse, problems abound.
+- Beyond that, we have the *social phenomena* that cause the problems
+  and patterns to emerge (e.g., more people living in cities, combined
+  with the possibility of a more community-driven approach to design).
 - Beyond that, are *worldviews* (e.g., Alexander’s view that “There is a
   central quality which is the root criterion of life and spirit in a
-  man, a town, a building, or a wilderness”).
-- Lastly, there are *myths or metaphors* (e.g., on the one hand
-  Alexander’s sense that ‘primitive’ dwellings contain more life — or
-  on the other the idea that the architect’s work is done ‘for the
-  glory of God’ (see Galle, 2020)).
+  man, a town, a building, or a wilderness.”).
+- Lastly, there are *myths or metaphors* (e.g., Alexander idea that the
+  architect’s work is done ‘for the glory of God’ (see Galle, 2020) or
+  his conception that ‘primitive’ dwellings contain more ‘life’).  To
+  emphasize, CLA does not dismiss myths: they are what drive the other
+  layers.
 
-— So much for the ‘layers’ in Causal Layered Analysis (for the time
-being).  In order to help make the CLA /method/ practicable, we would
+So much for the ‘layers’ in Causal Layered Analysis, for the time
+being.  In order to help make the CLA /method/ practicable, we would
 like to take the opportunity to re-present five techniques that
-Inayatullah refers to as the /poststructural futures toolbox/ — now, in
-the classical design pattern format: suitable both for convenient application and critical understanding.
+Inayatullah refers to as the /poststructural futures toolbox/.  Here we
+will develop them in the classical design pattern format, suitable
+both for convenient application and critique.
 
-*** Pattern: DECONSTRUCTION
+*** ¶ DECONSTRUCTION
 
 - *Context*: A text: here meaning anything that can be critiqued — a movie, a book, a worldview, a person — something or someone that can be read.  (/NB/, every text has a /context/: much like every pattern has a context.)
 - *Problem*: The existence ‘text’ points to a *conflict* between (1) the notion of truth as objective and universal, and (2) the text itself as historically situated or positioned within relationships of power.
@@ -151,7 +162,7 @@ the classical design pattern format: suitable both for convenient application an
 # - but racism was their the lower causal layer!
 # - At the economic layer it was making good sense
 
-*** Pattern: GENEALOGY
+*** ¶ GENEALOGY
 
 - *Context*: History is not just the passage of time, but an unfolding of different positions. We consider a concept as historically situated in this sense.
 - *Problem*: Within history, certain discourses have been hegemonic. A given term or concept will have developed through varied discourses: this observation *conflicts* with a naive notion of terms or concepts as simply ‘given’.
@@ -160,7 +171,7 @@ the classical design pattern format: suitable both for convenient application an
 # Example: update on Joe’s collaboration with Luís
 # - instead of blending, you work back up the tree
 
-*** Pattern: DISTANCE
+*** ¶ DISTANCE
 
 - *Context*: Our relationship to the present.
 - *Problem*: The present seems ‘normal’, but this *conflicts* with any impetus to change.
@@ -168,7 +179,7 @@ the classical design pattern format: suitable both for convenient application an
 
 # Example: ‘Distance’ can show up in physical space, e.g., at UT Austin    the public affairs school is in a secluded area, in a park and a somewhat obscure library; the mathematics building is adjacent to “applied mathematics” but logic and metaphysics are housed in a different part of the campus.
 
-*** Pattern: ALTERNATIVE PASTS AND FUTURES
+*** ¶ ALTERNATIVE PASTS AND FUTURES
 
 - *Context*: The past that we see as truth is in fact the particular writing of history: it is a text amenable to DECONSTRUCTION.  The futures that we are ‘given’ are, similarly, only some of the ones that are in-principle-possible due to the evolutionary nature of concepts exposed by their GENEALOGY.
 - *Problem*: The past and future are put to use within discourse, resulting in some winners and some losers.  The results we see may *conflict* with our sense of what we would prefer to have happen.
@@ -176,7 +187,7 @@ the classical design pattern format: suitable both for convenient application an
 
 # Example: We can compare the histories of R and Emacs.
 
-*** Pattern: REORDERING KNOWLEDGE
+*** ¶ REORDERING KNOWLEDGE
 - *Context*: Trends and problems are emergent, historical, and political: they are embedded in complex webs of becoming.
 - *Problem*: It’s not always obvious how to move /between/ the ‘layers’ mentioned above. This *conflicts* with any given effort to empower oneself with a deeper understanding of the situation.
 - *Solution*: We ask: how does the ordering of knowledge differ across civilization, gender and episteme? What or Who is othered? How does it denaturalize current orderings, making them peculiar instead of universal? What tools can we use to reorder knowledge, to make it available in new forms without necessarily requiring the same historical baggage?
@@ -235,13 +246,27 @@ Some further things to note:
   CLA. Metaphorically, this ‘integrates’ the ‘tangent vectors’ that we
   spotted when we were working together.
 
+
 * Application
 
 With the tools from Section [[methods]] at our disposal, we can now turn
 to a CLA of the design patterns community.  We aim to surface answers
 to some of the questions and concerns raised in the introduction.
 
+- One of our challenges with the Futures paper was that they were not well-versed in patterns
+- That problem doesn’t exist if we are submitting to PLoP, but we have the opposite problem
+- So, keep it light with CLA — with our previous paper, it was trying to push the Futures and Patterns literature at the same time
+
 ** Understanding data, headlines, empirical world (short term change) :data:
+
+- What if I’ve built things at this level, but I haven’t dealt with this.
+- Then maybe you have a dominance of rosy glasses problems-and-solutions
+  - Does this then mean “oh we just need new patterns?”
+  - The mythos is intact even though you changed the surface
+  - “dominant group” persists; ‘divine right of kings’ or the mythos of the caste system; feet of the original humans
+  - Patterns and anti-patterns (and CLA) of communism would be an interesting sequel
+  - Bolsheviks had the /idea of a professional revolutionary/.
+
 (This section is sometimes referred to as the ‘problem’ layer.)  The
 pattern community is not short on problems: a ‘problematizing’ view of
 reality is one of the main features of the design pattern method.
@@ -260,6 +285,7 @@ are a range of ‘other’ pattern discourses — ‘other’ in the sense of
 Environmental Structure.  There have been some attempts at creating
 more systematic archives of patterns, but relatively little attention
 to licensing.
+- Needing to build schools, user interfaces, etc.
 - Comment about silos: how *interoperable* are the patterns?
   - I don’t care to be rewriting the whole thing
   - I need some math, come to our next session... no I just want to explain these (familiar critique in the peeragogy project)
@@ -283,7 +309,18 @@ in their essay [[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erot
 In the PLoP conference, there is considerable attention to /games/ and
 creating a sense of psychological safety, a sense of allowing failure
 to happen.
-** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+
+- ‘Patterns’ are more at the immediate level
+- Nevertheless, the patterns may embodying a worldview (e.g., at least the worldview of design) — rather than the deep
+** Myths, METAPHORS and narratives: imagined (longer term change) :narrative:
+
+- What does change at the myth level look like?
+- The ship that came in 1619 was actually a pirate ship, they happened to find slaves rather than gold...
+  - Remarkable...!
+  - It went back to the particular pirate ship but once it got started, then you started to invent myths, "the South"
+  - 400 years later, you have /controversy over the statues/.
+  - We don’t use ‘Altavista’ any more but we still know what it is, you can’t get rid of the symbol
+
 Probably still foundational for the contemporary patterns movement is
 Alexander’s lecture “The origins of pattern theory: the future of the
 theory, and the generation of a living world” presented at IEEE and
@@ -292,12 +329,83 @@ published in /IEEE Software/.  In this work, the *DISTANCE* between
 
 # DECONSTRUCTION, GENEALOGY, DISTANCE, ALTERNATIVE PASTS AND FUTURES, REORDERING KNOWLEDGE
 
-* Conclusion
 
-Example: in the programming setting, Peter Norvig suggested that we
-don’t ‘see’ design patterns in Lisp as often as in object oriented
-programs, because the program concepts already embed this complexity
-(Norvig, “Design Patterns in Dynamic Languages”, 1996).
+- NNexus + recommender for learning 
+- Point out that this applies to synthesis later on
+ - Would be useful to have
+
+* Discussion?
+
+** Callback to design as blending in the previous paper
+** Callback where relevant to peer learning and peer production in the first paper
+** Other notes
+
+
+- Go in, /patterns/ don’t need to be defined; we can make a nice clean reference to our PLoP paper
+- Do people only recognise myths until they encounter different cultures?
+- It’s /dynamic/ moreso than /robust/ or /resilient/ — behind the terms, you might find that adaptive capacity is compatible
+ - Branching processes; 1 customer tells 2 of their friends.
+ - Is the growth-rate bigger than the death rate?  If so it will grow until whatever carrying capacity.
+ - We need social distances on youtube...
+ - Survival analysis in Tim’s thesis?
+- It’s not just the meme going viral, it’s also spawning whole discourses
+ - it can’t just branch forever, it will run into new limitations; and what is the individual?
+ - what if these interact so much that it becomes the new individual?
+  - This is how we spread the new myth, but it then dominates
+  - E.g., with the pattern community, this isn’t too much /unlike/ Alexander’s dynamics that Ray’s been reading about in /Synthesis of Form/
+  - E.g., I don’t always control things — this is evolution not intelligent design.  I’m a co-creator!  The dao will be flowing, but I may be able to skillfully move things around and work with it.  This doesn’t negate design patterns, I just need to understand their scope.  In a very simple case of design, these are materials I can master them.
+  - E.g., I made the design with plastic, vs natural stone with weakness points... you’re also engaging with an outside world
+- Solutions, problems, and context — the context may be active and dynamic!
+- We were talking about Alexander and the design of a rocket.  Getting to the moon is difficult, we have 2 big moving bodies nearby.  I need to plot a trajectory in this context; it’s not as simple as shooting as a moving target; there’s a lot going on... this could lead to all kinds of counterintuitive things.
+- Analua was talking about /deep resiliance/ — would this relate to the /adaptive capacity/ stuff
+
+
+# ‘Participatory nature’ + there may be users
+# ‘Patterns existing at the litany level’ is worthy of the pattern
+# Burn books, make up stories of the past — vs — empowering the citizens (making your own myths)
+
+# today more and more design problems are reaching insoluble levels of complexity... a background... specialist information, widespread, disorganized... specialists... never best clear — This is definitely
+
+# Traditional builder knew about alcoves — and you learned the
+# patterns, you didn’t need to write them down (cf. PNG culture as a
+# boundary case).
+
+# nowadays we have new kinds of materials... we now need to think it w/
+# modern materials
+
+# “IKEA effect” people actually like them because they put things together
+
+# Problems were so rare that there were not actual designers!
+
+# Down to the level of “brass tacks”
+
+# Copy had to be exact — personal intuition — emphasis on intuition
+# 2 hemispheres, 2 cultures
+# — logic and geometry vs intuition
+
+# In a well-functioning there are interconnections between brain centres
+# (and turn each other off, selectively; the society of mind isn’t having a civil!)
+
+# So, remind people what Alexander said at the beginning
+# — cf. the critiques of patterns taxonomy — almost like the LITANY CONCEPT
+# — have others mentioned things about ‘open source’?
+
+- Feminism (white women) and anti-racism (black men); neither is actively harmed.
+- Deeper layer: we /deal with causes/ (in two senses) rather than /humanity/ in general.
+  - MLK vs ‘I am a man’ signs (just because I carry garbage)
+  - Can relate to wholeness
+  - People tend to think about humanity in terms of the particulars of their culture.
+  - You don’t want to get rid of a ‘bias by race’ and then find some other group is at the bottom!!!
+  - The real solution may involve revising myths (e.g., Horatio Alger)
+  - Mulitple literacies (like the ROSETTA STONE as a symbol in the Jung sense of a symbol)
+  - Thoth emerald tablet
+- We could have lived in an alternative history in which pantheism was dominant
+- Isis cults even in London (and maybe Oxford)
+  - Maybe it would be a ‘dominant-nondominance’: we want a more pluralistic time, with a variety of different cults.
+  - Joseph could have invented Freud’s theory and we might have had ‘dream cults’
+
+
+* Conclusion
 
 * The end :ignore:
 
