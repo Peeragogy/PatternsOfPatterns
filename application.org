@@ -1,0 +1,307 @@
+#+Title: Patterns of patterns
+#+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
+#+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
+#+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \usepackage{natbib}
+#+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
+#+LATEX_HEADER: \usepackage{mathtools}
+#+LATEX_HEADER: \setmonofont[Color=blue]{Ubuntu Mono}
+#+LATEX_HEADER: \newfontfamily{\mm}[Color=red]{DejaVu Sans Mono}
+#+LATEX_HEADER: \setmainfont[BoldFont=EB Garamond,BoldFeatures={Color=ff0000}]{EB Garamond}
+#+LATEX_HEADER: \newcommand{\hookuparrow}{\mathrel{\rotatebox[origin=c]{90}{$\hookrightarrow$}}}
+#+LATEX_HEADER: \definecolor{pale}{HTML}{fffff8}
+#+LATEX_HEADER: \definecolor{orgone}{HTML}{83a598}
+#+LATEX_HEADER: \definecolor{orgtwo}{HTML}{fabd2f}
+#+LATEX_HEADER: \definecolor{orgthree}{HTML}{d3869b}
+#+LATEX_HEADER: \definecolor{orgfour}{HTML}{fb4933}
+#+LATEX_HEADER: \definecolor{orgfive}{HTML}{b8bb26}
+#+LATEX_HEADER: \definecolor{gruvbg}{HTML}{1d2021}
+#+LATEX_HEADER: \newenvironment*{emptyenv}{}{}
+#+LATEX_HEADER: \usepackage{sectsty}
+#+LATEX_HEADER: \sectionfont{\normalfont\color{red}\selectfont}
+#+LATEX_HEADER: \subsectionfont{\normalfont\selectfont}
+#+LATEX_HEADER: \paragraphfont{\normalfont\selectfont}
+#+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
+
+* Methods
+<<methods>>
+** Patterns
+   :PROPERTIES:
+   :CUSTOM_ID: background
+   :END:
+
+For the moment, let’s set to one any side specialist notion of a
+‘pattern’ and think about patterns in a fundamental way.  Some
+patterns repeat in /space/ (e.g., a tiling). Some patterns repeat in
+/time/ (e.g., a beat).  Some patterns repeat in both /space and time/
+(e.g., a wave).  However, patterns cannot repeat exactly, or forever.
+The elements that comprise a pattern are subject to spatial or
+temporal displacement, and other forms of variation.
+
+Now, let’s explore the notion of ‘design pattern’ from this
+foundation.  Leitner supplied the following summary: "[Design]
+Patterns are shared as complete methodic descriptions intended /for
+practical use by experts and non-experts/" \citep{leitner2015a}
+[emphasis added].  As we look into the matter further, two central
+elements emerge.  Like an ellipse, the concept of the design pattern
+has two foci: context and community.
+
+- The /context/ is the type of activity which is being considered, such as designing a building, or writing software.
+- /Communities/ include stakeholders --- experts and non-experts alike --- who are involved with or affected by a particular project.
+
+Integral to the basic conception of a design pattern is the notion
+that people who use it — i.e., the community — do so in order to
+overcome some real or potential conflict
+\citep[pp.~9-10]{alexander1970a}.  In fact, Alexander emphasises that
+‘design’ is not needed when the conflict has an obvious or
+straightforward solution.  Perhaps in such cases it isn’t a very
+serious conflict!
+
+All of this means that design patterns need to achieve something
+fairly subtle.  Design patterns synthesize a repeatable solution to a
+type of conflict that itself repeats within a particular context.
+Furthermore, they do this a way that makes the solution teachable,
+learnable, and otherwise replicable a given community.
+
+# today more and more design problems are reaching insoluble levels of complexity... a background... specialist information, widespread, disorganized... specialists... never best clear — This is definitely
+
+# Traditional builder knew about alcoves — and you learned the
+# patterns, you didn’t need to write them down (cf. PNG culture as a
+# boundary case).
+
+# nowadays we have new kinds of materials... we now need to think it w/
+# modern materials
+
+# “IKEA effect” people actually like them because they put things together
+
+# Problems were so rare that there were not actual designers!
+
+# Down to the level of “brass tacks”
+
+# Copy had to be exact — personal intuition — emphasis on intuition
+# 2 hemispheres, 2 cultures
+# — logic and geometry vs intuition
+
+# In a well-functioning there are interconnections between brain centres
+# (and turn each other off, selectively; the society of mind isn’t having a civil!)
+
+# So, remind people what Alexander said at the beginning
+# — cf. the critiques of patterns taxonomy — almost like the LITANY CONCEPT
+# — have others mentioned things about ‘open source’?
+
+On the other hand, there is also something of a paradox here.  If the
+design pattern made the solution to the problem too obvious, then no
+design would no longer be needed.  The main upshot from this is that
+design patterns represent irreducible complexity.
+
+This is a challenge for the We can illustrate this point with a pair
+of metaphors.  Kohls proposed to treat each pattern as a journey, “a
+path as a solution to reach a goal.”  In this treatment, patterns are
+understood to have an initial condition and an end condition, defined
+within some context, along with some cost function.  The corresponding
+problem is that of finding a low-cost way to move from the initial
+state to the goal.  Once found, the path is repeatable in the sense
+that it is sharable.  Here we introduce a counter-metaphor: Joseph
+Campbell’s monomyth of the hero, which he described as an `archetypal
+pattern' embedded in myths and stories across diverse cultures and
+historical periods \citep{campbell1949a}.  The “hero’s journey” is
+also a path, however it does not have the same kind of optimality
+conditions.  In fact, like /other forms of open-ended learning/,
+discovery may often be a poor fit for optimisation-driven paradigms.
+
+** Causal Layered Analysis
+
+As we reflect back on the previous section and remark ‘design
+patterns’ have multiple levels.  We can use this to introduce
+Inayatullah’s formalism:
+
+- At the *surface level*, we have the familiar kinds of patterns that
+  are published in papers, discussed at PLoP, or put into use in
+  designs of various kinds (e.g., Christopher Alexander’s “Entryway
+  Transition” pattern, “alcoves everywhere”, etc.).
+- Beyond that, we have the *social phenomena* that cause those patterns
+  to emerge (e.g., more people living in cities, combined with the
+  possibility of a more community-driven approach to design).
+- Beyond that, are *worldviews* (e.g., Alexander’s view that “There is a
+  central quality which is the root criterion of life and spirit in a
+  man, a town, a building, or a wilderness”).
+- Lastly, there are *myths or metaphors* (e.g., on the one hand
+  Alexander’s sense that ‘primitive’ dwellings contain more life — or
+  on the other the idea that the architect’s work is done ‘for the
+  glory of God’ (see Galle, 2020)).
+
+— So much for the ‘layers’ in Causal Layered Analysis (for the time
+being).  In order to help make the CLA /method/ practicable, we would
+like to take the opportunity to re-present five techniques that
+Inayatullah refers to as the /poststructural futures toolbox/ — now, in
+the classical design pattern format: suitable both for convenient application and critical understanding.
+
+*** Pattern: DECONSTRUCTION
+
+- *Context*: A text: here meaning anything that can be critiqued — a movie, a book, a worldview, a person — something or someone that can be read.  (/NB/, every text has a /context/: much like every pattern has a context.)
+- *Problem*: The existence ‘text’ points to a *conflict* between (1) the notion of truth as objective and universal, and (2) the text itself as historically situated or positioned within relationships of power.
+- *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within the text? Which assuptions does the text make preferrable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show how it is contingent.
+
+# Example: ‘How did Howard’s interviews for Tools for Thought go?’
+# If people talk about ‘freedom’ we can try to find the assumptions
+# - "what is freedom" - well, not the 4 freedoms in the original version
+# ... back when the Americans were fighting the british.
+# - because of economics stuff... slavery made sense
+# - but racism was their the lower causal layer!
+# - At the economic layer it was making good sense
+
+*** Pattern: GENEALOGY
+
+- *Context*: History is not just the passage of time, but an unfolding of different positions. We consider a concept as historically situated in this sense.
+- *Problem*: Within history, certain discourses have been hegemonic. A given term or concept will have developed through varied discourses: this observation *conflicts* with a naive notion of terms or concepts as simply ‘given’.
+- *Solution*: We ask: which discourses have been victorious in constituting the present? How have they travelled through history? What have been the points in which the issue has become important or contentious?  By tracing the evolution of a given term or concept through periods of identity or sameness, and through periods of difference or divergence, we come face-to-face with its generative potential.
+
+# Example: update on Joe’s collaboration with Luís
+# - instead of blending, you work back up the tree
+
+*** Pattern: DISTANCE
+
+- *Context*: Our relationship to the present.
+- *Problem*: The present seems ‘normal’, but this *conflicts* with any impetus to change.
+- *Solution*: We ask: which scenarios make the present remarkable?  Make it unfamiliar? Denaturalize it?  Where are these scenarios, e.g., are they in historical space — the futures that could have been — or in present or future space? By establishing a sense of distance from the present, we can return to explore the present from a different point of view.  We are more likely to see the ever-changing character of the present, points of leverage, and how to use them.
+
+# Example: ‘Distance’ can show up in physical space, e.g., at UT Austin    the public affairs school is in a secluded area, in a park and a somewhat obscure library; the mathematics building is adjacent to “applied mathematics” but logic and metaphysics are housed in a different part of the campus.
+
+*** Pattern: ALTERNATIVE PASTS AND FUTURES
+
+- *Context*: The past that we see as truth is in fact the particular writing of history: it is a text amenable to DECONSTRUCTION.  The futures that we are ‘given’ are, similarly, only some of the ones that are in-principle-possible due to the evolutionary nature of concepts exposed by their GENEALOGY.
+- *Problem*: The past and future are put to use within discourse, resulting in some winners and some losers.  The results we see may *conflict* with our sense of what we would prefer to have happen.
+- *Solution*: We ask: which interpretation of past is valorized?  What histories make the present problematic?  Which vision of the future is used to maintain the present?  Alternatively, which visions undo the unity of the present?
+
+# Example: We can compare the histories of R and Emacs.
+
+*** Pattern: REORDERING KNOWLEDGE
+- *Context*: Trends and problems are emergent, historical, and political: they are embedded in complex webs of becoming.
+- *Problem*: It’s not always obvious how to move /between/ the ‘layers’ mentioned above. This *conflicts* with any given effort to empower oneself with a deeper understanding of the situation.
+- *Solution*: We ask: how does the ordering of knowledge differ across civilization, gender and episteme? What or Who is othered? How does it denaturalize current orderings, making them peculiar instead of universal? What tools can we use to reorder knowledge, to make it available in new forms without necessarily requiring the same historical baggage?
+
+# Example: What are the myths and metaphors in the ‘user’ and ‘developer’ communities?  How do users and developers see themselves?  E.g., some perspectives is wrapped up in the concept of “hacker culture” which emerged in a given time and space, with a given relationship to technology.
+
+# Maybe the documentation isn’t written down, but it is in the community
+# ... I need to get to know these people and learn from the hackers
+# ... cf. Hackers’ Dictionary
+
+** PARs
+
+# These are the key to the process of creating form
+# I put the accent on the process
+# Deeply I found the diagrams themself had power
+# paralysed
+
+*** TODO make a PAR pattern
+
+Before turning to an example, we will introduce one more technique.
+The US Army produced a methodology called the /After Action Review/ or
+AAR cite:Training-the-Force.  AARs can be used to assign
+responsibility when things ‘go wrong’, and can help people figure out
+how to do better next time.  It has been used effectively in business
+settings cite:learning-in-the-thick-of-it.
+
+In a more fully collaborative and distributed peer-to-peer setting, we
+needed an adaptation of the AAR that made it a more open ended. We
+came up with the following template:
+
+1. Review the intention: what do we expect to learn or make together?
+2. Establish what is happening: what and how are we learning?
+3. What are some different perspectives on what’s happening?
+4. What did we learn or change?
+5. What else should we change going forward?
+
+When we fill in the template, we call it a /PAR/.  The acronym has stood
+for various things over the years, but we feel it works best a
+stand-alone term — with reference to the corresponding concept in
+golf, we get a sense of how we’re doing.
+
+Like the Army, we typically use PARs retrospectively (so, asking,
+“what /did/ we expect to learn or make together?”): but they can also be
+applied to look forward.  In that case, item #5 might be expanded to
+include a number of different scenarios.
+
+Some further things to note:
+
+- PARs are related to patterns, although they don’t necessarily have
+  the ‘repeating’ aspect.  Nevertheless, they help us to understand
+  context, its problems and proposed solutions.  In this sense they
+  might be seen as a template for proto-patterns.
+
+- In our collaborative practice, once when we have collected a
+  suitable number of PARs, we can use them as data for analysis with
+  CLA. Metaphorically, this ‘integrates’ the ‘tangent vectors’ that we
+  spotted when we were working together.
+
+* Application
+
+With the tools from Section [[methods]] at our disposal, we can now turn
+to a CLA of the design patterns community.  We aim to surface answers
+to some of the questions and concerns raised in the introduction.
+
+** Understanding data, headlines, empirical world (short term change) :data:
+(This section is sometimes referred to as the ‘problem’ layer.)  The
+pattern community is not short on problems: a ‘problematizing’ view of
+reality is one of the main features of the design pattern method.
+Some problems, like ‘Alexander's Problem’ (per Bryant) have not yet
+been solved.  Many have solutions in the form of design patterns,
+although as we noted above, these solutions cannot be totally
+cut-and-dried or they would obviate the need for ‘design’.
+- cite:dawes2017a provides a taxonomy of critiques
+  - Rejecting pluralistic values, and others...
+- Cf. our annotated bibliography in Google Drive
+** Systemic approaches and solutions (social system)                :system:
+The software patterns community has established venues like the global
+PLoP conferences, and working methods like /writers workshops/.  There
+are a range of ‘other’ pattern discourses — ‘other’ in the sense of
+*REORDERING KNOWLEDGE* — such as PurPLSoc, or the Center for
+Environmental Structure.  There have been some attempts at creating
+more systematic archives of patterns, but relatively little attention
+to licensing.
+- Comment about silos: how *interoperable* are the patterns?
+  - I don’t care to be rewriting the whole thing
+  - I need some math, come to our next session... no I just want to explain these (familiar critique in the peeragogy project)
+    - But now we got a bunch of newcomers saying we want to write a 5 page intro
+    - This could get back to conceptual blend
+    - ‘Peeragogy and Handbook’
+    - ‘Wikipedia’ is a wiki and an encyclopedia; then you get WikiData...
+- In this ghetto we do Alexander patterns, here we do 15 principles, here it’s Takashi...
+- Which are the problems that are /invisible/ (the fish doesn’t see the water it is swimming in)
+  - They think of their own freedom but not that of the other people’s priorities
+- E.g., you’re supposed to go in person to join the Workshop...
+** Worldview, ways of knowing and alternative discourse          :worldview:
+It is interesting that Christopher Alexander’s website writes about
+[[https://www.patternlanguage.com/membership/memberstour3-struggle.html][The Struggle for People to be Free]], without referencing freedom in the
+Stallman sense.  Gabriel and Goldman talk a lot about ‘gift culture’
+in their essay [[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erotic Life of Code]].
+
+- “Fear of failure is fear of death. In fear of failure, we seek
+  order.”
+
+In the PLoP conference, there is considerable attention to /games/ and
+creating a sense of psychological safety, a sense of allowing failure
+to happen.
+** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+Probably still foundational for the contemporary patterns movement is
+Alexander’s lecture “The origins of pattern theory: the future of the
+theory, and the generation of a living world” presented at IEEE and
+published in /IEEE Software/.  In this work, the *DISTANCE* between
+‘software patterns’ and ‘architectural patterns’ dissolves.
+
+# DECONSTRUCTION, GENEALOGY, DISTANCE, ALTERNATIVE PASTS AND FUTURES, REORDERING KNOWLEDGE
+
+* Conclusion
+
+Example: in the programming setting, Peter Norvig suggested that we
+don’t ‘see’ design patterns in Lisp as often as in object oriented
+programs, because the program concepts already embed this complexity
+(Norvig, “Design Patterns in Dynamic Languages”, 1996).
+
+* The end :ignore:
+
+#+begin_export latex
+\bibliographystyle{unsrt}
+\bibliography{./main}
+#+end_export
