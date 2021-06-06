@@ -1,5 +1,5 @@
 #+Title: PATTERNS OF PATTERNS
-#+AUTHOR: Étale 
+#+AUTHOR: É T A L E
 #+Date: June 14th 2021
 #+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
 #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
@@ -28,12 +28,12 @@
 
 * Methods
 <<methods>>
-** Patterns
+** Pattern                                                            :KISS:
    :PROPERTIES:
    :CUSTOM_ID: background
    :END:
 
-Let’s begin by setting to one side any specialist notion of ‘patterns’
+LET’S BEGIN by setting to one side any specialist notion of ‘patterns’
 that we may have in mind, and think about patterns in a fundamental
 way.  Some patterns repeat in /space/ (like a tiling). Some patterns
 repeat in /time/ (like a beat).  Some patterns repeat in both /space and
@@ -54,14 +54,17 @@ and community.
 - /Community/ encompasses the stakeholders --- experts and non-experts alike --- who are involved with or affected by a particular project.
 
 Integral to the basic concept of a design pattern is a third feature
-that describes the interaction of the community and the context: this
+that describes the interaction of the community and the context.  This
 is that they use the pattern to overcome some real or potential
-/conflict/ that they experience within this context.  Alexander and
-Poyner emphasised that ‘design’ is not needed when the conflict has an
-obvious or straightforward solution.  For example, you typically would
-not need a design process surrounding /sitting in a chair/, because
-“under normal conditions each one of the tendencies which arises in
-this situation can take care of itself”
+/conflict/ that they experience within this context.  The conflict is
+also referred to as a /problem/; it’s resolution is described a
+/solution/.
+
+Alexander and Poyner emphasised that ‘design’ is not needed when the
+conflict has an obvious or straightforward solution.  For example, you
+typically would not need a design process surrounding /sitting in a
+chair/, because “under normal conditions each one of the tendencies
+which arises in this situation can take care of itself”
 \citep[p.~311]{alexander1970a}.
 
 All of this means that design patterns need to achieve something
@@ -130,12 +133,14 @@ more fully with the complexity of “wholes”.
 
 ** Causal Layered Analysis
 
+- Redo the context, community, conflict, problem solution stuff in
+  terms of the need, e.g., to deepen the context to really understand it
+
 Reflecting back on the previous section, we can surmise that ‘design
 patterns’ have multiple levels.  We can use the literature on patterns
-to briefly introduce Inayatullah’s
-cite:inayatullah1998b,inayatullah2004causal Causal Layered Analysis
-(CLA) formalism through an example.  We will look at these issues in
-much more detail later.
+to briefly introduce Inayatullah’s cite:inayatullah1998b,inayatullah2004causal
+Causal Layered Analysis (CLA) formalism through an example.
+We will look at these issues in much more detail later.
 
 - First there is the *surface level*, which includes the familiar kinds
   of patterns that are published in papers, discussed at PLoP, or put
@@ -182,12 +187,25 @@ critique.
 *** GENEALOGY
 <<GENEALOGY>>
 
-- *Context*: History is not just the passage of time, but an unfolding of different positions. We consider a concept as historically situated in this sense.
-- *Problem*: Within history, certain discourses have been hegemonic. A given term or concept will have developed through varied discourses: this observation *conflicts* with a naive notion of terms or concepts as simply ‘given’.
-- *Solution*: We ask: which discourses have been victorious in constituting the present? How have they travelled through history? What have been the points in which the issue has become important or contentious?  By tracing the evolution of a given term or concept through periods of identity or sameness, and through periods of difference or divergence, we come face-to-face with its generative potential.
+- *Context*: History is not just the passage of time, but an unfolding of different positions. We consider a /concept/ or /idea/ to be historically situated in this sense.
+- *Problem*: Within history, certain discourses have been hegemonic. A given term or concept will have developed through varied discourses: this observation *conflicts* with a naive notion of terms or concepts as simply ‘given’ or universally true.
+- *Solution*: We ask: which discourses have been victorious in constituting the present? How have they travelled through history? What have been the points in which the issues have become important or contentious?  By tracing the evolution of a given term or concept through periods of identity or sameness, and through periods of difference or divergence, we come face-to-face with its generative potential.
+
+# EPISTEME: How does Foucault use this term?  It’s linked to TRUTH, with the theme below.  Briefly, we start with how we grasp knowledge, the fact that Foucault was considering truth to be relative, but it was ways to access the truth — at the time.  Ways to reach it.
+
+# — This is interesting
+
+# GENEALOGY: it’s about looking at the RAMIFICATION of an idea — what inspired it and what did it inspire.
+# Putting it back in the topic of truth: rather than looking how the thing evolved, here’s interested in how a particular *ERA* dealt with the idea — something more horizontal.  Zeitgeist — ideas from the time.  It’s not just about tracking one idea from across that time, but more about getting a perspective of how the idea was applied by the people.  STOICS: Epictetus, Senica played with care of the self.  Even though there’s chronological movement.
+
+# Archeology is centred on the present, drawing conclusions for the present.
+# Genealogy: more like a petrie dish of today
 
 # Example: update on Joe’s collaboration with Luís
 # - instead of blending, you work back up the tree
+
+# - Foucault started as archeologist;
+# Paul Vin : classicist worked on Rome, recently translated Aeneid
 
 *** DISTANCE
 <<DISTANCE>>
@@ -267,7 +285,6 @@ Some further things to note:
   CLA. Metaphorically, this ‘integrates’ the ‘tangent vectors’ that we
   spotted when we were working together.
 
-
 * Application
 
 With the tools from Section [[methods]] at our disposal, we can now turn
@@ -307,7 +324,7 @@ elegant taxonomy of existing criticisms of the pattern method:
 - Implementation and outcomes :: Controlling, Flawed, Unsuccessful (e.g., “Patterns disallow radical solutions”)
 
 By showing how the criticisms relate to one another, Dawes and Ostwald
-start to develop a [[GENEALOGY][GENEALOGY]] at level of critical perspectives.  In a
+start to develop a [[GENEALOGY][GENEALOGY]] at level of critical perspectives.[fn:: Maybe this is a stretch of what Foucault said.]  In a
 parallel work they analyse the structure of /A Pattern Language/
 cite:Dawes2018.  This is important because criticisms are likely to
 arise in the process of real or potential applications.  In the later
@@ -317,6 +334,7 @@ perspectives.  The latter perspectives represent different techniques
 for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]].  We will elaborate at the next level.
 
 ** Systemic approaches and solutions (social system)                :system:
+
 Where do the problems we encounter come from?  Using graph-theoretic
 measures Dawes and Ostwald cite:Dawes2018 found that:
 
@@ -325,7 +343,7 @@ measures Dawes and Ostwald cite:Dawes2018 found that:
 
 Their central finding, however, is that many patterns in which
 Alexander had medium or low confidence in fact occupy a relatively
-central position in APL’s graph:
+central position in /APL/'s graph:
 
 #+begin_quote
 the patterns which are most likely to be encountered by designers –
@@ -335,9 +353,9 @@ providing fundamental solutions to the problems they addressed.
 #+end_quote
 
 This means that novice users might be /expected/ to encounter problems
-in application of APL’s patterns: “despite its often authoritative and
+in application of /APL/'s patterns: “despite its often authoritative and
 dogmatic tone, Alexander’s text was framed as a work in progress,
-rather than a deﬁnitive design guide” (p. 22).  Dawes and Ostwald
+rather than a definitive design guide” (p. 22).  Dawes and Ostwald
 suggest that their analysis could point to “prime opportunities to
 continue the development of /A Pattern Language/'' (p. 21).
 
@@ -348,7 +366,7 @@ There are a range of ‘other’ pattern discourses — ‘other’ in the sense
 mentioned in our [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] pattern — such as PurPLSoc, or
 the world of practicing architects.  There have been some attempts at
 creating more systematic archives of patterns.  Importantly, the
-first-ever Wiki was developed in collection with a platform for
+first-ever Wiki was developed in connection with a platform for
 developing, sharing, and revising pattern languages
 cite:cunningham2013a.[fn::
 http://wiki.c2.com/?PeopleProjectsAndPatterns][fn::
@@ -362,24 +380,25 @@ improve the whole.
 #+end_quote
 This is true — for some suitable definition of “open source” — but
 there was little attention to licensing or collaborative revision.
-Furthermore, when it came to rights on the ‘finished’ patterns,
+Furthermore, when it came to user rights associated with the ‘finished’ patterns,
 discussions took place in “letters and replies”[fn::
 http://c2.com/ppr/titles.html] — rights in the patterns themselves
 were more closely guarded.[fn:: http://c2.com/ppr/about/copyright.html]
 
 Whereas Wiki technology could in principle have been a site for
 ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of patterns, this didn’t seem to happen.  The
-fact that this didn’t happen is itself interesting.  There were /four/
+fact that this didn’t happen is itself interesting.  There were in fact /four/
 published “letters and replies”,[fn:: http://c2.com/ppr/letters/index.html].
-Unfortunately, we could not find a public archive of the “design
-patterns mailing list” where more discussions took place.
+Unfortunately, we could not find a public archive of the
+“design patterns mailing list” where more discussions took place.
 
-Some other approaches came up: notably Jenifer Tidwell’s charges
-against the Gang of Four (and other developer-centric pattern
-languages) resonates with what we saw from Dawes and Ostwald above:
+Over the years other issues and concerns came to the fore, notably
+Jenifer Tidwell’s charges against the Gang of Four (and other
+developer-centric pattern languages) resonate with what we saw from
+Dawes and Ostwald above:
 
 #+begin_quote
-But the reality of a software artifact that the developer sees is not
+... the reality of a software artifact that the developer sees is not
 the only one that's important.  What about the user's reality?  Why
 has that been ignored in all the software patterns work that's been
 done?  Isn't the user's experience the ultimate reason for designing a
@@ -387,19 +406,25 @@ building or a piece of software?  If that's not taken into account,
 how can we say our building -- or our software -- is “good”? — http://www.mit.edu/~jtidwell/gof_are_guilty.html
 #+end_quote
 
-Notice that now the /user/ of the designed artefact is involved in the
-story, who may be a different figure from the “user” of the pattern
-language.  Her critique suggests at least a couple [[ALTERNATIVE PASTS
-AND FUTURES][ALTERNATIVE PASTS
-AND FUTURES]]: e.g., what if the end-user had been placed at the centre
-the whole time?  The fact that both her book cite:tidwell2010designing
-and an essay by Jans Borchers that draws inspiration from her critique
-cite:borchers2008pattern have over 1000 citations apiece on Google
+# This gets back to the DIVERSITY stuff
+# Alexander wanted
+# Example of Facebook being designed for ‘end’ users but there are actually many different users and ‘stakeholders’...
+
+Notice that now the /user/ of the designed artefact has entered the
+story as a different figure from the “user” of the pattern language
+who we met above.  Tidwell’s critique suggests at least a couple [[ALTERNATIVE PASTS AND
+ FUTURES][ALTERNATIVE PASTS AND FUTURES]]: e.g., what if the end-user had been
+placed at the centre the whole time?  What if the patterns existed to
+facilate interaction between different stakeholders?
+
+The fact that both her book cite:tidwell2010designing and an essay by
+Jans Borchers that draws inspiration from her critique
+cite:borchers2008pattern both have over 1000 citations on Google
 Scholar shows that the thinking involved has been impactful.  And yet,
 we wonder what the pattern community has drawn from this.
 
-(Comment here: Noorah’s points about customization as a way in to free
-software seem related to Tidwell’s ideas.)
+# (Comment here: Noorah’s points about customization as a way into
+# free software seem related to Tidwell’s ideas.)
 
 # https://designinginterfaces.com/firstedition/
 
@@ -421,8 +446,7 @@ pattern languages which determine how a town gets made becomes
 specialized and private.”  Now in 2021 the pattern language is /not/
 available.
 
-Gabriel and
-Goldman talk about sharing and ‘gift culture’ in their essay [[https://dreamsongs.com/MobSoftware.html][Mob
+Gabriel and Goldman talk about sharing and ‘gift culture’ in their essay [[https://dreamsongs.com/MobSoftware.html][Mob
 Software: The Erotic Life of Code]], and discuss a way of working that
 seems to bring back the early days of hacker culture.  They reference
 the open source community — but not the free software community, so we
@@ -431,7 +455,7 @@ Software.
 
 #+begin_quote
 Because the open source proposition asked the crucial first question,
-I include it in what I am calling "mob software," but mob software
+I include it in what I am calling “mob software,” but mob software
 goes way beyond what open source is up to today.
 #+end_quote
 
@@ -514,6 +538,8 @@ the same taxonomy of critiques we introduced above. -JC]
 
 ** Myths, metaphors and narratives: imagined (longer term change) :narrative:
 
+- Red oni, blue oni japanese demon figures!
+
 In the metaphor for CLA preferred by futurist Rebecca Ryan: having
 descended through the sunlight, twilight, and midnight zones, we now
 come to the abyss.  This will afford us a view from 20000 feet /below/
@@ -528,6 +554,8 @@ is an important nexus between the world of architectural and software
 patterns.  In fact, he posits [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which
 the separation between these domains dissolves.  What are left with
 /generative patterns/.
+
+cite:bishop2020holistic
 
 [[DISTANCE][DISTANCE]]: actually we are seeing some of these things taking shape?
 
@@ -558,7 +586,15 @@ especially women, away from the field of computing.
 - it is founded on a presupposition that God is not the orderer of the universe
 *** Flocks, sheep, shepherds
 This is interesting in light of an observation by Rich Hickey, about
-/aggregates/ (I think).
+/aggregates/:
+#+begin_src
+Partial information
+
++ when requiring / providing aggregates
++ aggregate
+  from ad- "to" + gregare "flock / herd"
++ information that travels together
+#+end_src
 *** Code gardens
 What is programming? Is it a leisure activity, like gardening... etc.
 *** Programming decontextualised
@@ -566,9 +602,10 @@ What is programming? Is it a leisure activity, like gardening... etc.
 This is an important admission:
 
 #+begin_quote
-In fact, more specifically than that, we are concerned with the task of programming
-or coding, which is only one step in the software development process (other activities include
-specification, design, documentation, testing, and maintenance).
+In fact, more specifically than that, we are concerned with the task
+of programming or coding, which is only one step in the software
+development process (other activities include specification, design,
+documentation, testing, and maintenance).
 #+end_quote
 
 *** Hacker lifestyle
@@ -687,14 +724,16 @@ the notion of an /object/.
 
 # DECONSTRUCTION, GENEALOGY, DISTANCE, ALTERNATIVE PASTS AND FUTURES, REORDERING KNOWLEDGE
 
-* Discussion?
 
+* Discussion?
+# - Walking in 2 different directions through familiar territory
+# - rekindling a sense of humility!
+# - E.g., fomenting ability to INTERRUPT
 ** Next steps
 
 - NNexus + recommender for learning
 - Point out that this applies to synthesis later on
  - Would be useful to have
-
 
 - What does change at the myth level look like?
 - The ship that came in 1619 was actually a pirate ship, they happened to find slaves rather than gold...
@@ -810,8 +849,14 @@ systems or patterns and complexity theory.)
   - Maybe it would be a ‘dominant-nondominance’: we want a more pluralistic time, with a variety of different cults.
   - Joseph could have invented Freud’s theory and we might have had ‘dream cults’
 
-
+** Further
+- What is your context? Maybe deepening your context?
 * Conclusion
+** 1. Review the intention: what do we expect to learn or make together?
+** 2. Establish what is happening: what and how are we learning?
+** 3. What are some different perspectives on what’s happening?
+** 4. What did we learn or change?
+** 5. What else should we change going forward?
 
 * The end :ignore:
 
