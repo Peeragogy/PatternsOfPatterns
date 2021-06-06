@@ -529,7 +529,7 @@ patterns.  In fact, he posits [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS
 the separation between these domains dissolves.  What are left with
 /generative patterns/.
 
-
+[[DISTANCE][DISTANCE]]: actually we are seeing some of these things taking shape?
 
 *** Social and ethical issues in computing
 Even if we disagree with what Gabriel says, the way he says it is interesting!
