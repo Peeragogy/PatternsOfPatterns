@@ -26,9 +26,60 @@
 #+LATEX_HEADER: \paragraphfont{\normalfont\selectfont}
 #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
 
+* Abstract
+
+- Inayatullah has two-page introduction — Ray will be sending
+- Was there anything else?
+  - Alex: I remember the first time you mentioned CLA to me, I was completely confounded by it.
+  - Today I’m starting to know it and understand it as well, based on the examples.
+- Finer details felt like a good intro
+- Emacs for peeragogues, Peeragogy for Emacs people.
+- Maybe next Wednesday meet up at ‘The Punter’
+- Let’s write a paper about futures for PLoP and make futures relevant for PLoP and vice versa...
+
+/“What is PLoP’s vision for change and how is progress measurable?”/
+
+- Marnita — has her round table and she brings everyone up to this table
+- How do things flow from your mission statement?
+- Then you find people with overlapping visions to give.
+- Rather than “Free software could be relevant PLoP...”
+- Aha, but also “PLoP could be relevant to Free Software...”
+  - — but this isn’t going to go very far unless you have a license
+
+- Otherwise you wind up like Spinoza... sure you can publish (posthumously)
+- Is it a port city or is it a cathedral city?
+ - If you’re going to write about education (not related to programs) why do you need it here?
+ - It looks heterogeneous as a litany but maybe there’s a consistent layer?
+
+- /Glass Bead Game/ - is this relevant
+- Why can a physicist and an MD talk?  What about the same physicist and a literature scholar?
+  - It involves thinking in terms of fundamentals
+- This points us in the direction of transdiscplinary design.
+
+* Introduction
+It’s a technique developed by Inayatullah for studying future studies.
+The problem with a lot of futures studies is that it’s short on
+philosophical depth.  Let’s understand it by looking at layers litany,
+system, worldview, and myth.  If we look at the /events/, then what are
+the /causes/, the /deeper causes/, and the /deepest causes/.  This can
+better inform the future.  (If you had a design pattern on how to run
+a restaurant, the issue isn’t /where I put the oven/, it’s more like, to
+be self-reliant I need to grow as much food as possible, vs, producing
+quality ingredients, or other motivations.  At the surface level this
+would be the same but... the underlying causes are different.)
+
+- Some people have talked about patterns for dealing with climates
+  getting warmer, some of them relate to planning shade trees; others
+  were things like changing the hours at which you do things, like put
+  work hours at night.
+- This paper makes a persuasive case about how we would want to use
+  design patterns, this will have to be replicated.
+- BUT what’s missing is that there are other things.  This deals with
+  social change, there might be pushback there.  A deeper analysis may
+  be needed, depending on their view on the changing climate.
 * Methods
 <<methods>>
-** Pattern                                                            :KISS:
+** Design Patterns                                                    :KISS:
    :PROPERTIES:
    :CUSTOM_ID: background
    :END:
@@ -76,9 +127,9 @@ community.  However, if the design pattern makes the solution to the
 problem too obvious, then “design”, /per se/, is no longer needed![fn::
 For example, Peter Norvig argued that we see fewer of the design
 patterns typical of OOP inside programs written in functional and dynamic languages, because these languages embed many of the typical patterns as language features.]
-Accordingly, we might say that the
-design pattern carries with it a fragment of irreducible complexity.
-This perspective may or may not be surprising.
+Accordingly, we might say that the design pattern carries with
+it a fragment of irreducible complexity.  This perspective may or
+may not be surprising.
 
 Alexander had described the need for patterns when things get complex
 cite:alexander1964notes.  He specifically focuses on what could be
@@ -130,6 +181,7 @@ way.  To really get a handle on /the future of the pattern theory/
 cite:alexander1999a, we need another approach.
 
 ** Causal Layered Analysis
+
 
 We begin this section by using some of the familiar literature on
 design patterns to briefly introduce Inayatullah’s
@@ -296,7 +348,7 @@ scenarios.  Some further things to note:
 * Application
 
 With the tools from Section [[methods]] at our disposal, we can now turn
-to a CLA of the design patterns community.
+to a CLA of the /design patterns community/ (creators, users?).
 
 ** Understanding data, headlines, empirical world (short term change) :data:
 
@@ -548,7 +600,41 @@ Broadly, we know what mobs do...
 
 ** Myths, metaphors and narratives: imagined (longer term change) :narrative:
 
-- QFT with a vacuum comes close to Spinoza’s physics; Einstein was also a Spinoza fan.
+- ‘are you sure your mob model will work where you claim it from’
+  - Adam Smith, invisible hand is an example of invisible hand
+- “Theological-Political Treatise” might say something about Spinoza’s philosophy
+  - Milton learned about Spinoza from Oldenberg — when this was emerging
+    - He was actually getting only ancient philosophy
+  - Compare now with Gowers boycotting Elesevier — now we have the Arxiv
+    - Ginsparg as analogue to Oldenberg
+  - Generation does include the falling away of the gold
+- PLoP could find it a bit threatening b/c you have to pay $500 to even have a look at the gate
+  - Have you missed the deeper levels?  4 GATES?  84000 gates?  All the same height?
+  - ‘Patterns of dissemination of scientific?’
+  - After all this practice building PLoP patterns, could we build patterns that are relevant for science, mathematics?
+
+- — How is this relevant to them?
+
+- It’s not that there’s a single way of splitting a context even with kettles
+- Consider an ensemble of the kettle ... there seems to be a clear boundary. But I can make changes on the boundary, if it’s the wrong way to heat domestic water... Or it’s not the kettle.
+
+A few pages later, Alexander put a key statement in italic font:
+“What does make design a problem in real world cases is that we are
+trying to make a diagram for forces whose field we do not
+understand. Understanding the field of the context and inventing a
+form to fit it are really two aspects of the same process.” To me,
+this sounds like where CLA as a methodology could help in the
+diagramming. (On the page before it’s all about iron filings as an
+example.)
+
+- /The City is not a Tree/ — the designer’s view
+- It wasn’t design this way — this is the organic lifelike quality
+- Look at things like this that weren’t designed, but make it closer to things like this like how they actually evolve
+- It’s not all the way to the forest, but still different from something that doesn’t have any life in it
+- Cf. debate between evolution and intelligent design
+- Also, PLoP is not a tree — let’s look how it’s developed
+
+- /QFT/ with a vacuum comes close to Spinoza’s physics; Einstein was also a Spinoza fan.
 - Cf. the critique of KAKU — which was a critique of HIS VISION OF THE FUTURE
 - There’s Spinozist school at the bottom of QFT, but there’s also the ‘shut up and calculate’ school.
   - This must be parallel to the physicist’s view ... a lot of this is similarly narrow
@@ -595,6 +681,7 @@ on /community/ as well, as a sensed space.  Since we’ve seen this as an
 intersection we added it to our definition.
 
 Leitner’s name for what Alexander left nameless is ‘perception of quality of life’.
+
 - Even have things like the car in relationship to the horse!
 - Not just the Mustang... now cars and motorcycles have inherited that
 - “Iron Horse” is the name of a locomotive
@@ -634,6 +721,7 @@ An emergent behavior or emergent property can appear when a number of
 simple entities (agents) operate in an environment, forming more
 complex behaviors as a collective. — /Wikipedia/
 #+end_quote
+
 Combinations of patterns coming together to /create/ complexity is
 related the idea of emergence.  Let’s have another look at Alexander’s
 lecture on “The origins of pattern theory: the future of the theory,
@@ -857,11 +945,36 @@ the notion of an /object/.
 
 * Discussion
 
-“What is our vision for change and how is progress measurable?”
+- Where do the patterns come from?
+- Where do the problems come from?
+- Maybe patterns /work at the surface layer/ and miss the depth.  Patterns are often aimed at solving a problem where we assume that the context is given.  But what if the conflict is at the lower layer, not seeing eye to eye.
+- What we need to do is harmonize the worldviews not dance around it.
+
+- Alex: it’s like writing the same program with the same HLL
+- If you had a couple that ultimately realise that there is a disagreement between /quality of ingredients/ and /self-reliance/.
+- Alex: Would an emotional argument be a case of 2 people trying to get to this level?
+  - RSP: Getting towards metaphors and myths, this is the kind of thing that people invest a lot of energy into.
+
+- ‘Elevator space’ vs ‘elevator talk’
+
+#+begin_quote
+A quote from the paper on Alexander's battle for beauty: "a book published by Oxford University Press, the epitome of oak-paneled academic respectability"
+
+And a quote of Alexander from TNO by way of the same paper : "MAY BE BEST IF WE REDEFINE THE CONCEPT OF GOD IN A WAY THAT IS MORE DIRECTLY LINKED TO THE CONCEPT OF ‘THE WHOLE.’" Sounds like Spinoza!
+
+Here's a fine elaboration of the dictum from the beginning of ch. 2 of SoF: "It is based on the idea that every design problem begins with an effort to achieve fitness between two entities: the form and its context. The form is the solution to the problem; the context defines the problem. In other words, when we speak of design, the real object of discussion os not the form alone, but the ensemble consisting of the form and its context. Good FIT is a desired property of this ensemble which relates to some particular division of the ensemble into form and context."
+
+A page or so later, he adds: "Indeed, in the great majority of cases, it is necessary for the designer to consider SEVERAL DIFFERENT DIVISIONS of an ensemble, superimposed, at the same time." (!)
+#+end_quote
+
+- Leo: RGCS: open-communities with another stance?
+- Ray, we could mount a similar critique for PLoP, Free software, Futures... they aren’t being singled out.
+- Joe: this is part of the /context/ even if we don’t explicitly talk about it.  There are multiple ways of splitting something into a context, and a good designer should consider the splits.
 
 - We need to rethink what we were doing with patterns.
   - THIS IS NOT JUST FOR PLoP but also for peeragogy, cf. the clash of Prometheus & Themis.
-  - We have a Promethian myth of open source, but there’s also concern for the common person.
+  - We have a Promethian myth of open source, but there’s also /concern for the common person/.
+    - Going back to what we were talking about with thinking about peeragogy using open source tools and the back-reactions we received
 - MAYBE WE HAVE SOMETHING to add to the futures community as well!
 - There may be some problems with problem/solution/context if I didn’t fully understand my community
 - E.g., with the patterns for a carbon world could see a mismatch between patterns for a car-free world unless we understand cars as a symbol of a core American value.
