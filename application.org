@@ -2,13 +2,15 @@
 #+AUTHOR: É T A L E
 #+Date: June 14th 2021
 #+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
+#+HTML_HEAD: <script src="https://hypothes.is/embed.js" async></script>
 #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
-#+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER: \usepackage[table,dvipsnames]{xcolor}
 #+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \usepackage{natbib}
 #+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
 #+LATEX_HEADER: \usepackage{mathtools}
 #+LATEX_HEADER: \setmonofont[Color=blue]{Ubuntu Mono}
+#+LATEX_HEADER: \newfontfamily{\alch}{Alchemy}
 #+LATEX_HEADER: \newfontfamily{\mm}[Color=red]{DejaVu Sans Mono}
 #+LATEX_HEADER: \setmainfont[BoldFont=EB Garamond,BoldFeatures={Color=ff0000}]{EB Garamond}
 #+LATEX_HEADER: \newcommand{\hookuparrow}{\mathrel{\rotatebox[origin=c]{90}{$\hookrightarrow$}}}
@@ -27,63 +29,72 @@
 #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
 
 * Abstract
-
-- Inayatullah has two-page introduction — Ray will be sending
-- Was there anything else?
-  - Alex: I remember the first time you mentioned CLA to me, I was completely confounded by it.
-  - Today I’m starting to know it and understand it as well, based on the examples.
-- Finer details felt like a good intro
-- Emacs for peeragogues, Peeragogy for Emacs people.
-- Maybe next Wednesday meet up at ‘The Punter’
-- Let’s write a paper about futures for PLoP and make futures relevant for PLoP and vice versa...
-
-/“What is PLoP’s vision for change and how is progress measurable?”/
-
-- Marnita — has her round table and she brings everyone up to this table
-- How do things flow from your mission statement?
-- Then you find people with overlapping visions to give.
-- Rather than “Free software could be relevant PLoP...”
-- Aha, but also “PLoP could be relevant to Free Software...”
-  - — but this isn’t going to go very far unless you have a license
-
-- Otherwise you wind up like Spinoza... sure you can publish (posthumously)
-- Is it a port city or is it a cathedral city?
- - If you’re going to write about education (not related to programs) why do you need it here?
- - It looks heterogeneous as a litany but maybe there’s a consistent layer?
-
-- /Glass Bead Game/ - is this relevant
-- Why can a physicist and an MD talk?  What about the same physicist and a literature scholar?
-  - It involves thinking in terms of fundamentals
-- This points us in the direction of transdiscplinary design.
-
+We introduce Inayatullah’s Causal Layered Analysis method from the
+field of futures studies into the domain of patterns.  We elaborate
+some “CLA patterns” and apply them to think about the future of the
+pattern theory.  We discuss our findings relative to other concrete
+activities in linked collaborative research and development projects
+that we are involved involved with.
 * Introduction
-It’s a technique developed by Inayatullah for studying future studies.
-The problem with a lot of futures studies is that it’s short on
-philosophical depth.  Let’s understand it by looking at layers litany,
-system, worldview, and myth.  If we look at the /events/, then what are
-the /causes/, the /deeper causes/, and the /deepest causes/.  This can
-better inform the future.  (If you had a design pattern on how to run
-a restaurant, the issue isn’t /where I put the oven/, it’s more like, to
-be self-reliant I need to grow as much food as possible, vs, producing
-quality ingredients, or other motivations.  At the surface level this
-would be the same but... the underlying causes are different.)
+Causal Layered Analysis is a technique developed by Sohail Inayatullah
+in the field of future studies: we will apply here to provide a new
+long-term perspective on design patterns.  We have found CLA useful in
+other collaborative projects more broadly, and our analysis shows that
+it can be a useful adjuct to patterns.  Symmetrically, we think that
+patterns could be useful in future studies applications.
 
-- Some people have talked about patterns for dealing with climates
-  getting warmer, some of them relate to planning shade trees; others
-  were things like changing the hours at which you do things, like put
-  work hours at night.
-- This paper makes a persuasive case about how we would want to use
-  design patterns, this will have to be replicated.
-- BUT what’s missing is that there are other things.  This deals with
-  social change, there might be pushback there.  A deeper analysis may
-  be needed, depending on their view on the changing climate.
+Briefly, Inayatullah developed CLA — building on earlier work by
+Slaughter cite:SLAUGHTER1989447 and a theoretical perspectives
+developed by Foucault — because he perceived that many efforts in the
+field of futures studies were often short on philosophical depth.  CLA
+is used to understand a developing issue of concern by looking at it
+across four layers of increasing depth, which are referred to as the
+/litany/, /system/, /worldview/, and /myth/.
+
+In somewhat dryer terms — which would be familiar within an
+Aristotelian tradition — if we are interested in understanding /events/,
+it is natural to look at the /causes/, the /deeper causes/, and the
+/deepest causes/.  Alterantively, in mathematical language, if we are
+curious about the evolution of a variable $x$, we may want to look at
+its second, third, and fourth derivatives.  Once we have an
+understanding of the issues of concern across these several layers, we
+can be better informed about the way the issue will evolve in future.
+Importantly, if we are interested in creating change, then we should
+be careful to think about where to make an intervention.  CLA is used
+for /analysis/, but Inayatullah also pairs it with CLS for /synthesis/ of
+new strategies.
+
+We can illustrate the issues with a short story.  Imagine a couple who
+on their first few dates enjoy going out for pizza.  They like
+different toppings: but that doesn’t matter, because eat of them
+orders their own, and eats it with gusto.  Indeed, it turns out they
+like pizza so much that they would like to have it several nights a
+week.  Going out that often would be expensive, so they get good at
+making their own pizzas at home: selecting good ingredients,
+fermenting the dough, and baking at a high temperature.  Some time
+goes by, and they have gotten so good at this that they daydream about
+opening their own pizza restaurant.  At this point, they might like to
+refer to some practical guidance.  Let’s imagine them making it
+through the setting-up phase: now they have a pizza restaurant and are
+doing good business.  As more time goes by, they begin to notice some
+stress.  Why’s that?  Imagine that one of them got into this primarily
+to pursue /self-reliance/, whereas the other partner was more focused on
+the /quality of the food and the health of their relationship/.  These
+days, they hardly see each other!  If issues at this level had
+surfaced early on, their different values might have been mutually
+supportive.  Without due care for the issues that can arise at deeper
+levels, there’s a risk that our two protagonists will end up at
+loggerheads.
+
+Pattern languages often work across levels, too.  Nevertheless, we
+think that there are some additional techniques and perspectives to be
+gained from CLA; and furthermore, we think that patterns and futures
+work can be mutually supportive.  After introducing our methods in
+more detail, we will develop a Causal Layered Analysis of the patterns
+discourse, and then discuss some of the implications for practice.
 * Methods
 <<methods>>
-** Design Patterns                                                    :KISS:
-   :PROPERTIES:
-   :CUSTOM_ID: background
-   :END:
-
+** Design Patterns
 LET’S BEGIN by setting to one side any specialist notion of ‘patterns’
 that we may have in mind, and think about patterns in a fundamental
 way.  Some patterns repeat in /space/ (like a tiling). Some patterns
@@ -179,7 +190,6 @@ However, this material does not fully explain where design patterns
 come from — or where they are going to — not an an obviously graspable
 way.  To really get a handle on /the future of the pattern theory/
 cite:alexander1999a, we need another approach.
-
 ** Causal Layered Analysis
 
 
@@ -300,15 +310,8 @@ design pattern format
 
 ** PARs
 
-# These are the key to the process of creating form
-# I put the accent on the process
-# Deeply I found the diagrams themself had power
-# paralysed
-
-*** TODO make a PAR pattern?
-
-Before turning to an example, we will introduce one more technique,
-although we will not use it until the end of the paper.
+Before turning to our main application, we will introduce one more
+technique — although we will not use it until the end of the paper.
 
 The US Army produced a methodology called the /After Action Review/ or
 AAR cite:Training-the-Force.  AARs can be used to assign
@@ -350,7 +353,7 @@ scenarios.  Some further things to note:
 With the tools from Section [[methods]] at our disposal, we can now turn
 to a CLA of the /design patterns community/ (creators, users?).
 
-** Understanding data, headlines, empirical world (short term change) :data:
+** Litany: Understanding data, headlines, empirical world (short term change)
 
 Recall that this section is also referred to as the ‘problem’ layer.
 The pattern community is not short on problems: a ‘problematizing’
@@ -394,7 +397,7 @@ Language/ cite:Dawes2018, and develop three alternative perspectives on
 *user* perspectives.  These perspectives amount to different techniques
 for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]].  We will elaborate at the next level.
 
-** Systemic approaches and solutions (social system)                :system:
+** System: Systemic approaches and solutions (social system)
 
 At this level, we examine where the familiar problems come from.
 Using graph-theoretic measures Dawes and Ostwald cite:Dawes2018 found
@@ -487,15 +490,110 @@ different stakeholders?  The fact that Tidwell’s book
 cite:tidwell2010designing and an essay by Jans Borchers that draws
 inspiration from her critique cite:borchers2008pattern both have over
 1000 citations on Google Scholar shows that the thinking involved has
-been impactful.  And yet, we wonder what the pattern community has
-drawn from this.
+been impactful.  To get a sense of how the pattern community has drawn
+from this critique and other similar kinds of concerns, we can look at
+how the writers workshops at PLoP have evolved over time.  Workshops
+did not always have names; where they were named they are included in
+this list, even when the names are strictly allusive.  We can see how
+the focus evolved from primarily ‘programming’ oriented to a much
+broader contextual view over time.
 
 # (Comment here: Noorah’s points about customization as a way into
 # free software seem related to Tidwell’s ideas.)
 
 # https://designinginterfaces.com/firstedition/
 
-** Worldview, ways of knowing and alternative discourse          :worldview:
+*1997*
+| Architecture               |
+| Roles and Analysis         |
+| People and Process         |
+| Domain Specific Techniques |
+| OO Techniques              |
+| Non-OO Techniques          |
+
+*1998*
+| Agricultural Valleys  |
+| Network of Learning   |
+| Zen View              |
+| Four-Story Limit      |
+| Mosaic of Subcultures |
+| Site Repair           |
+| Scattered Work        |
+| Eccentric Nucleus     |
+
+*2000*
+| Office Connections      |
+| Connection to the Earth |
+| Network of Learning     |
+| The Unselfconscious     |
+| Quiet Backs             |
+
+*2006*
+| Small Services Without Red Tape |
+| Sleeping in Public              |
+| Intimacy Gradient               |
+| Connection To The Earth         |
+| Thickening The Outer Walls      |
+
+*2007*
+| Girl with a Scarf |
+| Fu Dog            |
+| Sun Singer        |
+| Centaur           |
+
+*2008*
+| Design & Architecture  |
+| Software & People      |
+| Processes and Services |
+| Security & Quality     |
+
+*2010*
+| Frameworks & Environments |
+| Process & Design          |
+| People & Ideas            |
+| Security & Systems        |
+| Reliability & Trust       |
+
+*2011*
+| Architecture |
+| Design       |
+| Information  |
+| People       |
+| Pedagogy     |
+
+*2014*
+| Narrow Road to the Deep North |
+| Pattern Language and Mining   |
+| Testing and Development       |
+| Security                      |
+
+*2015*
+| Pattern Writing                 |
+| Software Architecture & Process |
+| Cloud & Security                |
+| Innovation & Analysis           |
+| People & Education              |
+
+*2016*
+| Vikings    |
+| Generators |
+| Vanguard   |
+
+*2017*
+| Roughness                 |
+| Simplicity and Inner Calm |
+| Local Symmetries          |
+| Strong Centers            |
+| Not Separateness          |
+
+*2019*
+| Group Architecture |
+| Culture            |
+| Meta               |
+| Education          |
+
+\rowcolors{2}{gray!25}{white}
+** Worldview: ways of knowing and alternative discourse
 
 The situation with licensing on c2 is particularly interesting in
 light of Alexander’s perspective that /APL/ was a “living language”.  In
@@ -513,7 +611,10 @@ In 1979 he was concerned: “Instead of being widely shared, the pattern
 languages which determine how a town gets made becomes specialized and
 private.”  In 2021, /APL/ itself is only legally available for
 subscribers or for people who purchase a paper copy of the book. (Or
-through a library!)
+through a library!)  Of course, like most famous texts it is available
+extra-legally for download as a PDF, but this format does not afford
+downstream users the opportunity to collaborate on the text’s further
+development.
 
 Gabriel and Goldman talk about sharing and ‘gift culture’ in their
 essay [[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erotic Life of Code]], and discuss a way of
@@ -581,24 +682,424 @@ by VanDrunen “traces the source of Gabriel’s ideas by examining the
 authorities he cites and how he uses them and evaluates their validity
 on their own terms” cite:vandrunenchristian.  His critique functions
 as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
-Some key excerpts follow.[fn:: Maybe these should be organised using
-the same taxonomy of critiques we introduced above.  Also, we
-shouldn’t be totally lazy: maybe there are some things that VanDrunen
-missed: let’s check. -JC]
+Some key excerpts appear in Table [[tabone]].
+# [fn:: Maybe these should be organised using
+# the same taxonomy of critiques we introduced above.  Also, we
+# shouldn’t be totally lazy: maybe there are some things that VanDrunen
+# missed: let’s check. -JC]
 
-- “Kauffman’s work is about a rediscovery of the sacred, and it amounts to a proposal of the laws of self-organization as a new deity”
-- “One thing we find in common with Lewis Thomas’s ants, Kauffman’s autocatalytic sets of proteins, and the agents inhabiting Sugarscape is that they all lack intelligence.”
-- “In other words, the rules given by Gabriel describe only the conforming aspect of group behavior. In reality, there is a tension between independent and conforming tendencies, and the flock patterns emerge from the interaction between the two.”
-- “His examples of ‘mob activity’... the making of the Oxford English Dictionary, cathedral-building, and open source software discussed later—all had oversight, master-planning of some sort.”
-- “There are several distinct senses of ‘gift’ that lie behind these ideas, but common to each of them is the notation that a gift is a thing we do not get by our own efforts.” (quoting Hyde)
-- “Certainly proprietary code is shared property among those working in a corporate development team, but it is not common to the larger community of software developers and users.”
-- “A computer program is not like a poem or a dance in this way; if the programmer is not able to produce something parsable in the programming language or cannot fit the instructions together in a logical way, the program simply will not work.”
-- “Gabriel’s own experience may color his perception. He founded a software company that produced programs for Lisp development and which went bankrupt after 10 years.”
-- “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim,”
+#+NAME: tabone
+#+CAPTION: Key observations from VanDrunen’s critique of Gabriel’s “Mob Software” essay
+#+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| “Kauffman’s work is about a rediscovery of the sacred, and it amounts to a proposal of the laws of self-organization as a new deity”                                                                                                                  |
+| “One thing we find in common with Lewis Thomas’s ants, Kauffman’s autocatalytic sets of proteins, and the agents inhabiting Sugarscape is that they all lack intelligence.”                                                                           |
+| “In other words, the rules given by Gabriel describe only the conforming aspect of group behavior. In reality, there is a tension between independent and conforming tendencies, and the flock patterns emerge from the interaction between the two.” |
+| “His examples of ‘mob activity’... the making of the Oxford English Dictionary, cathedral-building, and open source software discussed later—all had oversight, master-planning of some sort.”                                                        |
+| “There are several distinct senses of ‘gift’ that lie behind these ideas, but common to each of them is the notation that a gift is a thing we do not get by our own efforts.” (quoting Hyde)                                                         |
+| “Certainly proprietary code is shared property among those working in a corporate development team, but it is not common to the larger community of software developers and users.”                                                                   |
+| “A computer program is not like a poem or a dance in this way; if the programmer is not able to produce something parsable in the programming language or cannot fit the instructions together in a logical way, the program simply will not work.”   |
+| “Gabriel’s own experience may color his perception. He founded a software company that produced programs for Lisp development and which went bankrupt after 10 years.”                                                                                |
+| “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim,”                                                    |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-Broadly, we know what mobs do...
+** Myths: metaphors and narratives (longer term change)
 
-** Myths, metaphors and narratives: imagined (longer term change) :narrative:
+VanDrunen surfaced various concepts in Gabriel’s essay that would be
+at home at this level, for example, the concept of duende that Gabriel
+takes over from Garcia Lorca originally derives from /dueño de casa/,
+the name of a certain kind of household spirit.  VanDrunen’s critique
+is also useful for our purposes because it points to the importance of
+considering the deeper layers in developing a concept.  It’s not just
+a matter of finding a culture’s myths: where may also be a conflict at
+this level.
+
+One important narrative for the pattern discourse is in plain view
+within the terminology of problems and solutions, which come from
+mathematics or physics.  Alexander’s worked /at the level of narrative/
+to connect the patterns discoures to a scientific worldview, seeking a
+sense of objectivity.  For example, in “The Atoms of Environmental
+Structure”:
+
+#+begin_quote
+most designers ... say that the environment cannot be right or wrong
+in any objective sense but that it can only be judged according to
+criteria, or goals, or policies, or values, which have themselves been
+arbitrarily chose.  We believe this point of view is mistaken.
+#+end_quote
+
+Notice that, here, the discourse is position as different from the
+mainstream.  The key differentiator is not the language of problems
+and solutions which would be familiar to anyone with an engineering
+background; rather, but in a certain notion of /wholeness/.  Which
+notion of wholeness remains to be surfaced.  Quoting, again, from “The
+Atoms of Environmental Structure”:
+
+#+begin_quote
+We believe that all values can be replaced by one basic value:
+everything desirable in life can be described in terms of freedom of
+people’s underlying tendencies. ... The environment should give free
+rein to all tendencies; conflicts between people’s tendencies must be
+eliminated.
+#+end_quote
+
+Historically, there are at two major varieties of wholeness: one that
+is based on progressive differentiation (perhaps understood as
+unfolding from substance, per Spinoza), and the other generated
+through interaction between components (perhaps via mutually
+reflecting monads, per Leibniz).
+
+We can obtain some [[DISTANCE][DISTANCE]] by thinking about how different kinds of
+wholeness are associated with different symbols.  Familiar examples
+include the circle, the cross — or potentially the cross inside a
+circle, \begingroup\alch\symbol{"3B}\endgroup.[fn:: The alchemical symbol for verdigris, and the planetary
+symbol for Earth.]  Related but more elaborated symbols include the
+circle with a cross rising above it, belonging to the Carthusian order
+(/Stat crux dum volvitur orbis/ — The cross is steady while the world
+turns) — the Rod of Asclepius (the deity associated with healing or
+making whole) — sometimes inter-confused with the Caduceus (the symbol
+Hermes, the deity assocated with mediation of various forms).
+
+These symbols are not used explicitly in the patterns discourse,
+however we are drawn to them as reference points because it does
+appear that the pattern discourse is drawn to /both/ major traditions of
+wholeness, and moreover, seeks to unite them.  We get the idea of
+unfolding in /APL/ and other pattern languages that work top-down:
+however, we also get the notion of patterns and principles that are
+/generative/ of emergent phenomena.  As we mentioned above, at this
+level, architecture and programming were seen to unite, perhaps
+pointing in the direction of bio-hacking and Assemblers, at least at
+the allusive level if not at the concrete level.
+
+Relevant to the overall case we are making here, the following
+quote suggests we are on a fruitful track:
+#+begin_quote
+Generative patterns work indirectly; they work on the underlying
+structure of a problem (which may not be manifest in the problem)
+rather than attacking the problem directly.[fn:: https://wiki.c2.com/?GenerativePattern]
+#+end_quote
+
+Clearly, another key metaphor in the discourse is the metaphor of /a language/:
+
+#+begin_quote
+... as in the case of natural languages, the pattern language is
+generative. It not only tells us the rules of arrangement, but shows
+us how to construct arrangements - as many as we want - which satisfy
+the rules. (The Timeless Way Of Building, pp. 185-6, quoted at /ibid./)
+#+end_quote
+
+Although Alexander’s aims at the glory of God, his writing contains
+many traces of symbols asociated with Hermes:
+
+#+begin_quote
+In the house, [Hermes’] place is at the door, protecting the
+threshold... He could be found around city gates, intersections, state
+borders, and tombs (the gateways to the other world).
+#+end_quote
+
+At the time when he was actively embraced as a deity, Hermes was
+typically paired with Hestia, the goddess of the hearth, whose “domain
+was internal, the closed, the fixed, the inward.”  The discourse
+around patterns certainly contains aspects a movement “to archaic
+roots” present in other 20th Century thought: but unlike some of
+these, patterns methods are apparently working to restore “the
+dialectic between centripital immobility and centrifugal mutation.”
+One aspect of this is a movement towards foundations and Hestia (per
+/ANO/).  The resolution within pattern language — as a form — seems to
+be along Nietzschean lines: “anything that is becoming returns” (i.e.,
+is discussable as pattern), and “contingency resolves itself into
+necessity” (i.e., the wholeness of generativity recovers the wholeness
+of unfolding).
+
+* Discussion
+
+Within our own practices we have combined patterns, PARs, and Causal
+Layered Analysis.  Per cite:corneli2015a, we think of patterns as
+‘incomplete’ — not simply as pointing to other patterns but as
+themselves requiring ongoing work to implement.  We use them as a
+project management tool, attempting to maintain surjective mapping
+from patterns to Next Steps.  However, this process itself requires
+instrumentation.  We try to do PARs frequently, using them both as a
+way to maintain a sense of shared mindfulness, and a source of
+summaries.  Relevant to the development of our work, they are similar
+to tangent vectors: they tell us where and how things are going in the
+moment.  Since learning about CLA, we attempt to reanalyse the data
+generated in PARs on a regular basis.  This leads to an evolving
+answer to the question “what is our vision for change and how is
+progress measurable?”  Specifically, progress becomes measurable
+through a set of forward-looking TODO items that operationalise the
+vision.  These disparate TODO are then given a more coherent existence
+by associating them as Next Steps to our patterns, or creating new
+patterns as appropriate.
+
+We think that this tripartite workflow of /reflection/, /integration/, and
+/operationalisation/ will be useful in many other settings.  These steps
+are mutually supportive.  Without one or more of them, we run the risk
+of missing something important.  These cycles may be useful for
+individual or overlapping communities, but it certainly remains to be
+seen whether they could be extended across the entire pattern
+discourse in its full transdisciplinary extent.
+
+Relative to the analysis, above, here are high-level TODO items
+collected from across the layers above, which we might suggest need
+further attention:
+
+- Litany :: Develop a pattern language of critiques and flaws of the pattern method, elaborating the criticisms of Dawes and Ostwald and showing how and where these criticisms can be usefully applied, or where they are out of scope.
+- System :: Develop a pattern language of PLoP, more thoroughly reconstructing the thematic and historical development of the research to date and elaborating its next steps.
+- Worldview :: Develop a pattern language of the philosophical and spiritual commitments held by practitioners.
+- Myth :: Develop a catalogue of significant symbols used by practitioners and how they relate to long-term historical developments.
+
+(Note that it is strictly not necessary to develop a “Key to All Mythologies” in the sense of Edward Casaubon from Eliot’s /Middlemarch/!)
+
+* Conclusion
+*1. Review the intention: what do we expect to learn or make together?*
+- Our intention was to apply the CLA method from future studies to the pattern theory, and to use it to answer the core question: “what is our vision for change and how is progress measurable?”
+*2. Establish what is happening: what and how are we learning?*
+- Walked through the CLA’s layers, using the Poststructural Futures Toolbox to help surface connections and ideas, drawing on empirical, interpretive and critical perspectives.
+*3. What are some different perspectives on what’s happening?*
+- JC: I did most of the hands-on-the-keyboard writing this time, aided by frequent and detailed discussions with Ray, and an editorial perspective added by Charlie.
+-
+-
+*4. What did we learn or change?*
+- Relative to our earlier work where we attempted to use present patterns to the futures community, this seems much more mature.  It is a fitting third installation in Joe’s “Patterns” trilogy.
+-
+-
+*5. What else should we change going forward?*
+- We will have to see whether PLoP accepts any of our proposals!
+-
+-
+
+* Discussion                                                      :noexport:
+
+# To recapitulate our progress so far, we have Surface: Patterns have lots of problems.
+# - SYSTEMS: What re the (social) causes  for how we got here? — Architecture by collaborative design, Programs
+# - Worldview: "Mob software" — lots of openness, lots of collaboration, critique from a Christian perspective
+# - poetic vs prose — way of describing deepr realities - inyatullah says to get to myth layer you need a poet
+
+- Where do the patterns come from?
+- Where do the problems come from?
+- Maybe patterns /work at the surface layer/ and miss the depth.  Patterns are often aimed at solving a problem where we assume that the context is given.  But what if the conflict is at the lower layer, not seeing eye to eye.
+- What we need to do is harmonize the worldviews not dance around it.
+
+- Alex: it’s like writing the same program with the same HLL
+- If you had a couple that ultimately realise that there is a disagreement between /quality of ingredients/ and /self-reliance/.
+- Alex: Would an emotional argument be a case of 2 people trying to get to this level?
+  - RSP: Getting towards metaphors and myths, this is the kind of thing that people invest a lot of energy into.
+
+- ‘Elevator space’ vs ‘elevator talk’
+
+#+begin_quote
+A quote from the paper on Alexander's battle for beauty: "a book published by Oxford University Press, the epitome of oak-paneled academic respectability"
+
+And a quote of Alexander from TNO by way of the same paper : "MAY BE BEST IF WE REDEFINE THE CONCEPT OF GOD IN A WAY THAT IS MORE DIRECTLY LINKED TO THE CONCEPT OF ‘THE WHOLE.’" Sounds like Spinoza!
+
+Here's a fine elaboration of the dictum from the beginning of ch. 2 of SoF: "It is based on the idea that every design problem begins with an effort to achieve fitness between two entities: the form and its context. The form is the solution to the problem; the context defines the problem. In other words, when we speak of design, the real object of discussion os not the form alone, but the ensemble consisting of the form and its context. Good FIT is a desired property of this ensemble which relates to some particular division of the ensemble into form and context."
+
+A page or so later, he adds: "Indeed, in the great majority of cases, it is necessary for the designer to consider SEVERAL DIFFERENT DIVISIONS of an ensemble, superimposed, at the same time." (!)
+#+end_quote
+
+- Or with a doctor and the rod and snake, we can achieve this kind of wholeness
+- Joseph Campbell is the hidden link between STAR WARS, 2001, MAD MAX
+
+- PLoP can consider: “we own levels 5 through infinity!”
+
+- ‘Rescue of Leia consistent with male rescuing female.’
+- “you don’t need to be good at mathematics because you’re a girl”
+- Now math can be used to guess the gender of the programmer!
+- Remind them of Ada Lovelace Byron!
+- Having all these things where that’s the way the story goes, what about changing the gender roles.
+
+- How did myth get a bad wrap?  Because it’s where ingrained prejudices can stay ingrained.
+- What if our relationship to myth and mathematics were the same — ongoing discovery and invention.
+
+- E.g., with STAR WARS there was a bunch of technical stuff in reality (going to the moon), but then there was the symbolic structure keeping up with each other.  In a more collaborative culture, it wouldn’t have been a race but a collaboration.  STAR TREK: space is so interesting that it, itself, has brought peace between the nations.
+
+- but of course it goes both ways where you get the symbolic stuff anticipating technical progress.
+- We could try to investigate the symbolic precursors of this... — maybe someone else has done this (e.g., stolen serendipity from Bacon)
+
+
+- Living on a reservation, with someone else's mine on it, they are called a country but they are not, it's an ambiguous place sort of recognised as a nation but not completely; Indian Officer saying who's in the community and who's not.
+
+- Old patterns don't work anymore — in the old days trash was left over organic food remains.
+
+- ‘Wholeness’ as another key metaphor
+- There’s something curious going on here, though, relative to another key concept for pattern theory, namely, the concept of wholeness.
+
+
+The myths could have to do with how aligned we are with the world.
+- Inayatulah might have a hand-off to a therapist and say it's at the level of the body...?
+
+- If they are very distant or different then there's lots of conflict
+- Planes allow infinite number of choices so you have S^1
+   - Metaphorically, out of all the possibilities I choose only two dimensions to look along.
+
+- On these two, you could do a conceptual blend of X and Y - these two seem to be the most two relevant dimensions for now.
+   - But what if you have to consider multiple concerns, e.g. - speed, environment, and health
+    - if I can get all three to balance we can cut down the complexity on the way there by taking them 2 at a time.
+    - There are boundaries to the usable region inside the space.  If I try going too far it becomes unhealthy to me and to the environment.
+   - This re-explores the context and its possibilities in a creative way.
+
+- Possibly recall our metaphor of the ellipse and fleshing it out a bit
+
+- Example of multiple worldviews:
+   - We have at least a constant (bigger than the distance between the points)
+   - and plane to chose after we nominate the context and community — what might
+   - these represent.
+
+- Context = Community : case of a circle
+   - The radius could represent something, even if the points are 'close', there may be a big or a small radius
+   - How aligned are the community and the context?
+   - Colonial representation, even a sympathetic one, might not be aligned with our needs.
+  - How do we get along with people who have different worldviews?
+- Recognise them and find out what they are!
+  - Maybe it's actually your projection of the noble savage on someone who didn't match that
+  - Boyle and Spinoza: did have seem to have humongous disagreements. They had Oldenberg in the middle to keep them from tearing each other apart, and leave things silent.
+  - It's a different kind of conflict if they are in communication vs if the myths are left unconscious (not in communication with each other).  So, here are some techniques to bring things out.
+
+
+- Leo: RGCS: open-communities with another stance?
+- Ray, we could mount a similar critique for PLoP, Free software, Futures... they aren’t being singled out.
+- Joe: this is part of the /context/ even if we don’t explicitly talk about it.  There are multiple ways of splitting something into a context, and a good designer should consider the splits.
+
+- We need to rethink what we were doing with patterns.
+  - THIS IS NOT JUST FOR PLoP but also for peeragogy, cf. the clash of Prometheus & Themis.
+  - We have a Promethian myth of open source, but there’s also /concern for the common person/.
+    - Going back to what we were talking about with thinking about peeragogy using open source tools and the back-reactions we received
+- MAYBE WE HAVE SOMETHING to add to the futures community as well!
+- There may be some problems with problem/solution/context if I didn’t fully understand my community
+- E.g., with the patterns for a carbon world could see a mismatch between patterns for a car-free world unless we understand cars as a symbol of a core American value.
+- So we may need to accept we won’t have a car-free world, but we need to run the car on a different fuel.
+
+# - Walking in 2 different directions through familiar territory
+# - rekindling a sense of humility!
+# - E.g., fomenting ability to INTERRUPT
+** Next steps
+
+- NNexus + recommender for learning
+- Point out that this applies to synthesis later on
+ - Would be useful to have
+
+- What does change at the myth level look like?
+- The ship that came in 1619 was actually a pirate ship, they happened to find slaves rather than gold...
+  - Remarkable...!
+  - It went back to the particular pirate ship but once it got started, then you started to invent myths, "the South"
+  - 400 years later, you have /controversy over the statues/.
+  - We don’t use ‘Altavista’ any more but we still know what it is, you can’t get rid of the symbol
+
+- ‘Patterns’ are more at the immediate level
+- Nevertheless, the patterns may embodying a worldview (e.g., at least the worldview of design) — rather than the deep
+
+- Needing to build schools, user interfaces, etc.
+- Comment about silos: how *interoperable* are the patterns?
+  - I don’t care to be rewriting the whole thing
+  - I need some math, come to our next session... no I just want to explain these (familiar critique in the peeragogy project)
+    - But now we got a bunch of newcomers saying we want to write a 5 page intro
+    - This could get back to conceptual blend
+    - ‘Peeragogy and Handbook’
+    - ‘Wikipedia’ is a wiki and an encyclopedia; then you get WikiData...
+- In this ghetto we do Alexander patterns, here we do 15 principles, here it’s Takashi...
+- Which are the problems that are /invisible/ (the fish doesn’t see the water it is swimming in)
+  - They think of their own freedom but not that of the other people’s priorities
+- E.g., you’re supposed to go in person to join the Workshop...
+
+- Rejecting pluralistic values, and others...
+- Cf. our annotated bibliography in Google Drive
+
+We aim to surface answers to some of the questions and concerns raised
+in the introduction.
+
+- One of our challenges with the Futures paper was that they were not well-versed in patterns
+- That problem doesn’t exist if we are submitting to PLoP, but we have the opposite problem
+- So, keep it light with CLA — with our previous paper, it was trying to push the Futures and Patterns literature at the same time
+
+- What if I’ve built things at this level, but I haven’t dealt with this.
+- Then maybe you have a dominance of rosy glasses problems-and-solutions
+  - Does this then mean “oh we just need new patterns?”
+  - The mythos is intact even though you changed the surface
+  - “dominant group” persists; ‘divine right of kings’ or the mythos of the caste system; feet of the original humans
+  - Patterns and anti-patterns (and CLA) of communism would be an interesting sequel
+  - Bolsheviks had the /idea of a professional revolutionary/.
+
+** Callback to design as blending in the previous paper
+** Callback where relevant to peer learning and peer production in the first paper
+** Other notes
+
+In a way, the need for a ‘complexity of wholes’ should not be
+surprising in light of current perspectives from neuroscience
+cite:mcgilchrist2019master.  (NB I think there was someone who showed
+up at Cicolab a while ago who had written a paper on patterns and
+systems or patterns and complexity theory.)
+
+- Go in, /patterns/ don’t need to be defined; we can make a nice clean reference to our PLoP paper
+- Do people only recognise myths until they encounter different cultures?
+- It’s /dynamic/ moreso than /robust/ or /resilient/ — behind the terms, you might find that adaptive capacity is compatible
+ - Branching processes; 1 customer tells 2 of their friends.
+ - Is the growth-rate bigger than the death rate?  If so it will grow until whatever carrying capacity.
+ - We need social distances on youtube...
+ - Survival analysis in Tim’s thesis?
+- It’s not just the meme going viral, it’s also spawning whole discourses
+ - it can’t just branch forever, it will run into new limitations; and what is the individual?
+ - what if these interact so much that it becomes the new individual?
+  - This is how we spread the new myth, but it then dominates
+  - E.g., with the pattern community, this isn’t too much /unlike/ Alexander’s dynamics that Ray’s been reading about in /Synthesis of Form/
+  - E.g., I don’t always control things — this is evolution not intelligent design.  I’m a co-creator!  The dao will be flowing, but I may be able to skillfully move things around and work with it.  This doesn’t negate design patterns, I just need to understand their scope.  In a very simple case of design, these are materials I can master them.
+  - E.g., I made the design with plastic, vs natural stone with weakness points... you’re also engaging with an outside world
+- Solutions, problems, and context — the context may be active and dynamic!
+- We were talking about Alexander and the design of a rocket.  Getting to the moon is difficult, we have 2 big moving bodies nearby.  I need to plot a trajectory in this context; it’s not as simple as shooting as a moving target; there’s a lot going on... this could lead to all kinds of counterintuitive things.
+- Analua was talking about /deep resiliance/ — would this relate to the /adaptive capacity/ stuff
+
+
+# ‘Participatory nature’ + there may be users
+# ‘Patterns existing at the litany level’ is worthy of the pattern
+# Burn books, make up stories of the past — vs — empowering the citizens (making your own myths)
+
+# today more and more design problems are reaching insoluble levels of complexity... a background... specialist information, widespread, disorganized... specialists... never best clear — This is definitely
+
+# Traditional builder knew about alcoves — and you learned the
+# patterns, you didn’t need to write them down (cf. PNG culture as a
+# boundary case).
+
+# nowadays we have new kinds of materials... we now need to think it w/
+# modern materials
+
+# “IKEA effect” people actually like them because they put things together
+
+# Problems were so rare that there were not actual designers!
+
+# Down to the level of “brass tacks”
+
+# Copy had to be exact — personal intuition — emphasis on intuition
+# 2 hemispheres, 2 cultures
+# — logic and geometry vs intuition
+
+# In a well-functioning there are interconnections between brain centres
+# (and turn each other off, selectively; the society of mind isn’t having a civil!)
+
+# So, remind people what Alexander said at the beginning
+# — cf. the critiques of patterns taxonomy — almost like the LITANY CONCEPT
+# — have others mentioned things about ‘open source’?
+
+- Feminism (white women) and anti-racism (black men); neither is actively harmed.
+- Deeper layer: we /deal with causes/ (in two senses) rather than /humanity/ in general.
+  - MLK vs ‘I am a man’ signs (just because I carry garbage)
+  - Can relate to wholeness
+  - People tend to think about humanity in terms of the particulars of their culture.
+  - You don’t want to get rid of a ‘bias by race’ and then find some other group is at the bottom!!!
+  - The real solution may involve revising myths (e.g., Horatio Alger)
+  - Mulitple literacies (like the ROSETTA STONE as a symbol in the Jung sense of a symbol)
+  - Thoth emerald tablet
+- We could have lived in an alternative history in which pantheism was dominant
+- Isis cults even in London (and maybe Oxford)
+  - Maybe it would be a ‘dominant-nondominance’: we want a more pluralistic time, with a variety of different cults.
+  - Joseph could have invented Freud’s theory and we might have had ‘dream cults’
+
+** Further
+- What is your context? Maybe deepening your context?
+** Myth outtakes
+
+- Basic structure of BEGINNING, MIDDLE, END
+- The public subconsciously looks for this to hold on to; it’s not just a collection of images but a succession of 3 /narratives/.
+- You can only understand a foreigner when you’ve been one.
 
 - ‘are you sure your mob model will work where you claim it from’
   - Adam Smith, invisible hand is an example of invisible hand
@@ -936,187 +1437,43 @@ This is developed in more recent thinking by R. M. Unger.
 The specific cultural understanding of how ‘gifts’ are meant to be
 used and consumed might cast some light on the otherwise confusing
 preference for open access at PLoP.  But perhaps more fundamental is
-the notion of an /object/. 
+the notion of an /object/.
 
 
 - “Hyde contrasts the spirits of gift and commodity economies with the Greek words eros and logos. In his mind, eros stand for imagination, logos for logic; eros for synthesis, logos for analysis or dialectic; eros for bonding (including the bonding of people in a relationship), logos for differentiating into parts.”
 
 # DECONSTRUCTION, GENEALOGY, DISTANCE, ALTERNATIVE PASTS AND FUTURES, REORDERING KNOWLEDGE
 
-* Discussion
+* Abstract                                                         :noexport:
 
-- Where do the patterns come from?
-- Where do the problems come from?
-- Maybe patterns /work at the surface layer/ and miss the depth.  Patterns are often aimed at solving a problem where we assume that the context is given.  But what if the conflict is at the lower layer, not seeing eye to eye.
-- What we need to do is harmonize the worldviews not dance around it.
+- Inayatullah has two-page introduction — Ray will be sending
+- Was there anything else?
+  - Alex: I remember the first time you mentioned CLA to me, I was completely confounded by it.
+  - Today I’m starting to know it and understand it as well, based on the examples.
+- Finer details felt like a good intro
+- Emacs for peeragogues, Peeragogy for Emacs people.
+- Maybe next Wednesday meet up at ‘The Punter’
+- Let’s write a paper about futures for PLoP and make futures relevant for PLoP and vice versa...
 
-- Alex: it’s like writing the same program with the same HLL
-- If you had a couple that ultimately realise that there is a disagreement between /quality of ingredients/ and /self-reliance/.
-- Alex: Would an emotional argument be a case of 2 people trying to get to this level?
-  - RSP: Getting towards metaphors and myths, this is the kind of thing that people invest a lot of energy into.
+/“What is PLoP’s vision for change and how is progress measurable?”/
 
-- ‘Elevator space’ vs ‘elevator talk’
+- Marnita — has her round table and she brings everyone up to this table
+- How do things flow from your mission statement?
+- Then you find people with overlapping visions to give.
+- Rather than “Free software could be relevant PLoP...”
+- Aha, but also “PLoP could be relevant to Free Software...”
+  - — but this isn’t going to go very far unless you have a license
 
-#+begin_quote
-A quote from the paper on Alexander's battle for beauty: "a book published by Oxford University Press, the epitome of oak-paneled academic respectability"
+- Otherwise you wind up like Spinoza... sure you can publish (posthumously)
+- Is it a port city or is it a cathedral city?
+ - If you’re going to write about education (not related to programs) why do you need it here?
+ - It looks heterogeneous as a litany but maybe there’s a consistent layer?
 
-And a quote of Alexander from TNO by way of the same paper : "MAY BE BEST IF WE REDEFINE THE CONCEPT OF GOD IN A WAY THAT IS MORE DIRECTLY LINKED TO THE CONCEPT OF ‘THE WHOLE.’" Sounds like Spinoza!
-
-Here's a fine elaboration of the dictum from the beginning of ch. 2 of SoF: "It is based on the idea that every design problem begins with an effort to achieve fitness between two entities: the form and its context. The form is the solution to the problem; the context defines the problem. In other words, when we speak of design, the real object of discussion os not the form alone, but the ensemble consisting of the form and its context. Good FIT is a desired property of this ensemble which relates to some particular division of the ensemble into form and context."
-
-A page or so later, he adds: "Indeed, in the great majority of cases, it is necessary for the designer to consider SEVERAL DIFFERENT DIVISIONS of an ensemble, superimposed, at the same time." (!)
-#+end_quote
-
-- Leo: RGCS: open-communities with another stance?
-- Ray, we could mount a similar critique for PLoP, Free software, Futures... they aren’t being singled out.
-- Joe: this is part of the /context/ even if we don’t explicitly talk about it.  There are multiple ways of splitting something into a context, and a good designer should consider the splits.
-
-- We need to rethink what we were doing with patterns.
-  - THIS IS NOT JUST FOR PLoP but also for peeragogy, cf. the clash of Prometheus & Themis.
-  - We have a Promethian myth of open source, but there’s also /concern for the common person/.
-    - Going back to what we were talking about with thinking about peeragogy using open source tools and the back-reactions we received
-- MAYBE WE HAVE SOMETHING to add to the futures community as well!
-- There may be some problems with problem/solution/context if I didn’t fully understand my community
-- E.g., with the patterns for a carbon world could see a mismatch between patterns for a car-free world unless we understand cars as a symbol of a core American value.
-- So we may need to accept we won’t have a car-free world, but we need to run the car on a different fuel.
-
-# - Walking in 2 different directions through familiar territory
-# - rekindling a sense of humility!
-# - E.g., fomenting ability to INTERRUPT
-** Next steps
-
-- NNexus + recommender for learning
-- Point out that this applies to synthesis later on
- - Would be useful to have
-
-- What does change at the myth level look like?
-- The ship that came in 1619 was actually a pirate ship, they happened to find slaves rather than gold...
-  - Remarkable...!
-  - It went back to the particular pirate ship but once it got started, then you started to invent myths, "the South"
-  - 400 years later, you have /controversy over the statues/.
-  - We don’t use ‘Altavista’ any more but we still know what it is, you can’t get rid of the symbol
-
-- ‘Patterns’ are more at the immediate level
-- Nevertheless, the patterns may embodying a worldview (e.g., at least the worldview of design) — rather than the deep
-
-- Needing to build schools, user interfaces, etc.
-- Comment about silos: how *interoperable* are the patterns?
-  - I don’t care to be rewriting the whole thing
-  - I need some math, come to our next session... no I just want to explain these (familiar critique in the peeragogy project)
-    - But now we got a bunch of newcomers saying we want to write a 5 page intro
-    - This could get back to conceptual blend
-    - ‘Peeragogy and Handbook’
-    - ‘Wikipedia’ is a wiki and an encyclopedia; then you get WikiData...
-- In this ghetto we do Alexander patterns, here we do 15 principles, here it’s Takashi...
-- Which are the problems that are /invisible/ (the fish doesn’t see the water it is swimming in)
-  - They think of their own freedom but not that of the other people’s priorities
-- E.g., you’re supposed to go in person to join the Workshop...
-
-- Rejecting pluralistic values, and others...
-- Cf. our annotated bibliography in Google Drive
-
-We aim to surface answers to some of the questions and concerns raised
-in the introduction.
-
-- One of our challenges with the Futures paper was that they were not well-versed in patterns
-- That problem doesn’t exist if we are submitting to PLoP, but we have the opposite problem
-- So, keep it light with CLA — with our previous paper, it was trying to push the Futures and Patterns literature at the same time
-
-- What if I’ve built things at this level, but I haven’t dealt with this.
-- Then maybe you have a dominance of rosy glasses problems-and-solutions
-  - Does this then mean “oh we just need new patterns?”
-  - The mythos is intact even though you changed the surface
-  - “dominant group” persists; ‘divine right of kings’ or the mythos of the caste system; feet of the original humans
-  - Patterns and anti-patterns (and CLA) of communism would be an interesting sequel
-  - Bolsheviks had the /idea of a professional revolutionary/.
-
-** Callback to design as blending in the previous paper
-** Callback where relevant to peer learning and peer production in the first paper
-** Other notes
-
-In a way, the need for a ‘complexity of wholes’ should not be
-surprising in light of current perspectives from neuroscience
-cite:mcgilchrist2019master.  (NB I think there was someone who showed
-up at Cicolab a while ago who had written a paper on patterns and
-systems or patterns and complexity theory.)
-
-- Go in, /patterns/ don’t need to be defined; we can make a nice clean reference to our PLoP paper
-- Do people only recognise myths until they encounter different cultures?
-- It’s /dynamic/ moreso than /robust/ or /resilient/ — behind the terms, you might find that adaptive capacity is compatible
- - Branching processes; 1 customer tells 2 of their friends.
- - Is the growth-rate bigger than the death rate?  If so it will grow until whatever carrying capacity.
- - We need social distances on youtube...
- - Survival analysis in Tim’s thesis?
-- It’s not just the meme going viral, it’s also spawning whole discourses
- - it can’t just branch forever, it will run into new limitations; and what is the individual?
- - what if these interact so much that it becomes the new individual?
-  - This is how we spread the new myth, but it then dominates
-  - E.g., with the pattern community, this isn’t too much /unlike/ Alexander’s dynamics that Ray’s been reading about in /Synthesis of Form/
-  - E.g., I don’t always control things — this is evolution not intelligent design.  I’m a co-creator!  The dao will be flowing, but I may be able to skillfully move things around and work with it.  This doesn’t negate design patterns, I just need to understand their scope.  In a very simple case of design, these are materials I can master them.
-  - E.g., I made the design with plastic, vs natural stone with weakness points... you’re also engaging with an outside world
-- Solutions, problems, and context — the context may be active and dynamic!
-- We were talking about Alexander and the design of a rocket.  Getting to the moon is difficult, we have 2 big moving bodies nearby.  I need to plot a trajectory in this context; it’s not as simple as shooting as a moving target; there’s a lot going on... this could lead to all kinds of counterintuitive things.
-- Analua was talking about /deep resiliance/ — would this relate to the /adaptive capacity/ stuff
-
-
-# ‘Participatory nature’ + there may be users
-# ‘Patterns existing at the litany level’ is worthy of the pattern
-# Burn books, make up stories of the past — vs — empowering the citizens (making your own myths)
-
-# today more and more design problems are reaching insoluble levels of complexity... a background... specialist information, widespread, disorganized... specialists... never best clear — This is definitely
-
-# Traditional builder knew about alcoves — and you learned the
-# patterns, you didn’t need to write them down (cf. PNG culture as a
-# boundary case).
-
-# nowadays we have new kinds of materials... we now need to think it w/
-# modern materials
-
-# “IKEA effect” people actually like them because they put things together
-
-# Problems were so rare that there were not actual designers!
-
-# Down to the level of “brass tacks”
-
-# Copy had to be exact — personal intuition — emphasis on intuition
-# 2 hemispheres, 2 cultures
-# — logic and geometry vs intuition
-
-# In a well-functioning there are interconnections between brain centres
-# (and turn each other off, selectively; the society of mind isn’t having a civil!)
-
-# So, remind people what Alexander said at the beginning
-# — cf. the critiques of patterns taxonomy — almost like the LITANY CONCEPT
-# — have others mentioned things about ‘open source’?
-
-- Feminism (white women) and anti-racism (black men); neither is actively harmed.
-- Deeper layer: we /deal with causes/ (in two senses) rather than /humanity/ in general.
-  - MLK vs ‘I am a man’ signs (just because I carry garbage)
-  - Can relate to wholeness
-  - People tend to think about humanity in terms of the particulars of their culture.
-  - You don’t want to get rid of a ‘bias by race’ and then find some other group is at the bottom!!!
-  - The real solution may involve revising myths (e.g., Horatio Alger)
-  - Mulitple literacies (like the ROSETTA STONE as a symbol in the Jung sense of a symbol)
-  - Thoth emerald tablet
-- We could have lived in an alternative history in which pantheism was dominant
-- Isis cults even in London (and maybe Oxford)
-  - Maybe it would be a ‘dominant-nondominance’: we want a more pluralistic time, with a variety of different cults.
-  - Joseph could have invented Freud’s theory and we might have had ‘dream cults’
-
-** Further
-- What is your context? Maybe deepening your context?
-* Conclusion
-*1. Review the intention: what do we expect to learn or make together?*
-- 
-*2. Establish what is happening: what and how are we learning?*
-- 
-*3. What are some different perspectives on what’s happening?*
-- 
-*4. What did we learn or change?*
-- 
-*5. What else should we change going forward?*
-- 
-* The end :ignore:
+- /Glass Bead Game/ - is this relevant
+- Why can a physicist and an MD talk?  What about the same physicist and a literature scholar?
+  - It involves thinking in terms of fundamentals
+- This points us in the direction of transdiscplinary design.
+* The end                                                           :ignore:
 
 #+begin_export latex
 \bibliographystyle{unsrt}
