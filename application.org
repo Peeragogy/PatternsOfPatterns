@@ -34,13 +34,13 @@ field of futures studies into the domain of patterns.  We elaborate
 some “CLA patterns” and apply them to think about the future of the
 pattern theory.  We discuss our findings relative to other concrete
 activities in linked collaborative research and development projects
-that we are involved involved with.
+that we are involved with.
 * Introduction
 Causal Layered Analysis is a technique developed by Sohail Inayatullah
-in the field of future studies: we will apply here to provide a new
+in the field of future studies: we apply it here to provide a new
 long-term perspective on design patterns.  We have found CLA useful in
-other collaborative projects more broadly, and our analysis shows that
-it can be a useful adjuct to patterns.  Symmetrically, we think that
+other collaborative projects more broadly, and our analysis suggests that
+it can be a useful adjunct to pattern methods.  Symmetrically, we think that
 patterns could be useful in future studies applications.
 
 Briefly, Inayatullah developed CLA — building on earlier work by
@@ -66,43 +66,52 @@ new strategies.
 
 We can illustrate the issues with a short story.  Imagine a couple who
 on their first few dates enjoy going out for pizza.  They like
-different toppings: but that doesn’t matter, because eat of them
-orders their own, and eats it with gusto.  Indeed, it turns out they
-like pizza so much that they would like to have it several nights a
-week.  Going out that often would be expensive, so they get good at
-making their own pizzas at home: selecting good ingredients,
-fermenting the dough, and baking at a high temperature.  Some time
-goes by, and they have gotten so good at this that they daydream about
-opening their own pizza restaurant.  At this point, they might like to
-refer to some practical guidance.  Let’s imagine them making it
-through the setting-up phase: now they have a pizza restaurant and are
-doing good business.  As more time goes by, they begin to notice some
-stress.  Why’s that?  Imagine that one of them got into this primarily
-to pursue /self-reliance/, whereas the other partner was more focused on
-the /quality of the food and the health of their relationship/.  These
-days, they hardly see each other!  If issues at this level had
-surfaced early on, their different values might have been mutually
-supportive.  Without due care for the issues that can arise at deeper
-levels, there’s a risk that our two protagonists will end up at
-loggerheads.
+different toppings: but that doesn’t matter, because each of them
+orders their own perfectly sized Neopolitan-style pizza, and eats it
+with gusto.  Indeed, it turns out they like pizza so much that they
+would like to have it several nights a week.  Going out this
+frequently would be expensive, so they get good at making their own
+pizzas at home: selecting good ingredients, fermenting the dough, and
+baking at a high temperature.  After some time goes by, they have
+gotten really good at this, and they daydream about opening their own
+restaurant.  They look into some available practical guidance and
+adapt it for their use case cite:kelly2012business,wurm2019design.
+After a lot of planning and a whole lot of work, they get their new
+pizza restaurant up and running, and they are doing good business.
+However, as more time goes by, they begin to notice some stress.
+Why’s that?
 
-Pattern languages often work across levels, too.  Nevertheless, we
-think that there are some additional techniques and perspectives to be
-gained from CLA; and furthermore, we think that patterns and futures
-work can be mutually supportive.  After introducing our methods in
-more detail, we will develop a Causal Layered Analysis of the patterns
-discourse, and then discuss some of the implications for practice.
+Imagine that one of the two was excited to pursue a vision of
+/self-reliance/, inspired by historical figures like Thoreau — whereas
+the other partner was more focused on the /quality of the food and the
+health of their relationship/, inspired by the contemporary Slow Food
+movement, along with childhood memories of parents who loved cooking
+together.  These days, our two protagonists hardly see each other any
+more!  One of them is still around the restaurant every day, greeting
+customers and baking — the other is off sourcing ingredients and
+developing relationships with others in the local food supply chain.
+If they realise that the challenges they face — alongside their
+successes to date — are driven by different but reasonably compatible
+values, it is likely that with due care the points of difference could
+become mutually supportive.  Otherwise, there is a risk that our two
+protagonists will end up at loggerheads.
+
+Pattern languages often work across levels.  Nevertheless, there are
+some additional techniques and perspectives to be gained from CLA;
+furthermore, we think that patterns and futures work can be mutually
+supportive.  After introducing our methods in more detail, we will
+develop a Causal Layered Analysis of the patterns discourse, and then
+discuss some of the implications for practice.
 * Methods
 <<methods>>
 ** Design Patterns
 LET’S BEGIN by setting to one side any specialist notion of ‘patterns’
 that we may have in mind, and think about patterns in a fundamental
-way.  Some patterns repeat in /space/ (like a tiling). Some patterns
-repeat in /time/ (like a beat).  Some patterns repeat in both /space and
-time/ (like a wave).  In the physical world, it would seem that
-patterns cannot repeat exactly, or forever.  The elements that
-comprise a pattern are subject to spatial or temporal displacement,
-and other forms of variation.
+way.  Some patterns repeat in /space/, some in /time/, some in both /space
+and time/: a tiling, a beat, a wave.  In the physical world, it would
+seem that patterns cannot repeat exactly, or forever.  The elements
+that comprise a pattern are subject to spatial or temporal
+displacement, and other forms of variation.
 
 Let’s explore the notion of ‘design pattern’ starting from this
 foundation.  Leitner supplied the following summary: "[Design]
@@ -137,10 +146,12 @@ teachable, learnable, and otherwise replicable within a given
 community.  However, if the design pattern makes the solution to the
 problem too obvious, then “design”, /per se/, is no longer needed![fn::
 For example, Peter Norvig argued that we see fewer of the design
-patterns typical of OOP inside programs written in functional and dynamic languages, because these languages embed many of the typical patterns as language features.]
-Accordingly, we might say that the design pattern carries with
-it a fragment of irreducible complexity.  This perspective may or
-may not be surprising.
+patterns typical of object oriented programs inside programs written
+in functional and dynamic languages, because these languages embed
+many of the typical patterns as language features.]  Accordingly, we
+might say that the design pattern carries with it a fragment of
+irreducible complexity.  This perspective may or may not be
+surprising.
 
 Alexander had described the need for patterns when things get complex
 cite:alexander1964notes.  He specifically focuses on what could be
@@ -148,11 +159,11 @@ called “horizontal” complexity, a situation where there are a lot of
 moving parts and relations between them.  Methodologically this is
 elaborated with the notion of a /pattern language/.  Pattern languages
 have a property of unfolding, from more general to more specific.
-However, they seem to leave open deeper forms “vertical” complexity,
-where there are deep historical or ontogenetic causes, or complex
-conceptual issues, which are not necessarily expressible in
-pattern-theoretic terms.  Let’s have another look at these issues by
-way of two contrasting metaphors.
+However, they seem to leave open deeper forms of “vertical”
+complexity, where there are deep historical or ontogenetic causes, or
+complex conceptual issues, which are not readily expressible in
+design-pattern-theoretic terms.  Let’s have another look at these
+issues by way of two contrasting metaphors.
 
 The first metaphor comes from Christian Kohls, who proposed to treat
 each design pattern as a journey: “a path as a solution to reach a
@@ -178,67 +189,51 @@ shared narrative, the journey can be reenacted through ritual or
 engaged with in other ways that solve a range of social problems
 cite:handelman1998a.
 
-This should suggest that Kohls’s metaphor does not necessarily express
-the complexity that is embedded in a design pattern.  It does hint at
+This should suggest that Kohls’s metaphor does not fully express the
+complexity that is underpins each design pattern.  It does hint at
 this complexity, because it implies a regress: where we initially had
 /one/ problem (traversal + low-cost), now we have one more (traversal +
-low-cost + sharable).  The added problem calls out for a solution, and
-perhaps also for a method.  We should expect to see patterns for
+low-cost + sharable).  The problem complex calls out for suitable
+methods, and on this basis we should expect to find patterns for
 finding, writing, and discussing patterns: and, of course, we do.
-
 However, this material does not fully explain where design patterns
 come from — or where they are going to — not an an obviously graspable
 way.  To really get a handle on /the future of the pattern theory/
 cite:alexander1999a, we need another approach.
+
 ** Causal Layered Analysis
+
 
 
 We begin this section by using some of the familiar literature on
 design patterns to briefly introduce Inayatullah’s
 cite:inayatullah1998b,inayatullah2004causal Causal Layered Analysis
-(CLA) formalism through an example.  We will look at related issues in
-much more detail later.
+(CLA) formalism through an example: Table [[tabpatterns]]  is a quick initial
+analysis of the patterns literature across the surface, social,
+worldview, and myth layer.  We will look at related issues in much
+more detail later.
 
-- The first layer in CLA is the *surface level*.  In the case of the
-  design patterns discourse, this level includes, for example, the
-  familiar kinds of patterns that are published in papers, discussed
-  at PLoP, put into use in designs of various kinds, or debated by
-  practitioners (e.g., Christopher Alexander’s “Entryway Transition”
-  pattern, but also his remarks about how people who attempted to
-  apply his methods ended up placing “alcoves everywhere”, etc.).
-  This is sometimes also referred to as the *problem level*: in the
-  patterns discourse, this is all very familar, because problems
-  abound.  The other synonym for this layer is the *litany layer*: it
-  describes the problems that everyone is familiar with.
-- Beyond that, we have the *social phenomena* that cause the problems to
-  emerge — along with their solutions.  In the original setting in
-  which patterns developed, this layer might include causes such as
-  more people living in cities, combined with the possibility of
-  developing a more community-driven approach to design.
-- The next layer beyond that comprise *worldviews* (e.g., Alexander’s
-  view that “There is a central quality which is the root criterion of
-  life and spirit in a man, a town, a building, or a wilderness”).
-- Lastly, there are *myths or metaphors* (e.g., Alexander idea that the
-  architect’s work is done ‘for the glory of God’ (see Galle, 2020) or
-  his conception that ‘primitive’ dwellings contain more ‘life’).  To
-  emphasize, CLA does not dismiss myths in the slightest: on the
-  contrary, they are what are seen drive the other layers.  Another
-  term that is used to characterise this layer is *narratives*.
+This method is a good fit for the need identified in the previous
+section, because CLA is typically used to answer the question: “What
+is our vision for change and how is progress measurable?”  For
+example, in Alexander’s cite:alexander1999a case, the vision was that
+of “the generation of a living world” — but the process whereby
+progress would be made was somewhat less clear.
 
-So much for the ‘layers’ in Causal Layered Analysis, for the time
-being.  Before pressing on, it is natural to ask what this method is
-thought to be useful for.  One use that makes it a good fit for the
-need identified in the previous section is to answer the question:
-“What is our vision for change and how is progress measurable?” For
-example, in Alexander’s cite:alexander1999a, case the vision was “the
-generation of a living world,” but the process whereby progress would
-be made was somewhat less clear.
+To help make the CLA practicable as a /method/, we will now turn to five
+techniques that Inayatullah refers to as the /poststructural futures
+toolbox/.  Here, we treat them in the classical design pattern format.
 
-Alongside dusting off our ability to spot /significant symbols/
-cite:bishop2020holistic, to help make the CLA practicable as a /method/,
-we will now turn to five techniques that Inayatullah refers to as the
-/poststructural futures toolbox/.  Here, we treat them in the classical
-design pattern format
+#+NAME: tabpatterns
+#+CAPTION: CLA introduced by example: a speed-through of the design patterns
+#+ATTR_LATEX: :environment longtable :align |p{\textwidth}| 
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The first layer in CLA is the *surface level*.  In the case of the design patterns discourse, this level includes, for example, the familiar kinds of patterns that are published in papers, discussed at PLoP, put into use in designs of various kinds, or debated by practitioners (e.g., Christopher Alexander’s “Entryway Transition” pattern, but also his remarks about how people who attempted to apply his methods ended up placing “alcoves everywhere”, etc.). This is sometimes also referred to as the *problem level*: in the patterns discourse, this is all very familar, because problems abound.  The other synonym for this layer is the *litany layer*: it describes the problems that everyone is familiar with. |
+| Beyond that, we have the *social phenomena* that cause the problems to emerge — along with their solutions.  In the original setting in which patterns developed, this layer might include causes such as more people living in cities, combined with the possibility of developing a more community-driven approach to design.                                                                                                                                                                                                                                                                                                                                                                                                    |
+| The next layer beyond that comprise *worldviews* (e.g., Alexander’s view that “There is a central quality which is the root criterion of life and spirit in a man, a town, a building, or a wilderness”).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Lastly, there are *myths or metaphors* (e.g., Alexander idea that the architect’s work is done ‘for the glory of God’ (see Galle, 2020) or his conception that ‘primitive’ dwellings contain more ‘life’).  To emphasize, CLA does not dismiss myths in the slightest: on the contrary, they are what are seen drive the other layers.  Another term that is used to characterise this layer is *narratives*.                                                                                                                                                                                                                                                                                                                        |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 *** DECONSTRUCTION
 <<DECONSTRUCTION>>
@@ -809,7 +804,7 @@ One aspect of this is a movement towards foundations and Hestia (per
 be along Nietzschean lines: “anything that is becoming returns” (i.e.,
 is discussable as pattern), and “contingency resolves itself into
 necessity” (i.e., the wholeness of generativity recovers the wholeness
-of unfolding).
+of unfolding).[fn:: See also cite:bishop2020holistic.]
 
 * Discussion
 
@@ -1479,3 +1474,26 @@ the notion of an /object/.
 \bibliographystyle{unsrt}
 \bibliography{./main}
 #+end_export
+
+- AI making AI
+- Human intelligence is and can only be embodied
+- Karl Friston in Wired
+- /AI Ethics/
+- NudgeStock — behavioural science
+ - Skittles is different colors
+ - E.g. Headspace - a lot of users were coming w/ no knowledge... this wasn’t keeping people coming back. — in the first interaction they come away knowing what ...
+ - There are some basic principles here
+ - Biases are a good starting point (scarcity)
+  - Fundraise, audio version, RELATIVE VALUE
+  - Compared to other things
+- Maybe more about the emotional experience!
+- WE ONLY REMEMBER FEELINGS
+  - Why would they be wanting to share?
+  - "I’m the kind of person who XX?" (status)
+  - What are the little things you can do?
+- Mailchimp... when people send their first email... you’re so nervous to press send!
+  - The screen comes up w/ a celebration animation — to see people celebrate, it’s a feeling not a logical thought process
+- How do we explore a process? How do we do things... Info articles, Sophia — travel
+- Booking travel — you might not know what you want but you know how you want to feel.
+- Lunchclub that’s actually an everything club
+  - Practical applications, and never meetings
