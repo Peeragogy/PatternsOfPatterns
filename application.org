@@ -9,6 +9,7 @@
 #+LATEX_HEADER: \usepackage{natbib}
 #+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
 #+LATEX_HEADER: \usepackage{mathtools}
+#+LATEX_HEADER: \usepackage{lscape}
 #+LATEX_HEADER: \setmonofont[Color=blue]{Ubuntu Mono}
 #+LATEX_HEADER: \newfontfamily{\alch}{Alchemy}
 #+LATEX_HEADER: \newfontfamily{\mm}[Color=red]{DejaVu Sans Mono}
@@ -38,19 +39,37 @@ that we are involved with.
 * Introduction
 Causal Layered Analysis is a technique developed by Sohail Inayatullah
 in the field of future studies: we apply it here to provide a new
-long-term perspective on design patterns.  We have found CLA useful in
-other collaborative projects more broadly, and our analysis suggests that
-it can be a useful adjunct to pattern methods.  Symmetrically, we think that
-patterns could be useful in future studies applications.
+long-term perspective on design patterns, and show how CLA can be
+combined with pattern methods to help guide and manage distributed
+volunteer projects.
 
 Briefly, Inayatullah developed CLA — building on earlier work by
 Slaughter cite:SLAUGHTER1989447 and a theoretical perspectives
-developed by Foucault — because he perceived that many efforts in the
-field of futures studies were often short on philosophical depth.  CLA
-is used to understand a developing issue of concern by looking at it
-across four layers of increasing depth, which are referred to as the
-/litany/, /system/, /worldview/, and /myth/.
+developed by Foucault and others — because he perceived that many
+efforts in the field of futures studies were often short on
+philosophical depth.  CLA is used to understand a developing issue of
+concern by looking at it across four layers of increasing depth, which
+are referred to as the /litany/, /system/, /worldview/, and /myth/.
 
+Within our own practices we have combined patterns, a light-weight
+review process called PARs, and Causal Layered Analysis.  Per
+cite:corneli2015a, we think of patterns as ‘incomplete’ — not simply
+as pointing to other patterns but as themselves requiring ongoing work
+to implement.  We use them as a project management tool, attempting to
+maintain surjective mapping from patterns to Next Steps.  However,
+this process itself requires instrumentation.  We try to do PARs
+frequently, using them both as a way to maintain a sense of shared
+mindfulness, and a source of summaries.  Relevant to the development
+of our work, they are similar to tangent vectors: they tell us where
+and how things are going in the moment.  Since learning about CLA, we
+attempt to reanalyse the data generated in PARs on a regular basis.
+This leads to an evolving answer to the question “what is our vision
+for change and how is progress measurable?”  Specifically, progress
+becomes measurable through a set of forward-looking TODO items that
+operationalise the vision.  These disparate TODO are then given a more
+coherent existence by associating them as Next Steps to our patterns,
+or creating new patterns as appropriate.
+* Additional narrative                                            :noexport:
 In somewhat dryer terms — which would be familiar within an
 Aristotelian tradition — if we are interested in understanding /events/,
 it is natural to look at the /causes/, the /deeper causes/, and the
@@ -102,6 +121,7 @@ furthermore, we think that patterns and futures work can be mutually
 supportive.  After introducing our methods in more detail, we will
 develop a Causal Layered Analysis of the patterns discourse, and then
 discuss some of the implications for practice.
+
 * Methods
 <<methods>>
 ** Design Patterns
@@ -203,8 +223,6 @@ cite:alexander1999a, we need another approach.
 
 ** Causal Layered Analysis
 
-
-
 We begin this section by using some of the familiar literature on
 design patterns to briefly introduce Inayatullah’s
 cite:inayatullah1998b,inayatullah2004causal Causal Layered Analysis
@@ -225,15 +243,19 @@ techniques that Inayatullah refers to as the /poststructural futures
 toolbox/.  Here, we treat them in the classical design pattern format.
 
 #+NAME: tabpatterns
-#+CAPTION: CLA introduced by example: a speed-through of the design patterns
+#+CAPTION: CLA introduced by example: a short story and a speed-through of the design patterns literature
 #+ATTR_LATEX: :environment longtable :align |p{\textwidth}| 
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The first layer in CLA is the *surface level*.  In the case of the design patterns discourse, this level includes, for example, the familiar kinds of patterns that are published in papers, discussed at PLoP, put into use in designs of various kinds, or debated by practitioners (e.g., Christopher Alexander’s “Entryway Transition” pattern, but also his remarks about how people who attempted to apply his methods ended up placing “alcoves everywhere”, etc.). This is sometimes also referred to as the *problem level*: in the patterns discourse, this is all very familar, because problems abound.  The other synonym for this layer is the *litany layer*: it describes the problems that everyone is familiar with. |
-| Beyond that, we have the *social phenomena* that cause the problems to emerge — along with their solutions.  In the original setting in which patterns developed, this layer might include causes such as more people living in cities, combined with the possibility of developing a more community-driven approach to design.                                                                                                                                                                                                                                                                                                                                                                                                    |
-| The next layer beyond that comprise *worldviews* (e.g., Alexander’s view that “There is a central quality which is the root criterion of life and spirit in a man, a town, a building, or a wilderness”).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Lastly, there are *myths or metaphors* (e.g., Alexander idea that the architect’s work is done ‘for the glory of God’ (see Galle, 2020) or his conception that ‘primitive’ dwellings contain more ‘life’).  To emphasize, CLA does not dismiss myths in the slightest: on the contrary, they are what are seen drive the other layers.  Another term that is used to characterise this layer is *narratives*.                                                                                                                                                                                                                                                                                                                        |
+| ¶1 Imagine a couple who on their first few dates enjoy going out for pizza.  They like different toppings: but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto.  Indeed, it turns out they like pizza so much that they would like to have it several nights a week.  Going out this frequently would be expensive, so they get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. | 
+| ¶2 After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant.  They look into some available practical guidance and adapt it for their use case cite:kelly2012business,wurm2019design. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress. Why’s that? |
+| ¶3 Imagine that one of the two was excited to pursue a vision of /self-reliance/, inspired by historical figures like Thoreau — whereas the other partner was more focused on the /quality of the food and the health of their relationship/, inspired by the contemporary Slow Food movement, along with childhood memories of parents who loved cooking together.  These days, our two protagonists hardly see each other any more!  One of them is still around the restaurant every day, greeting customers and baking — the other is off sourcing ingredients and developing relationships with others in the local food supply chain. |
+| ¶4 If they realise that the challenges they face — alongside their successes to date — are driven by different but reasonably compatible values, it is likely that with due care the points of difference can be mutually supportive.  An appropriate response to the stress they are experiencing might be to reconnect with a deeper rhythm, closing the shop Monday through Wednesday, and only opening it on Thursday through Sunday.  Instead of pursuing the American Dream based on acquiring wealth, they decide to focus together on art, spirituality, and cultivating their own garden together. |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ¶1 The first layer in CLA is the *surface level*.  In the case of the design patterns discourse, this level includes, for example, the familiar kinds of patterns that are published in papers, discussed at PLoP, put into use in designs of various kinds, or debated by practitioners (e.g., Christopher Alexander’s “Entryway Transition” pattern, but also his remarks about how people who attempted to apply his methods ended up placing “alcoves everywhere”, etc.). This is sometimes also referred to as the *problem level*: in the patterns discourse, this is all very familar, because problems abound.  The other synonym for this layer is the *litany layer*: it describes the problems that everyone is familiar with. |
+| ¶2 Beyond that, we have the *social phenomena* that cause the problems to emerge — along with their solutions.  In the original setting in which patterns developed, this layer might include causes such as more people living in cities, combined with the possibility of developing a more community-driven approach to design.                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ¶3 The next layer beyond that comprise *worldviews* (e.g., Alexander’s view that “There is a central quality which is the root criterion of life and spirit in a man, a town, a building, or a wilderness”).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ¶4 Lastly, there are *myths or metaphors* (e.g., Alexander idea that the architect’s work is done ‘for the glory of God’ (see Galle, 2020) or his conception that ‘primitive’ dwellings contain more ‘life’).  To emphasize, CLA does not dismiss myths in the slightest: on the contrary, they are what are seen drive the other layers.  Another term that is used to characterise this layer is *narratives*.                                                                                                                                                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 *** DECONSTRUCTION
 <<DECONSTRUCTION>>
@@ -343,7 +365,7 @@ scenarios.  Some further things to note:
   CLA. Metaphorically, this ‘integrates’ the ‘tangent vectors’ that we
   spotted when we were working together.
 
-* Application
+* Background: Surveying the Pattern Languages literature
 
 With the tools from Section [[methods]] at our disposal, we can now turn
 to a CLA of the /design patterns community/ (creators, users?).
@@ -487,105 +509,109 @@ inspiration from her critique cite:borchers2008pattern both have over
 1000 citations on Google Scholar shows that the thinking involved has
 been impactful.  To get a sense of how the pattern community has drawn
 from this critique and other similar kinds of concerns, we can look at
-how the writers workshops at PLoP have evolved over time.  Workshops
-did not always have names; where they were named they are included in
-this list, even when the names are strictly allusive.  We can see how
-the focus evolved from primarily ‘programming’ oriented to a much
-broader contextual view over time.
+how the writers workshops at PLoP have evolved over time.  Here, a
+selection of these titles show how the focus of PLoP evolved from
+primarily ‘programming’ oriented to a much broader contextual view
+over time.  Indeed, by 2019, the focus is almost exclusively
+‘contextual’.
 
 # (Comment here: Noorah’s points about customization as a way into
 # free software seem related to Tidwell’s ideas.)
 
 # https://designinginterfaces.com/firstedition/
 
-*1997*
-| Architecture               |
-| Roles and Analysis         |
-| People and Process         |
-| Domain Specific Techniques |
-| OO Techniques              |
-| Non-OO Techniques          |
+# #+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
 
-*1998*
-| Agricultural Valleys  |
-| Network of Learning   |
-| Zen View              |
-| Four-Story Limit      |
-| Mosaic of Subcultures |
-| Site Repair           |
-| Scattered Work        |
-| Eccentric Nucleus     |
+#+NAME: tabplop
+#+CAPTION: Evolution of PLoP Writers Workshop topics in selected years
+| *1997*                        | *2011*         | *2015*                            | *2019*               |
+| Architecture                | Architecture | Pattern Writing                 | Group Architecture |
+| Roles and Analysis          | Design       | Software Architecture & Process | Culture            |
+| People and Process          | Information  | Cloud & Security                | Meta               |
+| Domain Specific Techniques  | People       | Innovation & Analysis           | Education          |
+| OO Techniques               | Pedagogy     | People & Education              |                    |
+| Non-OO Techniques           |              |                                 |                    |
 
-*2000*
-| Office Connections      |
-| Connection to the Earth |
-| Network of Learning     |
-| The Unselfconscious     |
-| Quiet Backs             |
+# *1998*
+# | Agricultural Valleys  |
+# | Network of Learning   |
+# | Zen View              |
+# | Four-Story Limit      |
+# | Mosaic of Subcultures |
+# | Site Repair           |
+# | Scattered Work        |
+# | Eccentric Nucleus     |
 
-*2006*
-| Small Services Without Red Tape |
-| Sleeping in Public              |
-| Intimacy Gradient               |
-| Connection To The Earth         |
-| Thickening The Outer Walls      |
+# *2000*
+# | Office Connections      |
+# | Connection to the Earth |
+# | Network of Learning     |
+# | The Unselfconscious     |
+# | Quiet Backs             |
 
-*2007*
-| Girl with a Scarf |
-| Fu Dog            |
-| Sun Singer        |
-| Centaur           |
+# *2006*
+# | Small Services Without Red Tape |
+# | Sleeping in Public              |
+# | Intimacy Gradient               |
+# | Connection To The Earth         |
+# | Thickening The Outer Walls      |
 
-*2008*
-| Design & Architecture  |
-| Software & People      |
-| Processes and Services |
-| Security & Quality     |
+# *2007*
+# | Girl with a Scarf |
+# | Fu Dog            |
+# | Sun Singer        |
+# | Centaur           |
 
-*2010*
-| Frameworks & Environments |
-| Process & Design          |
-| People & Ideas            |
-| Security & Systems        |
-| Reliability & Trust       |
+# | *2008*                   |
+# | Design & Architecture  |
+# | Software & People      |
+# | Processes and Services |
+# | Security & Quality     |
 
-*2011*
-| Architecture |
-| Design       |
-| Information  |
-| People       |
-| Pedagogy     |
+# *2010*
+# | Frameworks & Environments |
+# | Process & Design          |
+# | People & Ideas            |
+# | Security & Systems        |
+# | Reliability & Trust       |
 
-*2014*
-| Narrow Road to the Deep North |
-| Pattern Language and Mining   |
-| Testing and Development       |
-| Security                      |
+# | *2011*         |
+# | Architecture |
+# | Design       |
+# | Information  |
+# | People       |
+# | Pedagogy     |
 
-*2015*
-| Pattern Writing                 |
-| Software Architecture & Process |
-| Cloud & Security                |
-| Innovation & Analysis           |
-| People & Education              |
+# *2014*
+# | Narrow Road to the Deep North |
+# | Pattern Language and Mining   |
+# | Testing and Development       |
+# | Security                      |
 
-*2016*
-| Vikings    |
-| Generators |
-| Vanguard   |
+# | *2015*                          |
+# | Pattern Writing                 |
+# | Software Architecture & Process |
+# | Cloud & Security                |
+# | Innovation & Analysis           |
+# | People & Education              |
 
-*2017*
-| Roughness                 |
-| Simplicity and Inner Calm |
-| Local Symmetries          |
-| Strong Centers            |
-| Not Separateness          |
+# *2016*
+# | Vikings    |
+# | Generators |
+# | Vanguard   |
 
-*2019*
-| Group Architecture |
-| Culture            |
-| Meta               |
-| Education          |
+# *2017*
+# | Roughness                 |
+# | Simplicity and Inner Calm |
+# | Local Symmetries          |
+# | Strong Centers            |
+# | Not Separateness          |
+
+# | *2019*               |
+# | Group Architecture |
+# | Culture            |
+# | Meta               |
+# | Education          |
 
 \rowcolors{2}{gray!25}{white}
 ** Worldview: ways of knowing and alternative discourse
@@ -806,26 +832,197 @@ is discussable as pattern), and “contingency resolves itself into
 necessity” (i.e., the wholeness of generativity recovers the wholeness
 of unfolding).[fn:: See also cite:bishop2020holistic.]
 
-* Discussion
+* Foreground: Planning “Season 2” in the Emacs Research Group
 
-Within our own practices we have combined patterns, PARs, and Causal
-Layered Analysis.  Per cite:corneli2015a, we think of patterns as
-‘incomplete’ — not simply as pointing to other patterns but as
-themselves requiring ongoing work to implement.  We use them as a
-project management tool, attempting to maintain surjective mapping
-from patterns to Next Steps.  However, this process itself requires
-instrumentation.  We try to do PARs frequently, using them both as a
-way to maintain a sense of shared mindfulness, and a source of
-summaries.  Relevant to the development of our work, they are similar
-to tangent vectors: they tell us where and how things are going in the
-moment.  Since learning about CLA, we attempt to reanalyse the data
-generated in PARs on a regular basis.  This leads to an evolving
-answer to the question “what is our vision for change and how is
-progress measurable?”  Specifically, progress becomes measurable
-through a set of forward-looking TODO items that operationalise the
-vision.  These disparate TODO are then given a more coherent existence
-by associating them as Next Steps to our patterns, or creating new
-patterns as appropriate.
+- ‘What is our vision for change and how is progress measurable?’
+
+** Understanding data, headlines, empirical world (short term change) 
+
+We’ve made progress since we started with the raw themes of *Research
+on/in/with Emacs* back in December 2020.
+
+We’ve met almost every week since then, and interviewed some
+interesting and varied guests.  We have a clearer idea of what what we
+want to talk about at the next EmacsConf, and how we can be of service
+to researchers and Emacs users.  We have been using a workflow that
+helps us carefully review progress, diagnose issues, and manage our
+energy.  The next phase of this project is to “go public” and mesh
+with ongoing related activities elsewhere.
+
+*** TODO Maintain plans for the next six months                  :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- We are doing research
+- Some more directly related to Emacs
+- Some with guests
+- Some ‘user’ and “market” research
+- Backlink to: =[[peeragogy:Roadmap]]=
+*** TODO Keep doing PARs and CLAs                                :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- This is our thing about method
+- Maybe we should be expanding this to patterns...?
+- This could be about presenting ‘futures’ in Patterns
+ - NB: in Typescript work, there was a nice description of patterns
+ - They talked about how we shouldn’t blindly internalise them
+*** TODO Mesh with other ongoing activities elsewhere            :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- Stakeholders are much bigger group
+- Diversity of guests
+- Diversity of outreach (maybe some kids in London haven’t heard about programmers...)
+- Mike wants to develop virtual assistant stack
+  - Do users have to write Org Mode?
+  - How can we offload some work to less-expert employees?
+  - What’s the relationship to time, expertise, serendipity?
+  - What’s relationship to ongoing Hyperreal activities?
+  - To discuss more next week...
+**** TODO Come up with a categorical treatment of todo-categories
+** Systemic approaches and solutions (social system)
+
+If we tackle big enough projects, it will bring with it the need for
+collaboration.  We like to create tangible deliverables (e.g., journal
+articles).  However, “If we knew what the outcome was it wouldn’t be
+research” — therefore, we’re focusing initially on /research methods/
+and /design documents/.  That may mean it takes us a bit longer to write
+our first paper, but when we get something out it will be good.
+Meanwhile we’re also keeping sharp by fixing bugs, filing issues,
+improving our own workflows, and actively exploring the landscape.  We
+want to keep a role for serendipity here, which adds the requirement
+that our planning process remain open and flexible: including to
+various disciplinary methods, and especially to change as we reflect
+on how things are going.
+
+*** TODO Identify potential stakeholders in Emacs Research       :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- ‘Org Notes’ for some potential USERS
+- Other potential users, also some people we can talk to as market/user research (Not all stakeholders are users.)
+- Org Roam
+- Zanzi’s Smos stuff, Qiantan’s S-EXP based editor, treesitter stuff
+- Standardising Org? What are the different enablers?
+*** TODO Identify stakeholders in the kind of activities we can support :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- Literature review?
+- “Lisp as alien technology”
+*** TODO Identify venues where we can reach these different stakeholders :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+-  (who, what is the itinerary; having places to talk about research?)
+*** TODO Create some publication to plant a flag for our group   :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- To whom could we could present preliminary and intermediate results (e.g., some people who haven’t attended every session may want to have a summary to catch up).
+*** TODO Keep exploring!                                         :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- (In terms of the Peeragogy Heartbeat concept, we have some people
+  holding the fort; in this sense we are doing fine in terms of
+  turn-out at weekly meetings!)
+- However, to make it ‘research’ we need to make sure we keep encountering the unexpected
+** Worldview, ways of knowing and alternative discourse
+
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can eventually improve upon.
+‘Practice’ and ‘method’ keep coming up in our discussions as,
+respectively, ‘more bottom up’ and ‘more top down’ ways of actualising
+things.  Concretely, we’ve been studying our own processes and looking
+for the tools and settings that are the most conducive to the work we
+want to do.  For example, instead of having a single Org Roam
+directory shared via Git, what if we had ways of managing sharing of
+notes across ‘graphs’?
+
+Collaboration is familiar to in all kinds of teams across all sectors.
+Even authors working alone may have need to ‘virtually collaborate
+with themselves’ — and of course to share their work with others when
+it’s ready.  If we all had our slipboxes online, we could reference
+between them.  This would generalise *ORCiD*, and people to reference
+processes that are undergoing evolution.  Maybe a service like this
+would turn into a ‘Tinder for academics’ — helping to match people
+based on their interests (or similar people in different fields).  So,
+what’s the price point?  Instead of paying money to go to conferences,
+now we can spontaneously make conferences and workshops.  As a guess,
+$750.0 per user per year might be a fair price — for those who can
+afford to pay it — if the service helps people to do better research
+and saves a bunch of travel.  We could also set up a pricing model
+proportional to each country’s carbon emissions or something like
+that.
+
+*** TODO Spec out the Emacs based ‘answer’ to RStudio, Roam Research (not Logseq) :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+-  (It would be great if we got the next big thing up and running in a year... but this is a lot to ask.)
+- But what would the “next big thing” look like at the level of, say, an ERC proposal?
+*** TODO Develop our own intention-based workflow                :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- [x] Surfacing the experimental ground
+- [ ] What else?
+*** TODO Continue to develop and refine our methods              :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- This is already incorporated with the PAR and CLA (that’s actionable)
+- So would be doubling down here with a paper on our methods for PLoP
+*** TODO Develop a suitable collaborative writing workflow for a specific shared output :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+*** TODO Think about the product and business development plans for a multigraph interlinking service :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- Inyatullah would want us to think critically about what we’re saying in this document.
+*** TODO Something similar with Pete Kaminsky and Lauralie ‘matching’
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+- Harder to do soul-matching...
+- It’s not just what they need to go but what you need to avoid (or, which half of the room?)
+- Use the friend magnetism to attract people (GravPad?)
+** Myths, metaphors and narratives: imagined (longer term change)
+
+In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
+perspective]]’.  This includes both retrospective and prospective
+thinking.  For example, the things that were timely 7 years ago might
+not be so timely now; in many cases the relevance of a given
+innovation goes down over time.  However, Emacs has an evolutionary
+character that has allowed it to keep up with the times — becoming
+more relevant and useful ever since Steele and Stallman started to
+systematise [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor MACroS]] for the Text Editor and Corrector (TECO)
+program.  Not only has the technology evolved, but so has the social
+setting in which this work is done.  Whereas the concepts underlying
+the free software movement were based on “[[http://www.gnu.org/software/emacs/emacs-paper.html][communal sharing]]” of source
+code, with due reflection these methods extend much more broadly, and
+allow us to synthesise new relationships within broader semiotic
+commons.  Emacs can become a system for addressing any ‘existential’
+problem.  This does not yet push us beyond what’s humanly possible,
+but may expand the frontier of possibility.
+
+*** TODO Survey related work                                     :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+*** TODO Assess what we’re learning                              :breakdown:
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+*** TODO Figure out the gender balance stuff
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+* Discussion
 
 We think that this tripartite workflow of /reflection/, /integration/, and
 /operationalisation/ will be useful in many other settings.  These steps
@@ -845,7 +1042,6 @@ further attention:
 - Myth :: Develop a catalogue of significant symbols used by practitioners and how they relate to long-term historical developments.
 
 (Note that it is strictly not necessary to develop a “Key to All Mythologies” in the sense of Edward Casaubon from Eliot’s /Middlemarch/!)
-
 * Conclusion
 *1. Review the intention: what do we expect to learn or make together?*
 - Our intention was to apply the CLA method from future studies to the pattern theory, and to use it to answer the core question: “what is our vision for change and how is progress measurable?”
@@ -1468,6 +1664,40 @@ the notion of an /object/.
 - Why can a physicist and an MD talk?  What about the same physicist and a literature scholar?
   - It involves thinking in terms of fundamentals
 - This points us in the direction of transdiscplinary design.
+
+* APPENDIX: Max-Need needs :ignore:
+#+BEGIN_LATEX
+\newpage
+\begin{landscape}
+\textbf{APPENDIX: Max-Need needs}
+\medskip
+
+{\small
+\begin{tabular}{p{1em}lp{.3\textwidth}p{.3\textwidth}p{.3\textwidth}p{.3\textwidth}}
+& \emph{Existential needs:}& \emph{Being}  & \emph{Having}  & \emph{Doing}  & \emph{Interacting}\\
+&Axiological needs &&&&\\
+\begingroup\alch\symbol{"51}\endgroup&
+Subsistence & physical health, mental health, equilibrium, sense of humour, adaptability & food, shelter, work & feed, procreate, rest, work & living environment, social setting\\
+\begingroup\alch\symbol{"53}\endgroup&
+Protection  & care, adaptability, autonomy, equilibrium, solidarity & insurance systems, savings, social security, health systems, rights, family, work & cooperate, prevent, plan, take care of, cure, help & living space, social environment, dwelling \\
+\begingroup\alch\symbol{"54}\endgroup&
+Affection & self-esteem, solidarity, respect, tolerance, generosity, receptiveness, passion, determination, sensuality, sense of humour & friendships, family, partnerships, relationships with nature & make love, caress, express emotions, share, take care of, cultivate, appreciate & privacy, intimacy, home, space of togetherness\\
+\begingroup\alch\symbol{"3B}\endgroup&
+Understanding & critical conscience, receptiveness, curiosity, astonishment, discipline, intuition, rationality & literature, teachers, method, educational policies, communication policies & investigate, study, experiment, educate, analyze, meditate & settings of formative interaction, schools, universities, academies, groups, communities, family\\
+\begingroup\alch\symbol{"55}\endgroup&
+Participation & adaptability, receptiveness, solidarity, willingness, determination, dedication, respect, passion, sense of humour & rights, responsibilities, duties, privileges, work & become affiliated, cooperate, propose, share, dissent, obey, interact, agree on, express opinions & settings of participative interaction, parties, associations, churches, communities, neighbourhoods, family\\
+\begingroup\alch\symbol{"56}\endgroup&
+Idleness & curiosity, receptiveness, imagination, recklessness, sense of humour, tranquility, sensuality & games, spectacles, clubs, parties, peace of mind & daydream, brood, dream, recall old times, give way to fantasies, remember, relax, have fun, play & privacy, intimacy, spaces of closeness, free time, surroundings, landscapes \\
+\begingroup\alch\symbol{"57}\endgroup&
+Creation & passion, determination, intuition, imagination, boldness, rationality, autonomy, inventiveness, curiosity & abilities, skills, method, work & work, invent, build, design, compose, interpret & productive and feedback settings, workshops, cultural groups, audiences, spaces for expression, temporal freedom\\
+\begingroup\alch\symbol{"58}\endgroup&
+Identity & sense of belonging, consistency, differentiation, self-esteem, assertiveness & symbols, language, religion, habits, customs, reference groups, sexuality, values, norms, historical memory, work & commit oneself, integrate oneself, confront, decide on, get to know oneself, recognize oneself, actualize oneself, grow & social rhythms, everyday settings, settings which one belongs to, maturation stages\\
+\begingroup\alch\symbol{"59}\endgroup&
+Freedom & autonomy, self-esteem, determination, passion, assertiveness, open-mindedness, boldness, rebelliousness, tolerance & equal rights & dissent, choose, be different from, run risks, develop awareness, commit oneself, disobey & temporal/spatial plasticity\\
+\end{tabular}
+}
+\end{landscape}
+#+END_LATEX
 * The end                                                           :ignore:
 
 #+begin_export latex
