@@ -470,7 +470,7 @@ inspiration from her critique cite:borchers2008pattern both have over
 1000 citations on Google Scholar shows that the thinking involved has
 been impactful.  To get a sense of how the pattern community has drawn
 from this critique and other similar kinds of concerns, we can look at
-how the writers workshops at PLoP have evolved over time.  Here, a
+how the writers workshops at PLoP have evolved over time.  In Table [[tabplop]] a
 selection of these titles show how the focus of PLoP evolved from
 primarily ‘programming’ oriented to a much broader contextual view
 over time.  Indeed, by 2019, the focus is almost exclusively
@@ -802,18 +802,20 @@ narrative elaborating those bullet points, and developed new TODO
 items that would make the /next steps/ in this seminar group both
 meaningful and actionable.  Here, we collate these next steps with
 known (or new) design patterns.  Accordingly, this section shows the
-three methods working together
+three methods interoperating.
 
 ** Understanding data, headlines, empirical world (short term change)
 
 We’ve made progress since we started with the raw themes of *Research
-on/in/with Emacs* back in December 2020.  We’ve met almost every week since then, and interviewed some
-interesting and varied guests.  We have a clearer idea of what what we
-want to talk about at the next EmacsConf, and how we can be of service
-to researchers and Emacs users.  We have been using a workflow that
-helps us carefully review progress, diagnose issues, and manage our
-energy.  The next phase of this project is to “go public” and mesh
-with ongoing related activities elsewhere.
+on/in/with Emacs* back in December 2020.  We’ve met almost every week
+since then, and interviewed some interesting and varied guests.  We
+have a clearer idea of what what we want to talk about at the next
+EmacsConf, and how we can be of service to researchers and Emacs
+users.  We have been using a workflow that helps us carefully review
+progress, diagnose issues, and manage our energy.  The next phase of
+this project is to “go public” and mesh with ongoing related
+activities elsewhere, including by getting some training events up and
+running.
 
 *** TODO Maintain plans for the next six months                  :Roadmap:
   :PROPERTIES:
@@ -846,6 +848,10 @@ with ongoing related activities elsewhere.
 #   - What’s the relationship to time, expertise, serendipity?
 #   - What’s relationship to ongoing Hyperreal activities?
 #   - To discuss more next week...
+*** TODO New user workshops: “Zero to Org Roam”                :Newcomer:
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
 *** TODO Come up with a categorical treatment of todo-categories :FORMALISE:X:
   :PROPERTIES:
   :UNNUMBERED: t
