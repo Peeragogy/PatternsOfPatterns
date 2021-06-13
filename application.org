@@ -1,6 +1,7 @@
 #+Title: PATTERNS OF PATTERNS
 #+AUTHOR: É T A L E
 #+Date: June 14th 2021
+#+CATEGORY: ERG
 #+BIBLIOGRAPHY: /home/joe/pattern-reboot/main.bib
 #+HTML_HEAD: <script src="https://hypothes.is/embed.js" async></script>
 #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
@@ -34,6 +35,9 @@
 #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
 
 * Abstract
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 We introduce Inayatullah’s Causal Layered Analysis method from the
 field of futures studies into the domain of patterns.  We elaborate
 some “CLA patterns” and apply them to think about the future of the
@@ -45,13 +49,14 @@ In 1999, Christopher Alexander discussed the future of the pattern
 theory with an audience of programmers.  Here, we revisit that
 question using an established technique from future studies.
 
-Briefly, Inayatullah developed Causal Layered Analysis or CLA — building on earlier work by
-Slaughter cite:SLAUGHTER1989447 and a theoretical perspectives
-developed by Foucault and others — because he perceived that many
-efforts in the field of futures studies were often short on
-philosophical depth.  CLA is used to understand a developing issue of
-concern by looking at it across four layers of increasing depth, which
-are referred to as the /litany/, /system/, /worldview/, and /myth/.
+Briefly, Inayatullah developed Causal Layered Analysis or CLA —
+building on an earlier critique developed by Slaughter cite:SLAUGHTER1989447 and
+theoretical perspectives most closely associated with Foucault — because he
+perceived that many efforts in the field of futures studies were often
+short on philosophical depth.  CLA is used to understand a developing
+issue of concern by looking at it across four layers of increasing
+depth, which are referred to as the /litany/, /system/, /worldview/, and
+/myth/.
 
 Within our own distributed collaboration practices, we have combined
 design patterns, a light-weight review process called we call “the
@@ -201,7 +206,8 @@ progress would be made was somewhat less clear.
 
 To help make the CLA practicable as a /method/, we will now turn to five
 techniques that Inayatullah refers to as the /poststructural futures
-toolbox/.  Here, we treat them in the classical design pattern format.
+toolbox/.  Here, we rework his descriptions of these tools using the
+classical design pattern format.
 
 #+NAME: tabpatterns
 #+CAPTION: CLA introduced by example: a short story and a speed-through of the design patterns literature
@@ -221,9 +227,9 @@ toolbox/.  Here, we treat them in the classical design pattern format.
 *** DECONSTRUCTION
 <<DECONSTRUCTION>>
 
-- *Context*: A text: here meaning anything that can be critiqued — a movie, a book, a worldview, a person — something or someone that can be read.  (/NB/, every text has a /context/: much like every pattern has a context.)
+- *Context*: A text: here meaning anything that can be critiqued — a movie, a book, a worldview, a person — something or someone that can be read.  (/NB./, every text has a /context/: much like every pattern has a context.)
 - *Problem*: The existence of a ‘text’ suggests a *conflict* between (1) the notion of truth embedded in that text, and (2) the text itself as historically situated or positioned within relationships of power.
-- *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within or by the text? Which assuptions does the text make preferrable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show how it is contingent.
+- *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within or by the text? Which assuptions does the text make preferrable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show its contingent nature.
 
 # Example: ‘How did Howard’s interviews for Tools for Thought go?’
 # If people talk about ‘freedom’ we can try to find the assumptions
@@ -307,24 +313,31 @@ came up with the following template:
 4. What did we learn or change?
 5. What else should we change going forward?
 
-When we fill in the template, we call it a /PAR/.  The acronym has stood
-for various things over the years, but we feel it works best a
-stand-alone term — with reference to the corresponding concept in
-golf, we get a sense of how we’re doing.  Like the Army, we typically
-use PARs retrospectively (so, asking, “what /did/ we expect to learn or
-make together?”): but they can also be applied to look forward.  In
-that case, item #5 might be expanded to include a number of different
-scenarios.  Some further things to note:
+When we fill in the template, we call it “doing a /PAR”/.  As an
+acronym, “PAR” has stood for various things over the years —
+Peeragogical Action Review, Project Action Review — but it also works
+as a stand-alone term.  With reference to the corresponding concept in
+golf, the PAR gives us a sense of how we are doing at any given point
+in time.[fn:: “In golf, par is the predetermined number of strokes
+that a proficient golfer should require to complete a hole, a round
+(the sum of the pars of the played holes), or a tournament (the sum of
+the pars of each round).” — Wikipedia] Like the Army, we typically use
+PARs retrospectively (so, asking, “what /did/ we expect to learn or make
+together?”): but they can also be applied to look forward proactively,
+as a way to scaffold anticipation by “remembering the future”
+cite:arnkil2008remembering.  In that case, item #5 can be expanded to
+include a number of different forward-looking scenarios.
+Some further things to note at this stage:
 
-- PARs are related to patterns, although they don’t necessarily have
-  the ‘repeating’ aspect.  Nevertheless, they help us to understand
-  context, its problems and proposed solutions.  In this sense they
-  might be seen as a template for proto-patterns.
+- PARs are related to patterns, in that they describe a context, and
+  surface problems and solutions that arise in that context.  However,
+  they do not have a strong ‘repeating’ aspect.  They might be seen as
+  a template for proto-patterns.
 
-- In our collaborative practice, once when we have collected a
-  suitable number of PARs, we can use them as data for analysis with
-  CLA. Metaphorically, this ‘integrates’ the ‘tangent vectors’ that we
-  spotted when we were working together.
+- Once when we have collected a suitable number of PARs, we can use
+  them as data for analysis with CLA.  Metaphorically, CLA
+  ‘integrates’ the ‘tangent vectors’ that characterise the
+  observations we gather as we work together.
 
 * Background: Surveying the Pattern Languages literature
 
@@ -367,12 +380,12 @@ layers:
 - Implementation and outcomes :: Controlling, Flawed, Unsuccessful \newline\hfill /(e.g., “Patterns disallow radical solutions”)/
 
 By showing how the criticisms relate to one another, Dawes and Ostwald
-begin to develop a [[GENEALOGY][GENEALOGY]] at the level of critical perspectives.[fn::
-Let’s check: is this too much a stretch of what Inayatullah/Foucault
-said? -JC] In a parallel work they analyse the structure of /A Pattern
-Language/ cite:Dawes2018, and develop three alternative perspectives on
+begin to develop a [[GENEALOGY][GENEALOGY]] at the level of critical perspectives.
+At the very least the critiques they examine show that there is not just
+one pattern discourse, but many.  In a parallel work the same authors analyse
+the structure of /A Pattern Language/, and develop three alternative perspectives on
 /APL/'s contents, which they refer to as the *generalised*, *creator*, and
-*user* perspectives.  These perspectives amount to different techniques
+*user* perspectives cite:Dawes2018.  These perspectives amount to different techniques
 for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]].  We will elaborate at the next level.
 
 ** System: Systemic approaches and solutions (social system)
@@ -423,24 +436,22 @@ The original wiki technology functioned in a direct open-source mode,
 which allowed individuals to contribute small pieces to incrementally
 improve the whole.
 #+end_quote
-This is true — for some suitable definition of “open source” — but it
-could be misleading, in that there was little attention on the c2 wiki
-to licensing or collaborative revision of patterns.  Furthermore, when
-it came to user rights associated with the ‘finished’ patterns,
-discussions were to take place in “letters and replies”[fn::
-http://c2.com/ppr/titles.html] — whereas rights in the patterns
-themselves were more closely guarded.[fn::
-http://c2.com/ppr/about/copyright.html]
+This is true if by “open source” we understand /what you see when you click Edit/ — but
+the term is misleading relative to contemporary usage, which is usually linked with
+the Open Source Initiative’s definition, which centers on the premise that
+“Open source doesn’t just mean access to the source code.”[fn:: https://opensource.org/osd]
+On the c2 wiki, licensing was restrictive. Discussions were to take place in “letters and replies” rather than revision or annotation of the published patterns; rights associated with the finished patterns were closely guarded.[fn::
+http://c2.com/ppr/titles.html][fn:: http://c2.com/ppr/about/copyright.html]
 
 Although Wiki technology could in principle have been a site for
-ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of patterns, this didn’t seem to happen.  The
-fact that this didn’t happen is itself interesting and worth
-deconstructing.  Notably, there were only /four/ published “letters and
-replies”[fn:: http://c2.com/ppr/letters/index.html].  Unfortunately,
+ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of patterns, this didn’t seem to happen on c2.
+This is itself interesting and worth deconstructing a bit.  Notably, there were only /four/ published “letters and
+replies”.[fn:: http://c2.com/ppr/letters/index.html]  Unfortunately,
 we could not find a public archive of the “design patterns mailing
-list” where further discussions took place.
+list” where further discussions took place.  This is certainly
+suggestive of contingency.
 
-Over the years other issues and concerns came to the fore, notably
+Over the years, other issues and concerns came to the fore.
 Jenifer Tidwell’s charges against the Gang of Four (alongside other
 developer-centric pattern languages) resonate with what we saw in
 Dawes and Ostwald, above:
@@ -459,29 +470,22 @@ how can we say our building -- or our software -- is “good”? — http://www.
 # Example of Facebook being designed for ‘end’ users but there are actually many different users and ‘stakeholders’...
 
 Notice that now the /user/ of the designed artefact has entered the
-story as a different figure from the “user” of the pattern language
-who we met above.  Tidwell’s critique suggests at least a couple [[ALTERNATIVE PASTS AND
+story as a different figure from the user of the pattern language,
+whom we met above.  Tidwell’s critique suggests at least a
+couple [[ALTERNATIVE PASTS AND
  FUTURES][ALTERNATIVE PASTS AND FUTURES]]: e.g., what if the end-user had been
 placed at the centre the whole time?  Alternatively, what if the
 primary focus of patterns was to facilate interaction between
 different stakeholders?  The fact that Tidwell’s book
-cite:tidwell2010designing and an essay by Jans Borchers that draws
-inspiration from her critique cite:borchers2008pattern both have over
-1000 citations on Google Scholar shows that the thinking involved has
+cite:tidwell2010designing and an essay by Jans Borchers cite:borchers2008pattern
+which drew inspiration from her critique both have over
+1000 citations on Google Scholar shows that Tidwell’s perspective has
 been impactful.  To get a sense of how the pattern community has drawn
-from this critique and other similar kinds of concerns, we can look at
+from this critique and other similar concerns, we can look at
 how the writers workshops at PLoP have evolved over time.  In Table [[tabplop]] a
-selection of these titles show how the focus of PLoP evolved from
+selection of titles of workshop sessions show how the focus of PLoP evolved from
 primarily ‘programming’ oriented to a much broader contextual view
-over time.  Indeed, by 2019, the focus is almost exclusively
-‘contextual’.
-
-# (Comment here: Noorah’s points about customization as a way into
-# free software seem related to Tidwell’s ideas.)
-
-# https://designinginterfaces.com/firstedition/
-
-# #+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
+over time.  Indeed, by 2019, the focus is almost exclusively ‘contextual’.
 
 #+NAME: tabplop
 #+CAPTION: Evolution of PLoP Writers Workshop topics in selected years
@@ -790,19 +794,25 @@ of unfolding).[fn:: See also cite:bishop2020holistic.]
 <<Foreground>>
 
 Here, we present the concrete work of an active seminar, the Emacs
-Research Group, which was convened following EmacsConf 2020.  We have
-used CLA in combination with PARs to address the question ‘What is our
-vision for change and how is progress measurable?’.  More
-specifically, we did a PAR at the end of every (approximately weekly,
-two-hour) session, in order to surface and track key issues and
-concerns.  Then, every six weeks or so, we merged selected
-bullet-points from these PARs into the CLA outline, depending on which
-section they seemed to fit in best.  We also jointly revised a
-narrative elaborating those bullet points, and developed new TODO
-items that would make the /next steps/ in this seminar group both
-meaningful and actionable.  Here, we collate these next steps with
-known (or new) design patterns.  Accordingly, this section shows the
-three methods interoperating.
+Research Group, which was convened following EmacsConf 2020.[fn::
+https://emacsconf.org/2020/; the conference took place November 28th
+and 29th of 2020.]  Over the course of half a year of working
+together, we have used CLA in combination with PARs to address the
+question ‘What is our vision for change and how is progress
+measurable?’.  More specifically, we did a PAR at the end of every
+(approximately weekly, two-hour) session, in order to surface and
+track progress, key issues, and concerns.  Then, every six weeks or
+so, we merged selected bullet-points from these PARs into the CLA
+outline, depending on which section they seemed to fit best.  We also
+jointly revised a narrative elaborating those bullet points, and began
+to develop TODO items that would make the /next steps/ in this seminar
+group both actionable and meaningful.  We collate these next steps
+with known peeragogy design patterns like \textsc{Roadmap}
+(see http://peeragogy.org/top for a reworking of the /Peeragogy Handbook/ as
+a unified pattern language); we
+elaborate new patterns where there is no match for our current needs.
+Accordingly, this section illustrates how the three methods from
+Section [[methods]] can interoperate.
 
 ** Understanding data, headlines, empirical world (short term change)
 
@@ -852,10 +862,23 @@ running.
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
-*** TODO Come up with a categorical treatment of todo-categories :FORMALISE:X:
+*** TODO Come up with a categorical treatment of todo-categories :FORMALISE:
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
+*** FORMALISE
+<<FORMALISE>>
+- *Context*: In our work with project- and change-management
+  \textsc{Technologies} across a widely distributed
+  \textsc{Community}.
+- *Problem*: Using patterns, todo items, CLA, and PARs in an intuitive
+  manner is clearly workable at a small scale, but could become
+  chaotic when we scale up; this *conflicts* with our perspective that
+  these methods can be applied broadly.
+- *Solution*: Can we develop a more mathematically precise way to
+  describe this set of tools?  We might build on the earlier work of
+  Corneli et al. cite:Corneli2018 which describes patterns as
+  /conceptual blends/.
 ** Systemic approaches and solutions (social system)
 
 If we tackle big enough projects, it will bring with it the need for
@@ -896,12 +919,20 @@ on how things are going.
   :UNNUMBERED: t
   :END:
 # - To whom could we could present preliminary and intermediate results (e.g., some people who haven’t attended every session may want to have a summary to catch up).
-*** TODO Keep exploring!                                         :SERENDIPITY:X:
+*** TODO Keep exploring!                                         :SERENDIPITY:
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
 # - (In terms of the Peeragogy Heartbeat concept, we have some people holding the fort; in this sense we are doing fine in terms of turn-out at weekly meetings!)
 # - However, to make it ‘research’ we need to make sure we keep encountering the unexpected
+*** SERENDIPITY
+<<SERENDIPITY>>
+- *Context*: Within an ongoing research and development project.
+- *Problem*: The idea of planning *conflicts* with our experience that
+  reliance on plans can produce rigid behaviour and a corresponding
+  brittleness.
+- *Solution*: We adapt our plans to increase our /general/ preparedness, and adapt our strategy to decrease our reliance on accurate /forecasting/. This operationalises the ‘serendipity pattern’ described by Merton.[fn:: “The serendipity pattern refers to the fairly common experience of observing an unanticipated, anomalous and strategic datum which becomes the occasion for developing a new theory or for extending an existing theory… The datum is, first of all, unanticipated.  A research directed toward the test of one hypothesis yields a fortuitous by-product, an unexpected observation which bears upon theories not in question when the research was begun.  Secondly, the observation is anomalous, surprising, either because it seems inconsistent with prevailing theory or with other established facts.  In either case, the seeming inconsistency provokes curiosity…  And thirdly, in noting that the unexpected fact must be strategic, i.e., that it must permit of implications which bear upon generalized theory, we are, of course, referring rather to what the observer brings to the datum than to the datum itself.  For it obviously requires a theoretically sensitized observer to detect the universal in the particular.”]
+
 ** Worldview, ways of knowing and alternative discourse
 
 We have looked at RStudio and Roam Research as models of (some of) the
@@ -957,13 +988,25 @@ that.
   :UNNUMBERED: t
   :END:
 # - Inyatullah would want us to think critically about what we’re saying in this document.
-*** TODO Something to find and match peers/content                   :RECOMMENDER:X:
+*** TODO Something to find and match peers/content                   :RECOMMENDER:
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
 # - Harder to do soul-matching...
 # - It’s not just what they need to go but what you need to avoid (or, which half of the room?)
 # - Use the friend magnetism to attract people (GravPad?)
+*** RECOMMENDER
+<<RECOMMENDER>>
+- *Context*: Within our use of \textsc{Technologies} and materials we
+  could \textsc{Reduce, reuse, recycle}.
+- *Problem*: As the body of content grows, it can be harder to find
+  relevant material or the best collaborators in a global pool: this
+  *conflicts* with our desire to achieve excellence.
+- *Solution*: New software that can help surface relevant material and
+  opportunities would be useful.  Existing implementations include
+  “scrobbling” on Last.fm or buying recommended products on Amazon.
+  The same ideas can be adapted to free/libre/open source contents,
+  research, learning, and other domains.
 ** Myths, metaphors and narratives: imagined (longer term change)
 
 In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
@@ -991,10 +1034,28 @@ but may expand the frontier of possibility.
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
-*** TODO Figure out the gender balance stuff                     :DIVERSITY:X:
+*** TODO Figure out the gender balance stuff                     :DIVERSITY:
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
+*** DIVERSITY
+<<DIVERSITY>>
+- *Context*: Within a \textsc{Project}.
+- *Problem*: If we only collaborate within a relatively homogeneous
+  population of people who think like us this *conflicts* with our
+  desire to find new ideas and new solutions, and to make things that
+  are widely useful. At the same time, collaboration is easier when
+  share similar languages and literacies.  Sometimes, diversity is
+  absent for historical reasons rather than as a design principle,
+  e.g., within free software only about 5% of the participants are
+  female, whereas women occupy around 25% of computing occupations.
+- *Solution*: Look our for difference contexts in which to collaborate
+  with different people; they don’t all have to work on the same
+  project.  In cases where collaboration needs to be made tighter,
+  prefer ways of exchanging information and expertise with
+  \textsc{Newcomers} that makes the relationship one of peers rather
+  than a one-way hierarchy.  Understand the historical landscape
+  through techniques like [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].
 * Discussion
 
 We think that this tripartite workflow of /reflection/, /integration/, and
@@ -1075,16 +1136,16 @@ follows an outline with a striking similarity to a design pattern
 template.  Both Alexander and Schwartz advocate the identification of
 driving forces in a context.  However, unlike Alexander, Schwartz does
 not intend to resolve conflicts between the forces within a
-harmonising design.  On the contrary, the aim in scenario development
+harmonising design.  On the contrary, the aim in the scenario development
 method is to understand how these forces might evolve and lead to
 diverse scenarios.  As scenarios develop, they can serve as the ground
 for developing new design work in Alexander’s sense.
 
-In thinking about next steps, we can be aided by a few more patterns.
+In the foregoing sections, we used a method from future studies to think about design patterns.  We also think that design patterns can be very useful for scaffolding thinking about the future.  To assist in describing the next steps building on this work, we can be aided by a few more patterns.
 
 *** ROADMAP
 <<ROADMAP>>
-This resummarises the \textsc{Roadmap} pattern from cite:corneli2015a.
+(This resummarises the \textsc{Roadmap} pattern cite:corneli2015a.)
 
 - Context :: A group needs to coordinate its activities over a period of time.
 - Problem :: The landscape is complex and not completely knowable *BUT* adjustment to action based on feedback is possible;
@@ -1104,14 +1165,51 @@ This resummarises the \textsc{Roadmap} pattern from cite:corneli2015a.
 
 ** Future work
 
-Relative to the analysis, above, here are high-level TODO items
-collected from across the layers above, which we might suggest need
-further attention:
+Relative to the analysis and case study, here are high-level issues collected from across the layers we surveyed, which seem to need further attention.
 
-- Litany :: Develop a pattern language of critiques and flaws of the pattern method, elaborating the criticisms of Dawes and Ostwald and showing how and where these criticisms can be usefully applied, or where they are out of scope. One way to explore this would be via the [[PLAY TO ANTICIPATE THE FUTURE][PLAY TO ANTICIPATE THE FUTURE]] pattern, adapting a game like “Flaws of the Smart City” cite:friction2016a to develop a playful approach to engage with “Flaws of the Design Pattern Methodology”.
-- System :: Develop a pattern language of PLoP, more thoroughly reconstructing the thematic and historical development of the research to date and elaborating its next steps.  This is one place in which the [[ROADMAP][ROADMAP]] pattern would apply: in this case we would begin by building our roadmap for the future relative to the existing landscape. Also: build a technical system for working with patterns: here the \textsc{Reduce, Reuse, Recycle} cite:corneli2015a pattern is particularly relevant, as is the [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] pattern.  At a technical level, maybe this is something the Emacs Research Group could help design or deliver
-- Worldview :: Develop a pattern language of the philosophical commitments held by practitioners, building on the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] by helping understand that we are not necessarily living in “the same” world according to our different worldviews.
-- Myth :: Develop a catalogue of significant symbols used by practitioners. (It is not necessary — and indeed would be counterproductive — to develop a “Key to All Mythologies” in the sense of Edward Casaubon from Eliot’s /Middlemarch/!  However, it may be useful to redevelop pattern languages more formally along the lines of /The Glass Bead Game/.  In this way, pattern languages might become more developed tools for [[DECONSTRUCTION][DECONSTRUCTION]].)
+- Litany :: It could be useful to develop a pattern language of
+  critiques and flaws of the pattern method, elaborating the
+  criticisms collected by Dawes and Ostwald, and showing how and where
+  these criticisms can be usefully applied, or where they are out of
+  scope.  One way to explore this material would be via the [[PLAY TO ANTICIPATE THE FUTURE][PLAY TO
+  ANTICIPATE THE FUTURE]] pattern, adapting a game like “Flaws of the
+  Smart City” cite:friction2016a to develop a playful approach to
+  engage with “Flaws of the Design Pattern Methodology”.  To the
+  extent that we can [[FORMALISE][FORMALISE]] the objects under discussion, some of
+  these issues can be explored computationally.  So far, patterns have
+  been /discussed/ in explicitly computational terms, though that
+  direction of work seems to be mostly at the level of a proposal
+  (Alexander, 1999; Moran, 1971), within limited discipline-specific
+  uptake within architectural design (Jacobus, 2009; Oxman, 1994).
+  Can this change?
+- System :: Develop a pattern language of PLoP, more thoroughly
+  reconstructing the thematic and historical development of the
+  research to date and elaborating its next steps.  This is one place
+  in which the [[ROADMAP][ROADMAP]] pattern would apply: in this case the project
+  would begin by building our roadmap for the future relative to the
+  existing landscape, drawing on the [[GENEALOGY][GENEALOGY]] pattern. It would be
+  useful to have an improved a technical system for working with
+  patterns: here the \textsc{Reduce, Reuse, Recycle} cite:corneli2015a
+  pattern is particularly relevant, as is the [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]
+  pattern.  The Emacs Research Group could potentially help design
+  this system, along with downstream applications like a [[RECOMMENDER][RECOMMENDER]].
+- Worldview :: Develop a pattern language of the philosophical
+  commitments held by practitioners, using [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND
+  FUTURES]] to bring out the fact that we are not necessarily living in
+  “the same” world, according to our different worldviews, and to use
+  this to enhance [[DIVERSITY][DIVERSITY]] of thought.  Some friction is likely to
+  come up when we run into different kinds of tool use.  Perhaps the
+  metaphor of /interoperability/ from Clojure could be helpful in
+  sorting some of these things out.
+- Myth :: Develop a catalogue of significant symbols used by
+  practitioners.  Notice that apart from being an experience or
+  mindset [[SERENDIPITY][SERENDIPITY]] is also a way of narrating and thinking about
+  experience, and that these skills are teachable.  The increasingly
+  contextual and transdisciplinary nature of the discussions at PLoP
+  and other venues suggest that it may be time to redevelop pattern
+  language methods more formally along the lines of /The Glass Bead
+  Game/.  [[DECONSTRUCTION][DECONSTRUCTION]] and other elements of the poststructural
+  futures toolbox could be useful here.
 
 * Conclusion
 We conclude with a PAR for the paper as a whole.
@@ -1125,13 +1223,13 @@ We conclude with a PAR for the paper as a whole.
 - We then zoomed in on a concrete case study that connected CLA with PARs and patterns.
 - Lastly, we connected our observations with some broader literature on future studies to propose some directions for future work.
 *3. What are some different perspectives on what’s happening?*
-- JC: I did most of the hands-on-the-keyboard writing up to 11/06/2021, aided by frequent and detailed discussions with Ray, and an editorial perspective added by Charlie.
+- JC: I did most of the hands-on-the-keyboard writing up to 11/06/2021, aided by frequent and detailed discussions with Ray, and an editorial perspective added by Charlie.  We went over the material in depth and there are lots of notes that didn’t make it into the paper!  I’m looking forward to discussing the content with ERG.
 -
 -
 *4. What did we learn or change?*
-- Relative to our earlier work where we attempted to use present patterns to the futures community, this seems much more mature.  It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.  In contrast to the vision of Alexander, this one is more humanistic in nature.
+- Relative to an earlier preprint where we attempted to describe patterns to the futures community, this seems much more mature.  It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.  In contrast to the vision of Alexander, this one is more humanistic in nature.
 *5. What else should we change going forward?*
-- We will have to see whether PLoP accepts any of our proposals; both as a submission for PLoP 2021, and, more broadly as a way of working.
+- We will have to see whether PLoP accepts any of our proposals; both as a submission for PLoP 2021, and, more speculatively, as a way of working.
 
 * OUTTAKES: Additional narrative                                  :noexport:
 In somewhat dryer terms — which would be familiar within an
@@ -1186,6 +1284,11 @@ supportive.  After introducing our methods in more detail, we will
 develop a Causal Layered Analysis of the patterns discourse, and then
 discuss some of the implications for practice.
 * OUTTAKES: Raw materials for discussion                          :noexport:
+
+(Comment here: Noorah’s points about customization as a way into
+free software seem related to Tidwell’s ideas.)
+
+https://designinginterfaces.com/firstedition/
 
 # To recapitulate our progress so far, we have Surface: Patterns have lots of problems.
 # - SYSTEMS: What re the (social) causes  for how we got here? — Architecture by collaborative design, Programs
