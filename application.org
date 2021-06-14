@@ -34,6 +34,7 @@
 #+LATEX_HEADER: \paragraphfont{\normalfont\selectfont}
 #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black!50}}
 
+\clearpage
 * Abstract
 :PROPERTIES:
 :UNNUMBERED: t
@@ -41,16 +42,40 @@
 We introduce Inayatullah’s Causal Layered Analysis method from the
 field of futures studies into the domain of patterns.  We elaborate
 some “CLA patterns” and apply them to think about the future of the
-pattern theory.  We discuss our findings relative to other concrete
-activities in linked collaborative research and development projects
-that we are involved with.
+pattern theory.  We develop a case study that uses CLA together with
+patterns in collaborative research, and discuss implications for other
+research and innovation projects.
 * Introduction
 In 1999, Christopher Alexander discussed the future of the pattern
 theory with an audience of programmers cite:alexander1999a.  Here, we
 revisit the questions he asked using an established technique from
-future studies.  We develop our analysis through a survey and a case
-study.  We then discuss the implications of our analysis relative to a
-problem of global concern.
+future studies.
+
+** Summary of findings
+
+Design patterns provide a general-purpose design methodology
+cite:Corneli2018: however, the high-level evolution of this method in
+response to criticism, innovation, technical developments, and
+long-term cultural change has not been previously studied in an
+integrated manner.  We use Causal Layered Analysis
+cite:inayatullah1998b,inayatullah2004causal to surface the direction
+of travel of pattern language methods, drawing on foundational
+literature and empirical observation.  We identify trends towards
+transdisciplinary thinking and large-scale collaboration, and connect
+Alexander’s views on wholeness with the Nietzschean metaphysical
+tradition.
+
+This analysis provides the background for a case study on recent
+developments within a peer learning network.  Specifically, we focus
+in on the project planning and management techniques used in a seminar
+about the multivalent relationship between the Emacs editor and
+research.  We describe how we have used patterns together with other
+methods to develop a sense of direction for the project, and to help
+it interoperate with related efforts.  This case study provides a
+detailed practical example that other projects across the pattern
+language space may wish to emulate.  We develop this perspective in a
+discussion of several potential scenarios for the future of
+pattern-theoretic work.
 
 ** Outline of methods
 
@@ -84,6 +109,11 @@ use to discuss matters of design and serve as a repository of shared
 knowledge.
 
 Each of the three methods adds a diffferent element to the mix:
+
+# empirical, depth of analysis, actionability to overcome a sense of being stuck at the level of problems !
+# Maybe if you add this
+
+# CONTEXT, PROBLEM, SOLUTION — how do you actually write a pattern? Not just ‘running a workshop’
 
 - PAR provides the /sensory element/ of systematically gathered
   observational data and verification.  Thus, our analyses are more
@@ -133,32 +163,23 @@ which we identified in our meta-review.
 
 ** Outline of Implications
 
-In Section [[Discussion]] we look back over the survey and case study
-and draw out some implications for the future of design patterns.
+In Section [[Discussion]] we look back over the survey and case study and
+draw out some implications for the future of design patterns.
 Specifically, we examine the well-established problem of anthropogenic
 climate change, and look at how it has been discussed to date by
 patterns and CLA practitioners.  We suggest that the integrated
-strategy we propose could lead to more satisfactory outcomes.  In
-Section [[Conclusion]] we present a PAR for the paper as a whole: this
-is offered as an example of a ‘best practice’ for pattern authors.  In
-précis, our findings can be summarised as follows:
-
-[JC: Just doing some sketching here to provide a place to sum up our key findings.]
-
-*** PAR 1
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-1. Humans and other living beings are capable of learning creative ways to overcome frequent and unpleasant difficulties.  Because the notion of “need” is hard to fully pin down, as a working assumption we will follow Alexander and “replace the idea of need by the idea of what people are trying to do” cite:alexander1970a.  However, we will cross-check our work against an established catalogue of needs in an Appendix.
-2. In a world in which living beings are out of balance with the systems they live in, they cannot survive.
-3. We can upgrade our abilities to engage with damaging historical legacies.
-4. Difficulties will inevitable resurge due to the complex nature of the world we are living in.
-5. Our ability to deal with problems on the small scale of ‘case studies’ can be hooked up with the large scale of ‘historical trends’.
+strategy we propose could lead to more satisfactory outcomes on
+problems at this scale.  We look at four scenarios for the future
+development of pattern-theoretic methods.  In Section [[Conclusion]] we
+present a PAR for the paper as a whole: this is offered as an example
+of a potential ‘best practice’ for pattern authors, on the view that
+widespread adoption of this method would help improve collaboration
+within the design patterns community.
 
 * Methods
 <<methods>>
 ** Design Patterns
-LET’S BEGIN by setting to one side any specialist notion of ‘patterns’
+Let’s begin by setting to one side any specialist notion of ‘patterns’
 that we may have in mind, and think about patterns in a fundamental
 way.  Some patterns repeat in /space/, some in /time/, some in both /space
 and time/: a tiling, a beat, a wave.  In the physical world, it would
@@ -182,7 +203,7 @@ Integral to the basic concept of a design pattern is a third feature
 that describes the interaction of the community and the context.  The
 community uses the pattern to overcome some real or potential /conflict/
 that they experience within this context.  The conflict is also
-referred to as a /problem/; its resolution is described a /solution/.
+referred to as a /problem/; its resolution is described as a /solution/.
 
 Alexander and Poyner emphasised that ‘design’ is not needed when the
 conflict can be resolved in an obvious or straightforward manner.  For
@@ -1087,8 +1108,7 @@ Along these lines, here are four scenarios of interest, roughly pegged
 to the four layers of CLA.  On that note, we should emphasise that
 these scenarios are not mutually exclusive.
 
-\medskip
-*I.* Patterns have periodically been discussed in explicitly
+\medskip *I.* Patterns have periodically been discussed in explicitly
 computational terms — however, that direction of work so far remains
 mostly at the level of a proposal cite:alexander1999a,moran1971a, with
 limited discipline-specific uptake within architectural design
@@ -1096,12 +1116,13 @@ cite:jacobus2009a,OXMAN1994141.  Could this change?  We wonder if
 design patterns — and related designs for Ostrom-style institutions
 cite:ostrom2009a (p. 11) — should be brought onto a similar
 computational footing, and included in the computational mix within
-climate modelling software.
+climate modelling software.  These developments might be accompanied
+by more mathematical precision along the lines of our [[FORMALISE][FORMALISE]] pattern.
 
 \medskip
 *II.* In the field of policy, ‘adaptive capacity’ describes a society’s
 ability to recover after a shock
-cite:jones2010responding,lemos2013building,thonicke2020advancing,tinch2015applying,magnan2010better.
+cite:thonicke2020advancing,magnan2010better.
 This in turn is linked with the health and adaptivity of the society’s
 institutions cite:fidelman2017institutions.  As we saw earlier,
 innovation conflicts with consistency and efficacy — however,
@@ -1113,25 +1134,32 @@ under CC BY-SA 4.0.  Will other pattern developers follow suit and
 move to open licensing — and suitable infrastructures for working with
 open contents?
 
-\medskip *III.* As we’ve seen in our work with Emacs, PlanetMath,
-Peeragogy — as with other free/libre/open source projects — access to
-source code is in fact very far from being enough for a project to
-thrive.  We see a link to the topic of reproducible research:
-something is "reproducible" if it is teachable to someone new!  We’ve
-found that Org Mode (and literate programming in general) are useful
-for this.  At the same time, collaboration across different skill sets
-is challenging.  While our collaboration is already interdisciplinary,
-but what about working to support future collaborations between
-scenario planners, simulation scientists, and local farmers, etc.?
-This will require some new thinking and new tools, e.g., bridging
-between the viewpoints of futurists, programmers, data scientists.
+# add refs to reproducible research papers
+# add refs to Minnesota 2050 paper
+# Maybe add a comment saying these people were ‘sort of’ working together (in different rooms)
 
-\medskip
-*IV.* The increasingly contextual and transdisciplinary nature of the
-discussions at PLoP and other venues suggest that it may be time to
-redevelop pattern language methods more formally — perhaps along the
-lines of Hesse’s /The Glass Bead Game/.  This is a fitting reference at
-the level of “metaphor and myth”:
+\medskip *III.* As we’ve seen in our work with Emacs, PlanetMath,
+Peeragogy — as with other free/libre/open source projects — projects
+need a lot more than source code to thrive.  We see a link to
+the topic of reproducible research.  Above and beyond the technical
+considerations cite:sandve2013ten, we think that something is “reproducible” if it
+is teachable to someone new!  We’ve found Org Mode (and literate
+programming in general) to be useful for this.  At the same time,
+collaboration across different skill sets is challenging.  Already in
+the Minnesota 2050 project, participants were selected from a variety
+of professions and leadership roles to produce scenarios for energy
+and land use, and combined modelling with scenario planning
+cite:olabisi2010.  However, actually solving large-scale problems together in
+interdisciplinary teams will require new thinking and additional tools: to
+bridge between the viewpoints of, e.g., professional futurists,
+programmers, data scientists, local farmers — and to draw on the
+insights of citizen scientists cite:wildschut2017a.
+
+\medskip *IV.* Reflecting on the increasingly contextual and
+transdisciplinary nature of the discussions at PLoP and other venues,
+along with the other points above, brings to mind Hesse’s /The Glass
+Bead Game/.  This reference can help tie these points together at the
+level of myth, metaphor, and narrative:
 #+begin_quote
 ... the narrator informs us that the Game is like a universal
 language: a way of connecting traditions and cultures from both the
@@ -1149,6 +1177,9 @@ Bead Game/, everyone is able to play, but only some become excellent.
 Related issues show up in our current technological culture
 cite:unger2019knowledge — how do they show up in the cultures we might
 envision?
+
+# maybe reference the Bloom’s 2 Sigma problem here
+# Only half of the students will make it to the end of the course and only half of those get A’s
 
 \medskip Our vision for change is that all of these scenarios will be
 given serious thought.  Progress will become measurable partly by
@@ -1175,9 +1206,11 @@ We conclude with a PAR for the paper as a whole.
 - Relative to an earlier preprint where we attempted to describe patterns to the futures community, this seems much more mature.  It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.  In contrast to the vision of Alexander, this one is more humanistic in nature.
 *5. What else should we change going forward?*
 - We will have to see whether PLoP accepts any of our proposals; both as a submission for PLoP 2021, and, more speculatively, as a way of working.
-- We believe we have an answer to Alexander’s question.  We’re not sure he’ll like it.  The ‘Chartres of programming’ has been hidden in plain view all along.  Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way (p. 10), and pattern languages are the same sort of thing.
+- We believe we have an answer to Alexander’s question.  We’re not sure he’ll like it.  The ‘Chartres of programming’ has been hidden in plain view all along.  Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way (p. 10); pattern languages are the same sort of thing.
 
-* APPENDIX: Max-Neef needs                                          :ignore:
+* APPENDIX: Max-Neef needs                                          :noexport:
+Because the notion of “need” is hard to fully pin down, as a working assumption we will follow Alexander and “replace the idea of need by the idea of what people are trying to do” cite:alexander1970a.  However, we will cross-check our work against an established catalogue of needs in an Appendix.
+
 #+BEGIN_LATEX
 \newpage
 \begin{landscape}
