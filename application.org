@@ -1116,14 +1116,13 @@ fundamental princples, per /ANO/): these are associated with Hestia.
 The resolution within pattern language — as a form — seems to be along
 Nietzschean lines: “anything that is becoming returns” (i.e., is
 discussable as pattern), and “contingency resolves itself into
-necessity” (i.e., the wholeness of generativity recovers the wholeness
+necessity” (i.e., the wholeness of generativity ultimately recovers the wholeness
 of unfolding).[fn:: For further reflections on Nietzsche and wholeness, see cite:bishop2020holistic.]
 
 * Discussion
 <<Discussion>>
 
-Anthropogenic climate change is a situation of major global concern:
-it has been examined separately by proponents of both CLA and DPL.  We
+Anthropogenic climate change is a situation of major global concern. It comes as no surprise that it has been examined separately by proponents of both CLA and DPL.  We
 use this recent history to frame future work building on the survey
 and case study developed above.
 
@@ -1185,19 +1184,22 @@ Along these lines, here are four scenarios of interest, roughly pegged
 to the four layers of CLA.  On that note, we should emphasise that
 these scenarios are not mutually exclusive.
 
-\medskip *I.* Patterns have periodically been discussed in explicitly
-computational terms — however, that direction of work so far remains
-mostly at the level of a proposal cite:alexander1999a,moran1971a, with
+\medskip *I. (Patterns become explicitly computational.)* Patterns
+have periodically been discussed in explicitly computational
+terms — however, that direction of work so far remains mostly
+at the level of a proposal cite:alexander1999a,moran1971a, with
 limited discipline-specific uptake within architectural design
-cite:jacobus2009a,OXMAN1994141.  Could this change?  We wonder if
-design patterns — and related designs for Ostrom-style institutions
-cite:ostrom2009a (p. 11) — should be brought onto a similar
-computational footing, and included in the computational mix within
-climate modelling software.  These developments might be accompanied
-by more mathematical precision along the lines of our [[FORMALISE][FORMALISE]] pattern.
+cite:jacobus2009a,OXMAN1994141.  Could this change?  We wonder
+if design patterns — and related designs for Ostrom-style
+institutions cite:ostrom2009a (p. 11) — should be brought onto
+a similar computational footing, and included in the
+computational mix within climate modelling software.  These
+developments might be accompanied by more mathematical
+precision along the lines of the [[FORMALISE][FORMALISE]] pattern, e.g.,
+drawing on ideas from contract-based programming.
 
 \medskip
-*II.* In the field of policy, ‘adaptive capacity’ describes a society’s
+*II. (Pattern languages become fully open source.)* In the field of policy, ‘adaptive capacity’ describes a society’s
 ability to recover after a shock
 cite:thonicke2020advancing,magnan2010better.
 This in turn is linked with the health and adaptivity of the society’s
@@ -1215,28 +1217,33 @@ open contents?
 # add refs to Minnesota 2050 paper
 # Maybe add a comment saying these people were ‘sort of’ working together (in different rooms)
 
-\medskip *III.* As we’ve seen in our work with Emacs, PlanetMath,
-Peeragogy — as with other free/libre/open source projects — projects
-need a lot more than source code to thrive.  We see a link to
-the topic of reproducible research.  Above and beyond the technical
-considerations cite:sandve2013ten, we think that something is “reproducible” if it
-is teachable to someone new!  We’ve found Org Mode (and literate
-programming in general) to be useful for this.  At the same time,
-collaboration across different skill sets is challenging.  Already in
-the Minnesota 2050 project, participants were selected from a variety
-of professions and leadership roles to produce scenarios for energy
-and land use, and combined modelling with scenario planning
-cite:olabisi2010.  However, actually solving large-scale problems together in
-interdisciplinary teams will require new thinking and additional tools: to
-bridge between the viewpoints of, e.g., professional futurists,
-programmers, data scientists, local farmers — and to draw on the
-insights of citizen scientists cite:wildschut2017a.
+\medskip *III. (DPL, CLA, and PARs scaffold widespread
+computational literacies and collaboration.)* As we’ve seen in
+our work with Emacs, PlanetMath, Peeragogy — as with other
+free/libre/open source projects — projects need a lot more than
+source code to thrive.  We see a link to the topic of
+reproducible research.  Above and beyond the immediate
+technical considerations cite:sandve2013ten, we think that
+something is “reproducible” if it is teachable to someone new!
+We’ve found Org Mode (and literate programming in general) to
+be useful for this.  At the same time, collaboration across
+different skill sets is challenging.  In the Minnesota 2050
+project, participants were selected from a variety of
+professions and leadership roles to produce scenarios for
+energy and land use, and combined modelling with scenario
+planning cite:olabisi2010.  However, actually solving
+large-scale problems together in interdisciplinary teams will
+require new thinking and additional tools: to bridge between
+the viewpoints of, e.g., professional futurists, programmers,
+data scientists, local farmers — and to draw on the insights of
+citizen scientists cite:wildschut2017a.
 
-\medskip *IV.* Reflecting on the increasingly contextual and
-transdisciplinary nature of the discussions at PLoP and other venues,
-along with the other points above, brings to mind Hesse’s /The Glass
-Bead Game/.  This reference can help tie these points together at the
-level of myth, metaphor, and narrative:
+\medskip *IV. (Patterns eat Big Tech.)* Reflecting on the
+increasingly contextual and transdisciplinary nature of the
+discussions at PLoP and other venues, along with the other
+points above, brings to mind Hesse’s /The Glass Bead Game/.  This
+reference can help tie these points together at the level of
+myth, metaphor, and narrative:
 #+begin_quote
 ... the narrator informs us that the Game is like a universal
 language: a way of connecting traditions and cultures from both the
@@ -1244,24 +1251,37 @@ East and the West and of playing with all disciplines and
 values. cite:roberts2007conscientisation
 #+end_quote
 For those who are familiar with the novel, this reference also
-suggests: proceed with caution.  How hierarchical do we want our
-community, or our society, to be?  How critical are we capable of
-being towards the tenets we hold dear?  When reflecting on
-futures-oriented discourses, Slaughter described these as sitting on a
-spectrum: “participatory and open at one pole and closed (or
-professionalised) at the other” cite:SLAUGHTER1989447.  In /The Glass
-Bead Game/, everyone is able to play, but only some become excellent.
-Related issues show up in our current technological culture
-cite:unger2019knowledge — how do they show up in the cultures we might
-envision?
+suggests: proceed with caution.  How hierarchical do we want
+our community, or our society, to be?  How critical are we
+capable of being towards the tenets we hold dear?  When
+reflecting on futures-oriented discourses, Slaughter described
+these as sitting on a spectrum: “participatory and open at one
+pole and closed (or professionalised) at the other”
+cite:SLAUGHTER1989447.  In /The Glass Bead Game/, everyone is
+able to play, but only some become excellent.  Related issues
+show up in our current technological culture
+cite:unger2019knowledge — how do they show up in the cultures
+we might envision?  With due care patterns might become the basis
+of widespread technical literacies, not for an elite group of
+hackers or for a few highly-paid rockstars, but for everyone.
 
 # maybe reference the Bloom’s 2 Sigma problem here
 # Only half of the students will make it to the end of the course and only half of those get A’s
 
-\medskip Our vision for change is that all of these scenarios will be
-given serious thought.  Progress will become measurable partly by
-citations to this paper!  If the ideas we have considered became part
-of a shared outlook, many more things will start to move more quickly.
+\medskip Our /vision for change/ is that all of these scenarios
+will be given serious thought.  /Progress/ will become measurable
+partly through citations to this paper, and other markers of
+robust debate!  If the ideas we have considered became part of
+a shared outlook, many more things will start to move more
+quickly.
+
+* Related work
+TBA.
+
+- Alexander himself in /Synthesis of Form/
+- Anything recent from PLoP
+- Technical things that are like design patterns, e.g.,
+  contracts, ZKs
 
 * Conclusion
 <<Conclusion>>
