@@ -39,21 +39,24 @@
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-We introduce Inayatullah’s Causal Layered Analysis method from the
-field of futures studies into the domain of patterns.  We elaborate
-some “CLA patterns” and apply them to think about the future of the
-pattern theory.  We develop a case study that uses CLA together with
-patterns in collaborative research, and discuss implications for other
-research and innovation projects.
+We introduce Inayatullah’s Causal Layered Analysis method (CLA)
+from the field of futures studies into the domain of patterns.
+We elaborate some “CLA patterns” and apply them to think about
+the future of the pattern theory.  We develop a case study that
+uses CLA together with patterns in collaborative research, and
+discuss implications for other research and innovation
+projects.
 * Introduction
-In 1999, Christopher Alexander discussed the future of the pattern
-theory with an audience of programmers cite:alexander1999a.  Here, we
-revisit the questions he asked using an established technique from
-future studies.  The contribution in this paper is both methodological
-— demonstrating how future studies and patterns methods can be combine
-— and also constructively-critical, since when the analysis we develop
-points to issues that the design pattern community will wish to
-consider as it shapes its own further development.
+In 1999, Christopher Alexander discussed the future of the
+pattern theory with an audience of programmers
+cite:alexander1999a.  Here, we revisit the questions he asked
+using an established technique from future studies.  The
+contribution in this paper is both methodological —
+demonstrating how future studies and patterns methods can be
+combined — and also constructively-critical, since when the
+analysis we develop points to issues that the design pattern
+community will wish to consider as it shapes its own further
+development.
 
 ** Outline of Methods
 
@@ -128,33 +131,36 @@ interoperate well with related efforts.  This case study provides a
 detailed practical example that other projects across the pattern
 language space may wish to emulate (or adapt) in their settings.
 
-In Section [[Ground]], we use CLA to survey and analyse design patterns
-methods more broadly.  DPL provide a general-purpose design
-methodology cite:Corneli2018: however, the high-level evolution of
-this method in response to criticism, innovation, technical
-developments, and long-term cultural change has not been previously
-studied in an integrated manner.  Causal Layered Analysis allows us to
-surface the direction of travel of pattern language methods, drawing
-on foundational literature and empirical observation.  We identify
-trends within the pattern discourse towards transdisciplinary thinking
-and large-scale collaboration; and we connect Alexander’s views on
-wholeness with the evolution of Western philosophical thought.  This
-in turn has implications for the way we think about pattern languages.
+In Section [[Ground]], we use CLA to survey and analyse design
+patterns methods more broadly.  DPL provide a general-purpose
+design methodology cite:Corneli2018: however, the high-level
+evolution of this method in response to criticism, innovation,
+technical developments, and long-term cultural change has not
+been previously studied in an integrated manner.  Causal
+Layered Analysis allows us to surface the direction of travel
+of pattern language methods, by helping us integrate
+foundational with empirical observation.  We identify trends
+within the pattern discourse towards transdisciplinary thinking
+and large-scale collaboration; and we connect Alexander’s
+concept of /wholeness/ with the broader evolution of Western
+philosophical thought.  This, in turn, shapes the way we think
+about what pattern languages can do.
 
 ** Outline of Implications
 
-In Section [[Discussion]], we look back over the case study and survey, to
-draw out some implications for the future of design patterns.
-Specifically, we look at how these methods have been applied
-(separately) to the well-established problem of anthropogenic climate
-change.  We suggest that the integrated strategy we propose could lead
-to more satisfactory outcomes on problems at this scale.  We then
-develop four scenarios for the possible future development of
-pattern-theoretic methods.  In Section, [[Conclusion]] we present a PAR
-for the paper as a whole: this is offered as an example of a potential
-‘best practice’ for pattern authors, on the view that widespread
-adoption of this method would help improve collaboration within the
-design patterns community.
+In Section [[Discussion]], we look back over the case study and
+survey, to draw out implications for the future of design
+patterns.  We look at how DPL and CLA have been applied
+(separately) to the well-established problem of anthropogenic
+climate change.  We suggest that the integrated strategy we
+propose could lead to more satisfactory outcomes on problems at
+this scale.  We then develop four scenarios for the possible
+future development of pattern-theoretic methods.  In Section,
+[[Conclusion]] we present a PAR for the paper as a whole: this is
+offered as an example of a potential ‘best practice’ for
+pattern authors, on the view that widespread adoption of this
+method would help improve collaboration within the design
+patterns community.
 
 * Methods
 <<methods>>
@@ -393,51 +399,55 @@ Some further things to note at this stage:
 * Case study: Planning “Season 1” for the Emacs Research Group
 <<Figure>>
 
-This section summarises the concrete application of the methods from
-Section [[methods]] within an active seminar, the Emacs Research Group,
-which was convened following EmacsConf 2020.[fn::
-https://emacsconf.org/2020/; the conference took place November 28th
-and 29th of 2020.]  We illustrates how the three methods introduced
-above interoperate.  In our case, this analysis has allowed us develop
-a trajectory for the project: as a case study, it gives a reasonably
-self-contained example.  We refer to work carried out up to this point
-as *Season 0*, on the view that our thinking has developing
-rhizomatically, underground, rather than fully in the public sphere.
-As such, this analysis also constitutes a soft launch for the project,
-contextualising our work relative to the PLoP and Peeragogy
-communities, and the wider DPL discourse.
+This section summarises the concrete application of the methods
+from Section [[methods]] within an active seminar, the Emacs
+Research Group, which was convened following EmacsConf
+2020.[fn:: https://emacsconf.org/2020/; the conference took
+place November 28th and 29th of 2020.]  We illustrates how the
+three methods introduced above interoperate.  In our case, this
+analysis has allowed us develop a trajectory for the project:
+as a case study, it gives a reasonably self-contained example.
+We refer to work carried out up to this point as *Season 0*, on
+the view that our thinking has developing rhizomatically,
+underground, rather than fully in the public sphere.  This
+analysis contextualise our work relative to the PLoP and
+Peeragogy communities, and the wider DPL discourse.
 
-During 25 sessions spread over approximately half a year, we have used
-CLA in combination with PARs to address the question ‘What is our
+During 25 sessions of our seminar to date, we have used CLA in
+combination with PARs to address the question ‘What is our
 vision for change and how is progress measurable?’.  More
-specifically: we did a PAR at the end of every (approximately weekly,
-two-hour) session.[fn:: Data archived at
-https://github.com/exp2exp/exp2exp.github.io, with meeting notes and
-PARs indexed and viewable on the web at
-https://exp2exp.github.io/erg.]  This allowed us to track progress,
-and to surface key issues and concerns.  Then, every six weeks or so,
-we merged selected bullet-points from these PARs into the CLA outline,
-depending on which section they seemed to fit best.  We then jointly
-elaborated those bullet points into a narrative form, and began to
-develop TODO items that would make the /next steps/ for this seminar
-group both actionable and meaningful.[fn:: The Peeragogy approach to
-patterns is aligned with the feminist principle is that /all knowledge
-is incomplete/
+specifically: we did a PAR at the end of every (approximately
+weekly, two-hour) session.[fn:: Data archived at
+https://github.com/exp2exp/exp2exp.github.io, with meeting
+notes and PARs indexed and viewable on the web at
+https://exp2exp.github.io/erg.]  This allowed us to track
+progress, and to surface key issues and concerns.  Then, every
+six weeks or so, we merged selected bullet-points from these
+PARs into the CLA outline, depending on which section they
+seemed to fit best.  We then jointly elaborated those bullet
+points into a narrative form, and began to develop TODO items
+that would make the /next steps/ for this seminar group both
+actionable and meaningful.[fn:: The Peeragogy approach to
+patterns is aligned with the feminist principle is that /all
+knowledge is incomplete/
 (https://mitpress.podbean.com/e/experiments-in-open-peer-review/,
-minute 5).  A “living” patterns is attached to next steps that would
-help to realise the pattern within a context; when we don’t have any
-next steps, we put the pattern in a \textsc{Scrapbook}.]  We collate
-these next steps with known peeragogy design patterns like
-\textsc{Roadmap} cite:peeragogy-handbook-long.[fn:: See
-http://peeragogy.org/top for a reworking of the /Peeragogy Handbook/ as
-a unified pattern language, which extends the earlier presentation in
-cite:patterns-of-peeragogy.] We elaborate new patterns where there is no match
-for our current needs; one per CLA section: [[FORMALISE][FORMALISE]], [[SERENDIPITY][SERENDIPITY]],
-[[RECOMMENDER][RECOMMENDER]] and [[DIVERSITY][DIVERSITY]].  We also cross-reference each of the TODO
-items with the most closely associated patterns from the
-poststructural futures toolbox from Section [[CLA_patterns]].  This shows
-how the lines of thinking that underpins the CLA can inform further
-action.
+minute 5).  A “living” patterns is attached to next steps that
+would help to realise the pattern within a context; when we
+don’t have any next steps, we put the pattern in a
+\textsc{Scrapbook}.]  We collate these next steps with known
+peeragogy design patterns like \textsc{Roadmap}
+cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top
+for a reworking of the /Peeragogy Handbook/ as a unified pattern
+language, which extends the earlier presentation in
+cite:patterns-of-peeragogy.] We elaborate new patterns where
+there is no match for our current needs; one per CLA section:
+[[FORMALISE][FORMALISE]], [[SERENDIPITY][SERENDIPITY]], [[RECOMMENDER][RECOMMENDER]] and [[DIVERSITY][DIVERSITY]].  We also
+cross-reference each of the TODO items with the most closely
+associated patterns from the poststructural futures toolbox
+from Section [[CLA_patterns]].  This shows how the lines of
+thinking that underpins the CLA method can inform further
+action: *Season 1* will be shaped by this narrative and the
+corresponding TODO items.
 
 ** Understanding data, headlines, empirical world (short term change)
 
@@ -518,18 +528,19 @@ see further details in the [[FORMALISE][FORMALISE]] pattern.
   /conceptual blends/.
 ** Systemic approaches and solutions (social system)
 
-If we tackle big enough projects, it will bring with it the need for
-collaboration.  We like to create tangible deliverables (e.g., journal
-articles).  However, “If we knew what the outcome was it wouldn’t be
-research” — therefore, we’re focusing initially on /research methods/
-and /design documents/.  That may mean it takes us a bit longer to write
-our first paper, but when we get something out it will be good.
-Meanwhile we’re also keeping sharp by fixing bugs, filing issues,
-improving our own workflows, and actively exploring the landscape.  We
-want to keep a role for serendipity here, which adds the requirement
-that our planning process remain open and flexible: including to
-various disciplinary methods, and especially to change as we reflect
-on how things are going.
+If we tackle big enough projects, it will bring with it the
+need for collaboration.  We like to create tangible
+deliverables (e.g., journal articles).  However, “If we knew
+what the outcome was it wouldn’t be research” — therefore,
+we’re focusing initially on /research methods/ and /design
+documents/.  That may mean it takes us a bit longer to write our
+first paper, but when we get something out it will be good.
+Meanwhile we’re also keeping sharp by fixing bugs, filing
+issues, improving our own workflows, and actively exploring the
+landscape.  We want to keep a role for serendipity here, which
+adds the requirement that our planning process remain open and
+flexible: including to various disciplinary methods, and
+especially to change as we reflect on how things are going.
 
 *** TODO Identify potential stakeholders in Emacs Research       :Community:
   :PROPERTIES:
@@ -683,11 +694,12 @@ in the [[RECOMMENDER][RECOMMENDER]] pattern.
 - *Problem*: As the body of content grows, it can be harder to find
   relevant material or the best collaborators in a global pool: this
   *conflicts* with our desire to achieve excellence.
-- *Solution*: New software that can help surface relevant material and
-  opportunities would be useful.  Existing implementations include
-  “scrobbling” on Last.fm or buying recommended products on Amazon.
-  The same ideas can be adapted to free/libre/open source contents,
-  research, learning, and other domains.
+- *Solution*: New software that can help surface relevant
+  material and opportunities would be useful.  Existing
+  implementations include “scrobbling” audio tracks to Last.fm,
+  or buying recommended products on Amazon.  The same ideas can
+  be adapted to free/libre/open source contents, research,
+  learning, and other domains.
 ** Myths, metaphors and narratives: imagined (longer term change)
 
 In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
@@ -727,9 +739,9 @@ more embedded in technological workflows.
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
-One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices
-of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]]
-pattern.
+One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the
+practices of free/libre/open source; see further details in the
+[[DIVERSITY][DIVERSITY]] pattern.
 *** DIVERSITY
 <<DIVERSITY>>
 - *Context*: Within a \textsc{Project}.
@@ -750,14 +762,34 @@ pattern.
   relationship one of peers rather than a one-way hierarchy.
   Understand the historical landscape through techniques like
  [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].
-* Ground: Surveying the Pattern Languages literature
+** Summary
+Our /vision for change/ in the Emacs Research Group is summed up
+in the previous TODO items and cross-referenced with peeragogy
+patterns.  Like Season 0, Season 1 will be a six month
+transdisciplinary sub-part-time volunteer project, embedded
+within the larger peeragogy network.
+
+For Season 1, we’ve distilled the concrete aim to make Emacs
+more accessible via tutorials and other material for
+\textsc{Newcomers}; we also have a better idea of how to do
+meaningful research about Emacs that engages [[SERENDIPITY][SERENDIPITY]]; we
+have plans that will develop new ways of working with Emacs and
+other free/libre/open source tools that suitably [[FORMALISE][FORMALISE]] the
+informal workflow we have described here; and we will apply
+these methods in a way that enhances the [[DIVERSITY][DIVERSITY]] of the tech
+landscape, and improves access to learning more broadly, e.g.,
+with groundwork for an open source [[RECOMMENDER][RECOMMENDER]] tool.  Progress
+can be measured by completion of the TODO items listed above.
+
+* Survey: Causal Layered Analysis of the Design Pattern Languages literature
 <<Ground>>
 
 With the tools from Section [[methods]] at our disposal, and an
 awareness of how they have been concretely applied within
-Section [[Figure]], we now turn to a CLA of the /design patterns
-community/.  We draw on DPL to assist us in this analysis,
-namely the patterns from Section [[CLA_patterns]]; but we omit
+Section [[Figure]], we now turn to a CLA of design patterns.
+We draw on DPL to assist us in this analysis,
+namely the patterns from Section [[CLA_patterns]]; however,
+in this section, we omit
 PARs.  Future developments building on this analysis might
 bring them back in, along with TODO items and connections to
 other patterns, as shown in the previous section.
@@ -766,7 +798,7 @@ other patterns, as shown in the previous section.
 
 Recall that the litany is also referred to as the ‘problem’ layer.
 The pattern community is comfortable with problems: a ‘problematizing’
-view of reality is one of the main features of the design pattern
+view of reality is one of the main features of the
 method.  However, there are a range of problems that the community is
 familiar with which are not fully solved.  For example, ‘Alexander's
 Problem’, as described by his collaborator Greg Bryant:
@@ -999,7 +1031,7 @@ Some key excerpts appear in Table [[tabone]].
 | “Certainly proprietary code is shared property among those working in a corporate development team, but it is not common to the larger community of software developers and users.”                                                                   |
 | “A computer program is not like a poem or a dance in this way; if the programmer is not able to produce something parsable in the programming language or cannot fit the instructions together in a logical way, the program simply will not work.”   |
 | “Gabriel’s own experience may color his perception. He founded a software company that produced programs for Lisp development and which went bankrupt after 10 years.”                                                                                |
-| “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim,”                                                    |
+| “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim”                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ** Myths: metaphors and narratives (longer term change)
@@ -1122,7 +1154,7 @@ of unfolding).[fn:: For further reflections on Nietzsche and wholeness, see cite
 * Discussion
 <<Discussion>>
 
-Anthropogenic climate change is a situation of major global concern. It comes as no surprise that it has been examined separately by proponents of both CLA and DPL.  We
+Anthropogenic climate change is a situation of major global concern in the early 21st Century.  It comes as no surprise that it has been examined separately by proponents of both CLA and DPL.  We
 use this recent history to frame future work building on the survey
 and case study developed above.
 
@@ -1177,18 +1209,20 @@ lead to diverse scenarios.  As scenarios develop, they can serve as
 the ground for developing new design work in Alexander’s sense.  In
 the foregoing sections, we used a method from future studies to think
 about design patterns.  We think that design patterns can be useful
-inside scenarios and to scaffold the design and evolution of
+inside scenarios, and also used to scaffold the design and evolution of
 scenarios.
 
-Along these lines, here are four scenarios of interest, roughly pegged
-to the four layers of CLA.  On that note, we should emphasise that
-these scenarios are not mutually exclusive.
+With this in mind, here are four scenarios that will be of
+interest to DPL practitioners, roughly pegged to the four
+layers of CLA.  We should emphasise that these scenarios are
+not mutually exclusive.
 
-\medskip *I. (Patterns become explicitly computational.)* Patterns
-have periodically been discussed in explicitly computational
-terms — however, that direction of work so far remains mostly
-at the level of a proposal cite:alexander1999a,moran1971a, with
-limited discipline-specific uptake within architectural design
+** *Scenario I. Patterns become explicitly computational.*
+Patterns have periodically been discussed in explicitly
+computational terms — however, that direction of work so far
+remains mostly at the level of a proposal
+cite:alexander1999a,moran1971a, with limited
+discipline-specific uptake within architectural design
 cite:jacobus2009a,OXMAN1994141.  Could this change?  We wonder
 if design patterns — and related designs for Ostrom-style
 institutions cite:ostrom2009a (p. 11) — should be brought onto
@@ -1196,10 +1230,12 @@ a similar computational footing, and included in the
 computational mix within climate modelling software.  These
 developments might be accompanied by more mathematical
 precision along the lines of the [[FORMALISE][FORMALISE]] pattern, e.g.,
-drawing on ideas from contract-based programming.
+drawing on and moving beyond computational paradigms such as
+contract-based programming and the Semantic Web.
 
 \medskip
-*II. (Pattern languages become fully open source.)* In the field of policy, ‘adaptive capacity’ describes a society’s
+** *Scenario II. Pattern languages become fully open source.*
+In the field of policy, ‘adaptive capacity’ describes a society’s
 ability to recover after a shock
 cite:thonicke2020advancing,magnan2010better.
 This in turn is linked with the health and adaptivity of the society’s
@@ -1210,40 +1246,40 @@ environmental changes.  Mehaffy and coauthors worked with Ward
 Cunningham to make their book /A New Pattern Language for Growing
 Regions/ cite:mehaffy2020new into a wiki, [[http://npl.wiki][npl.wiki]], which is licensed
 under CC BY-SA 4.0.  Will other pattern developers follow suit and
-move to open licensing — and suitable infrastructures for working with
-open contents?
+move to open licensing — and suitable infrastructures for working with open contents?
 
 # add refs to reproducible research papers
 # add refs to Minnesota 2050 paper
 # Maybe add a comment saying these people were ‘sort of’ working together (in different rooms)
 
-\medskip *III. (DPL, CLA, and PARs scaffold widespread
-computational literacies and collaboration.)* As we’ve seen in
-our work with Emacs, PlanetMath, Peeragogy — as with other
-free/libre/open source projects — projects need a lot more than
-source code to thrive.  We see a link to the topic of
-reproducible research.  Above and beyond the immediate
-technical considerations cite:sandve2013ten, we think that
-something is “reproducible” if it is teachable to someone new!
-We’ve found Org Mode (and literate programming in general) to
-be useful for this.  At the same time, collaboration across
-different skill sets is challenging.  In the Minnesota 2050
-project, participants were selected from a variety of
-professions and leadership roles to produce scenarios for
-energy and land use, and combined modelling with scenario
-planning cite:olabisi2010.  However, actually solving
-large-scale problems together in interdisciplinary teams will
-require new thinking and additional tools: to bridge between
-the viewpoints of, e.g., professional futurists, programmers,
-data scientists, local farmers — and to draw on the insights of
-citizen scientists cite:wildschut2017a.
+** *Scenario III. DPL, CLA, and PARs scaffold widespread computational literacies and collaboration.*
 
-\medskip *IV. (Patterns eat Big Tech.)* Reflecting on the
-increasingly contextual and transdisciplinary nature of the
-discussions at PLoP and other venues, along with the other
-points above, brings to mind Hesse’s /The Glass Bead Game/.  This
-reference can help tie these points together at the level of
-myth, metaphor, and narrative:
+As we’ve seen in
+our work with Emacs, PlanetMath, and Peeragogy, projects need a
+lot more than simply access to source code in order to thrive.
+We see a link to the topic of reproducible research.  Above and
+beyond the immediate technical considerations
+cite:sandve2013ten, we think that something is “reproducible”
+if it is teachable to someone new!  We’ve found Org Mode (and
+literate programming in general) to be useful for this.  At the
+same time, collaboration across different skill sets is
+challenging.  In the Minnesota 2050 project, participants were
+selected from a variety of professions and leadership roles to
+produce scenarios for energy and land use, and combined
+modelling with scenario planning cite:olabisi2010.  However,
+actually solving large-scale problems together in
+interdisciplinary teams will require new thinking and
+additional tools: to bridge between the viewpoints of, e.g.,
+professional futurists, programmers, data scientists, local
+farmers — and to draw on the insights of citizen scientists
+cite:wildschut2017a.
+
+** *Scenario IV. Patterns eat Big Tech.*
+Reflecting on the increasingly contextual and transdisciplinary
+nature of the discussions at PLoP and other venues, along with
+the other points above, brings to mind Hesse’s /The Glass Bead
+Game/.  This reference can help tie these points together at the
+level of myth, metaphor, and narrative:
 #+begin_quote
 ... the narrator informs us that the Game is like a universal
 language: a way of connecting traditions and cultures from both the
@@ -1268,20 +1304,31 @@ hackers or for a few highly-paid rockstars, but for everyone.
 # maybe reference the Bloom’s 2 Sigma problem here
 # Only half of the students will make it to the end of the course and only half of those get A’s
 
-\medskip Our /vision for change/ is that all of these scenarios
-will be given serious thought.  /Progress/ will become measurable
-partly through citations to this paper, and other markers of
-robust debate!  If the ideas we have considered became part of
-a shared outlook, many more things will start to move more
-quickly.
+** Summary
+
+Our /vision for change/ is that all of these scenarios will be
+given serious thought.  /Progress/ will become measurable partly
+through citations to this paper, and other markers of debate
+and ensuing trial-and-error uptake, such as workshops that use
+DPL and CLA together to explore the scenarios.  The Emacs
+Research Group can use these ideas to help connect with
+potential stakeholders.  The Peeragogy network can help
+facilitate some of the discussions and projects.  As we gather
+evidence, we can return to the futures community and share what
+we’ve learned with them. If the ideas we have considered here
+became part of a shared outlook between all of these different
+communities, many things may start to move quickly.
 
 * Related work
 TBA.
 
 - Alexander himself in /Synthesis of Form/
-- Anything recent from PLoP
+- Damasio’s analysis of living bodies
+- CLS and such from Wildman
+- Perhaps anything recent from PLoP, since they have emphasised meta-level stuff recently
 - Technical things that are like design patterns, e.g.,
   contracts, ZKs
+-  Friereian /conscientização/ cite:roberts2007conscientisation
 
 * Conclusion
 <<Conclusion>>
@@ -1303,7 +1350,7 @@ We conclude with a PAR for the paper as a whole.
 - Relative to an earlier preprint where we attempted to describe patterns to the futures community, this seems much more mature.  It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.  In contrast to the vision of Alexander, this one is more humanistic in nature.
 *5. What else should we change going forward?*
 - We will have to see whether PLoP accepts any of our proposals; both as a submission for PLoP 2021, and, more speculatively, as a way of working.
-- We believe we have an answer to Alexander’s question.  We’re not sure he’ll like it.  The ‘Chartres of programming’ has been hidden in plain view all along.  Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way (p. 10); pattern languages are the same sort of thing.
+- We believe we have an answer to Alexander’s question.  We’re not sure he’ll like it.  The ‘Chartres of programming’ has been hidden in plain view all along.  Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way (p. 10); pattern languages are the same sort of thing.
 
 * APPENDIX: Max-Neef needs                                          :noexport:
 Because the notion of “need” is hard to fully pin down, as a working assumption we will follow Alexander and “replace the idea of need by the idea of what people are trying to do” cite:alexander1970a.  However, we will cross-check our work against an established catalogue of needs in an Appendix.
