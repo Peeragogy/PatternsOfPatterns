@@ -11,6 +11,7 @@
 #+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
 #+LATEX_HEADER: \usepackage{mathtools}
 #+LATEX_HEADER: \usepackage{lscape}
+#+LATEX_HEADER: \usepackage{float}
 #+LATEX_HEADER: \usepackage{starfont}
 #+LATEX_HEADER: \setmonofont[Color=blue]{Ubuntu Mono}
 #+LATEX_HEADER: \newfontfamily{\alch}{Alchemy}
@@ -34,11 +35,12 @@
 #+LATEX_HEADER: \paragraphfont{\normalfont\selectfont}
 #+LATEX_HEADER: \subsubsectionfont{\normalfont\selectfont\color{black}}
 
-\clearpage
+# \clearpage
 * Abstract
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+<<Abstract>>
 We introduce Inayatullah’s Causal Layered Analysis method (CLA)
 from the field of futures studies into the domain of patterns.
 We elaborate some “CLA patterns” and apply them to think about
@@ -46,7 +48,9 @@ the future of the pattern theory.  We develop a case study that
 uses CLA together with patterns in collaborative research, and
 discuss implications for other research and innovation
 projects.
+
 * Introduction
+<<Introduction>>
 In 1999, Christopher Alexander discussed the future of the
 pattern theory with an audience of programmers
 cite:alexander1999a.  Here, we revisit the questions he asked
@@ -59,6 +63,9 @@ community will wish to consider as it shapes its own further
 development.
 
 ** Outline of Methods
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 In Section [[methods]], we detail three techniques which can help a
 community carry out self-evaluation and peer learning.  Each any of
@@ -122,6 +129,9 @@ Each of the three methods adds a diffferent element to the mix:
   particular circumstances.
 
 ** Summary of Findings
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 In Section [[Figure]], we focus in on the project planning and management
 techniques of a trandisciplinary research seminar that studies the
@@ -147,6 +157,9 @@ philosophical thought.  This, in turn, shapes the way we think
 about what pattern languages can do.
 
 ** Outline of Implications
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 In Section [[Discussion]], we look back over the case study and
 survey, to draw out implications for the future of design
@@ -267,32 +280,15 @@ cite:inayatullah1998b,inayatullah2004causal Causal Layered Analysis
 motivating story that should communicate an intuitive feeling for the
 four layers, and an initial brief recollection of the patterns
 literature across the /surface/, /social/, /worldview/, and /myth/.  We will
-develop the analysis in Table 1B in Section [[Ground]].
-
-Why might CLA have practical relevance, beyond its current sphere of
-application by futurists?  One reason, which could be familiar to the
-protagonists of the story in Table 1A: “Innovation foils attempts to
-be consistent and efficient” cite:tan2020uncertainty (p. 12).  The
-need to understand, respond to, and sometimes to foment /change/ —
-possibly rapid and thoroughgoing change — underscores the
-incompleteness of Kohls’s journey metaphor.  The CLA framework is a
-particularly good fit for our central objective, because it is often
-used in organisations and movements to answer the question: “What is
-our vision for change and how is progress measurable?”  For example,
-in 1999, Alexander’s vision was that of “the generation of a living
-world” cite:alexander1999a — however the exact process whereby
-progress would be made towards that vision had the status of a
-question.
-
+expand the analysis in Table 1B, later on, in Section [[Ground]].
 To help make the CLA practicable as a /method/, we will now turn to five
 techniques that Inayatullah refers to as the /poststructural futures
 toolbox/.  Here, we rework his descriptions of these theoretical tools
 using the classical design pattern format.
 
-#  cite:kelly2012business,wurm2019design
 #+NAME: tabpatterns
 #+CAPTION: CLA introduced by example: (A.) a short story that follows the approximate outlines of the method, and (B.) a speed-through of the design patterns literature that introduces the lexicon
-#+ATTR_LATEX: :environment longtable :align |p{\textwidth}|
+#+ATTR_LATEX: :float t :align |p{\textwidth}| :placement [H]
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | $$\text{A.}\vspace{-.5cm}$$ |
 | ¶1 Imagine a couple who on some of their first dates enjoy going out for pizza.  They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto.  Indeed, it turns out they like pizza so much that they would like to have it several nights a week.  Going out this frequently would be expensive, so they get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. |
@@ -307,6 +303,7 @@ using the classical design pattern format.
 | ¶4 Lastly, there are *myths or metaphors* (e.g., Alexander idea that the architect’s work is done ‘for the glory of God’ (see Galle, 2020) or his conception that ‘primitive’ dwellings contain more ‘life’).  To emphasize, CLA does not dismiss myths in the slightest: on the contrary, they are what are seen drive the other layers.  Another term that is used to characterise this layer is *narratives*.                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+\clearpage
 *** DECONSTRUCTION
 <<DECONSTRUCTION>>
 
@@ -314,13 +311,52 @@ using the classical design pattern format.
 - *Problem*: The existence of a ‘text’ suggests a *conflict* between (1) the notion of truth embedded in that text, and (2) the text itself as historically situated or positioned within relationships of power.
 - *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within or by the text? Which assuptions does the text make preferrable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show its contingent nature.
 
+# LV: It feels like this is full-circle back to Sapir-Whorf where the language you speak frames how you think... if language is supposed to be the trace of our cognition, and have an input on how you think — the way we use or modify idioms is telling of how culture manifests itself into language & language manifests into cognition.
+
+\noindent
+*Example* The technique of _deconstruction_ examines how a
+text is constructed and often does this by evoking the contingencies and potential
+arbitrariness of symbols in language.  In
+our pizza example, we have the book on running a business.  When the couple
+revisited it critically, they noted some peculiarities of the language.
+For instance, the book routinely divided people into winners and
+losers, even in contexts which had nothing much to do with
+competition.  The upshot of this was that the couple came away with
+the impression that the language of the book, the way it talks about social
+organisation, and the way it itself organized
+the material embodied a worldview at odds with their values.  By
+seeking advice in this book indiscriminately, they were unwittingly 
+following the implicit worldview, leading to frustration
+and confusion.
+
 *** GENEALOGY
 <<GENEALOGY>>
 
 - *Context*: History is not just the passage of time, but an unfolding of different positions. We consider a /concept/ or /idea/ to be historically situated in this sense.
 - *Problem*: Within history, certain discourses have been hegemonic. A given term or concept will have developed through varied discourses: this observation *conflicts* with a naive notion of terms or concepts as simply ‘given’ or universally true.
-- *Solution*: We ask: which discourses have been victorious in constituting the present? How have they travelled through history? What have been the points in which the issues have become important or contentious?  By tracing the evolution of a given term or concept through periods of identity or sameness, and through periods of difference or divergence, we come face-to-face with its generative potential.
+- *Solution*: One takes a word or concept, looks at the way it
+  has been understood and interpreted in different eras, and
+  how these different understandings came about.  We ask: which
+  discourses have been victorious in constituting the present?
+  How have they travelled through history? What have been the
+  points in which the issues have become important or
+  contentious?  By tracing the evolution of a given term or
+  concept through periods of identity or sameness, and through
+  periods of difference or divergence, we come face-to-face
+  with its generative potential.
 
+\noindent
+*Example*   On a personal
+scale, we have Mom's notion of "restaurant".  When she was small, a
+restaurant was a magical place where her family would go on special
+occasions.  When she grew up, a restaurant was a place to socialize
+with friends and meet new people.  Lately, it has been synonymous with
+balance sheets, market share, supply chains, and customer
+satisfaction.  She wonders how such a thorough a change happened 
+so fast and whether she could recover some aspects of the earlier 
+understandings into the current context.
+
+\clearpage
 *** DISTANCE
 <<DISTANCE>>
 
@@ -328,18 +364,60 @@ using the classical design pattern format.
 - *Problem*: The present seems ‘normal’, but this *conflicts* with any impetus to change.
 - *Solution*: We ask: which scenarios make the present remarkable?  Make it unfamiliar? Denaturalize it?  Where are these scenarios, e.g., are they in historical space — the futures that could have been — or in present or future space? By establishing a sense of distance from the present, we can return to explore the present from a different point of view.  We are more likely to see the ever-changing character of the present, points of leverage, and how to use them.
 
+\noindent
+*Example* As long as our couple was in the thick
+of things, running the shop and fixing one problem after another, they
+couldn't really see what was going on, only feel uneasy.  In order to
+interpret their situation, they needed to create some mental space by
+bringing in other possibilities.  After a conversation where they
+explored other restaurants they had known, recalled how things were in
+the past, thought of ways they thought things might have gone better
+or worse but didn't, they returned to the current situation and found
+themselves noticing all sorts of things which hitherto they had been
+taking for granted.
+
+
 *** ALTERNATIVE PASTS AND FUTURES
 <<ALTERNATIVE PASTS AND FUTURES>>
 
 - *Context*: The past that we see as truth is in fact the particular writing of history: it is a text amenable to [[DECONSTRUCTION][DECONSTRUCTION]].  The futures that we are ‘given’ are, similarly, only some of the ones that are in-principle-possible due to the evolutionary nature of concepts exposed by their [[GENEALOGY][GENEALOGY]].
 - *Problem*: The past and future are put to use within discourse, resulting in some winners and some losers.  The results we see may *conflict* with our sense of what we would prefer to have happen.
-- *Solution*: We ask: which interpretation of past is valorized?  What histories make the present problematic?  Which vision of the future is used to maintain the present?  Alternatively, which visions undo the unity of the present?
+- *Solution*: With this technique, one notes how and why some
+  interpretations of the past and visions of the future have
+  been promoted whilst others have been suppressed. We ask:
+  which interpretation of past is valorized?  What histories
+  make the present problematic?  Which vision of the future is
+  used to maintain the present?  Alternatively, which visions
+  undo the unity of the present?
+
+\medskip
+\noindent
+*Example*  Based upon his
+daily readings of old-time New Englanders, Pop realizes that the view
+of history as an inexorably steady march of economic and technical
+progress leaves a lot out of the picture.  If so much was left out of
+our recall of the past, what aspects of the present are being ignored and
+what potential futures are being dismissed?  This line of questioning inspires
+Pop to rethink the restaurant as a modern-day Walden cabin in which they
+commune with nature for one half of the week and commune with their
+neighbors for the other half of the week.
 
 *** REORDERING KNOWLEDGE
 <<REORDERING KNOWLEDGE>>
 - *Context*: Trends and problems are emergent, historical, and political: they are embedded in complex webs of becoming.
 - *Problem*: It’s not always obvious how to move /between/ the ‘layers’ mentioned above. This *conflicts* with any given effort to empower oneself with a deeper understanding of the situation.
 - *Solution*: We ask: how does the ordering of knowledge differ across civilization, gender and episteme? What or Who is othered? How does it denaturalize current orderings, making them peculiar instead of universal? What tools can we use to reorder knowledge, to make it available in new forms without necessarily requiring the same historical baggage?
+
+*Example*
+In the technique of _reordering knowledge_, one asks what principles
+have been used to organize knowledge, what are the implications to
+this, and what are alternatives.  In rereading their books, our couple
+notes that they are organized about a framework of impersonal market
+forces.  This reinforces a dog-eat-dog view of the world which, in
+turn, rationalizes profiteering and hypercompetition.  Thus, the
+couple decides to re-organize the patterns for running a business in a
+people-centric manner where markets are but one type of social
+institution amongst many.
 
 ** PARs
 
@@ -407,8 +485,8 @@ place November 28th and 29th of 2020.]  We illustrates how the
 three methods introduced above interoperate.  In our case, this
 analysis has allowed us develop a trajectory for the project:
 as a case study, it gives a reasonably self-contained example.
-We refer to work carried out up to this point as *Season 0*, on
-the view that our thinking has developing rhizomatically,
+We think of the work carried out up to this point as *Season 0*,
+on the view that our thinking has developing rhizomatically,
 underground, rather than fully in the public sphere.  This
 analysis contextualise our work relative to the PLoP and
 Peeragogy communities, and the wider DPL discourse.
@@ -439,15 +517,17 @@ peeragogy design patterns like \textsc{Roadmap}
 cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top
 for a reworking of the /Peeragogy Handbook/ as a unified pattern
 language, which extends the earlier presentation in
-cite:patterns-of-peeragogy.] We elaborate new patterns where
-there is no match for our current needs; one per CLA section:
-[[FORMALISE][FORMALISE]], [[SERENDIPITY][SERENDIPITY]], [[RECOMMENDER][RECOMMENDER]] and [[DIVERSITY][DIVERSITY]].  We also
-cross-reference each of the TODO items with the most closely
-associated patterns from the poststructural futures toolbox
-from Section [[CLA_patterns]].  This shows how the lines of
-thinking that underpins the CLA method can inform further
-action: *Season 1* will be shaped by this narrative and the
-corresponding TODO items.
+cite:patterns-of-peeragogy.]
+
+# We elaborate new patterns where
+# there is no match for our current needs; one per CLA section:
+# [[FORMALISE][FORMALISE]], [[SERENDIPITY][SERENDIPITY]], [[RECOMMENDER][RECOMMENDER]] and [[DIVERSITY][DIVERSITY]].  We also
+# cross-reference each of the TODO items with the most closely
+# associated patterns from the poststructural futures toolbox
+# from Section [[CLA_patterns]].  This shows how the lines of
+# thinking that underpins the CLA method can inform further
+# action: *Season 1* will be shaped by this narrative and the
+# corresponding TODO items.
 
 ** Understanding data, headlines, empirical world (short term change)
 
@@ -460,72 +540,14 @@ users.  We have been using a workflow that helps us carefully review
 progress, diagnose issues, and manage our energy.  The next phase of
 this project is to “go public” and mesh with ongoing related
 activities elsewhere, including by getting some training events up and
-running.
+running.[fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMALISE][FORMALISE]] pattern.]
 
-*** TODO Maintain plans for the next six months                  :Roadmap:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - We are doing research
-# - Some more directly related to Emacs
-# - Some with guests
-# - Some ‘user’ and “market” research
-# - Backlink to: =[[peeragogy:Roadmap]]=
-Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]],
-since we may all be thinking about things differently, and we will have
-different outside commitments.
-*** TODO Keep doing PARs and CLAs                                :Assessment:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we
-are developing.
-# - This is our thing about method
-# - Maybe we should be expanding this to patterns...?
-# - This could be about presenting ‘futures’ in Patterns
-#  - NB: in Typescript work, there was a nice description of patterns
-#  - They talked about how we shouldn’t blindly internalise them
-*** TODO Mesh with other ongoing activities elsewhere            :Cooperation:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - Stakeholders are much bigger group
-# - Diversity of guests
-# - Diversity of outreach (maybe some kids in London haven’t heard about programmers...)
-# - Mike wants to develop virtual assistant stack
-#   - Do users have to write Org Mode?
-#   - How can we offload some work to less-expert employees?
-#   - What’s the relationship to time, expertise, serendipity?
-#   - What’s relationship to ongoing Hyperreal activities?
-#   - To discuss more next week...
-This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand
-our efforts through the eyes of others.
-*** TODO New user workshops: “Zero to Org Roam”                :Newcomer:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern,
-because we better understand how the project looks for someone who is
-just getting started now.
-*** TODO Come up with a categorical treatment of todo-categories :FORMALISE:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]],
-see further details in the [[FORMALISE][FORMALISE]] pattern.
-*** FORMALISE
-<<FORMALISE>>
-- *Context*: In our work with project- and change-management
-  \textsc{Technologies} across a widely distributed
-  \textsc{Community}.
-- *Problem*: Using patterns, todo items, CLA, and PARs in an intuitive
-  manner is clearly workable at a small scale, but could become
-  chaotic when we scale up; this *conflicts* with our perspective that
-  these methods can be applied broadly.
-- *Solution*: Can we develop a more mathematically precise way to
-  describe this set of tools?  We might build on the earlier work of
-  Corneli et al. cite:Corneli2018 which describes patterns as
-  /conceptual blends/.
+| Maintain plans for the next six months                  | \textsc{Roadmap}     |
+| Keep doing PARs and CLAs                                | \textsc{Assessment}  |
+| Mesh with other ongoing activities elsewhere            | \textsc{Cooperation} |
+| New user workshops: “Zero to Org Roam”                  | \textsc{Newcomer}    |
+| Come up with a categorical treatment of todo-categories | FORMALISE            |
+
 ** Systemic approaches and solutions (social system)
 
 If we tackle big enough projects, it will bring with it the
@@ -540,69 +562,13 @@ issues, improving our own workflows, and actively exploring the
 landscape.  We want to keep a role for serendipity here, which
 adds the requirement that our planning process remain open and
 flexible: including to various disciplinary methods, and
-especially to change as we reflect on how things are going.
+especially to change as we reflect on how things are going.[fn:: This uses the specific affordances of Emacs and research as tools for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts. We could provide a variety of different services, keeping in mind that we have the advantage of “Lisp as alien technology”. Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]], in which Lisp or a structured approach to text editing is applied in new domains.  For example, what new affordances might Emacs bring to managing a collection of design patterns? This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about different ways to present the material we are working with. By relating this work to design patterns we position ourselves relative to other historical developments, and begin to do some new thinking about these developments: this is an opportunity to develop some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Ground]]. By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.]
 
-*** TODO Identify potential stakeholders in Emacs Research       :Community:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - ‘Org Notes’ for some potential USERS
-# - Other potential users, also some people we can talk to as market/user research (Not all stakeholders are users.)
-# - Org Roam
-# - Zanzi’s Smos stuff, Qiantan’s S-EXP based editor, treesitter stuff
-# - Standardising Org? What are the different enablers?
-This uses the specific affordances of Emacs and research as tools
-for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts.
-*** TODO Identify stakeholders in the kind of activities we can support :ASpecificProject:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - Literature review?
-# - “Lisp as alien technology”
-We could provide a variety of different services, keeping in
-mind that we have the advantage of “Lisp as alien technology”.
-Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE
-PASTS AND FUTURES]], in which Lisp or a structured approach to
-text editing is applied in new domains.  For example, what new
-affordances might Emacs bring to managing a collection of
-design patterns?
-*** TODO Identify venues where we can reach these different stakeholders :Wrapper:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# -  (who, what is the itinerary; having places to talk about research?)
-This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about
-different ways to present the material we are working with.
-*** TODO Create some publication to plant a flag for our group       :Paper:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - To whom could we could present preliminary and intermediate
-#   results (e.g., some people who haven’t attended every session may
-#   want to have a summary to catch up).
-By relating this work to design patterns we position ourselves
-relative to other historical developments, and begin to do some new
-thinking about these developments: this is an opportunity to develop
-some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Ground]].
-*** TODO Keep exploring!                                         :SERENDIPITY:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - (In terms of the Peeragogy Heartbeat concept, we have some people
-#   holding the fort; in this sense we are doing fine in terms of
-#   turn-out at weekly meetings!)
-
-# - However, to make it ‘research’ we need to make sure we keep
-#   encountering the unexpected
-By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from
-current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.
-*** SERENDIPITY
-<<SERENDIPITY>>
-- *Context*: Within an ongoing research and development project.
-- *Problem*: The idea of planning *conflicts* with our experience that
-  reliance on plans can produce rigid behaviour and a corresponding
-  brittleness.
-- *Solution*: We adapt our plans to increase our /general/ preparedness, and adapt our strategy to decrease our reliance on accurate /forecasting/. This operationalises the ‘serendipity pattern’ described by Merton.[fn:: “The serendipity pattern refers to the fairly common experience of observing an unanticipated, anomalous and strategic datum which becomes the occasion for developing a new theory or for extending an existing theory… ” cite:merton1948bearing, reprinted in cite:merton.]
+| Identify potential stakeholders in Emacs Research               | \textsc{Community}          |
+| Identify stakeholders in the kind of activities we can support  | \textsc{A Specific Project} |
+| Identify venues where we can reach these different stakeholders | \textsc{Wrapper}            |
+| Create some publication to plant a flag for our group           | \textsc{Paper}              |
+| Keep exploring!                                                 | SERENDIPITY                 |
 
 ** Worldview, ways of knowing and alternative discourse
 
@@ -630,76 +596,14 @@ $750.0 per user per year might be a fair price — for those who can
 afford to pay it — if the service helps people to do better research
 and saves a bunch of travel.  We could also set up a pricing model
 proportional to each country’s carbon emissions or something like
-that.
+that.[fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
 
-*** TODO Spec out the Emacs based ‘answer’ to RStudio, Roam Research  :Community:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - (It would be great if we got the next big thing up and running in a year... but this is a lot to ask.)
-# - But what would the “next big thing” look like at the level of, say, an ERC proposal?
-Whereas these are existing commercial packages,
-some of the workflows could be restructured
-and, e.g., made more accessible or potentially
-more powerful through integration with other open tools.
-This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level
-of projects and business operations.
-*** TODO Develop our own intention-based workflow                :Forum:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - [x] Surfacing the experimental ground
-# - [ ] What else?
-We recognise that we’re all coming from different places
-with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our
-workflow better reflect that?
-*** TODO Continue to develop and refine our methods              :Assessment:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - This is already incorporated with the PAR and CLA (that’s actionable)
-# - So would be doubling down here with a paper on our methods for PLoP
-Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods
-as we use them? (Admittedly, a little bit like rebuilding the
-plane while it is still flying, but with some care it
-should be possible.)
-*** TODO Product and business development plans for a multigraph interlinking service :Website:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - Inyatullah would want us to think critically about what we’re saying in this document.
-We can think about different ways of approaching knowledge
-construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in
-practice.
-*** DONE Develop a collaborative writing workflow for a shared initial output :CarryingCapacity:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-By developing a paper that situates our work in a wider context we
-develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage
-more creative thinking (and others’ views on!) *Season 1*.
-*** TODO A tool to find and match peers/content                :RECOMMENDER:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-# - Harder to do soul-matching...
-# - It’s not just what they need to go but what you need to avoid (or, which half of the room?)
-# - Use the friend magnetism to attract people (GravPad?)
-Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details
-in the [[RECOMMENDER][RECOMMENDER]] pattern.
-*** RECOMMENDER
-<<RECOMMENDER>>
-- *Context*: Within our use of \textsc{Technologies} and materials we
-  could \textsc{Reduce, reuse, recycle}.
-- *Problem*: As the body of content grows, it can be harder to find
-  relevant material or the best collaborators in a global pool: this
-  *conflicts* with our desire to achieve excellence.
-- *Solution*: New software that can help surface relevant
-  material and opportunities would be useful.  Existing
-  implementations include “scrobbling” audio tracks to Last.fm,
-  or buying recommended products on Amazon.  The same ideas can
-  be adapted to free/libre/open source contents, research,
-  learning, and other domains.
+| Spec out the Emacs based ‘answer’ to RStudio, Roam Research                  | \textsc{Community}  |
+| Develop our own intention-based workflow                                     | \textsc{Forum}      |
+| Continue to develop and refine our methods                                   | \textsc{Assessment} |
+| Product and business development plans for a multigraph interlinking service | \textsc{Website}    |
+| A tool to find and match peers/content                                       | RECOMMENDER         |
+
 ** Myths, metaphors and narratives: imagined (longer term change)
 
 In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
@@ -716,43 +620,66 @@ the free software movement were based on “[[http://www.gnu.org/software/emacs/
 code, these methods can be extended and allow us to synthesise new
 relationships within broader semiotic commons.  Emacs can become part
 of a system for addressing large-scale existential problems, by
-expanding the frontier of what’s possible for human beings.
+expanding the frontier of what’s possible for human beings.[fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
 
-*** TODO Survey related work                                     :Context:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-As we develop the relationships of Emacs to its context, the process
-can operationalise [[DECONSTRUCTION][DECONSTRUCTION]].
+| Survey related work                 | \textsc{Context}    |
+| Assess what we’re learning          | \textsc{Assessment} |
+| Figure out the gender balance stuff | DIVERSITY           |
 
-# The principles that PubPub is experimenting with... public peer review one of the principles coming out of our book is to embrace pluralism ... that was very aligned.
+** New patterns
+*** FORMALISE
+<<FORMALISE>>
+- *Context*: In our work with project- and change-management
+  \textsc{Technologies} across a widely distributed
+  \textsc{Community}.
+- *Problem*: Using patterns, todo items, CLA, and PARs in an intuitive
+  manner is clearly workable at a small scale, but could become
+  chaotic when we scale up; this *conflicts* with our perspective that
+  these methods can be applied broadly.
+- *Solution*: Can we develop a more mathematically precise way to
+  describe this set of tools?  We might build on the earlier work of
+  Corneli et al. cite:Corneli2018 which describes patterns as
+  /conceptual blends/.
 
-*** TODO Assess what we’re learning                              :Assessment:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-We referenced \textsc{Assessment} above with regard to PARs and CLAs;
-here we can imagine other techniques for assessing learning, thinking
-across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become
-more embedded in technological workflows.
-*** TODO Figure out the gender balance stuff                     :DIVERSITY:
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
-One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the
-practices of free/libre/open source; see further details in the
-[[DIVERSITY][DIVERSITY]] pattern.
+\noindent
+*Example*
+Let’s add some examples with reference to the world of free/libre/open source software?
+
+*** SERENDIPITY
+<<SERENDIPITY>>
+- *Context*: Within an ongoing research and development project.
+- *Problem*: The idea of planning *conflicts* with our experience that
+  reliance on plans can produce rigid behaviour and a corresponding
+  brittleness.
+- *Solution*: We adapt our plans to increase our /general/ preparedness, and adapt our strategy to decrease our reliance on accurate /forecasting/. This operationalises the ‘serendipity pattern’ described by Merton.[fn:: “The serendipity pattern refers to the fairly common experience of observing an unanticipated, anomalous and strategic datum which becomes the occasion for developing a new theory or for extending an existing theory… ” cite:merton1948bearing, reprinted in cite:merton.]
+
+\noindent
+*Example*
+Let’s add some examples with reference to the world of open source?
+*** RECOMMENDER
+<<RECOMMENDER>>
+- *Context*: Within our use of \textsc{Technologies} and materials we
+  could \textsc{Reduce, reuse, recycle}.
+- *Problem*: As the body of content grows, it can be harder to find
+  relevant material or the best collaborators in a global pool: this
+  *conflicts* with our desire to achieve excellence.
+- *Solution*: New software that can help surface relevant
+  material and opportunities would be useful.  Existing
+  implementations include “scrobbling” audio tracks to Last.fm,
+  or buying recommended products on Amazon.  The same ideas can
+  be adapted to free/libre/open source contents, research,
+  learning, and other domains.
+\noindent
+*Example*
+Let’s add some examples with reference to the world of free/libre/open source software?
+
 *** DIVERSITY
 <<DIVERSITY>>
 - *Context*: Within a \textsc{Project}.
 - *Problem*: If we only collaborate within a relatively homogeneous
   population of people who think like us this *conflicts* with our
   desire to find new ideas and new solutions, and to make things that
-  are widely useful.  Sometimes, diversity is absent for seemingly
-  contigent historical reasons, rather than as a design principle,
-  e.g., within free software only about 5% of the participants are
-  female, whereas women occupy around 25% of computing occupations
-  cite:Vedres2019.
+  are widely useful.
 - *Solution*: Look our for difference contexts in which we can
   collaborate with different people; they don’t all have to work on
   the same project.  We recognise that collaboration is easier when we
@@ -760,26 +687,17 @@ practices of free/libre/open source; see further details in the
   collaboration needs to be made tighter, prefer ways of exchanging
   information and expertise with \textsc{Newcomers} that makes the
   relationship one of peers rather than a one-way hierarchy.
-  Understand the historical landscape through techniques like
- [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].
-** Summary
-Our /vision for change/ in the Emacs Research Group is summed up
-in the previous TODO items and cross-referenced with peeragogy
-patterns.  Like Season 0, Season 1 will be a six month
-transdisciplinary sub-part-time volunteer project, embedded
-within the larger peeragogy network.
+  Understand the historical landscape through techniques like [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  At the same time, by inviting people
+  who were not closely connected or emotionally invested in your
+  project, you can get the advantages of [[DISTANCE][DISTANCE]], at least
+  vicariously.
 
-For Season 1, we’ve distilled the concrete aim to make Emacs
-more accessible via tutorials and other material for
-\textsc{Newcomers}; we also have a better idea of how to do
-meaningful research about Emacs that engages [[SERENDIPITY][SERENDIPITY]]; we
-have plans that will develop new ways of working with Emacs and
-other free/libre/open source tools that suitably [[FORMALISE][FORMALISE]] the
-informal workflow we have described here; and we will apply
-these methods in a way that enhances the [[DIVERSITY][DIVERSITY]] of the tech
-landscape, and improves access to learning more broadly, e.g.,
-with groundwork for an open source [[RECOMMENDER][RECOMMENDER]] tool.  Progress
-can be measured by completion of the TODO items listed above.
+\noindent *Example* Let’s add some examples with reference to the world
+of free/libre/open source software?  Sometimes, diversity is absent
+for seemingly contigent historical reasons, rather than as a design
+principle, e.g., within free software only about 5% of the
+participants are female, whereas women occupy around 25% of computing
+occupations cite:Vedres2019.
 
 * Survey: Causal Layered Analysis of the Design Pattern Languages literature
 <<Ground>>
@@ -1217,7 +1135,7 @@ interest to DPL practitioners, roughly pegged to the four
 layers of CLA.  We should emphasise that these scenarios are
 not mutually exclusive.
 
-** *Scenario I. Patterns become explicitly computational.*
+** Scenario I. Patterns become explicitly computational.
 Patterns have periodically been discussed in explicitly
 computational terms — however, that direction of work so far
 remains mostly at the level of a proposal
@@ -1233,8 +1151,7 @@ precision along the lines of the [[FORMALISE][FORMALISE]] pattern, e.g.,
 drawing on and moving beyond computational paradigms such as
 contract-based programming and the Semantic Web.
 
-\medskip
-** *Scenario II. Pattern languages become fully open source.*
+** Scenario II. Pattern languages become fully open source.
 In the field of policy, ‘adaptive capacity’ describes a society’s
 ability to recover after a shock
 cite:thonicke2020advancing,magnan2010better.
@@ -1252,18 +1169,22 @@ move to open licensing — and suitable infrastructures for working with open co
 # add refs to Minnesota 2050 paper
 # Maybe add a comment saying these people were ‘sort of’ working together (in different rooms)
 
-** *Scenario III. DPL, CLA, and PARs scaffold widespread computational literacies and collaboration.*
+** Scenario III. DPL, CLA, and PARs scaffold literacies  of collaboration.
 
-As we’ve seen in
-our work with Emacs, PlanetMath, and Peeragogy, projects need a
-lot more than simply access to source code in order to thrive.
-We see a link to the topic of reproducible research.  Above and
-beyond the immediate technical considerations
-cite:sandve2013ten, we think that something is “reproducible”
-if it is teachable to someone new!  We’ve found Org Mode (and
-literate programming in general) to be useful for this.  At the
-same time, collaboration across different skill sets is
-challenging.  In the Minnesota 2050 project, participants were
+As we’ve seen in our work with Emacs, PlanetMath, and
+Peeragogy, projects need a lot more than simply access to
+source code in order to thrive.  We see a link to the topic of
+reproducible research.  Above and beyond the immediate
+technical considerations cite:sandve2013ten, we think that
+something is “reproducible” if it is teachable to someone new!
+We’ve found Org Mode (and literate programming in general) to
+be useful for this.  At the same time, collaboration across
+different skill sets is challenging.  One reason we need
+additional scaffolding would be familiar to the protagonists of
+the story in Table 1A: “Innovation foils attempts to be
+consistent and efficient” cite:tan2020uncertainty (p. 12).
+Adapting to climate change won’t work if we only do business
+as usual.  In the Minnesota 2050 project, participants were
 selected from a variety of professions and leadership roles to
 produce scenarios for energy and land use, and combined
 modelling with scenario planning cite:olabisi2010.  However,
@@ -1274,7 +1195,7 @@ professional futurists, programmers, data scientists, local
 farmers — and to draw on the insights of citizen scientists
 cite:wildschut2017a.
 
-** *Scenario IV. Patterns eat Big Tech.*
+** Scenario IV. Patterns eat Big Tech.
 Reflecting on the increasingly contextual and transdisciplinary
 nature of the discussions at PLoP and other venues, along with
 the other points above, brings to mind Hesse’s /The Glass Bead
@@ -1306,12 +1227,15 @@ hackers or for a few highly-paid rockstars, but for everyone.
 
 ** Summary
 
-Our /vision for change/ is that all of these scenarios will be
-given serious thought.  /Progress/ will become measurable partly
-through citations to this paper, and other markers of debate
-and ensuing trial-and-error uptake, such as workshops that use
-DPL and CLA together to explore the scenarios.  The Emacs
-Research Group can use these ideas to help connect with
+# Need to recap Alexander 1999 at some point
+
+In 1999, Alexander talked about “the generation of a living
+world” cite:alexander1999a.  Our /vision for change/ — now
+speaking as part of the design pattern community — is that all
+of these scenarios will be given serious thought.  /Progress/
+will become measurable through markers of debate and ensuing
+trial-and-error uptake of the methods we’ve described.  The
+Emacs Research Group can use these ideas to help connect with
 potential stakeholders.  The Peeragogy network can help
 facilitate some of the discussions and projects.  As we gather
 evidence, we can return to the futures community and share what
@@ -1320,6 +1244,7 @@ became part of a shared outlook between all of these different
 communities, many things may start to move quickly.
 
 * Related work
+<<Related_Work>>
 TBA.
 
 - Alexander himself in /Synthesis of Form/
@@ -1569,3 +1494,76 @@ Relative to the analysis and case study, here are high-level issues collected fr
 \bibliography{./main}
 #+end_export
 
+\clearpage
+* Appendix: Critical apparatus!
+
+** *Things to work on for the paper as a whole!*
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO Integrate changes from the Google Doc into the Org mode upstream sources
+** *Things to work on for finalising the submission*
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO Get the author names and addresses sorted out
+**** TODO Typeset things using their standard format
+
+** *Things to work on in the Abstract*
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO Read it over and make sure it still matches the contents
+
+** *Things to work on in Section [[Introduction]]* (Introduction)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO Read it over and make sure it still matches the contents
+
+** *Things to work on in Section [[methods]]* (Methods)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+Probably fine?  Try to make it shorter.
+** *Things to work on in Section [[Figure]]* (Case Study)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO [#A] Check: What do patterns actually do for us in practical terms?
+
+Detailed accounting of how these paragraphs relate to the patterns
+introduced above appear in the next several footnotes, this should be
+checked to see which is more useful!
+
+**** TODO [#A] Add examples and next steps for the new patterns
+
+** *Things to work on in Section [[Ground]]* (Survey)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO Check it over
+**** TODO Could we take VanDrunen’s work further with reference to the other Christian author Ray was reading?
+** *Things to work on in Section [[Discussion]]* (Discussion)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO Integrate comments from Noorah when they arrive
+**** TODO Could we design a CLA+DPL workshop that would take the scenarios we discussed further?
+
+** *Things to work on in Section [[Related_Work]]* (Related Work)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO [#A] This needs to be written!!
+**** TODO [#A] Reread Alexander 1999 and make sure that we adequately address the issues he raises
+** *Things to work on in Section [[Conclusion]]* (Conclusion)
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO [#A] Make sure to get everyone’s perspectives on what is happening!
+** *Things to work on in the References*
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+**** TODO [#A] Try to reduce the number of references by at least 10%
