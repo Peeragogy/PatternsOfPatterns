@@ -41,138 +41,132 @@
 :UNNUMBERED: t
 :END:
 <<Abstract>>
-We introduce Inayatullah’s Causal Layered Analysis method (CLA)
-from the field of futures studies into the domain of patterns.
-We elaborate some “CLA patterns” and apply them to think about
-the future of the pattern theory.  We develop a case study that
-uses CLA together with patterns in collaborative research, and
-discuss implications for other research and innovation
-projects.
+
+We introduce Inayatullah's Causal Layered Analysis (CLA) method from
+the field of futures studies into the domain of patterns.  We develop
+a case study that integrates CLA with patterns in collaborative
+research, use the method to understand the way the design pattern
+discourse is evolving, and and discuss implications for other research
+and innovation projects.
 
 * Introduction
 <<Introduction>>
-In 1999, Christopher Alexander discussed the future of the
-pattern theory with an audience of programmers
-cite:alexander1999a.  Here, we revisit the questions he asked
-using an established technique from future studies.  The
-contribution in this paper is both methodological —
-demonstrating how future studies and patterns methods can be
-combined — and also constructively-critical, since when the
-analysis we develop points to issues that the design pattern
-community will wish to consider as it shapes its own further
-development.
+
+In 1999, Christopher Alexander discussed the future of the pattern
+theory with an audience of programmers. Here, we revisit the questions
+he asked using an established technique from future studies. The
+contribution in this paper is firstly, methodological, and secondly,
+constructively-critical:
+- We demonstrate how methods from future studies, design pattern
+  theory, and distributed project management can be combined.
+- Our analysis points to issues that the design pattern community will
+  wish to consider as it shapes its own further development.
 
 ** Outline of Methods
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-In Section [[methods]], we detail three techniques which can help a
-community carry out self-evaluation and peer learning.  Each any of
-these techniques provides of value independently, but we propose that,
-used in tandem, they complement each other synergetically, and
-overcome shortcomings of using one or more of these techniques in
-isolation.  The methods, in outline, are as follows.
+We detail three techniques which can help a community carry out
+self-evaluation and peer learning.  Each of these methods has natural
+use-cases when considered in isolation.  When combined, they provide a
+more holistic mixed pattern.
 
-*The first technique is the Peeragogy Action Review (PAR).* It is
-structured around five questions which members of the community
-discuss and answer, typically soon after an event such as a meeting or
-working session.  This produces a record of the event as seen through
-the eyes of the participants and of their evaluation of what
-transpired.
+*** Project Action Review is the sensory element: systematically gathering and verifying observational data.
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
-*The second technique is Causal Layered Analysis (CLA).*  This is a
-research methodology which is based on examining a subject at the four
-levels of litany, system, worldview and myth using techniques from
-poststructuralism. macrohistory, and postcolonial multicultural
-theory.  The goal is to achieve a deep and inclusive undertanding by
-integrating empiricist, interpretative, critical, and action
-knowledge.
+This technique is structured around five questions which members of
+the community discuss and answer, typically during or after an event
+such as a meeting or working sesion; it is also possible to perform
+“pre-PARs” to envision the way a project might develop.  This practice
+generates record of the event, as seen through the eyes of the
+participants, along with their evaluation of what transpired.
+Projects which use PARs are have a good chance of staying grounded
+reality as circumstances evolve.  Researchers who wish remain open to
+learning new things and being surprised by novelties (and anomalies)
+can use the PAR to remain open minded.  Integrating with other
+methods, we can, e.g., use PARs to check how effective our design
+patterns are in practice and revise our use of them accordingly.
 
-*The third technique is Design Pattern Languages (DPL).* Design patterns
-present solutions to recurring problems in a way that can be combined
-with other patterns and adapted to different situations.  Taken
-together, design pattens form a common language which a community can
-use to discuss matters of design and serve as a repository of shared
-knowledge.
+*** Causal Layered Analysis is the cognitive element: giving organization and depth to the enterprise.
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
-Each of the three methods adds a diffferent element to the mix:
+Causal Layered Analysis combines techniques from poststructuralism,
+macrohistory, and postcolonial multicultural theory.  The goal of this
+methodology is to achieve a deep and inclusive understanding by
+integrating empiricist, interpretative, critical, and actionable
+knowledge surrounding a topic of concern.  Without CLA, or something
+similar, there’s a risk of getting lost in the details, whether
+practical or theoretical.  A CLA-based meta-review can provide a
+skeleton that puts together the fleshy PAR components, assembling what
+would be disjecta membra into a coherent body of self-knowledge.  By
+critically re-examining concerns which might remain implicit in
+pattern language, CLA facilitates more effective design.  It achieves
+this by avoiding or untangling muddles: for example, CLA could help us
+understand why we had prized a technological solution to what, upon
+consideration, turned out to be a fundamentally social issue; or
+vice-versa.
 
-# empirical, depth of analysis, actionability to overcome a sense of being stuck at the level of problems !
-# Maybe if you add this
+*** Design Pattern Language is the motor element: orchestrating and scaffolding action
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
-# CONTEXT, PROBLEM, SOLUTION — how do you actually write a pattern? Not just ‘running a workshop’
-
-- PAR provides the /sensory element/ of systematically gathered
-  observational data and verification.  Thus, our analyses are more
-  likely to be grounded in reality and we remain open to learning new
-  things and being surprised by novelties and anomalies we discover in
-  the data.  We can continually check how effective our design
-  patterns are in practice and revise them accordingly.
-
-- CLA adds the /cognitive element/ of organization and depth to the
-  enterprise.  Before we incorporated this technique, we were in
-  danger of getting lost and tripping over ourselves in a pile of PAR
-  reports and design patterns.  CLA-based meta-review provided the
-  metaphorical bones and discursive joints for assembling these
-  disjecta membra into a coherent body of self-knowledge.  By
-  critically re-examining the notions of problem, solution, and
-  context implicit in pattern language, CLA facilitates more effecive
-  use of design patterns and helps avoid muddles such as designing a
-  technological solution to what, upon deeper consideration, turns out
-  to be a fundamentally social issue or vice-versa.
-
-- DPL adds the /motor element/ of action planning, orchestration, and enactment.
-  Having carefully analyzed the situation and determined what to do
-  next and where to act, we need to plot a course of action that takes
-  into account the complexities of the situation and is suited to our
-  particular circumstances.
+Individual design patterns present solutions to recurring problems in
+a way that can be combined with other patterns and adapted to
+different situations.  A DPL is a common language which a community
+can use to discuss matters of design and serve as a repository of
+shared knowledge.  Having carefully analyzed the situation and
+identified a possible solution, we must plot a course of action that
+accounts for the complexities of the situation.  The flexibility of
+DPLs can be customized to our particular circumstances.
 
 ** Summary of Findings
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-In Section [[Figure]], we focus in on the project planning and management
-techniques of a trandisciplinary research seminar that studies the
-Emacs editor.  We show how we have used PARs, CLA, and DPL, to develop
-a sense of direction for our research, and to allow our work to
-interoperate well with related efforts.  This case study provides a
-detailed practical example that other projects across the pattern
-language space may wish to emulate (or adapt) in their settings.
+In the Case Study section, we focus on the concrete use of the methods
+described above in the context of planning and managing a
+transdiciplinary reserach seminar that studies the Emacs editor.  We
+show how we have used PARs, CLA, and DPLs, to develop a sense of
+direction for our research in concert with related efforts.  This case
+study provides a detailed practical example that other projects across
+the pattern language pace may wish to emulate (or adapt) in their
+settings.
 
-In Section [[Ground]], we use CLA to survey and analyse design
-patterns methods more broadly.  DPL provide a general-purpose
-design methodology cite:Corneli2018: however, the high-level
+In the Survey, we use CLA to analyse design patterns methods.  DPLs
+provide a general-purpose design methodology.  However, the high-level
 evolution of this method in response to criticism, innovation,
-technical developments, and long-term cultural change has not
-been previously studied in an integrated manner.  Causal
-Layered Analysis allows us to surface the direction of travel
-of pattern language methods, by helping us integrate
-foundational with empirical observation.  We identify trends
-within the pattern discourse towards transdisciplinary thinking
-and large-scale collaboration; and we connect Alexander’s
-concept of /wholeness/ with the broader evolution of Western
-philosophical thought.  This, in turn, shapes the way we think
-about what pattern languages can do.
+technical developments, and long-term cultural change has not been
+previously studied in an integrated manner.  CLA allows us to surface
+the direction of travel of pattern language methods, by helping us
+integrate foundational perpsecties and empirical observation.  We
+identify trends within the pattern discourse towards transdiciplinary
+thinking and large-scale collaboration; and we connect Alexander's
+concept of wholeness with the broader evolution of Western
+philosophical thought.  This, in turn, shapes our understanding of
+what pattern language can do.
 
-** Outline of Implications
+** Outline of implications
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-In Section [[Discussion]], we look back over the case study and
-survey, to draw out implications for the future of design
-patterns.  We look at how DPL and CLA have been applied
-(separately) to the well-established problem of anthropogenic
-climate change.  We suggest that the integrated strategy we
-propose could lead to more satisfactory outcomes on problems at
-this scale.  We then develop four scenarios for the possible
-future development of pattern-theoretic methods.  In Section,
-[[Conclusion]] we present a PAR for the paper as a whole: this is
-offered as an example of a potential ‘best practice’ for
-pattern authors, on the view that widespread adoption of this
-method would help improve collaboration within the design
+In our Discussion we draw out the implications for the future of
+design patterns.  We look at how DPLs and CLA have been applied
+(separately) to the well-established problem of anthropogenic climate
+change. We suggest that the integrated strategy we propose could lead
+to more satisfactory outcomes on problems at this scale.  We then
+develop four scenarios for the possible future development of
+pattern-theoretic methods.  As a Conclusion, we present a PAR for the
+paper as a whole.  This is offered as an example of a potential
+best-practice for pattern authors, on the view that widespread aoption
+of this method would help improve collaboration within the design
 patterns community.
 
 * Methods
@@ -186,7 +180,7 @@ seem that patterns cannot repeat exactly, or forever.  The elements
 that comprise a pattern are subject to spatial or temporal
 displacement, and other forms of variation.
 
-Let’s explore the notion of ‘design pattern’ starting from this
+Let’s now explore the notion of ‘design pattern’ starting from this
 foundation.  Leitner supplied the following summary: "[Design]
 Patterns are shared as complete methodic descriptions intended for
 practical use by experts and non-experts" \citep{leitner2015a}.  As we
@@ -203,7 +197,6 @@ that describes the interaction of the community and the context.  The
 community uses the pattern to overcome some real or potential /conflict/
 that they experience within this context.  The conflict is also
 referred to as a /problem/; its resolution is described as a /solution/.
-
 Alexander and Poyner emphasised that ‘design’ is not needed when the
 conflict can be resolved in an obvious or straightforward manner.  For
 example, you typically would not need a design process surrounding
@@ -264,14 +257,9 @@ engaged with in other ways that solve a range of social problems
 cite:handelman1998a.
 
 This should suggest that Kohls’s metaphor does not fully express the
-complexity that is underpins each design pattern.  It does, however,
-hint at this complexity.  Design pattern creation calls out for
-suitable methods, and on this basis we should expect to find patterns
-for finding, writing, and discussing patterns: and, of course, we do.
-However, this material does not fully explain where design patterns
-come from — or where they are going to — not an an obviously graspable
-way.  To really get a handle on /the future of the pattern theory/
-cite:alexander1999a, we need another approach.
+complexity that is underpins each design pattern.  To really get a
+handle on /the future of the pattern theory/ cite:alexander1999a, we
+need another approach.
 
 ** Causal Layered Analysis
 <<CLA_patterns>> We begin this section by introducing Inayatullah’s
@@ -289,19 +277,19 @@ using the classical design pattern format.
 #+NAME: tabpatterns
 #+CAPTION: CLA introduced by example: (A.) a short story that follows the approximate outlines of the method, and (B.) a speed-through of the design patterns literature that introduces the lexicon
 #+ATTR_LATEX: :float t :align |p{\textwidth}| :placement [H]
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| $$\text{A.}\vspace{-.5cm}$$ |
-| ¶1 Imagine a couple who on some of their first dates enjoy going out for pizza.  They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto.  Indeed, it turns out they like pizza so much that they would like to have it several nights a week.  Going out this frequently would be expensive, so they get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. |
-| ¶2 After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant.  They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress. Why’s that? |
-| ¶3 Imagine that one of the two was excited to pursue a vision of /self-reliance/, inspired by historical figures like Thoreau — whereas the other partner was more focused on the /quality of the food and the health of their relationship/, inspired by the contemporary Slow Food movement — along with childhood memories of parents who loved cooking together.  These days, our two protagonists hardly see each other any more!  One of them is still around the restaurant every day, greeting customers and baking — the other is off sourcing ingredients and developing relationships with others in the local food supply chain. |
-| ¶4 If they realise that the challenges they face — alongside their successes to date — are driven by different but reasonably compatible values, it is likely that with due care the points of difference can be mutually supportive.  An appropriate response to the stress they are experiencing might be to reconnect with a deeper rhythm, closing the shop Monday through Wednesday, and only opening it on Thursday through Sunday.  Instead of pursuing the American Dream based on acquiring wealth, they decide to focus together on art, spirituality, and cultivating their own garden together. |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| $$\text{B.}\vspace{-.5cm}$$ |
-| ¶1 The first layer in CLA is the *surface level*.  In the case of the design patterns discourse, this level includes, for example, the familiar kinds of patterns that are published in papers, discussed at PLoP, put into use in designs of various kinds, or debated by practitioners (e.g., Christopher Alexander’s “Entryway Transition” pattern, but also his remarks about how people who attempted to apply his methods ended up placing “alcoves everywhere”, etc.). This is sometimes also referred to as the *problem level*: in the patterns discourse, this is all very familar, because problems abound.  The other synonym for this layer is the *litany layer*: it describes the problems that everyone is familiar with. |
-| ¶2 Beyond that, we have the *social phenomena* that cause the problems to emerge — along with the familiar solutions.  In the original setting in which patterns developed, this layer might include causes such as more people living in cities, combined with the possibility of developing a more community-driven approach to design.                                                                                                                                                                                                                                                                                                                                                                                            |
-| ¶3 The next layer beyond that comprise *worldviews* (e.g., Alexander’s view that “There is a central quality which is the root criterion of life and spirit in a man, a town, a building, or a wilderness”).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ¶4 Lastly, there are *myths or metaphors* (e.g., Alexander idea that the architect’s work is done ‘for the glory of God’ (see Galle, 2020) or his conception that ‘primitive’ dwellings contain more ‘life’).  To emphasize, CLA does not dismiss myths in the slightest: on the contrary, they are what are seen drive the other layers.  Another term that is used to characterise this layer is *narratives*.                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| $$\text{A.}\vspace{-.5cm}$$                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ¶1 Imagine a couple who on their first date together goes out for pizza. They like different toppings, but that doesn't particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they wish to have it several nights a week. Going out so frequently would be expensive, so they get good at making their own pizzas together at home: Selecting fresh ingredients, fermenting the dough, and baking at a high temperature. After some time, they have gotten really good at baking pizza. They even daydream about opening their own resaurant. |
+| ¶2 They look into the available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get a pizzeria up and running, and they are doing good business. However, as more time passes they begin to notice a considerable strain on their relationship. Many arguements ensue about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  They want to “sort it out”.  However, after a few discussions, they find it difficult to tease out the real reason for their dissagreements and end up even more frustrated. |
+| ¶3 It takes them some time and a few serendipitous encounters with friends to come to grips with the real challenges.  As it turns out, one of the two is deeply motivated by a vision of self reliance, inspired by historical figures like Thoreau. They see living "off-grid" as an ideal, a way to be independent from modern civilization, more in touch with nature, and more responsible for their actions. Their partner, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals, and believe all people should have the oportunity to enjoy similar experiences like their first date.  These two worldviews — while not disjoint — are not automatically well aligned, either. So, if the couple wishes to resolve the stress that they are facing, they would be wise to notice that their problems originate at an even deeper level:  one which they may never have explored with one another before. |
+| ¶4 The couple see a wise counsellor who helps them identify a strategy that the couple to respond to their circumstances, firstly by reconnecting with each other: they close the shop Monday through Wednesday, to spend time away from the business, to develop their own ideas, and to tend their garden together.  For Thursday through Sunday, they resolidify their intention to not only bake the pizzas with love, but also love each other while doing it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| $$\text{B.}\vspace{-.5cm}$$                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ¶1 The first layer in CLA is the *surface level*.  In the case of the design patterns discourse, this level includes, for example, the familiar kinds of patterns that are published in papers, discussed at PLoP, put into use in designs of various kinds, or debated by practitioners (e.g., Christopher Alexander’s “Entryway Transition” pattern, but also his remarks about how people who attempted to apply his methods ended up placing “alcoves everywhere”, etc.). This is sometimes also referred to as the *problem level*: in the patterns discourse, this is all fairly familiar, because problems abound.  The other synonym for this layer is the *litany layer*: it describes the problems that everyone is familiar with.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ¶2 Beyond that, we have the *social phenomena* that cause the problems to emerge — along with the familiar solutions.  In the original setting in which patterns developed, this layer might include causes such as more people living in cities, combined with the possibility of developing a more community-driven approach to design.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ¶3 The next layer beyond that comprise *worldviews* (e.g., Alexander’s view that “There is a central quality which is the root criterion of life and spirit in a man, a town, a building, or a wilderness”).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ¶4 Lastly, there are *myths or metaphors* (e.g., Alexander’s idea that the architect’s work is done ‘for the glory of God’ (see Galle, 2020) or his conception that ‘primitive’ dwellings contain more ‘life’).  To emphasize, CLA does not dismiss myths in the slightest: on the contrary, they are what drive the other layers.  Another term that is used to characterise this layer is *narratives*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 \clearpage
 *** DECONSTRUCTION
@@ -309,7 +297,7 @@ using the classical design pattern format.
 
 - *Context*: A text: here meaning anything that can be critiqued — a movie, a book, a worldview, a person — something or someone that can be read.  (/NB./, every text has a /context/: much like every pattern has a context.)
 - *Problem*: The existence of a ‘text’ suggests a *conflict* between (1) the notion of truth embedded in that text, and (2) the text itself as historically situated or positioned within relationships of power.
-- *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within or by the text? Which assuptions does the text make preferrable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show its contingent nature.
+- *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within or by the text? Which assumptions does the text make preferable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show its contingent nature.
 
 # LV: It feels like this is full-circle back to Sapir-Whorf where the language you speak frames how you think... if language is supposed to be the trace of our cognition, and have an input on how you think — the way we use or modify idioms is telling of how culture manifests itself into language & language manifests into cognition.
 
@@ -408,6 +396,7 @@ neighbors for the other half of the week.
 - *Problem*: It’s not always obvious how to move /between/ the ‘layers’ mentioned above. This *conflicts* with any given effort to empower oneself with a deeper understanding of the situation.
 - *Solution*: We ask: how does the ordering of knowledge differ across civilization, gender and episteme? What or Who is othered? How does it denaturalize current orderings, making them peculiar instead of universal? What tools can we use to reorder knowledge, to make it available in new forms without necessarily requiring the same historical baggage?
 
+\noindent
 *Example*
 In the technique of _reordering knowledge_, one asks what principles
 have been used to organize knowledge, what are the implications to
@@ -421,17 +410,11 @@ institution amongst many.
 
 ** PARs
 
-Before turning to our main applications, we will introduce one more
-technique — although we will not refer to it again until Section
-[[Figure]].
-
 The US Army produced a methodology called the /After Action Review/ or
 AAR cite:Training-the-Force.  AARs can be used to assign
 responsibility when things ‘go wrong’, and can help people figure out
-how to do better next time.  It has been used effectively in business
-settings cite:learning-in-the-thick-of-it.
-
-In a more fully collaborative and distributed peer-to-peer setting, we
+how to do better next time.  The method has been used effectively in business
+settings cite:learning-in-the-thick-of-it. In a more fully collaborative and distributed peer-to-peer setting, we
 needed an adaptation of the AAR that made it a more open ended. We
 came up with the following template:
 
@@ -540,7 +523,8 @@ users.  We have been using a workflow that helps us carefully review
 progress, diagnose issues, and manage our energy.  The next phase of
 this project is to “go public” and mesh with ongoing related
 activities elsewhere, including by getting some training events up and
-running.[fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMALISE][FORMALISE]] pattern.]
+running.
+# [fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMALISE][FORMALISE]] pattern.]
 
 | Maintain plans for the next six months                  | \textsc{Roadmap}     |
 | Keep doing PARs and CLAs                                | \textsc{Assessment}  |
@@ -550,19 +534,18 @@ running.[fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING
 
 ** Systemic approaches and solutions (social system)
 
-If we tackle big enough projects, it will bring with it the
-need for collaboration.  We like to create tangible
-deliverables (e.g., journal articles).  However, “If we knew
-what the outcome was it wouldn’t be research” — therefore,
-we’re focusing initially on /research methods/ and /design
-documents/.  That may mean it takes us a bit longer to write our
-first paper, but when we get something out it will be good.
-Meanwhile we’re also keeping sharp by fixing bugs, filing
-issues, improving our own workflows, and actively exploring the
-landscape.  We want to keep a role for serendipity here, which
-adds the requirement that our planning process remain open and
-flexible: including to various disciplinary methods, and
-especially to change as we reflect on how things are going.[fn:: This uses the specific affordances of Emacs and research as tools for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts. We could provide a variety of different services, keeping in mind that we have the advantage of “Lisp as alien technology”. Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]], in which Lisp or a structured approach to text editing is applied in new domains.  For example, what new affordances might Emacs bring to managing a collection of design patterns? This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about different ways to present the material we are working with. By relating this work to design patterns we position ourselves relative to other historical developments, and begin to do some new thinking about these developments: this is an opportunity to develop some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Ground]]. By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.]
+If we tackle big enough projects, it will bring with it the need for
+collaboration.  We like to create tangible deliverables (e.g. journal
+articles). However, “If we knew what the outcome was, it wouldn’t be
+research” — therefore, we’re focusing initially on research methods
+and design documents. That may result in a longer time to write
+initial papers, but when something is released it is more thoroughly
+prepared. Meanwhile, we keep our skills sharp by fixing bugs,
+improving our own workflows, and actively exploring the landscape. All
+these activities are part of the system we implement regularly, which
+minimizes technical debt and allows space for serendipity to occur.
+
+# [fn:: This uses the specific affordances of Emacs and research as tools for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts. We could provide a variety of different services, keeping in mind that we have the advantage of “Lisp as alien technology”. Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]], in which Lisp or a structured approach to text editing is applied in new domains.  For example, what new affordances might Emacs bring to managing a collection of design patterns? This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about different ways to present the material we are working with. By relating this work to design patterns we position ourselves relative to other historical developments, and begin to do some new thinking about these developments: this is an opportunity to develop some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Ground]]. By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.]
 
 | Identify potential stakeholders in Emacs Research               | \textsc{Community}          |
 | Identify stakeholders in the kind of activities we can support  | \textsc{A Specific Project} |
@@ -582,21 +565,22 @@ want to do.  For example, instead of having a single Org Roam
 directory shared via Git, what if we had ways of managing sharing of
 notes across ‘graphs’?
 
-Collaboration is familiar to in all kinds of teams across all sectors.
-Even authors working alone may have need to ‘virtually collaborate
-with themselves’ — and of course to share their work with others when
-it’s ready.  If we all had our slipboxes online, we could reference
-between them.  This would generalise *ORCiD*, and people to reference
-processes that are undergoing evolution.  Maybe a service like this
-would turn into a ‘Tinder for academics’ — helping to match people
-based on their interests (or similar people in different fields).  So,
-what’s the price point?  Instead of paying money to go to conferences,
-now we can spontaneously make conferences and workshops.  As a guess,
-$750.0 per user per year might be a fair price — for those who can
-afford to pay it — if the service helps people to do better research
-and saves a bunch of travel.  We could also set up a pricing model
-proportional to each country’s carbon emissions or something like
-that.[fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
+Collaboration is familiar to teams across all domains. Even authors
+working alone will collaborate with their past and future selves. What
+is common for all collaborators is that the transfer of information
+must be uninhibited.  If we all had our slipboxes online, we could
+reference between them.  This would generalise *ORCiD*, and people to
+reference processes that are undergoing evolution.  Maybe a service
+like this would turn into a ‘Tinder for academics’ — helping to match
+people based on their interests (or similar people in different
+fields).  So, what’s the price point?  Instead of paying money to go
+to conferences, now we can spontaneously make conferences and
+workshops.  As a guess, $750.0 per user per year might be a fair price
+— for those who can afford to pay it — if the service helps people to
+do better research and saves a bunch of travel.  We could also set up
+a pricing model proportional to each country’s carbon emissions or
+something like that.
+# [fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
 
 | Spec out the Emacs based ‘answer’ to RStudio, Roam Research                  | \textsc{Community}  |
 | Develop our own intention-based workflow                                     | \textsc{Forum}      |
@@ -620,7 +604,8 @@ the free software movement were based on “[[http://www.gnu.org/software/emacs/
 code, these methods can be extended and allow us to synthesise new
 relationships within broader semiotic commons.  Emacs can become part
 of a system for addressing large-scale existential problems, by
-expanding the frontier of what’s possible for human beings.[fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
+expanding the frontier of what’s possible for human beings.
+# [fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
 
 | Survey related work                 | \textsc{Context}    |
 | Assess what we’re learning          | \textsc{Assessment} |
@@ -680,7 +665,7 @@ Let’s add some examples with reference to the world of free/libre/open source 
   population of people who think like us this *conflicts* with our
   desire to find new ideas and new solutions, and to make things that
   are widely useful.
-- *Solution*: Look our for difference contexts in which we can
+- *Solution*: Look out for different contexts in which we can
   collaborate with different people; they don’t all have to work on
   the same project.  We recognise that collaboration is easier when we
   share similar languages and literacies.  In cases where
@@ -1047,7 +1032,7 @@ us how to construct arrangements - as many as we want - which satisfy
 the rules. (at /ibid./, quoting from /The Timeless Way Of Building/, pp. 185-6)
 #+end_quote
 Indeed, the prominence of linguistic metaphors reminds us that
-Alexander’s writing contains many further traces of symbols asociated
+Alexander’s writing contains many further traces of symbols associated
 with Hermes:
 #+begin_quote
 In the house, [Hermes’] place is at the door, protecting the
@@ -1062,7 +1047,7 @@ roots” present in other 20th Century thought: but unlike some of
 these, patterns methods are apparently working to restore “the
 dialectic between centripital immobility and centrifugal mutation.”
 One aspect of this is a movement towards foundations (in the form of
-fundamental princples, per /ANO/): these are associated with Hestia.
+fundamental principles, per /ANO/): these are associated with Hestia.
 The resolution within pattern language — as a form — seems to be along
 Nietzschean lines: “anything that is becoming returns” (i.e., is
 discussable as pattern), and “contingency resolves itself into
@@ -1525,7 +1510,7 @@ Relative to the analysis and case study, here are high-level issues collected fr
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-Probably fine?  Try to make it shorter.
+**** TODO Check properly vs the theory of deconstruction, myth, etc.
 ** *Things to work on in Section [[Figure]]* (Case Study)
 :PROPERTIES:
 :UNNUMBERED: t
