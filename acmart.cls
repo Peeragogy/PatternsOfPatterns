@@ -494,7 +494,7 @@
 \RequirePackage{hyperxmp}
 \let\@footnotemark@nolink\@footnotemark
 \let\@footnotetext@nolink\@footnotetext
-\RequirePackage[bookmarksnumbered,unicode]{hyperref}
+\RequirePackage[bookmarksnumbered,unicode,hyperfootnotes=false]{hyperref}
 \pdfstringdefDisableCommands{%
   \def\addtocounter#1#2{}%
   \def\unskip{}%
