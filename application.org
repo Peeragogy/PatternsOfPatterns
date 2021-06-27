@@ -1451,8 +1451,8 @@ its activities.
 \begin{figure}
 \begin{equation*}
   \xymatrix{
-    \hbox{\textbf{context}} & \hbox{\textbf{form}} & \hbox{\phantom{mental picture}} \\
-    *+[F]{C1}  \ar@{<->}[r] & *+[F]{F1} & \hbox {actual world}}
+    \hbox{\textbf{context}} & \hbox{\textbf{form}} & \hbox{\phantom{mental picturexxx}} \\
+    *+[F]{C1}  \ar@{<->}[r] & *+[F]{F1} &            \hbox{\hspace{-.2cm}actual world}}
 \end{equation*}
 \vskip 10pt
 \emph{\textbf{A.}~In this point there is a close relationship between content and form, and they evolve together.}
@@ -1660,7 +1660,8 @@ We conclude with a PAR for the paper as a whole.
 *3. What are some different perspectives on what’s happening?*
 # - JC: I did most of the hands-on-the-keyboard writing up to 11/06/2021, aided by frequent and detailed discussions with Ray, and an editorial perspective added by Charlie.  We went over the material in depth and there are lots of notes that didn’t make it into the paper!  I’m looking forward to discussing the content with ERG. We have used CLA to engage in a process of Friereian /conscientização/ cite:roberts2007conscientisation, drawing on [[SERENDIPITY][SERENDIPITY]], transdisciplinarity, and the process of “drinking our own champagne”.
 - JC: These different communities need to be talking to each other.
-- Ray: Do conclusions come to me when I reread?
+- Ray: One of our goals was to publish this paper, but we could have discussed earlier some scenarios for the paper, like “what if it doesn’t get published?”  We could have had a meeting way back in May or June where we looked at scenarios.  We could take the scenarios above and use them to start building out a set of scenarios for ERG, peeragogy, and so on.
+- JC: We might have even lost track of how we got onto the intention of PLoP this time!
 - CD: Keep in mind that these are patterns people but not CLA people — the inverse problem is possible here.
 - CP: Fearless Change is related work in connection with the Futures stuff.  You need things like this as projects develop over time to understand what’s going on.  I feel more access to this paper than the Futures paper and I got burnt out on trying with that; maybe I should be doing more reading/homework.
 - LV: I’m glad everyone is on board in reviewing the paper but we’re so last-minute that it would be hard to address anything very substantial.  I’m glad to see we are polishing the paper rather than compromising.  B/c I missed the first 30 minutes of this meeting some wagons might have left.  This model of sending the paper for revision is a good way to do away with the pressure of submitting; it’s a soft deadline in a way.  I’ve had moments of strife with submitting papers in the past.  The meeting itself feels good.  The diverse views of contributors provides some wealth because people are discovering things in different ways.  We’ve nicely modularised the pattern of reviewing a paper, and brought different gazes that can only lead to more wealth and appreciation.
@@ -1879,7 +1880,7 @@ Let’s add some examples with reference to the world of free/libre/open source 
   population of people who think like us this *conflicts* with our
   desire to find new ideas and new solutions, and to make things that
   are widely useful.
-- *Solution*: Look out for different contexts in which we can   collaborate with different people; they don’t all have to work on   the same project.  We recognise that collaboration is easier when we   share similar languages and literacies.  In cases where   collaboration needs to be made tighter, prefer ways of exchanging   information and expertise with \textsc{Newcomers} that makes the   relationship one of peers rather than a one-way hierarchy.  Understand the historical landscape through techniques like [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]]. At the same time, by inviting people who were not closely connected or emotionally invested in your   project, you can get the advantages of [[DISTANCE][DISTANCE]], at least vicariously.  Sometimes, diversity is absent for seemingly contingent historical reasons, rather than as a design principle, e.g., within   free software only about 5% of the participants are female, whereas   women occupy around 25% of computing occupations cite:Vedres2019.
+- *Solution*: Look out for different contexts in which we can   collaborate with different people; they don’t all have to work on   the same project.  We recognise that collaboration is easier when we   share similar languages and literacies.  In cases where   collaboration needs to be made tighter, prefer ways of exchanging   information and expertise with \textsc{Newcomers} that makes the   relationship one of peers rather than a one-way hierarchy.  Understand the historical landscape through techniques like [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]]. At the same time, by inviting people who were not closely connected or emotionally invested in your   project, you can get the advantages of [[DISTANCE][DISTANCE]], at least vicariously.  Diversity may be absent for contingent historical reasons, rather than as a design principle, e.g., within   free software only about 5% of the participants are female, whereas   women occupy around 25% of computing occupations cite:Vedres2019.
 #+BEGIN_COMMENT
 \noindent *Example* Let’s add some examples with reference to the world
 of free/libre/open source software?
