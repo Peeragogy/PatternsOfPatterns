@@ -15,7 +15,8 @@
 # #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
 #+LATEX_HEADER: \usepackage{xunicode}
 #+LATEX_HEADER: \usepackage{xelatexemoji}
-#+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{/home/joe/Downloads/DiscordChatExporter/images/#1.pdf}
+# #+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{/home/joe/Downloads/DiscordChatExporter/images/#1.pdf}
+#+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{/home/joe/noto-emoji-svg/svg/U#1.PDF}
 #+LATEX_HEADER: \usepackage[no-sscript]{xltxtra}
 #+LATEX_HEADER: \usepackage{natbib}
 # #+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
@@ -470,14 +471,14 @@ This section summarises the concrete application of the methods
 from Section [[methods]] within an active seminar, the Emacs
 Research Group, which was convened following EmacsConf
 2020.[fn:: https://emacsconf.org/2020/; the conference took place November 28th and 29th of 2020.]
-We illustrates how the
+We illustrate how the
 three methods introduced above interoperate.  In our case, this
-analysis has allowed us develop a trajectory for the project:
+analysis has allowed us to develop a trajectory for the project:
 as a case study, it gives a reasonably self-contained example.
 We think of the work carried out up to this point as *Season 0*,
-on the view that our thinking has developing rhizomatically,
+on the view that so far our thinking has developed rhizomatically,
 underground, rather than fully in the public sphere.  This
-analysis contextualise our work relative to the PLoP and
+analysis serves to contextualize our work relative to the PLoP and
 Peeragogy communities, and the wider DPL discourse.
 During the 25 sessions of our seminar to date, we have used CLA in
 combination with PARs to address the question ‘What is our
@@ -534,7 +535,7 @@ running.
 | Keep doing PARs and CLAs                                | \textsc{Assessment}  |
 | Mesh with other ongoing activities elsewhere            | \textsc{Cooperation} |
 | New user workshops: “Zero to Org Roam”                  | \textsc{Newcomer}    |
-| Come up with a categorical treatment of todo-categories | FORMALISE            |
+| Come up with a categorical treatment of todo-categories | [[FORMAL PATTERNS][FORMAL PATTERNS]]      |
 
 ** Systemic approaches and solutions (social system)
 
@@ -573,7 +574,7 @@ Collaboration is familiar to teams across all domains. Even authors
 working alone will collaborate with their past and future selves. What
 is common for all collaborators is that the transfer of information
 must be uninhibited.  If we all had our slipboxes online, we could
-reference between them.  This would generalise *ORCiD*, and people to
+interlink them.  This would generalise *ORCiD*, and people to
 reference processes that are undergoing evolution.  Maybe a service
 like this would turn into a ‘Tinder for academics’ — helping to match
 people based on their interests (or similar people in different
@@ -792,7 +793,7 @@ Alexander had medium or low confidence in fact occupy a relatively
 central position in /APL/'s graph:
 
 #+begin_quote
-the patterns which are most likely to be encountered by designers –
+... the patterns which are most likely to be encountered by designers –
 are most easily accessed, or provide greatest access to other patterns
 – might be those which Alexander acknowledged were incapable of
 providing fundamental solutions to the problems they addressed.
@@ -825,8 +826,8 @@ which allowed individuals to contribute small pieces to incrementally
 improve the whole.
 #+end_quote
 This is true if by “open source” we understand /what you see when you click Edit/ — but
-the term is misleading relative to contemporary usage, which is usually linked with
-the Open Source Initiative’s definition, and centred on the premise that
+the statement could be misleading relative to contemporary usage, which is often linked with
+the Open Source Initiative’s definition, which centers on the premise that
 “Open source doesn’t just mean access to the source code.”[fn:: https://opensource.org/osd]
 On the c2 wiki, licensing was restrictive. Discussions were to take place in “letters and replies” rather than revision or annotation of the published patterns; rights associated with the finished patterns were closely guarded.[fn:: http://c2.com/ppr/titles.html][fn:: http://c2.com/ppr/about/copyright.html]
 
@@ -858,14 +859,14 @@ whom we met above.  Tidwell’s critique suggests at least a
 couple [[ALTERNATIVE PASTS AND
  FUTURES][ALTERNATIVE PASTS AND FUTURES]]: e.g., what if the end-user had been
 placed at the centre the whole time?  Alternatively, what if the
-primary focus of patterns was to facilate interaction between
+primary focus of patterns was to facilitate interaction between
 different stakeholders?  The fact that Tidwell’s book
 cite:tidwell2010designing and an essay by Jans Borchers cite:borchers2008pattern
 which drew inspiration from her critique both have over
 1000 citations on Google Scholar shows that Tidwell’s perspective has
 been impactful.  To get a sense of how the pattern community may have
 been informed by this critique — along with related trends and concerns — we can look at
-how the writers workshops at PLoP have evolved over time.  In Table [[tabplop]], a
+how the Writers Workshops at PLoP have evolved over time.  In Table [[tabplop]], a
 selection of titles of workshop sessions show how the focus of PLoP evolved from
 primarily ‘programming’ oriented to a much broader contextual view
 over time.  Indeed, by 2019, the focus is almost exclusively ‘contextual’.
@@ -994,13 +995,13 @@ takes over from Garcia Lorca originally derives from /dueño de casa/,
 the name of a certain kind of household spirit.  VanDrunen’s critique
 is also useful for our purposes because it points to the importance of
 considering the deeper layers in developing a concept.  It’s not just
-a matter of finding a culture’s myths: where may also be a conflict at
+a matter of finding a culture’s myths: there may also be a conflict at
 this level.
 
 One important narrative for the pattern discourse is in plain view
 within the terminology of problems and solutions, which come from
-mathematics or physics.  Alexander’s worked /at the level of narrative/
-to connect the patterns discoures to a scientific worldview, seeking a
+mathematics or physics.  Alexander worked /at the level of narrative/
+to connect the patterns discourse to a scientific worldview, seeking a
 sense of objectivity.  For example, in “The Atoms of Environmental
 Structure”:
 
@@ -1011,12 +1012,12 @@ criteria, or goals, or policies, or values, which have themselves been
 arbitrarily chose.  We believe this point of view is mistaken.
 #+end_quote
 
-Notice that, here, the discourse is position as different from the
-mainstream.  The key differentiator is not the language of problems
-and solutions which would be familiar to anyone with an engineering
-background; rather, but in a certain notion of /wholeness/.  Which
-notion of wholeness remains to be surfaced.  Quoting, again, from “The
-Atoms of Environmental Structure”:
+Notice that, here, the discourse is positioned as different from the
+mainstream of architecture.  The key differentiator is not the
+language of problems and solutions which would be familiar to anyone
+with an engineering background; rather, but in a certain notion of
+/wholeness/.  Which notion of wholeness remains to be surfaced.
+Quoting, again, from “The Atoms of Environmental Structure”:
 
 #+begin_quote
 We believe that all values can be replaced by one basic value:
@@ -1026,7 +1027,7 @@ rein to all tendencies; conflicts between people’s tendencies must be
 eliminated.
 #+end_quote
 
-Historically, there are at two major varieties of wholeness: one that
+Historically, there are at least two major varieties of wholeness: one that
 is based on progressive differentiation (perhaps understood as
 unfolding from substance, per Spinoza), and the other generated by
 interaction between components (perhaps that of mutually reflecting
@@ -1052,7 +1053,7 @@ also linked with the Carthusian order (/Stat crux dum volvitur orbis/:
 the cross is steady while the world turns) — the Rod of Asclepius
 (\Asclepius, for the deity associated with healing or making whole) —
 this last symbol sometimes being inter-confused with the Caduceus
-(\Caduceus, the symbol of Hermes, the deity assocated with mediation
+(\Caduceus, the symbol of Hermes, the deity associated with mediation
 of various forms, and also echoed in the planetary symbol for Mercury,
 \begingroup\alch\symbol{"53}\endgroup).
 
@@ -1097,7 +1098,7 @@ was internal, the closed, the fixed, the inward” (/ibid./)  The discourse
 around patterns certainly contains aspects a movement “to archaic
 roots” present in other 20th Century thought: but unlike some of
 these, patterns methods are apparently working to restore “the
-dialectic between centripital immobility and centrifugal mutation.”
+dialectic between centripetal immobility and centrifugal mutation.”
 One aspect of this is a movement towards foundations (in the form of
 fundamental principles, per /TNO/): these are associated with Hestia.
 The resolution within pattern language — as a form — seems to be along
@@ -1213,7 +1214,7 @@ to generate new knowledge.  However, this could conflict with a notion of
 library contents as read-only, or with the view that libraries
 should be silent study spaces.
 
-** Scenario II. Pattern languages move to free/libre/open source licensing.
+** Scenario II. Pattern language authoring communities move to free/libre/open source licensing.
 In the field of policy, ‘adaptive capacity’ describes a society’s
 ability to recover after a shock
 cite:thonicke2020advancing,magnan2010better.
@@ -1361,20 +1362,23 @@ resource.  More likely, the methods we’ve described would simply
 strengthen local forms of resilience and better identify healthy
 futures.
 
-That said, this leads us to ask if — at the heart of the methods we’ve
-discussed and despite everyone’s good intentions to be multicultural
-and transdisciplinary in their approach and multivalently accessible
-and accommodating in their development — is a form of hegemonic power
-asserting itself inside the methods we’ve described. After all, the
-notion of gift culture has been critiqued on that basis
-cite:Mallard2019; would we expect pattern-theoretic culture to be
-exempt or innocuous?
+That said, this line of thinking leads us to ask if — at the heart of
+the methods we’ve discussed and despite everyone’s good intentions to
+be multicultural and transdisciplinary in their approach and
+multivalently accessible and accommodating in their development —
+there is a form of hegemonic power asserting itself inside the methods
+we’ve described.  After all, the notion of gift culture has been
+critiqued on that basis cite:Mallard2019; would we expect
+pattern-theoretic or free software culture to be exempt?  Furthermore,
+supposing that patterns (and software) are indeed tools for liberating
+many human tendencies.  Humans also — individually and collectively —
+have tendencies to self-destruction, murder, exploitation, and
+wantonness; presumably we need discourses that help tip the balance
+against those tendencies.
 
-** Having raised this concern we are not prepared to dismiss it out of hand.
-
-Returning to our concrete situation, we would like to apply what we
-have learned to inform planned activities such as "Figure out the
-gender balance stuff".
+This is one reason to think about how patterns — and other methods —
+are contextualised.  This is a useful moment to examine how others
+have gone about related things.
 
 ** Alexander himself in /Synthesis of Form/
   - There’s more to Alexander than just patterns, it’s also about what is design, /design as debugging/
@@ -1382,7 +1386,10 @@ gender balance stuff".
   - He did a lot with computers
 ** CLS and such from Wildman
 - He had something quite close to us — this looks similiar to our action review
-** Other stuff
+** Maybe also have a look at AAR in business
+** CLA and Action Research.
+
+** Other stuff                                                    :noexport:
 - Damasio’s analysis of living bodies
 - The ideas we were criticising in our Futures paper
 - Perhaps anything recent from PLoP, since they have emphasised meta-level stuff recently
@@ -1390,7 +1397,7 @@ gender balance stuff".
 - Barthes, we know a bit more about him, and this is directly relevant to the tool layer
   - Friereian /conscientização/ cite:roberts2007conscientisation — could be a backup, a link more than a paragraph
 
-** Notes from the discussion :noexport:
+** Notes from the discussion                                      :noexport:
 *** Vitor (Laptop)
 about the bill gates profile:
 https://news.softpedia.com/news/did-you-know-the-default-microsoft-outlook-contact-pic-was-bill-gates-mug-shot-520636.shtml
@@ -1612,7 +1619,7 @@ restaurant was a magical place where her family would go on special
 occasions.  When she grew up, a restaurant was a place to socialize
 with friends and meet new people.  Lately, it has been synonymous with
 balance sheets, market share, supply chains, and customer
-satisfaction.  She wonders how such a thorough a change happened
+satisfaction.  She wonders how such a thorough change happened
 so fast and whether she could recover some aspects of the earlier
 understandings into the current context.
 #+END_COMMENT
@@ -1646,7 +1653,7 @@ taking for granted.
 - *Solution*: With this technique, one notes how and why some
   interpretations of the past and visions of the future have
   been promoted whilst others have been suppressed. We ask:
-  which interpretation of past is valorized?  What histories
+  which interpretation of the past is valorized?  What histories
   make the present problematic?  Which vision of the future is
   used to maintain the present?  Alternatively, which visions
   undo the unity of the present?
@@ -1746,7 +1753,7 @@ Let’s add some examples with reference to the world of free/libre/open source 
   population of people who think like us this *conflicts* with our
   desire to find new ideas and new solutions, and to make things that
   are widely useful.
-- *Solution*: Look out for different contexts in which we can   collaborate with different people; they don’t all have to work on   the same project.  We recognise that collaboration is easier when we   share similar languages and literacies.  In cases where   collaboration needs to be made tighter, prefer ways of exchanging   information and expertise with \textsc{Newcomers} that makes the   relationship one of peers rather than a one-way hierarchy.  Understand the historical landscape through techniques like [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]]. At the same time, by inviting people who were not closely connected or emotionally invested in your   project, you can get the advantages of [[DISTANCE][DISTANCE]], at least vicariously.  Sometimes, diversity is absent for seemingly contigent   historical reasons, rather than as a design principle, e.g., within   free software only about 5% of the participants are female, whereas   women occupy around 25% of computing occupations cite:Vedres2019.
+- *Solution*: Look out for different contexts in which we can   collaborate with different people; they don’t all have to work on   the same project.  We recognise that collaboration is easier when we   share similar languages and literacies.  In cases where   collaboration needs to be made tighter, prefer ways of exchanging   information and expertise with \textsc{Newcomers} that makes the   relationship one of peers rather than a one-way hierarchy.  Understand the historical landscape through techniques like [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]]. At the same time, by inviting people who were not closely connected or emotionally invested in your   project, you can get the advantages of [[DISTANCE][DISTANCE]], at least vicariously.  Sometimes, diversity is absent for seemingly contingent historical reasons, rather than as a design principle, e.g., within   free software only about 5% of the participants are female, whereas   women occupy around 25% of computing occupations cite:Vedres2019.
 #+BEGIN_COMMENT
 \noindent *Example* Let’s add some examples with reference to the world
 of free/libre/open source software?
