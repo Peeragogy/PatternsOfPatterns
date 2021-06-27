@@ -494,7 +494,7 @@
 \RequirePackage{hyperxmp}
 \let\@footnotemark@nolink\@footnotemark
 \let\@footnotetext@nolink\@footnotetext
-\RequirePackage[bookmarksnumbered,unicode,hyperfootnotes=false]{hyperref}
+\RequirePackage[bookmarksnumbered,unicode]{hyperref}
 \pdfstringdefDisableCommands{%
   \def\addtocounter#1#2{}%
   \def\unskip{}%
@@ -733,7 +733,7 @@
   % See https://github.com/borisveytsman/acmart/issues/402
   % and https://github.com/borisveytsman/acmart/issues/410
   \ifxetex
-    \RequirePackage[libertine]{newtxmath}
+    %\RequirePackage[libertine]{newtxmath}
     \RequirePackage[tt=false]{libertine}
     \setmonofont[StylisticSet=3]{inconsolata}
   \else
