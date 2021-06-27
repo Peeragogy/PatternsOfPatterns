@@ -24,6 +24,10 @@
 # #+LATEX_HEADER: \usepackage{lscape}
 #+LATEX_HEADER: \usepackage{float}
 # #+LATEX_HEADER: \setmonofont[Color=blue]{Ubuntu Mono}
+#+LATEX_HEADER: \usepackage{xypic}
+#+LATEX_HEADER: \usepackage{amsmath, amssymb}
+#+LATEX_HEADER: \def\t{\scriptstyle\triangle}
+#+LATEX_HEADER: \def\T{\textstyle\blacktriangle}
 #+LATEX_HEADER: \usepackage{starfont}
 #+LATEX_HEADER: \newfontfamily{\alch}{Alchemy}
 #+LATEX_HEADER: \newfontfamily\emoji{DejaVu Sans}
@@ -1384,6 +1388,126 @@ have gone about related things.
   - There’s more to Alexander than just patterns, it’s also about what is design, /design as debugging/
   - Where Alexander goes down three levels and across — again, it’s not just patterns
   - He did a lot with computers
+
+We woud like to draw the reader's attention to two diagrams from
+Alexander's "Notes on the Synthesis of Form" which we have recopied
+below.  In the first diagram, we have two columns corresponding to
+context (sive problem) and form (sive solution) and three rows
+corresponding to "actual world", "mental picture" and "formal
+picture".  A design problem is posed at the level of actual world, say
+"build a house atop this hill" or "make a celebration song".  It can
+be solved at one of the three levels.
+
+The most direct approach is to work in the actual world.  For
+instance, a musician might pick up an instrument, start playing
+something, try out different possibilities, modify notes or phrasings
+to make it sound better, and so come up with a song.
+
+At the level of "mental picture", a designer recieves design
+requirements which describe the problem and produces a plan which
+describes a solution.  For instance, the host of the party might take
+a request "Write a joyous song for alto voice accompanied by flute and
+trumpet to celebrate the acceptance of our paper into the conference."
+to a composer who might might sit down at a desk away from and
+instruments and write out a score which would later be handed to the
+singer and instrumentalists for performance.  Alexander points that
+there is a danger in this process since one no longer has the
+immediate feedback which comes from working directly in the actual
+world.
+
+His proposed solution is to produce a formal picture of the mental
+picture and instead work with that formal picture.  For Alexander,
+this consists of a set-theoretic formalization of design requirements
+and misfits.  For our example, it might take the form of music theory
+(Chapter 1 Westergaard).  More generally, we employ a suitable
+metalanguage to reason about the mental representation; this process
+of reasoning can then take the place of the actual world feedback in
+guiding and evaluating our designs.
+
+(Why only three rows?  According to Goedel, any language which counts
+can serve as its own metalanguage.)
+
+The second diagram refers to the process of design at the "formal
+picture" level.  The left panel represents the analytic process in
+which one decomposes a design problem into subproblems and the right
+panel represents the complementary synthetic pocess in which one
+successively combines solutions to subproblems to arrive at a solution
+to the original problem.  Alexander proposed a maximum entropy method
+for carring out the analysis and, in later works, introduced design
+patterns for use in the synthesis.
+
+In this paper, we considered the problems of a group of people
+organizing their activities.  The "actual world" approach would be
+when a group takes a "seat of the pants" approach to dealing with
+issues as they come up.  PAR is a technique for sketching a "mental
+picture"; CLA and Peeragogy patterns are, respectively, techniques for
+analysis and synthesis at the "formal picture" level.  Just as even a
+talented musician without a solid grasp of music theory woud be hard
+pressed to compose an augmentation canon or symphony, so too we
+suggest that a group which faces complex challenges may want to
+consider these as techniques for orchestrating its activities.
+
+
+#+BEGIN_EXPORT latex
+\begin{figure}
+\begin{equation*}
+  \xymatrix{
+    \hbox{context} & \hbox{form} & \\
+    *+[F]{C1}  \ar@{<->}[r] & *+[F]{F1} & \hbox {actual world}}
+\end{equation*}
+\vskip 10pt
+\emph{A.~In this point there is a close relationship between content and form, and they evolve together.}
+\vskip 10pt
+\begin{equation*}
+  \xymatrix{
+    \hbox{context} & \hbox{form} \\
+    *+[F]{C1} \ar[d] & *+[F]{F1} & \hbox {actual world} \\
+    *+[F]{C2}  \ar@{<->}[r] & *+[F]{F2} \ar[u] & \hbox {mental picture}}
+\end{equation*}
+\vskip 10pt
+\emph{B.~In this setting we add a mental picture $C2$ that abstracts from the context (e.g., design requirements).  This corresponds to $F2$ e.g., plans), and $F1$ abstracts further (e.g., a description of the plan).  This allows civilisation and specialisation, but there’s no direct link between $C1$ and $F1$.}
+\vskip 10pt
+\begin{equation*}
+  \xymatrix{
+    \hbox{context} & \hbox{form} & \\
+    *+[F]{C1} \ar[d] & *+[F]{F1} & \hbox {actual world} \\
+    *+[F]{C2} \ar[d] & *+[F]{F2} \ar[u] & \hbox {mental picture} \\    
+    *+[F]{C3}  \ar@{<->}[r] & *+[F]{F3} \ar[u] & \hbox {formal picture}}
+\end{equation*}
+\vskip 10pt
+\emph{C.~Now we add a meta-language.}
+\vskip 10pt
+\begin{center}
+\begin{minipage}[c]{0.45\textwidth}
+\begin{equation*}
+  \xymatrix @C 5pt @R 6pt {
+    & \ar@2{->}[d]
+      & & & \t \ar@{-}[lld] \ar@{-}[rdd]  \ar@{-}[rrrdd] & & & & \\
+    & & \t \ar@{-}[ld] \ar@{-}[rdd] & & & & & & \\
+    & \t \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & & & \t
+      \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & \t \ar@{-}[d] \ar@{-}[rd] & \\
+  \t & \t & \t & \t & \t & \t & \t & \t & \t}
+\end{equation*}
+Program, consisting of sets, based on an analysis
+\end{minipage}
+\hskip 25pt
+\begin{minipage}[c]{0.45\textwidth}
+\begin{equation*}
+  \xymatrix @C 5pt @R 6pt {
+    & & & & \T \ar@{-}[lld] \ar@{-}[rdd]  \ar@{-}[rrrdd] & & & & \\
+    & & \T \ar@{-}[ld] \ar@{-}[rdd] & & & & & \ar@2{->}[u] & \\
+    & \T \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & & & \T
+     \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & \T \ar@{-}[d] \ar@{-}[rd] & \\
+  \T & \T & \T & \T & \T & \T & \T & \T & \T}
+\end{equation*}
+Realization, consisting of diagrams, a synthesis
+\end{minipage}
+\vskip 10pt
+\emph{D.~At this level we have methods for actually doing the programming.}
+\vskip 10pt
+\end{center}
+\end{figure}
+#+END_EXPORT
 ** CLS and such from Wildman
 - He had something quite close to us — this looks similiar to our action review
 ** Maybe also have a look at AAR in business
