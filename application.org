@@ -746,12 +746,18 @@ freedom, rights, and ethics; from this basis we can explore dialectic
 tensions, and potentially initiate dialogue.
 
 As a way of gathering further contextual background, we now apply CLA
-to the DPL literature and associated community practices.  In this
-section, we will omit PARs, and have not specifically developed the
-material into high-level TODO items with connections to other
-patterns, as per the previous section.  Practical next steps could be
-revisited in later work, and we discuss some likely directions in the
-following sections.
+to the DPL literature and associated community practices. In précis,
+
+- We will examine queries having to do pattern language methods raised by Alexander and Bryant, along with practical problems surfaced by Dawes and Ostwald.
+- We examine issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been organised.
+- We examine a worldview associated with patterns, through the lens of mob software and its critiques.
+- Lastly, we looked at some of the symbols and philosophical thinking that enrich our understanding of the context in which Alexander developed his methods.
+
+In this section, we will omit PARs, and have not specifically
+developed the material into high-level TODO items with connections to
+other patterns, as per the previous section.  Practical next steps
+could be revisited in later work, and we discuss some likely
+directions in the following sections.
 
 ** Litany: Understanding data, headlines, empirical world (short term change)
 
@@ -958,9 +964,9 @@ goes way beyond what open source is up to today.
 That “crucial first question” is: “What if what once was scarce is now abundant?”
 It is well known that the PLoP conference series builds on this idea: it includes
 shepherding and workshops cite:gabriel2002a as well as games, informal gifts, and
-other measures that aim to create a sense of psychological safety: indeed, the central issue of
-making a space where ‘failure’ is OK and even celebrated, as per Mob
-Software. The essay develops its own criticisms of open source, e.g.,
+other measures that aim to create a sense of psychological safety: all features
+that make PLoP a space where ‘failure’ is OK and even celebrated, as per Mob
+Software.  The essay develops its own criticisms of open source, e.g.,
 “the open-source community is extremely conservative” and forking
 happens rarely.  (Five years later, with the creation of Git, forking
 became considerably more typical.)  Resonating with Tidwell’s critique
@@ -994,10 +1000,10 @@ on their own terms” cite:vandrunenchristian.  His critique functions
 as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
 Some key excerpts appear in Table [[tabone]].
 
-# \clearpage
+\clearpage
 #+NAME: tabone
 #+CAPTION: Key observations from VanDrunen’s critique of Gabriel’s “Mob Software” essay
-#+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone 
+#+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | “Kauffman’s work is about a rediscovery of the sacred, and it amounts to a proposal of the laws of self-organization as a new deity”                                                                                                                  |
 | “One thing we find in common with Lewis Thomas’s ants, Kauffman’s autocatalytic sets of proteins, and the agents inhabiting Sugarscape is that they all lack intelligence.”                                                                           |
@@ -1079,8 +1085,7 @@ cross — or potentially the cross inside a circle,
 Related but more
 elaborated symbols include the circle with a cross rising above it
 (\varTerra) which is both the modern astronomical symbol for Earth and
-also linked with the Carthusian order (/Stat crux dum volvitur orbis/:
-the cross is steady while the world turns) — the Rod of Asclepius
+also linked with the Carthusian order, and the Rod of Asclepius
 (\Asclepius, for the deity associated with healing or making whole) —
 this last symbol sometimes being inter-confused with the Caduceus
 (\Caduceus, the symbol of Hermes, the deity associated with mediation
@@ -1098,9 +1103,7 @@ Alexander cite:alexander1999a, to unite: here pointing in the
 direction of bio-hacking and nanotechnology (e.g., for molecular
 self-assembly)
 — at least at the allusive level if not at the concrete level.
-
-Relevant to the overall case we are making here, the following
-quote suggests we are on a fruitful track:
+The following quote suggests we are on a fruitful track:
 #+begin_quote
 Generative patterns work indirectly; they work on the underlying
 structure of a problem (which may not be manifest in the problem)
@@ -1439,45 +1442,6 @@ done contextually.  That dovetails with our next point, which is to
 briefly examine how this work relates to a somewhat similar agenda
 developed by Christopher Alexander himself.
 
-We can begin by drawing the reader's attention to two diagrams from
-Alexander's "Notes on the Synthesis of Form", recopied below as Figure
-\ref{synthesis-diagrams}.  Parts A.-C. of this figure have two columns
-corresponding to context (/sive/ problem) and form (/sive/ solution), and
-one, two, or three rows, corresponding to the "actual world", "mental
-picture" and "formal picture".  A design problem is posed at the level
-of the actual world, say, "build a house atop this hill" or "make a
-celebration song".
-
-The design problem can be solved at one of the three levels.  The most
-direct approach is to work in the actual world.  For instance, a
-musician might pick up an instrument, start playing something, try out
-different possibilities, modify notes or phrasings to make it sound
-better, and so come up with a song.
-
-At the level of "mental picture", a designer receives design
-requirements which describe the problem, and produces a plan which
-describes a solution.  For instance, the host of the party might make
-a request "Write a joyous song for alto voice accompanied by flute and
-trumpet to celebrate the acceptance of our paper into the conference."
-A composer might then sit down at a desk, away from any instruments,
-and write out a score which would later be handed to the singer and
-instrumentalists for performance.  Alexander points out that there is a
-danger in this process: the composer would no longer have the
-immediate feedback which comes from working directly in the actual
-world.  Accordingly, the result might be a song that matches the
-description, but doesn’t match the mood of the event.
-
-Alexander’s proposed solution is to produce a formal picture of the
-mental picture, and instead work with that formal picture.  For our
-example, it might take the form of a suitably elaborate music theory,
-one that includes concepts like  ‘\emph{ballabile}’ (to indicate that
-the song should be danceable).  More generally, we employ a suitable
-metalanguage to reason about the mental representation; this process
-of reasoning can then take the place of feedback from the actual world
-in guiding and evaluating our designs.  For Alexander, this consists
-of a set-theoretic formalization of design requirements and potential
-misfits.\footnote{Incidentally: why only three rows here?  According to G\"odel, any language that can count can also serve as its own metalanguage.}
-
 #+BEGIN_EXPORT latex
 \begin{figure}[h]
 \begin{equation*}
@@ -1540,6 +1504,45 @@ Realization, consisting of diagrams, a synthesis
 \end{figure}
 \FloatBarrier
 #+END_EXPORT
+
+We can begin by drawing the reader's attention to two diagrams from
+Alexander's "Notes on the Synthesis of Form", recopied below as Figure
+\ref{synthesis-diagrams}.  Parts A.-C. of this figure have two columns
+corresponding to context (/sive/ problem) and form (/sive/ solution), and
+one, two, or three rows, corresponding to the "actual world", "mental
+picture" and "formal picture".  A design problem is posed at the level
+of the actual world, say, "build a house atop this hill" or "make a
+celebration song".
+
+The design problem can be solved at one of the three levels.  The most
+direct approach is to work in the actual world.  For instance, a
+musician might pick up an instrument, start playing something, try out
+different possibilities, modify notes or phrasings to make it sound
+better, and so come up with a song.
+
+At the level of "mental picture", a designer receives design
+requirements which describe the problem, and produces a plan which
+describes a solution.  For instance, the host of the party might make
+a request "Write a joyous song for alto voice accompanied by flute and
+trumpet to celebrate the acceptance of our paper into the conference."
+A composer might then sit down at a desk, away from any instruments,
+and write out a score which would later be handed to the singer and
+instrumentalists for performance.  Alexander points out that there is a
+danger in this process: the composer would no longer have the
+immediate feedback which comes from working directly in the actual
+world.  Accordingly, the result might be a song that matches the
+description, but doesn’t match the mood of the event.
+
+Alexander’s proposed solution is to produce a formal picture of the
+mental picture, and instead work with that formal picture.  For our
+example, it might take the form of a suitably elaborate music theory,
+one that includes concepts like  ‘\emph{ballabile}’ (to indicate that
+the song should be danceable).  More generally, we employ a suitable
+metalanguage to reason about the mental representation; this process
+of reasoning can then take the place of feedback from the actual world
+in guiding and evaluating our designs.  For Alexander, this consists
+of a set-theoretic formalization of design requirements and potential
+misfits.\footnote{Incidentally: why only three rows here?  According to G\"odel, any language that can count can also serve as its own metalanguage.}
 
 Figure \ref{synthesis-diagrams}D. refers to the process of design once
 we have arrived at the "formal picture" level.  The left panel
