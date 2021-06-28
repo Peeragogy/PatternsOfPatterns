@@ -148,7 +148,7 @@ particular circumstances as they evolve.
 
 In the Case Study section, we focus on the concrete use of the methods
 described above in the context of planning and managing a
-transdiciplinary research seminar that studies the Emacs editor.  We
+transdisciplinary research seminar that studies the Emacs editor.  We
 show how we have used PARs, CLA, and DPLs, to develop a sense of
 direction for our research in concert with related efforts.  This case
 study provides a detailed practical example that other projects across
@@ -162,7 +162,7 @@ technical developments, and long-term cultural change has not been
 previously studied in an integrated manner.  CLA allows us to surface
 the direction of travel of pattern language methods, by helping us
 integrate foundational perspectives and empirical observation.  We
-identify trends within the pattern discourse towards transdiciplinary
+identify trends within the pattern discourse towards transdisciplinary
 thinking and large-scale collaboration; and we connect Alexander's
 concept of wholeness with the broader evolution of Western
 philosophical thought.  This, in turn, shapes our understanding of
@@ -198,7 +198,7 @@ when things ‘go wrong’ in these trainings, and can help people figure
 out how to do better next time.  The method has been used effectively
 in business settings cite:learning-in-the-thick-of-it.  In a
 distributed peer-to-peer collaboration, we wanted an adaptation of the
-AAR that would make it a more open ended and horizontal in nature.  We
+AAR that would make it more open ended and horizontal in nature.  We
 came up with the following template:
 
 1. Review the intention: what do we expect to learn or make together?
@@ -323,7 +323,7 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width 1\textwidth :placement [H]
-#+CAPTION: 🍕 Example, System layer: Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  The upshot of all of this is that business is booming: but in its own way this only contributes to their stress.  Arguments ensue about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  They strongly desire to “sort it out”.  However, after a few discussions, they find it difficult to tease out the real reason for their dissagreements and end up even more frustrated.
+#+CAPTION: 🍕 Example, System layer: Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  The upshot of all of this is that business is booming: but in its own way this only contributes to their stress.  Arguments ensue about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  They strongly desire to “sort it out”.  However, after a few discussions, they find it difficult to tease out the real reason for their disagreements and end up even more frustrated.
 [[./tomato.jpg]]
 
 \clearpage
@@ -348,14 +348,14 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 *** Myth
 
 - *Contents*: The symbols and tales which give meaning to life.
-- *Analysis*: Study archetypical symbols and the myths and rituals within which they participate.
+- *Analysis*: Study archetypal symbols and the myths and rituals within which they participate.
 - *Literature*: Poetry, art, anthropology, Jungian analysis.
 
 #+NAME: winter
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width .6\textwidth :placement [H]
-#+CAPTION: 🍕 Example, Myth layer: Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  The couple decide to speak with a wise counsellor, who they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  They develop new ideas, both related to food and otherwise.  Thursday through Sunday, they resolidify their intention make their work together a meditation on love.  Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
+#+CAPTION: 🍕 Example, Myth layer: Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  They go to speak with a wise counsellor, who they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide to close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  They develop new ideas, both related to food and otherwise.  Thursday through Sunday, they resolidify their intention to make their work together a meditation on love.  Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
 [[./olives.jpg]]
 
 ** Design Patterns
@@ -394,7 +394,7 @@ tendencies which arises in this situation can take care of itself”
 All of this means that design patterns need to achieve something
 fairly subtle.  Each represents the synthesis of a repeatable solution
 to a type of conflict which itself repeats within a particular
-context.  Furthermore, it does this a way that makes the solution
+context.  Furthermore, it does this in a way that makes the solution
 teachable, learnable, and otherwise replicable within a given
 community.  However, if the design pattern makes the solution to the
 problem too obvious, then “design”, /per se/, is no longer needed![fn::
@@ -536,7 +536,7 @@ granularity.
 We’ve made progress since we started with the raw themes of *Research
 on/in/with Emacs* back in December 2020.  We’ve met almost every week
 since then, and interviewed some interesting and varied guests.  We
-have a clearer idea of what what we want to talk about at the next
+have a clearer idea of what we want to talk about at the next
 EmacsConf, and how we can be of service to researchers and Emacs
 users.  We have been using a workflow that helps us carefully review
 progress, diagnose issues, and manage our energy.  The next phase of
@@ -750,7 +750,7 @@ Before embarking on the CLA itself we present an example based on
 "openness", to show what might be expected to come from such an
 analysis.  ERG and PLoP are both projects within the larger
 system of contemporary computing, which is organised with various
-loose hierachical structures.  As such, both projects inherit
+loose hierarchical structures.  As such, both projects inherit
 attributes from larger communities/networks and histories to which
 they are heirs.  For example, ERG is a small subcommunity of the
 larger Emacs community, and thus inherits two core tenets at the
@@ -765,10 +765,10 @@ a "gift economy", whereas the specific patterns that make Emacs work
 might be associated with "self-organized emergence".
 
 Whereas Stallman, Steele, and Gabriel come primarily from the
-functional programming background, Ward Cunningham comes from
-object-oriented programming subcommunity.  One initiative associated
-to the latter subcommunity is the =c2= pattern wiki.  There, too,
-"openness" is key value at the worldview level: however, upon closer
+functional programming background, Ward Cunningham comes from the
+Object Oriented programming subcommunity.  One initiative associated
+with the latter is the =c2= pattern wiki.  There, too,
+"openness" is a key value at the worldview level: however, upon closer
 examination, we find differences of emphasis and interpretation.  With
 Emacs, the emphasis is on availability of source code and the right to
 reuse it.  For Cunningham, with =c2=, the emphasis was on in situ
@@ -780,7 +780,7 @@ improve the whole.
 #+end_quote
 
 A third perspective on openness comes from Gene Demby and Ashe Dryden,
-who, along with others, have pointed out that that the open source
+who, along with others, have pointed out that the open source
 community may not be so open, in practical terms, to newcomers from
 all genders and ethnic backgrounds.  Bringing these perspectives
 together affords a more comprehensive understanding of the concept of
@@ -788,7 +788,7 @@ openness, along with its relationship to other linked concepts like
 freedom, rights, and ethics; from this basis we can explore dialectic
 tensions, and potentially initiate dialogue.
 
-As a way of gathering furtrher contextual backgound, we now apply CLA
+As a way of gathering further contextual background, we now apply CLA
 to the DPL literature and associated community practices.  In this
 section, we will omit PARs, and have not specifically developed the
 material into high-level TODO items with connections to other
@@ -1082,7 +1082,7 @@ Structure”:
 most designers ... say that the environment cannot be right or wrong
 in any objective sense but that it can only be judged according to
 criteria, or goals, or policies, or values, which have themselves been
-arbitrarily chose.  We believe this point of view is mistaken.
+arbitrarily chosen.  We believe this point of view is mistaken.
 #+end_quote
 
 Notice that, here, the discourse is positioned as different from the
@@ -1282,9 +1282,10 @@ For example, the Cooling the Commons pattern language includes
 a learning space with cool refuge, and must balance their provisions
 against cost and effort.  If the library was blended with a
 \textsc{Writers Workshop}, it could become a place for the community
-to generate new knowledge.  However, this could conflict with a notion of
-library contents as read-only, or with the view that libraries
-should be silent study spaces.
+to generate knowledge about further adaptive strategies.  However, this could conflict with the notion of
+library contents as being read-only, or with the view that libraries
+should be silent study spaces.  Could these ideas and complexities be
+reasoned about computationally?
 
 ** Scenario II. Pattern language authoring communities move to free/libre/open source licensing.
 In the field of policy, ‘adaptive capacity’ describes a society’s
@@ -1363,7 +1364,7 @@ hackers or for a few highly-paid rockstars, but for everyone.
 
 In 1999, Alexander talked about “the generation of a living world”
 cite:alexander1999a.  From the vantage point of 2021, we cannot afford
-to take his remarks as mere metaphor.  Neither can we afford blythe
+to take these remarks as mere metaphor.  Neither can we afford blythe
 techno-optimism, nor to confine our thinking to one domain, be it
 built environment, software, or philosophy.  Our /vision for change/ —
 now speaking as part of the design pattern community — is that the
@@ -1389,9 +1390,9 @@ potential stakeholders.  The Peeragogy network can help facilitate
 some of the discussions and projects.  PLoP can provide relevant
 social infrastructure and connections with others using pattern
 methods.  As we gather further evidence, we can return to the futures
-community and share what we learned with them.  If the ideas we have
-considered became part of a shared outlook between all of these
-different communities, many things may start to move quickly.
+community and share what we learned with them.  If the ideas and
+methods we have examined were actively used and improved by all
+of these different communities, many things could start to move quickly.
 
 * Related work
 <<Related_Work>>
@@ -1475,7 +1476,7 @@ Alexander's "Notes on the Synthesis of Form", recopied below as Figure
 corresponding to context (/sive/ problem) and form (/sive/ solution), and
 one, two, or three rows, corresponding to the "actual world", "mental
 picture" and "formal picture".  A design problem is posed at the level
-of actual world, say, "build a house atop this hill" or "make a
+of the actual world, say, "build a house atop this hill" or "make a
 celebration song".
 
 The design problem can be solved at one of the three levels.  The most
@@ -1491,7 +1492,7 @@ a request "Write a joyous song for alto voice accompanied by flute and
 trumpet to celebrate the acceptance of our paper into the conference."
 A composer might then sit down at a desk, away from any instruments,
 and write out a score which would later be handed to the singer and
-instrumentalists for performance.  Alexander points that there is a
+instrumentalists for performance.  Alexander points out that there is a
 danger in this process: the composer would no longer have the
 immediate feedback which comes from working directly in the actual
 world.  Accordingly, the result might be a song that matches the
@@ -1500,7 +1501,7 @@ description, but doesn’t match the mood of the event.
 Alexander’s proposed solution is to produce a formal picture of the
 mental picture, and instead work with that formal picture.  For our
 example, it might take the form of a suitably elaborate music theory,
-one that includes concepts like like ‘\emph{ballabile}’ (to indicate that
+one that includes concepts like  ‘\emph{ballabile}’ (to indicate that
 the song should be danceable).  More generally, we employ a suitable
 metalanguage to reason about the mental representation; this process
 of reasoning can then take the place of feedback from the actual world
@@ -1577,7 +1578,7 @@ represents the analytic process in which one decomposes a design
 problem into subproblems and the right panel represents the
 complementary synthetic process in which one successively combines
 solutions to subproblems to arrive at a solution to the original
-problem.  Alexander proposed a maximum entropy method for carring out
+problem.  Alexander proposed a maximum entropy method for carrying out
 the analysis and, in later works, introduced design patterns for use
 in the synthesis; and ultimately, described 15 principles that could
 guide a design at an even more abstract level.
