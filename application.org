@@ -672,9 +672,9 @@ expanding the frontier of what’s possible for human beings.
 :UNNUMBERED: t
 :END:
 
-| Survey related work                 | \textsc{Context}    |
-| Assess what we’re learning          | \textsc{Assessment} |
-| Figure out the gender balance stuff | DIVERSITY           |
+| Survey related work                                                 | \textsc{Context}    |
+| Assess what we’re learning                                          | \textsc{Assessment} |
+| Think about how we can help improve gender balance in Free Software | DIVERSITY           |
 
 ** Summary
 The narrative paragraphs at each level describe patterns occurring
@@ -848,7 +848,7 @@ discourses which could be relevant here — ‘other’ in the sense
 mentioned in our [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] pattern, so not necessarily in
 close touch with PLoP — these include PurPLSoc and the world of
 practicing architects.  There have been some attempts at creating
-systematic archives of patterns, but these have always had significant
+systematic archives of patterns, but these haven’t always had significant
 buy-in from a wide community.
 
 Importantly, the first-ever Wiki was developed in connection with a
@@ -1402,7 +1402,7 @@ tensions.
   relationships, is potentially just another form of rehashed
   colonialism.
 
-To expand on this point: we can position this work as a
+To expand on this point: we can position the broader orientation of our work as a
 counterposition to cite:kostakisDesignGlobalManufacture2015 who argued
 for a development model based on “thinking global and producing
 local.”  At the centre of their vision is a global pool of designs,
@@ -1587,10 +1587,10 @@ We conclude with a PAR for the paper as a whole.
 *3. What are some different perspectives on what’s happening?*
 - JC: These different communities need to be talking to each other.
 - RP: One of our goals was to make the connection between futures and patterns.  We could have discussed earlier some scenarios for the paper, like “what if it doesn’t get published?”  We could have had a meeting way back in May or June where we looked at scenarios.  We could take the scenarios above and use them to start building out a set of further scenarios for ERG, peeragogy, and so on.
-# - JC: We might have even lost track of how we got onto the intention of PLoP this time!
 - CD: Keep in mind that these are patterns people but not CLA people: we should make sure that we have presented CLA in a way that they grasp.
 - CP: /Fearless Change/ is related work in connection with the Futures stuff.  You need things like this as projects develop over time to understand what’s going on.  I feel more access to this paper than our previous writing topics on this topic.
 - LV: I’m glad everyone is on board in reviewing the paper. The diverse views of contributors provides some wealth because people are discovering things in different ways.  We’ve nicely modularised the pattern of reviewing a paper, and brought different gazes that can only lead to more wealth and appreciation.
+- NA: Hi folx I'm still a bit disoriented with the jet lag, enjoy the break and see y'all in August!
 *4. What did we learn or change?*
 - Relative to earier attempts to describe patterns to the futures community, this work is more mature.
 - It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.
@@ -1610,7 +1610,7 @@ thank the coauthors of these earlier submissions for helping to shape
 our thinking here.  We thank Claire van Rhyn for bringing the
 Anticipation conference to our attention and thereby introducing us to
 the field of futures studies and CLA.  We acknowledge the comments and
-participation in online seminar discussions of: Roland Legrand, Lisa
+participation in online seminar discussions of: Paola Ricaurte, Roland Legrand, Lisa
 Snow MacDonald, Verena Roberts, Charles Blass, Stephan Kreutzer,
 Giuliana Marques, Cris Gherhes, Qiantan Hong, Cameron Ray Smith, and
 David O’Toole.
