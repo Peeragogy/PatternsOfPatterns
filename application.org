@@ -1577,30 +1577,27 @@ We conclude with a PAR for the paper as a whole.
 - Our intention was to apply the CLA method from future studies to
   design pattern theory, in order to provide a methodologically
   salient perspective on the future of pattern theory.
-- We also applied CLA to ERG stuff.
+- Within the Emacs Research Group, we used PARs, CLA, and DPL to manage our work, and we shared a description that process and its results as a case study here.
 - And to make sense of how these things connect with each other —
   practically, to show how causal layered analysis could work
   synergistically with pattern theory.
 *2. Establish what is happening: what and how are we learning?*
-# - We walked through the CLA’s layers, using the Poststructural Futures Toolbox to help surface connections and ideas that unpack the discourse around design pattern, drawing on empirical, interpretive and critical perspectives.
-- We introduced the methods, then zoomed in on a concrete case study that connected CLA with PARs and patterns; we can compare this with our deep dive into patterns.
-- Lastly, we connected our observations with some broader literature on future studies to propose some possible scenarios for the ways in which patterns will evolve, specifically focusing on adaptation to climate change.
+- We introduced our methods and illustrative case study, then took a deep dive into patterns.
+- We connected our observations with some broader literature on future studies and proposed scenarios describing ways in which design patterns might evolve.
 *3. What are some different perspectives on what’s happening?*
-# - JC: I did most of the hands-on-the-keyboard writing up to 11/06/2021, aided by frequent and detailed discussions with Ray, and an editorial perspective added by Charlie.  We went over the material in depth and there are lots of notes that didn’t make it into the paper!  I’m looking forward to discussing the content with ERG. We have used CLA to engage in a process of Friereian /conscientização/ cite:roberts2007conscientisation, drawing on [[SERENDIPITY][SERENDIPITY]], transdisciplinarity, and the process of “drinking our own champagne”.
 - JC: These different communities need to be talking to each other.
-- Ray: One of our goals was to publish this paper, but we could have discussed earlier some scenarios for the paper, like “what if it doesn’t get published?”  We could have had a meeting way back in May or June where we looked at scenarios.  We could take the scenarios above and use them to start building out a set of scenarios for ERG, peeragogy, and so on.
-- JC: We might have even lost track of how we got onto the intention of PLoP this time!
-- CD: Keep in mind that these are patterns people but not CLA people — the inverse problem is possible here.
-- CP: Fearless Change is related work in connection with the Futures stuff.  You need things like this as projects develop over time to understand what’s going on.  I feel more access to this paper than the Futures paper and I got burnt out on trying with that; maybe I should be doing more reading/homework.
-- LV: I’m glad everyone is on board in reviewing the paper but we’re so last-minute that it would be hard to address anything very substantial.  I’m glad to see we are polishing the paper rather than compromising.  B/c I missed the first 30 minutes of this meeting some wagons might have left.  This model of sending the paper for revision is a good way to do away with the pressure of submitting; it’s a soft deadline in a way.  I’ve had moments of strife with submitting papers in the past.  The meeting itself feels good.  The diverse views of contributors provides some wealth because people are discovering things in different ways.  We’ve nicely modularised the pattern of reviewing a paper, and brought different gazes that can only lead to more wealth and appreciation.
+- RP: One of our goals was to make the connection between futures and patterns.  We could have discussed earlier some scenarios for the paper, like “what if it doesn’t get published?”  We could have had a meeting way back in May or June where we looked at scenarios.  We could take the scenarios above and use them to start building out a set of further scenarios for ERG, peeragogy, and so on.
+# - JC: We might have even lost track of how we got onto the intention of PLoP this time!
+- CD: Keep in mind that these are patterns people but not CLA people: we should make sure that we have presented CLA in a way that they grasp.
+- CP: /Fearless Change/ is related work in connection with the Futures stuff.  You need things like this as projects develop over time to understand what’s going on.  I feel more access to this paper than our previous writing topics on this topic.
+- LV: I’m glad everyone is on board in reviewing the paper. The diverse views of contributors provides some wealth because people are discovering things in different ways.  We’ve nicely modularised the pattern of reviewing a paper, and brought different gazes that can only lead to more wealth and appreciation.
 *4. What did we learn or change?*
-- Relative to an earlier preprint where we attempted to describe patterns to the futures community, this seems much more mature.  It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.  In contrast to the vision of Alexander, this one is more humanistic in nature.
+- Relative to earier attempts to describe patterns to the futures community, this work is more mature.
+- It is a fitting third installation to round out Joe’s “Patterns” trilogy cite:corneli2015a,Corneli2018.
+- Our methods are compatible with the ideas described by Christopher Alexander, and a lot more detail about how these methods can be applied to the activities of an organisation.
 - There’s a whole behind the scenes, there’s a lot of heart and soul here that could make it more like joint autobiography.
 *5. What else should we change going forward?*
-- We will have to see whether PLoP accepts any of our proposals; both as a submission for PLoP 2021, and, more speculatively, as a way of working.
-- Could we have a skimable version of the paper, like in biology, where you can look at the plots: it’s like a visual summary and you can decide how far to go with it then.
-- We believe we have an answer to Alexander’s question.  We’re not sure he’ll like it.  The ‘Chartres of programming’ has been hidden in plain view all along.  Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way (p. 10); pattern languages are the same sort of thing.
-- What if Peeragogy had started in 1997?  The concept is timeless, you could have a local execution without a robust internet.
+- We believe we have an answer to Alexander’s question.  We’re not sure he’ll like it.  The ‘Chartres of programming’ has been hidden in plain view all along.  Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way (p. 10); pattern languages are very much the same sort of thing.  This is a project of at least a lifetime if not more.
 
 * Acknowledgements
 :PROPERTIES:
