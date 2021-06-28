@@ -745,19 +745,19 @@ openness, along with its relationship to other linked concepts like
 freedom, rights, and ethics; from this basis we can explore dialectic
 tensions, and potentially initiate dialogue.
 
-As a way of gathering further contextual background, we now apply CLA
-to the DPL literature and associated community practices. In précis,
+“Openness” is but one of the themes which will be developed through
+the CLA of the DPL literature and practices.  In précis,
 
-- We will examine queries having to do pattern language methods raised by Alexander and Bryant, along with practical problems surfaced by Dawes and Ostwald.
-- We examine issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been organised.
+- We will examine queries having to do pattern language methods raised by Alexander and his collaborator Bryant, along with practical problems surfaced by Dawes and Ostwald.
+- We examine issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been framed at PLoP.
 - We examine a worldview associated with patterns, through the lens of mob software and its critiques.
 - Lastly, we looked at some of the symbols and philosophical thinking that enrich our understanding of the context in which Alexander developed his methods.
 
-In this section, we will omit PARs, and have not specifically
-developed the material into high-level TODO items with connections to
-other patterns, as per the previous section.  Practical next steps
-could be revisited in later work, and we discuss some likely
-directions in the following sections.
+In this section, we omit PARs, and have not specifically developed the
+material into high-level TODO items with connections to other
+patterns, as done in the previous section.  Practical next steps could
+be revisited in later work, and we discuss some likely directions in
+the following sections.
 
 ** Litany: Understanding data, headlines, empirical world (short term change)
 
