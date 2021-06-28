@@ -691,63 +691,20 @@ ideally describe and enable concretely doable task breakdowns.
 * Analysis: CLA applied to Design Pattern Language literature and practices
 <<Ground>>
 
-# From Leo:
-
-# # Hi, I was wondering what the link was...
-# # JC: Oops.
-# # Fresh from long EmacsConf meeting about "improving EmacsConf".
-
-# From Charlotte
-
-# Conduit: if you build it they won’t necessarily come.  You have to be mindful and cultivate.
-
-# Show them around the conduit.  Listen to what their realities are.
-
-# From Charlie
-
-# # read through 3.2, likes the use of the Peeragogy stuff
-# # Pizza example is well done
-# # Quatro Staggioni — CLA pizza for Inayattulah
-
-# There’s a lot of stuff being introduced — this is a risk
-
-# Max-Neef could be used as a check:   "do we need all this stuff"
-
-# From Joe.
-
-# # How do we respond to CA’s essay about the future of the pattern theory
-
-# # JC: Has to sign up for rowing in July!
-
-# CD: A connection could be made to Emacs — we’re going to need better software, better interfaces
-# RP: Could we use Emacs to help make his dream come true?
-#     Forgotten traditions of AI might be useful again now
-
-# JC: I see this working, it might inspire something further.
-
-#     — This could be a direction for future work!
-
-#     — We did want something in that section (and completed by First Monday of some month!)
-
-# From Ray.
-
-# # Strategy: How could the diverse things fit into a bigger picture?
 
 In the previous section we narrowed our attention to the Emacs
-Research Group, developed a Causal Layered Analysis built by studying
-the PARs we had carried out, and connected the results with Peeragogy
+Research Group and developed a Causal Layered Analysis built by studying
+the PARs we had carried out.  We connected the results with Peeragogy
 patterns as a way to check our work and connect with a broader
-community.  In this section, we will broaden our gaze even further.
+community.  In this section, we will broaden our gaze considerably further.
 Although the two sections traverse different scales, a CLA of the
-design pattern community can be compared with what we saw above
-before, and this cross-scale comparison yields new perspectives.  We
-will see how some of the terms and concepts we have encountered have
-been interpreted and implemented differently elsewhere.  This, in
+design pattern community can be compared with what we saw above, and
+this cross-scale comparison yields new perspectives.  This, in
 turn, suggests opportunities for mutual learning and dialogue which
 can lead to more comprehensive understanding.
 
-Before embarking on the CLA itself we present an example based on
-"openness", to show what might be expected to come from such an
+Before embarking on the CLA itself, we present an example on the theme of
+"openness", to show what might be expected to result from such an
 analysis.  ERG and PLoP are both projects within the larger
 system of contemporary computing, which is organised with various
 loose hierarchical structures.  As such, both projects inherit
@@ -760,9 +717,9 @@ woldview level:
 
 Both of these points have their origins in the worldviews and myths of
 the hacker culture, in which Stallman, Steele and Gabriel all
-participated.  FLOSS is often linked rhetorically with the concept of
-a "gift economy", whereas the specific patterns that make Emacs work
-might be associated with "self-organized emergence".
+participated.  At the social level, FLOSS is sometimes linked
+rhetorically with the concepts like a "gift economy" and theories of
+"self-organized emergence".
 
 Whereas Stallman, Steele, and Gabriel come primarily from the
 functional programming background, Ward Cunningham comes from the
@@ -779,7 +736,7 @@ which allowed individuals to contribute small pieces to incrementally
 improve the whole.
 #+end_quote
 
-A third perspective on openness comes from Gene Demby and Ashe Dryden,
+A third perspective on openness comes from Gene Demby and Ashe Dryden,[fn:: https://www.npr.org/sections/codeswitch/2013/12/05/248791579/why-isnt-open-source-a-gateway-for-coders-of-color][fn:: https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community]
 who, along with others, have pointed out that the open source
 community may not be so open, in practical terms, to newcomers from
 all genders and ethnic backgrounds.  Bringing these perspectives
@@ -1165,9 +1122,9 @@ In the house, [Hermes’] place is at the door, protecting the
 threshold... He could be found around city gates, intersections, state
 borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes
 #+end_quote
-At the time when Hermes was actively embraced as a deity, he was
-typically paired with Hestia, the goddess of the hearth, whose “domain
-was internal, the closed, the fixed, the inward” (/ibid./)  The discourse
+At the time when Hermes was actively embraced as a deity, in
+some traditions he was paired with Hestia, the goddess of the hearth, whose “domain
+was internal, the closed, the fixed, the inward” (/ibid./).  The discourse
 around patterns certainly contains aspects a movement “to archaic
 roots” present in other 20th Century thought: but unlike some of
 these, patterns methods are apparently working to restore “the
@@ -1183,8 +1140,20 @@ of unfolding).[fn:: For further reflections on Nietzsche and wholeness, see cite
 * Discussion
 <<Discussion>>
 
-Anthropogenic climate change is a situation of major global concern in the early 21st Century.  It comes as no surprise that it has been examined separately by proponents of both CLA and DPL.  We
-use this recent history to frame future work building on the case study and analysis developed above.
+We now have in hand a case study that uses [[PLACARD][PLACARD]] as a unified whole,
+together with a deep dive into design patterns via CLA.  The benefit
+of taking that deep dive is that we have gained a new perspective on
+how design patterns work in practice and illustrated the complexity
+that underpins the model.  Now, we would like to reflect on why
+putting these methods together makes such a big difference.  To do
+this, we begin by examining a specific problem domain to which CLA and
+DPL have been applied separately.
+
+Anthropogenic climate change is a situation of major global concern in
+the early 21st Century.  It comes as no surprise that it has been
+examined separately by proponents of both CLA and DPL.  We use this
+recent history to frame future work building on the case study and
+analysis developed above.
 
 In an overview on =theconversation.com=, Cameron Tonkinwise and Abby
 Mellick Lopes write:
@@ -1368,31 +1337,31 @@ to take these remarks as mere metaphor.  Neither can we afford blythe
 techno-optimism, nor to confine our thinking to one domain, be it
 built environment, software, or philosophy.  Our /vision for change/ —
 now speaking as part of the design pattern community — is that the
-four scenarios we described above will be given serious thought by
-members of the pattern community, along with possible dystopic
-variants.  /Progress/ will become measurable through markers of debate
-and perhaps through ensuing trial-and-error uptake or adaptation of
-the methods we’ve described.
+four scenarios we described above will be given serious thought.
+/Progress/ will become measurable through markers of debate and perhaps
+through ensuing trial-and-error uptake or adaptation of the methods
+we’ve described.
 
 *** Methodological contribution
 PARs are related to patterns, in that they describe a context, and
 surface problems and solutions that arise or are likely to arise in
 that context.  They might be seen as a template for proto-patterns.
-However, they do not necessarily have a strong repeating aspect.
-CLA could be seen to play the opposite role to PARs.  Metaphorically,
-CLA integrates the tangent vectors that characterise the
-observations we have gathered as we work together, and can be used to
-reconstruct the shared meaning of our work.
+However, they do not necessarily have a strong repeating aspect.  CLA
+could be seen to play the opposite role to PARs.  Metaphorically, CLA
+integrates the tangent vectors that characterise the observations we
+have gathered as we work together, and can be used to reconstruct the
+shared meaning of our work.  DPL, then, can turn this understanding
+into practical high-level plans.  By contextualising DPL with the
+other methods, we avoid brittle solutions and enrich our thinking.
 
 *** Constructively critical contribution
-The Emacs Research Group can use these ideas to help connect with
-potential stakeholders.  The Peeragogy network can help facilitate
-some of the discussions and projects.  PLoP can provide relevant
-social infrastructure and connections with others using pattern
-methods.  As we gather further evidence, we can return to the futures
-community and share what we learned with them.  If the ideas and
-methods we have examined were actively used and improved by all
-of these different communities, many things could start to move quickly.
+If the ideas and methods we have examined were actively used and
+improved jointly by all of the different communities whose work we
+have drawn on, many things could start to move quickly.
+- The Emacs Research Group can use these ideas to help connect with potential stakeholders.
+- The Peeragogy network can help facilitate some of the discussions and projects.
+- PLoP can provide relevant social infrastructure and connections with others using pattern methods.
+- As we gather further evidence, we can return to the futures community and share what we learned with them, and expand the scale and scope of the integrated effort.
 
 * Related work
 <<Related_Work>>
