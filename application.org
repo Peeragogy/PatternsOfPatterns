@@ -57,7 +57,7 @@ and secondly, constructively-critical:
 - Our analysis points to issues that the design pattern community will
   wish to consider as it shapes its own further development.
 
-** Guide to Reading
+** Guide to Contents
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -68,7 +68,7 @@ methods, and will be of interest to software practitioners.  Section
 [[Ground]] is a more wide-ranging and reflective analysis of design
 patterns literature and practices.  Sections [[Discussion]]-[[Conclusion]]
 prepares the ground for further work building on the foregoing
-material here.
+material.
 #+BEGIN_EXPORT latex
 Several patterns in Appendix
 \ref{appendix} are referred to by name the text.\footnote{Inline \textsc{Small
@@ -82,26 +82,27 @@ indicates patterns listed in this paper.}
 :END:
 
 We detail three techniques which can help a community carry out
-self-evaluation and peer learning.  Each of these methods has natural
+self-evaluation and peer learning.  Each of the methods has natural
 use-cases when considered in isolation.  When combined, they provide a
-more holistic mixed pattern.  (We mean this in a precise sense, as
-will be explained in due course.)
+more holistic mixed pattern.  We mean this in a precise sense, as
+will be explained in due course.  Here’s how the methods work in brief:
 
 *** Project Action Review is the sensory element: systematically gathering and verifying observational data.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-This technique is structured around five questions which members of
-the community discuss and answer, typically during or shortly after an event
-such as a meeting or working sesion.  It is also possible to perform
-“pre-PARs” to envision the way a project might develop.  This practice
-generates a record of the event, as seen through the eyes of the
-participants, along with their evaluation of what transpired.
-In the moment, the PAR allows us to draw out views that might have otherwise gone unstated.  Over time, projects which use PARs improve their chances of staying grounded in
-reality as circumstances evolve.  Integrating PARs with other
-methods, we can, e.g., use them to check how effective our design
-patterns are in practice.
+The Project Action Review is structured around five questions which
+members of a community discuss and answer, typically during or shortly
+after an event such as a meeting or working sesion.  It is also
+possible to perform “pre-PARs” to envision the way a project might
+develop.  This practice generates a record of the event, as seen
+through the eyes of the participants, along with their evaluation of
+what transpired.  In the moment, the PAR allows us to draw out views
+which might have gone unstated otherwise.  Over time, projects which
+use PARs improve their chances of staying grounded in reality as
+circumstances evolve.  We can additionally use PARs to help check how
+effectively we are using other methods.
 
 *** Causal Layered Analysis is the cognitive element: giving organization and depth to the enterprise.
 :PROPERTIES:
@@ -117,7 +118,7 @@ similar, there’s a risk of getting lost in the details, whether
 practical or theoretical.  A CLA-based meta-review of actions logged in PARs can provide a
 skeleton that puts together the fleshy PAR components, assembling what
 would be disjecta membra into a coherent body of self-knowledge.  By
-critically re-examining concerns which might remain implicit in
+critically re-examining concerns which might stay implicit in
 pattern language, CLA facilitates more effective design.  It achieves
 this by avoiding or untangling muddles: for example, CLA could help us
 understand why we had prized a technological solution to what, upon
@@ -129,15 +130,15 @@ vice-versa.
 :UNNUMBERED: t
 :END:
 
-Individual design patterns present solutions to recurring problems in
-a way that can be combined with other patterns and adapted to
-different situations.  A DPL is a common language which a community
-can use to discuss matters of design and serve as a repository of
-shared knowledge.  Having carefully analyzed the situation and
-identified a possible solution, we must plot a course of action that
-accounts for the complexities of the situation.  The flexibility of
-DPLs allows the structure to be customized to our particular
-circumstances as they evolve.
+Individual design patterns present solutions to recurring problems:
+they do this in a way that can be combined with other patterns and
+adapted to different situations.  A DPL is a common language which a
+community can use to discuss matters of design; it serves as a
+repository of shared knowledge.  Having carefully analyzed the
+situation and identified a possible solution, we must plot a course of
+action that accounts for the complexities of the situation.  The
+flexibility of DPLs allows the structure to be customized to our
+particular circumstances as they evolve.
 
 ** Summary of Findings
 :PROPERTIES:
@@ -146,7 +147,7 @@ circumstances as they evolve.
 
 In the Case Study section, we focus on the concrete use of the methods
 described above in the context of planning and managing a
-transdiciplinary reserach seminar that studies the Emacs editor.  We
+transdiciplinary research seminar that studies the Emacs editor.  We
 show how we have used PARs, CLA, and DPLs, to develop a sense of
 direction for our research in concert with related efforts.  This case
 study provides a detailed practical example that other projects across
@@ -159,7 +160,7 @@ evolution of this method in response to criticism, innovation,
 technical developments, and long-term cultural change has not been
 previously studied in an integrated manner.  CLA allows us to surface
 the direction of travel of pattern language methods, by helping us
-integrate foundational perpsecties and empirical observation.  We
+integrate foundational perspectives and empirical observation.  We
 identify trends within the pattern discourse towards transdiciplinary
 thinking and large-scale collaboration; and we connect Alexander's
 concept of wholeness with the broader evolution of Western
@@ -171,18 +172,18 @@ what pattern language can do.
 :UNNUMBERED: t
 :END:
 
-In our Discussion we draw out the implications for the future of
+In our Discussion we draw out implications for the future of
 design patterns.  We look briefly at how DPLs and CLA have been
-applied (separately) to discuss problem of anthropogenic climate
-change. We suggest that the integrated strategy we propose could lead
-to more satisfactory outcomes on problems at this scale.  We then
+applied (separately) to discuss the problem of anthropogenic climate
+change.  We suggest that the integrated strategy we propose here could lead
+to more satisfactory outcomes on problems of this scale.  We then
 develop four scenarios for the possible future development of
 pattern-theoretic methods.  In the section on Related Work, we engage
 with further critical views, along with similar techniques that have
 been applied in the various communities who developed the methods we
-are studying.  As a Conclusion, we present a PAR for the paper as a
+are studying.  By way of Conclusion, we present a PAR for the paper as a
 whole.  This is offered as an example of a potential best-practice for
-pattern authors, on the view that widespread aoption of this method
+pattern authors, on the view that widespread adoption of this method
 would help improve collaboration within the design patterns community.
 
 * Methods
