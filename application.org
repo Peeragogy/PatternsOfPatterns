@@ -6,17 +6,13 @@
 #+LATEX_ENGINE: xelatex
 #+BIBLIOGRAPHY: /home/joe/PatternsOfPatterns/main.bib
 #+HTML_HEAD: <script src="https://hypothes.is/embed.js" async></script>
-# #+LATEX_HEADER: \RequirePackage[table]{xcolor}
 #+LATEX_CLASS: acmart
 #+LATEX_CLASS_OPTIONS: [acmlarge,timestamp,letter]
 #+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \usepackage{mdframed}
-# #+LATEX_HEADER: \DeclareHookRule{begindocument}{acmlarge}{after}{float}
-# #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
 #+LATEX_HEADER: \usepackage{xunicode}
 #+LATEX_HEADER: \usepackage{xelatexemoji}
-# #+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{/home/joe/Downloads/DiscordChatExporter/images/#1.pdf}
-#+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{/home/joe/noto-emoji-svg/svg/U#1.PDF}
+#+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{./svg/U#1.PDF}
 #+LATEX_HEADER: \usepackage[no-sscript]{xltxtra}
 #+LATEX_HEADER: \usepackage{natbib}
 #+LATEX_HEADER: \usepackage{float}
@@ -31,6 +27,10 @@
 #+LATEX_HEADER: \newcommand{\Asclepius}{{\emoji\symbol{"2695}}}
 #+LATEX_HEADER: \newcommand{\Caduceus}{{\emoji\symbol{"2624}}}
 #+LATEX_HEADER: \setmainfont{Libertinus Sans}
+# #+LATEX_HEADER: \RequirePackage[table]{xcolor}
+# #+LATEX_HEADER: \DeclareHookRule{begindocument}{acmlarge}{after}{float}
+# #+LATEX_HEADER: \usepackage[a4paper,bindingoffset=0.2in,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
+# #+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{/home/joe/Downloads/DiscordChatExporter/images/#1.pdf}
 # #+LATEX_HEADER: \usepackage[math-style=french]{unicode-math}
 # #+LATEX_HEADER: \usepackage{mathtools}
 # #+LATEX_HEADER: \usepackage{lscape}
@@ -88,7 +88,7 @@ use-cases when considered in isolation.  When combined, they provide a
 more holistic mixed pattern.  We mean this in a precise sense, as
 will be explained in due course.  Here’s how the methods work in brief:
 
-*** Project Action Review is the sensory element: systematically gathering and verifying observational data.
+*** Project Action Review (PAR) is the sensory element: systematically gathering and verifying observational data.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -105,7 +105,7 @@ use PARs improve their chances of staying grounded in reality as
 circumstances evolve.  We can additionally use PARs to help check how
 effectively we are using other methods.
 
-*** Causal Layered Analysis is the cognitive element: giving organization and depth to the enterprise.
+*** Causal Layered Analysis (CLA) is the cognitive element: giving organization and depth to the enterprise.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -118,7 +118,7 @@ knowledge surrounding a topic of concern.  Without CLA, or something
 similar, there’s a risk of getting lost in the details, whether
 practical or theoretical.  A CLA-based meta-review of actions logged in PARs can provide a
 skeleton that puts together the fleshy PAR components, assembling what
-would be disjecta membra into a coherent body of self-knowledge.  By
+would otherwise be /disjecta membra/ into a coherent body of self-knowledge.  By
 critically re-examining concerns which might stay implicit in
 pattern language, CLA facilitates more effective design.  It achieves
 this by avoiding or untangling muddles: for example, CLA could help us
@@ -126,7 +126,7 @@ understand why we had prized a technological solution to what, upon
 consideration, turned out to be a fundamentally social issue; or
 vice-versa.
 
-*** Design Pattern Language is the motor element: orchestrating and scaffolding action
+*** Design Pattern Language (DPL) is the motor element: orchestrating and scaffolding action
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -173,6 +173,9 @@ what pattern language can do.
 :UNNUMBERED: t
 :END:
 
+# US Army — Steve Blank
+# Download entrepreneurship patterns for Vitor
+
 In our Discussion we draw out implications for the future of
 design patterns.  We look briefly at how DPLs and CLA have been
 applied (separately) to discuss the problem of anthropogenic climate
@@ -182,7 +185,7 @@ develop four scenarios for the possible future development of
 pattern-theoretic methods.  In the section on Related Work, we engage
 with further critical views, along with similar techniques that have
 been applied in the various communities who developed the methods we
-are studying.  By way of Conclusion, we present a PAR for the paper as a
+are studying, with a focus on Alexander’s /Synthesis of Form/.  By way of Conclusion, we present a PAR for the paper as a
 whole.  This is offered as an example of a potential best-practice for
 pattern authors, on the view that widespread adoption of this method
 would help improve collaboration within the design patterns community.
@@ -280,7 +283,7 @@ example, Table \ref{exemplar-par} is the first PAR prepared by the Emacs Researc
 
 Sohail Inayatullah developed Causal Layered Analysis (CLA)
 cite:inayatullah1998b,inayatullah2004causal as a research methodology
-for examining a topic of concern at four levels that he refers to as
+for examining a topic of concern at four levels that he refers to as the
 /litany/, /system/, /worldview/ and /myth/.  Here, we explain each of the
 levels according to the following schema:
 
@@ -305,6 +308,8 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 - *Analysis*: Minimal processing of data.
 - *Literature*: News reports, tax filings, chit-chat.
 
+# TODO: Joe to get the attribution for the images sorted out!
+
 #+NAME: spring
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
@@ -323,8 +328,19 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width 1\textwidth :placement [H]
-#+CAPTION: 🍕 Example, System layer: Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  The upshot of all of this is that business is booming: but in its own way this only contributes to their stress.  Arguments ensue about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  They strongly desire to “sort it out”.  However, after a few discussions, they find it difficult to tease out the real reason for their disagreements and end up even more frustrated.
+#+CAPTION: 🍕 Example, System layer: Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  
 [[./tomato.jpg]]
+
+*** Relation of System Layer and Litany Layer
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+The stress mentioned in the caption of Figure [[spring]] is an upshot of
+all of the activity described in the caption of Figure [[summer]].
+Business is booming: that’s not the problem.  Confusion has ensued
+about who should be managing the restaurant, on what days, where to
+get the ingredients, and how much they should spend.
 
 \clearpage
 *** Worldview
@@ -340,9 +356,18 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 #+NAME: autumn
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
-#+ATTR_LATEX: :width .8\textwidth :placement [H]
-#+CAPTION: 🍕 Example, Worldview layer: Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other.  Despite the difference in approach and outward orientation, both of them have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  It takes them some time and a few late-night discussions with friends to start to come to grips with their current challenges.  Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.  These two worldviews — while not disjoint or necessarily in conflict — are not automatically well aligned, either.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they may never have explored with one another before.
+#+ATTR_LATEX: :width .7\textwidth :placement [H]
+#+CAPTION: 🍕 Example, Worldview layer: Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
 [[./mushrooms.jpg]]
+
+*** Relation of Worldview Layer and System Layer
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+In Figure [[summer]] we looked at the choices that the couple made relative to their environment.  In the caption of Figure [[autumn]], we saw something about the deeper reasons for those choices. Despite the difference in approach and outward orientation, both of them have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, these two worldviews — while not disjoint or necessarily in conflict — are not automatically well aligned, either.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
+
+
 
 \clearpage
 *** Myth
@@ -355,8 +380,21 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width .6\textwidth :placement [H]
-#+CAPTION: 🍕 Example, Myth layer: Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  They go to speak with a wise counsellor, who they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide to close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  They develop new ideas, both related to food and otherwise.  Thursday through Sunday, they resolidify their intention to make their work together a meditation on love.  Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
+#+CAPTION: 🍕 Example, Myth layer: Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  They go to speak with a wise counsellor, who they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide to close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  Thursday through Sunday, they resolidify their intention to make their work together a meditation on love. They develop new ideas, related to food and otherwise. Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
 [[./olives.jpg]]
+
+*** Relation of Myth Layer and Worldview Layer
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+In Figure [[autumn]] we learned about Mom and Pop’s individual worldviews.
+In Figure [[winter]], we see how their orientation towards people allowed
+them to work out a solution together with a trusted confidante.  As a
+result of finding new ways to integrate important symbols and
+identities into their lives; we see how the myth layer supports an
+adapted world view in terms of their daily rituals (and new
+patterns). 
 
 ** Design Patterns
 Let’s begin by setting to one side any specialist notion of ‘patterns’
@@ -452,7 +490,6 @@ three acronyms can be combined and remixed in a clever way to provide
 a title for this pattern.  This accurately suggests that the methods
 need not be run in a fixed order, but are interwoven together.
 
-\clearpage
 *** PLACARD
 <<PLACARD>>
 - *Context*: In the course of working on a project together: /we use the PAR to understand and establish our working context/.
@@ -997,7 +1034,6 @@ on their own terms” cite:vandrunenchristian.  His critique functions
 as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
 Some key excerpts appear in Table [[tabone]].
 
-\clearpage
 #+NAME: tabone
 #+CAPTION: Key observations from VanDrunen’s critique of Gabriel’s “Mob Software” essay
 #+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
@@ -1417,16 +1453,12 @@ resource.  More likely, the methods we’ve described would simply
 strengthen local forms of resilience and better identify healthy
 futures.
 
-That said, this line of thinking leads us to ask if
-there is a form of hegemonic power lurking inside the methods
-we’ve described.  After all, the notion of gift culture has been
-critiqued on that basis cite:Mallard2019; would we expect
-pattern-theoretic or free software culture to be exempt?  Furthermore,
-supposing that patterns (and software) are indeed tools for liberating
-many human tendencies.  Humans also — individually and collectively —
-have tendencies to self-destruction, murder, exploitation, and
-wantonness; presumably we need discourses that help tip the balance
-against those tendencies.
+That said, this line of thinking leads us to ask if there is a form of
+hegemonic power lurking inside the methods we’ve described.  After
+all, the notion of gift culture has been critiqued on that basis
+cite:Mallard2019; would we expect pattern-theoretic or free software
+culture to be exempt?  Furthermore, supposing that patterns (and
+software) are indeed tools for liberating many human tendencies: can they always be seen as wholesome?
 
 Having raised these concerns we certainly will not reject them out of
 hand, rather, we suggest that the philosophical and cultural issues
@@ -1586,17 +1618,25 @@ We conclude with a PAR for the paper as a whole.
   studies and proposed scenarios describing ways in which design
   patterns might evolve.
 *3. What are some different perspectives on what’s happening?*
-- JC: These different communities need to be talking to each other.
+- JC:[fn:: Viewpoints from authors, listed here by first and last initials. This could be seen as somewhat analogous to the CRediT (Contributor Roles Taxonomy).] The patterns and futures communities need to be talking to each other!
 - RP: One of our goals was to make the connection between futures and
   patterns.  We could have discussed earlier some scenarios for the
   paper, like “what if it doesn’t get published?”  We could have had a
   meeting way back in May or June where we looked at scenarios.  We
   could take the scenarios above and use them to start building out a
-  set of further scenarios for ERG, peeragogy, and so on.
-- CD: Keep in mind that these are patterns people but not CLA people:
-  we should make sure that we have presented CLA in a way that they
-  grasp.
-- CP: /Fearless Change/ is related work in connection with the Futures
+  set of further scenarios for Emacs Research Group, peeragogy, and so
+  on.
+- CD: Keep in mind that these are patterns people but not CLA people
+  (by default): we should make sure that we have presented CLA in a
+  way that they grasp.
+- VB: It starts to make more sense: patterns become recognisable
+  patterns, we understand the paths we did, we can better understand
+  the steps that we will do.  We developed methods that can be
+  repeated and upgraded.  Our familiarity with working with methods
+  helped us in our work; and clarity in methods will help us welcome
+  newcomers.  We can pitch to people about this.  We’re complex
+  people; as we open to each other we can better be open to others.
+- CP: /Fearless Change/ is related work in connection with the futures
   stuff.  You need things like this as projects develop over time to
   understand what’s going on.  I feel more access to this paper than
   our previous writing topics on this topic.
@@ -1624,7 +1664,10 @@ We conclude with a PAR for the paper as a whole.
   Marseilles Tarot as a “nomadic cathedral” cite:jodorowsky2009way
   (p. 10); pattern languages are very much the same sort of thing.
   This is a project of many lifetimes of work; let’s understand it
-  better so that we can coordinate in parallel.
+  better so that we can coordinate in parallel.  Let’s make sure we
+  get relevant material in front of the people who need to see it, in
+  a form that they can engage with, with the aim of building community
+  in varied contexts.
 
 * Acknowledgements
 :PROPERTIES:
