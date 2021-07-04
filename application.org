@@ -48,7 +48,7 @@
 * Introduction
 <<Introduction>>
 
-In 1999, Christopher Alexander discussed the future of design patterns
+In 1999, the architect Christopher Alexander discussed the future of design patterns
 with an audience of programmers. Here, we revisit the questions he
 asked using an established technique from the field of future
 studies. The contribution in this paper is firstly, methodological,
@@ -152,7 +152,7 @@ transdisciplinary research seminar that studies the Emacs editor.  We
 show how we have used PARs, CLA, and DPLs, to develop a sense of
 direction for our research in concert with related efforts.  This case
 study provides a detailed practical example that other projects across
-the pattern language pace may wish to emulate (or adapt) in their
+the pattern language space may wish to emulate (or adapt) in their
 settings.
 
 In the Analysis, we use CLA to analyse design patterns methods.  DPLs
@@ -328,7 +328,7 @@ mom-and-pop pizza shop, together with mnemonic images in Figures
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width 1\textwidth :placement [H]
-#+CAPTION: 🍕 Example, System layer: Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  
+#+CAPTION: 🍕 Example, System layer: Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are extremely busy.
 [[./tomato.jpg]]
 
 *** Relation of System Layer and Litany Layer
@@ -340,7 +340,9 @@ The stress mentioned in the caption of Figure [[spring]] is an upshot of
 all of the activity described in the caption of Figure [[summer]].
 Business is booming: that’s not the problem.  Confusion has ensued
 about who should be managing the restaurant, on what days, where to
-get the ingredients, and how much they should spend.
+get the ingredients, and how much they should spend.  We also get a
+sense of what’s missing at the system level, namely, they haven’t yet
+found a good way to sort out the confusion.
 
 \clearpage
 *** Worldview
@@ -365,7 +367,7 @@ get the ingredients, and how much they should spend.
 :UNNUMBERED: t
 :END:
 
-In Figure [[summer]] we looked at the choices that the couple made relative to their environment.  In the caption of Figure [[autumn]], we saw something about the deeper reasons for those choices. Despite the difference in approach and outward orientation, both of them have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, these two worldviews — while not disjoint or necessarily in conflict — are not automatically well aligned, either.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
+In Figure [[summer]] we looked at the choices that the couple made relative to their environment.  Now, with Figure [[autumn]], we see something about the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, these two worldviews — while not disjoint or necessarily in conflict — are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
 
 
 
@@ -373,14 +375,14 @@ In Figure [[summer]] we looked at the choices that the couple made relative to t
 *** Myth
 
 - *Contents*: The symbols and tales which give meaning to life.
-- *Analysis*: Study archetypal symbols and the myths and rituals within which they participate.
+- *Analysis*: Study meaningful symbols and the myths and rituals within which they participate.
 - *Literature*: Poetry, art, anthropology, Jungian analysis.
 
 #+NAME: winter
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
 #+ATTR_LATEX: :width .6\textwidth :placement [H]
-#+CAPTION: 🍕 Example, Myth layer: Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  They go to speak with a wise counsellor, who they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide to close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  Thursday through Sunday, they resolidify their intention to make their work together a meditation on love. They develop new ideas, related to food and otherwise. Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
+#+CAPTION: 🍕 Example, Myth layer: Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  They share some of this information with a wise counsellor, who they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide to close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  Thursday through Sunday, they resolidify their intention to make their work together a meditation on love. They develop new ideas, related to food and otherwise. Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
 [[./olives.jpg]]
 
 *** Relation of Myth Layer and Worldview Layer
@@ -389,12 +391,12 @@ In Figure [[summer]] we looked at the choices that the couple made relative to t
 :END:
 
 In Figure [[autumn]] we learned about Mom and Pop’s individual worldviews.
-In Figure [[winter]], we see how their orientation towards people allowed
-them to work out a solution together with a trusted confidante.  As a
-result of finding new ways to integrate important symbols and
-identities into their lives; we see how the myth layer supports an
-adapted world view in terms of their daily rituals (and new
-patterns). 
+In Figure [[winter]], we see how their social outlook led them to seek a
+solution together with a trusted confidante.  Moreover, as a result of
+finding new ways to integrate important symbols and identities into
+their lives; we see how the myth layer supports an adapted worldview
+that introduces new patterns into their daily and weekly rituals, along
+with new sources of meaning.
 
 ** Design Patterns
 Let’s begin by setting to one side any specialist notion of ‘patterns’
@@ -784,7 +786,7 @@ DPL literature and practices.  In précis,
 
 - We will look at queries raised by Alexander and his collaborator Bryant, along with a system of practical problems collected by Dawes and Ostwald.
 - We examine issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been framed at PLoP.
-- We examine a worldview linked with patterns the lens of mob software and its critiques.
+- We examine a worldview linked with patterns through the lens of mob software and its critiques.
 - Lastly, we look at some symbols and philosophical traditions that enrich our understanding of the context in which Alexander developed his methods.
 
 In this section, we omit PARs, and have not specifically developed the
@@ -995,7 +997,7 @@ I include it in what I am calling “mob software,” but mob software
 goes way beyond what open source is up to today.
 #+end_quote
 
-That “crucial first question” is: “What if what once was scarce is now abundant?”
+That question is: “What if what once was scarce is now abundant?”
 It is well known that the PLoP conference series builds on this idea: it includes
 shepherding and workshops cite:gabriel2002a as well as games, informal gifts, and
 other measures that aim to create a sense of psychological safety: all features
@@ -1014,7 +1016,7 @@ centered.
 
 On a technical basis, Gabriel’s vision sounds a lot like today’s world
 of /microservices/.
-While his vision hasn’t fully come to pass — there are still many
+While his vision hasn’t fully come to pass — for example there are still many
 services with proprietary source code — nowadays many big companies
 are also big proponents of open source.  Here we can notice that
 Gabriel was employing a technique of imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND
@@ -1126,17 +1128,17 @@ of various forms, and also echoed in the planetary symbol for Mercury,
 \begingroup\alch\symbol{"53}\endgroup).
 
 These symbols are useful map-markers for the landscape we are
-exploring.  They can help to frame our understanding that the pattern discourse drawns to /both/
-major traditions of wholeness, while also seeking to unite them.  We get
-the idea of unfolding in /APL/ and other pattern languages that work in
-a top-down manner: however, we also get the notion of patterns and
-principles that are generative of emergent phenomena.  As we mentioned
-above, at this level, architecture and programming were seen, by
-Alexander cite:alexander1999a, to unite: here pointing in the
-direction of bio-hacking and nanotechnology (e.g., for molecular
-self-assembly)
-— at least at the allusive level if not at the concrete level.
-The following quote suggests we are on a fruitful track:
+exploring.  They can help to frame our understanding that the pattern
+discourse drawns to /both/ major traditions of wholeness, while also
+seeking to unite them.  We get the idea of unfolding in /APL/ and other
+pattern languages that work in a top-down manner: however, we also get
+the notion of patterns and principles that are generative of emergent
+phenomena.  As we mentioned above, at this level, architecture and
+programming were seen, by Alexander cite:alexander1999a, to unite: his
+questions for the computer scientists to whom he was speaking point in
+the direction of bio-hacking and nanotechnology (e.g., for molecular
+self-assembly) — at least at the allusive level if not at the concrete
+level.  The following quote suggests we are on a fruitful track:
 #+begin_quote
 Generative patterns work indirectly; they work on the underlying
 structure of a problem (which may not be manifest in the problem)
@@ -1150,40 +1152,64 @@ generative. It not only tells us the rules of arrangement, but shows
 us how to construct arrangements - as many as we want - which satisfy
 the rules. (at /ibid./, quoting from /The Timeless Way Of Building/, pp. 185-6)
 #+end_quote
-Indeed, the prominence of linguistic metaphors reminds us that
-Alexander’s writing contains many further traces of symbols associated
+The prominence of linguistic metaphors within DPL reminds us that
+Alexander’s architectural oeuvre contains traces of many symbols associated
 with Hermes:
 #+begin_quote
 In the house, [Hermes’] place is at the door, protecting the
 threshold... He could be found around city gates, intersections, state
-borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes
+borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes;
 #+end_quote
-At the time when Hermes was actively embraced as a deity, in
-some traditions he was paired with Hestia, the goddess of the hearth, whose “domain
-was internal, the closed, the fixed, the inward” (/ibid./).  The discourse
-around patterns certainly contains aspects a movement “to archaic
-roots” present in other 20th Century thought: but unlike some of
-these, patterns methods are apparently working to restore “the
-dialectic between centripetal immobility and centrifugal mutation.”
-One aspect of this is a movement towards foundations (in the form of
-fundamental principles, per /TNO/): these are associated with Hestia.
-The resolution within pattern language — as a form — seems to be along
-Nietzschean lines: “anything that is becoming returns” (i.e., is
-discussable as pattern), and “contingency resolves itself into
-necessity” (i.e., the wholeness of generativity ultimately recovers the wholeness
-of unfolding).[fn:: For further reflections on Nietzsche and wholeness, see cite:bishop2020holistic.]
+At the time when Hermes was actively embraced as a deity, in some
+traditions he was paired with Hestia, the goddess of the hearth, whose
+“domain was internal, the closed, the fixed, the inward” (/ibid./, both
+here and throughout the following paragraph).  The discourse around
+patterns contains some aspects that move towards foundations (e.g., in
+the form of fundamental principles, per /TNO/).  These might be
+associated with Hestia: whereas Hermes would be on the side of
+generativity and mutation.  The resolution within pattern language —
+as a form — seems be a variation of these Nietzschean lines:
+“anything that is becoming returns” (i.e., is discussable as pattern),
+and, “contingency resolves itself into necessity” (i.e., the wholeness
+of generativity ultimately recovers the wholeness of unfolding).
+
+Our task in this section has been to situate Alexander’s thought
+relative to the myths and symbols of wholeness; we’ve surfaced some of
+the tensions and dynamics that exist at this level.  Alexander, for
+his part, tags Nietzsche as a nihilist, and distinguishes his own work
+as comparatively hopeful cite:alexander1991perspectives.  For further
+reflections on Nietzsche and wholeness that round out the perspective
+developed here, see cite:bishop2020holistic.  For further reflections
+on Hestia and Hermes, see cite:springhestia.
+
+** Summary
+The primary benefit of this deep dive analysis is that we have gained
+new perspectives on how design patterns work.  In particular, we have
+illustrated the complexity that underpins the model.  The concept of
+patterns is simultaneously pragmatic and metaphysical in nature.
+Alexander expands on the latter themes in /TNO/.  What we’ve seen above
+is how these more ephemeral-seeming factors are ramified across
+various layers of organisation.  For example, the theme of openness
+that we touched on in the introduction to this section would now
+relate to openness to criticism, interpretation, and failure, as well
+as to physical forms of permeability.  A range of other themes that
+weave between the layers have also been drawn out, informing the
+following discussion.
+
+# Nietzsche's Fundamental Metaphysical Position, By Martin Heidegger,
+# Translated by David Farrell Krell, Nietzsche, Volume Two, Chapter
+# 26, pp. 198-208
 
 * Discussion
 <<Discussion>>
 
-We now have in hand a case study that uses [[PLACARD][PLACARD]] as a unified whole,
-together with a deep dive into design patterns via CLA.  The benefit
-of taking that deep dive is that we have gained a new perspective on
-how design patterns work in practice and illustrated the complexity
-that underpins the model.  Now, we would like to reflect on why
-putting these methods together makes such a big difference.  To do
-this, we begin by examining a specific problem domain to which CLA and
-DPL have been applied separately.
+We now have in hand a case study of the Emacs Research Group that
+uses the [[PLACARD][PLACARD]] pattern as a unified whole, together with a deep dive
+into design patterns more broadly, via CLA.  Here we would like to
+reflect on why putting the CLA and DPL methods together can make a big
+difference in practical terms.  To do this, we begin by examining a
+specific problem domain to which CLA and DPL have been applied
+separately.
 
 Anthropogenic climate change is a situation of major global concern in
 the early 21st Century.  It comes as no surprise that it has been
@@ -1219,8 +1245,8 @@ Reading this, we were concerned that, while the Cooling the Commons patterns
 do acknowledge “horizontal complexity” — namely, through interlinked patterns —
 the process does not deal with the “vertical complexity” coming from
 the fact that diurnal rhythms are deeply embedded in biology and
-culture.  People have cultural beliefs about what are appropriate
-activities for different times of day.  Public and domestic rituals
+culture.  People have cultural beliefs about the activities
+that are appropriate for different times of day.  Public and domestic rituals
 are organized about the daily cycle.  Times of day have symbolic
 associations.  As far as we could tell, these authors focused on
 more or less technical issues at the systems level, and did not acknowledge these
@@ -1287,7 +1313,7 @@ For example, the Cooling the Commons pattern language includes
 a learning space with cool refuge, and must balance their provisions
 against cost and effort.  If the library was blended with a
 \textsc{Writers Workshop}, it could become a place for the community
-to generate knowledge about further adaptive strategies.  However, this could conflict with the notion of
+to generate knowledge about further adaptive strategies.  However, this might conflict with the notion of
 library contents as being read-only, or with the view that libraries
 should be silent study spaces.  Could these ideas and complexities be
 reasoned about computationally?
@@ -1297,10 +1323,8 @@ In the field of policy, ‘adaptive capacity’ describes a society’s
 ability to recover after a shock
 cite:thonicke2020advancing,magnan2010better.
 This in turn is linked with the health and adaptivity of the society’s
-institutions cite:fidelman2017institutions.  As we saw earlier,
-innovation conflicts with consistency and efficacy — however,
-innovation in fact may be a necessary response to other ongoing
-environmental changes.  Mehaffy and coauthors worked with Ward
+institutions cite:fidelman2017institutions.  Innovation may be a necessary response to ongoing
+environmental change.  As an example: Mehaffy and coauthors worked with Ward
 Cunningham to make their book /A New Pattern Language for Growing
 Regions/ cite:mehaffy2020new into a wiki, [[http://npl.wiki][npl.wiki]], which is licensed
 under CC BY-SA 4.0.  Will other pattern developers follow suit and
@@ -1370,7 +1394,7 @@ hackers or for a few highly-paid rockstars, but for everyone.
 In 1999, Alexander talked about “the generation of a living world”
 cite:alexander1999a.  From the vantage point of 2021, we cannot afford
 to take these remarks as mere metaphor.  Neither can we afford blythe
-techno-optimism, nor to confine our thinking to one domain, be it
+techno-optimism; nor to confine our thinking about the matter to one domain, be it
 built environment, software, or philosophy.  Our /vision for change/ —
 now speaking as part of the design pattern community — is that the
 four scenarios we described above will be given serious thought.
@@ -1410,9 +1434,9 @@ PAR and AAR, or \textsc{Daily Scrum}, as noted above; one could also
 point to Architectural Decision Records[fn:: https://adr.github.io/]
 and other review tools).  The work as a whole has some analogies with
 a method called Causal Layered Synthesis developed by Paul Wildman
-cite:wildman2010engaging.  Ultimately, connecting this sort of work
-with patterns can help to put these disparate strands of thought on a
-coherent basis.
+cite:wildman2010engaging. Seamon cite:seamon2019christopher develops an
+analysis of Chrisopher Alexander’s work with some parallels to our
+analysis of DPL via CLA.
 
 To further our understanding, we begin this section by engaging
 potential criticisms.  Some prominent critical voices have been
@@ -1453,12 +1477,14 @@ resource.  More likely, the methods we’ve described would simply
 strengthen local forms of resilience and better identify healthy
 futures.
 
+
 That said, this line of thinking leads us to ask if there is a form of
 hegemonic power lurking inside the methods we’ve described.  After
 all, the notion of gift culture has been critiqued on that basis
 cite:Mallard2019; would we expect pattern-theoretic or free software
 culture to be exempt?  Furthermore, supposing that patterns (and
-software) are indeed tools for liberating many human tendencies: can they always be seen as wholesome?
+software) are indeed tools for liberating many human tendencies: is
+that wholesome in every case?  And who decides?
 
 Having raised these concerns we certainly will not reject them out of
 hand, rather, we suggest that the philosophical and cultural issues
@@ -1474,6 +1500,67 @@ Parts A.-C. of this figure have two columns corresponding to context
 corresponding to the "actual world", "mental picture" and "formal
 picture".  A design problem is posed at the level of the actual world,
 say, "build a house atop this hill" or "make a celebration song".
+
+
+The design problem can be solved at one of the three levels.  The most
+direct approach is to work in the actual world.  For instance, a
+musician might pick up an instrument, start playing something, try out
+different possibilities, modify notes or phrasings to make it sound
+better, and so come up with a song.
+
+At the level of "mental picture", a designer receives design
+requirements which describe the problem, and produces a plan which
+describes a solution.  For instance, the host of the party might make
+a request "Write a joyous song for alto voice accompanied by flute and
+trumpet to celebrate the acceptance of our paper into the conference."
+A composer might then sit down at a desk, away from any instruments,
+and write out a score which would later be handed to the singer and
+instrumentalists for performance.  Alexander points out that there is a
+danger in this process: the composer would no longer have the
+immediate feedback which comes from working directly in the actual
+world.  Accordingly, the result might be a song that matches the
+description, but doesn’t match the mood of the event.
+
+Alexander’s proposed solution is to produce a formal picture of the
+mental picture, and instead work with that formal picture.  For our
+example, it might take the form of a suitably elaborate music theory,
+one that includes concepts like  ‘\emph{ballabile}’ (to indicate that
+the song should be danceable).  More generally, we employ a suitable
+metalanguage to reason about the mental representation; this process
+of reasoning can then take the place of feedback from the actual world
+in guiding and evaluating our designs.  For Alexander, this consists
+of a set-theoretic formalization of design requirements and potential
+misfits.\footnote{Incidentally: why only three rows here?  According to G\"odel, any language that can count can also serve as its own metalanguage.}
+
+Figure \ref{synthesis-diagrams}D. refers to the process of design once
+we have arrived at the "formal picture" level.  The left panel
+represents the analytic process in which one decomposes a design
+problem into subproblems and the right panel represents the
+complementary synthetic process in which one successively combines
+solutions to subproblems to arrive at a solution to the original
+problem.  Alexander proposed a maximum entropy method for carrying out
+the analysis and, in later works, introduced design patterns for use
+in the synthesis; and ultimately, described 15 principles that could
+guide a design at an even more abstract level.
+
+In this paper, we have considered the problems faced by groups of
+people organizing their activities.  The naive "actual world" approach
+(Figure \ref{synthesis-diagrams}A.) would be when a group takes a
+"seat of the pants" approach to dealing with issues as they come up in
+the course of work.  PAR can help to sketch a "mental picture".  CLA
+and DPL can be used as techniques for analysis and synthesis at the
+"formal picture" level.  By applying CLA to DPL, we’ve gained an
+understanding of some of the meta-level issues involved with applying
+DPL.  Just as even a talented musician without a solid grasp of music
+theory would be hard pressed to compose an augmentation canon or
+symphony, so too we suggest that a group which faces complex
+challenges may want to consider these techniques for orchestrating
+their activities.  In sum, the methods we’ve discussed can be used to
+operationalise a strategy that is at the heart of Christopher
+Alexander’s oeuvre.  In future work it would be interesting to look
+further at how this relates to program-specific design considerations,
+as described, e.g., by Felleisen et al. cite:felleisen2018design.
+
 
 #+BEGIN_EXPORT latex
 \begin{figure}[h]
@@ -1539,62 +1626,6 @@ Realization, consisting of diagrams, a synthesis
 #+END_EXPORT
 
 
-
-The design problem can be solved at one of the three levels.  The most
-direct approach is to work in the actual world.  For instance, a
-musician might pick up an instrument, start playing something, try out
-different possibilities, modify notes or phrasings to make it sound
-better, and so come up with a song.
-
-At the level of "mental picture", a designer receives design
-requirements which describe the problem, and produces a plan which
-describes a solution.  For instance, the host of the party might make
-a request "Write a joyous song for alto voice accompanied by flute and
-trumpet to celebrate the acceptance of our paper into the conference."
-A composer might then sit down at a desk, away from any instruments,
-and write out a score which would later be handed to the singer and
-instrumentalists for performance.  Alexander points out that there is a
-danger in this process: the composer would no longer have the
-immediate feedback which comes from working directly in the actual
-world.  Accordingly, the result might be a song that matches the
-description, but doesn’t match the mood of the event.
-
-Alexander’s proposed solution is to produce a formal picture of the
-mental picture, and instead work with that formal picture.  For our
-example, it might take the form of a suitably elaborate music theory,
-one that includes concepts like  ‘\emph{ballabile}’ (to indicate that
-the song should be danceable).  More generally, we employ a suitable
-metalanguage to reason about the mental representation; this process
-of reasoning can then take the place of feedback from the actual world
-in guiding and evaluating our designs.  For Alexander, this consists
-of a set-theoretic formalization of design requirements and potential
-misfits.\footnote{Incidentally: why only three rows here?  According to G\"odel, any language that can count can also serve as its own metalanguage.}
-
-Figure \ref{synthesis-diagrams}D. refers to the process of design once
-we have arrived at the "formal picture" level.  The left panel
-represents the analytic process in which one decomposes a design
-problem into subproblems and the right panel represents the
-complementary synthetic process in which one successively combines
-solutions to subproblems to arrive at a solution to the original
-problem.  Alexander proposed a maximum entropy method for carrying out
-the analysis and, in later works, introduced design patterns for use
-in the synthesis; and ultimately, described 15 principles that could
-guide a design at an even more abstract level.
-
-In this paper, we have considered the problems faced by groups of
-people organizing their activities.  The naive "actual world" approach
-(Figure \ref{synthesis-diagrams}A.) would be when a group takes a
-"seat of the pants" approach to dealing with issues as they come up in
-the course of work.  PAR can help to sketch a "mental picture".  CLA
-and DPL can be used as techniques for analysis and synthesis at the
-"formal picture" level.  By applying CLA to DPL, we’ve gained an
-understanding of some of the meta-level issues involved with applying
-DPL.  Just as even a talented musician without a solid grasp of music
-theory would be hard pressed to compose an augmentation canon or
-symphony, so too we suggest that a group which faces complex
-challenges may want to consider these techniques for orchestrating
-their activities.
-
 * Conclusion
 <<Conclusion>>
 We conclude with a PAR for the paper as a whole.
@@ -1611,35 +1642,27 @@ We conclude with a PAR for the paper as a whole.
 - And to make sense of how these things connect with each other —
   practically, to show how causal layered analysis could work
   synergistically with pattern theory.
+- To get practice using PARs and CLA as frameworks to support our
+  learning and thinking about patterns of patterns, we also used these
+  methodologies in other concurrent project
 *2. Establish what is happening: what and how are we learning?*
 - We introduced our methods and illustrative case study, then took a
   deep dive into patterns.
 - We connected our observations with some broader literature on future
   studies and proposed scenarios describing ways in which design
   patterns might evolve.
+- We used these methodologies to learn more about and reflect on our
+  working methods at large: we improved out meta-methodological
+  capacity in this regard.
 *3. What are some different perspectives on what’s happening?*
-- JC:[fn:: Viewpoints from authors, listed here by first and last initials. This could be seen as somewhat analogous to the CRediT (Contributor Roles Taxonomy).] The patterns and futures communities need to be talking to each other!
-- RP: One of our goals was to make the connection between futures and
-  patterns.  We could have discussed earlier some scenarios for the
-  paper, like “what if it doesn’t get published?”  We could have had a
-  meeting way back in May or June where we looked at scenarios.  We
-  could take the scenarios above and use them to start building out a
-  set of further scenarios for Emacs Research Group, peeragogy, and so
-  on.
-- CD: Keep in mind that these are patterns people but not CLA people
-  (by default): we should make sure that we have presented CLA in a
-  way that they grasp.
-- VB: It starts to make more sense: patterns become recognisable
-  patterns, we understand the paths we did, we can better understand
-  the steps that we will do.  We developed methods that can be
-  repeated and upgraded.  Our familiarity with working with methods
-  helped us in our work; and clarity in methods will help us welcome
-  newcomers.  We can pitch to people about this.  We’re complex
-  people; as we open to each other we can better be open to others.
-- CP: /Fearless Change/ is related work in connection with the futures
-  stuff.  You need things like this as projects develop over time to
-  understand what’s going on.  I feel more access to this paper than
-  our previous writing topics on this topic.
+- JC:[fn:: Viewpoints contributed by authors, listed here by first and last initials. This could be seen as somewhat analogous to a CRediT (Contributor Roles Taxonomy) statement, but rather than saying what roles people filled, it talks about their view on the paper at present.] The patterns and futures communities need to be talking to each other!
+- RP: One of our goals with the paper was to make the connection
+  between futures and patterns.  We could have discussed earlier some
+  scenarios for the paper, like “what if it doesn’t get published?”
+  We could have had a meeting way back in May or June where we looked
+  at scenarios.  We could take the scenarios above and use them to
+  start building out a set of further scenarios for Emacs Research
+  Group, peeragogy, and so on.
 - LV: I’m glad everyone is on board in reviewing the paper. The
   diverse views of contributors provides some wealth because people
   are discovering things in different ways.  We’ve nicely modularised
@@ -1647,6 +1670,25 @@ We conclude with a PAR for the paper as a whole.
   can only lead to more wealth and appreciation.
 - NA: Hi folx I'm still a bit disoriented with the jet lag, enjoy the
   break and see y'all in August!
+- CD: Keep in mind that these are patterns people but not CLA people
+  (by default): we should make sure that we have presented CLA in a
+  way that they grasp.
+- AM@CD: I'm sure patterns people are very clever cookies anyway. Are
+  we patterns people? If we try to imitate their language too much —
+  might we say something silly?
+- VB: It starts to make more sense: patterns become recognisable
+  patterns, we understand the paths we did, we can better understand
+  the steps that we will do.  We developed methods that can be
+  repeated and upgraded.  Our familiarity with working with methods
+  helped us in our work; and clarity in methods will help us welcome
+  newcomers.  We can pitch to people about this.  We’re complex
+  people; as we open to each other we can better be open to others.
+- AM@VB: Welcoming for newcomers — nice! I agree, it's easy to use
+  these methods (I certainly managed it)!
+- CP: /Fearless Change/ is related work in connection with the futures
+  stuff.  You need things like this as projects develop over time to
+  understand what’s going on.  I feel more access to this paper than
+  our previous writing topics on this topic.
 *4. What did we learn or change?*
 - Relative to earier attempts to describe patterns to the futures
   community, this work is more mature.
@@ -1668,6 +1710,14 @@ We conclude with a PAR for the paper as a whole.
   get relevant material in front of the people who need to see it, in
   a form that they can engage with, with the aim of building community
   in varied contexts.
+- Since we have approached writing this paper in a transdisciplinary
+  manner, rather than as experts, there will be more here for all of
+  us to learn.  Shall we perhaps structure our work on the paper
+  differently in the next phase?  At the moment, the organisation has
+  been mostly ad-hoc and organic.  As part of our reflection on
+  methods, we've talked about things like the pomodoro technique:
+  maybe we don’t want to be that strict, but at minimum we will likely
+  want to do more to figure out scheduling with the many authors.
 
 * Acknowledgements
 :PROPERTIES:
