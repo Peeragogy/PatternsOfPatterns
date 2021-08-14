@@ -10,6 +10,7 @@
 #+LATEX_CLASS_OPTIONS: [acmlarge,timestamp,letter]
 #+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \usepackage{mdframed}
+#+LATEX_HEADER: \usepackage{afterpage}
 #+LATEX_HEADER: \usepackage[pagewise]{lineno}
 #+LATEX_HEADER: \renewcommand\thelinenumber{\color{red}\arabic{linenumber}}
 # #+LATEX_HEADER: \linenumbers
@@ -67,7 +68,7 @@ What are patterns, anyway?  We can start with Christopher Alexander's
 phrase: ``Each pattern is a three-part rule, which expresses a
 relation between a certain context, a problem, and a solution''
 \citep[p.~247]{alexander1979a}.  Richard Gabriel reminds readers who
-treat that sentence as a definition that Alexander then went on to
+treat that sentence as a definition that Alexander went on to
 say:[fn:: https://wiki.c2.com/?PatternDefinition]
 
 #+begin_quote
@@ -85,36 +86,31 @@ relevant.
 Patterns in the first sense are basically physical in nature.  We can
 observe this kind of pattern in the way sand forms underwater ridges
 subject to waves and tides, or the way a cell ‘solves’ a metabolic
-problem.  The second sense is more designerly in nature.  Leitner
-supplied a gloss that nicely encapsulates the way patterns, in this
-sense, are meant to work: ``Patterns are shared as complete methodic
-descriptions intended for practical use by experts and non-experts''
-cite:leitner2015a.
+problem.  Design comes into play in the second sense.  Leitner
+summarised how they are meant to work: ``Patterns are shared as
+complete methodic descriptions intended for practical use by experts
+and non-experts'' cite:leitner2015a.
 
 In this paper, we ask: what happens if we think about patterns in the
 second sense from the vantage point of the first sense?  There are
-already several practical texts that use patterns$_2$ to talk about
-patterns$_2$ — sharing methods that aid in discovery, writing,
-workshopping, and application of pattern methods.  Our aim is to
-develop a more fundamental analysis of patterns$_2$ as a phenomenon,
-along the lines suggested by patterns$_1$.
+already several practical texts that use patterns to talk about
+patterns (always in the second sense): they share methods that aid in
+discovery, writing, workshopping, and the broader application of
+pattern methods.  Our aim is to develop a more fundamental analysis,
+and to use this to work towards a new level of practicality in working
+with pattern methods.
 
 Granted, the relevant forces are no longer simply physical, but are
-socially distributed and often culturally determined.  This
-underscores why such an analysis is both practical, and timely.  While
-different communities think about patterns in different ways — e.g.,
-architects, computer scientists, and institutional designers have had
-quite different things to say about design patterns — all of these
-communities face a now-or-never moment relative to climate crisis and
-other massive upheavals.  They need to learn to work together.
+socially distributed and culturally determined.  Architects, computer
+scientists, and institutional designers have had very different things
+to say about design patterns.  Here, we combine patterns with methods
+from future studies and elite training, aiming to show how these
+methods can be used together to tackle the world’s biggest problems.
 
-In 1999, Alexander said as much whan he talked to computer scientists
-about “the generation of a living world” cite:alexander1999a.  From
-the vantage point of 2021, we cannot afford to take these remarks as
-mere metaphor.  Neither can we afford blythe techno-optimism; nor to
-confine our thinking about the matter to one domain, be it built
-environment, software, or philosophy.  We hope that you’ll join us for
-the journey.
+In 1999, Alexander spoke to computer scientists about “the generation
+of a living world” cite:alexander1999a.  We cannot afford to take
+these remarks as mere metaphor.  Towards this end, we need an
+excavation and reworking of the design pattern theory.
 
 \begin{echo}
 \begin{table}
@@ -149,12 +145,12 @@ the journey.
 :UNNUMBERED: t
 :END:
 
-We detail and apply three techniques which can help a community carry
-out self-evaluation and peer learning.  Each of the methods fills a
-fundamental role (Table \ref{tab:acronyms}), and has natural use-cases
-when considered in isolation.  When combined, they provide a more
-holistic mixed pattern.  We mean this in a precise sense, as will be
-described in due course.  Here’s how the methods work in brief:
+We detail three techniques which can help a community carry out
+self-evaluation and peer learning.  Each of the methods fills a
+fundamental role (Table \ref{tab:acronyms}), and each has natural
+use-cases when considered in isolation.  When combined, they provide a
+more holistic mixed pattern.  We mean this in a precise sense, as will
+be described in due course.  Here’s how the methods work in brief:
 
 *** Project Action Review (PAR) is the sensory element: systematically gathering and verifying observational data.
 :PROPERTIES:
@@ -162,12 +158,9 @@ described in due course.  Here’s how the methods work in brief:
 :END:
 
 The Project Action Review is structured around five questions which
-members of a community discuss and answer, typically during or shortly
-after an event such as a meeting or working sesion.  It is also
-possible to perform “pre-PARs” to envision the way a project might
-develop.  This practice generates a record of the event, as seen
-through the eyes of the participants, along with their evaluation of
-what transpired.  In the moment, the PAR allows us to draw out views
+members of a community discuss and answer together.  This practice
+generates a record of an event, as seen through the eyes of the
+participants.  In the moment, the PAR allows us to draw out views
 which might have gone unstated otherwise.  Over time, projects which
 use PARs improve their chances of staying grounded in reality as
 circumstances evolve.  We can additionally use PARs to help check how
@@ -178,94 +171,87 @@ effectively we are using other methods.
 :UNNUMBERED: t
 :END:
 
-Causal Layered Analysis combines techniques from poststructuralism,
-macrohistory, and postcolonial multicultural theory.  The goal of this
-methodology is to achieve a deep and inclusive understanding by
-integrating empiricist, interpretative, critical, and actionable
-knowledge surrounding a topic of concern.  Without CLA, or something
-similar, there’s a risk of getting lost in the details, whether
-practical or theoretical.  A CLA-based meta-review of actions logged in PARs can provide a
-skeleton that puts together the fleshy PAR components, assembling what
-would otherwise be /disjecta membra/ into a coherent body of self-knowledge.  By
-critically re-examining concerns which might stay implicit in
-pattern language, CLA facilitates more effective design.  It achieves
-this by avoiding or untangling muddles: for example, CLA could help us
+The goal of this methodology is to achieve a deep and inclusive
+understanding by integrating empiricist, interpretative, critical, and
+actionable knowledge surrounding a topic of concern.  Without doing
+this, a group runs the risk of getting lost in the details.  CLA can
+pull together information logged in PARs into a coherent body of
+self-knowledge.  It can also help to surface concerns that might
+remain implicit in pattern language: for example, CLA could help us
 understand why we had prized a technological solution to what, upon
-consideration, turned out to be a fundamentally social issue; or
-vice-versa.
+consideration, turned out to be a fundamentally social issue (or
+vice-versa).
 
 *** Design Pattern Language (DPL) is the motor element: orchestrating and scaffolding action
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-Individual design patterns present solutions to recurring problems:
-they do this in a way that can be combined with other patterns and
-adapted to different situations.  A DPL is a common language which a
-community can use to discuss matters of design; it serves as a
-repository of shared knowledge.  Having carefully analyzed the
-situation and identified a possible solution, we must plot a course of
-action that accounts for the complexities of the situation.  The
-flexibility of DPLs allows the structure to be customized to our
-particular circumstances as they evolve.
+Having carefully analyzed the situation and identified a possible
+solution, we must plot a course of action that accounts for the
+complexities of the situation.  Individual design patterns present
+solutions to recurring problems: they can be combined with other
+patterns and adapted to different situations.  A DPL is a common
+language which a community can use to discuss matters of design; it
+serves as a repository of shared knowledge.  The flexibility of DPLs
+allows the structure to be customized to our particular circumstances
+as they evolve.
 
 ** Summary of Findings
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-In the *Case Study* section, we focus on the concrete use of the methods
-described above in the context of planning and managing a
-transdisciplinary research seminar that studies the extensible, customizable, free/libre text editor, Emacs.[fn:: https://www.gnu.org/software/emacs/]
-The role of this section is primarily illustrative: we show how we have
-conjointly used PARs, CLA, and DPLs to develop a sense of direction for our
-research, in concert with related efforts.  This case study provides a
-detailed practical example that other projects across the pattern
-language space may wish to emulate (or adapt) in their settings.
+In the *Case Study* section, we focus on a concrete use case that
+combines the three methods to manage a transdisciplinary research
+seminar.  This case study provides a detailed practical example that
+other projects across the pattern language space may wish to emulate
+(or adapt) in their settings.
 
-In the *Analysis*, we use CLA to analyse design patterns methods.  DPLs
-provide a general-purpose design methodology.  However, the high-level
-evolution of this method in response to criticism, innovation,
-technical developments, and long-term cultural change has not been
-previously studied in an integrated manner.  CLA allows us to surface
-the direction of travel of pattern language methods, helping us
-integrate foundational perspectives and empirical observation.  We
+In the *Analysis*, we use CLA to analyse design patterns methods.  The
+high-level evolution of the DPL method in response to criticism,
+innovation, technical developments, and long-term cultural change has
+not been previously studied in an integrated manner.  CLA allows us to
+surface the direction of travel of pattern language methods, helping
+us integrate foundational perspectives and empirical observation.  We
 identify trends within the pattern discourse towards transdisciplinary
 thinking and large-scale collaboration; and we connect Alexander's
 concept of wholeness with the broader evolution of Western
 philosophical thought.  This, in turn, shapes our understanding of
-what pattern languages can do in the future.
+what pattern languages can do in the future, which becomes the focus
+of our *Discussion*.
 
-* Guide to Contents
+** Supplementary Material
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-A reader who wishes to focus on methods should be able to read Section
-[[methods]] in a stand-alone fashion, where we give practical guidance and
-examples.  Section [[Figure]] provides a detailed case study in the
-methods, and will be of interest to software practitioners.  Section
-[[Ground]] is a more wide-ranging and reflective analysis of design
-patterns literature and practices.  Sections [[Discussion]]-[[Conclusion]]
-prepares the ground for further work building on the foregoing
-material.
+# A reader who wishes to learn about the methods should be able to read
+# Section [[methods]] in a stand-alone fashion, where we give practical
+# guidance and examples.  Section [[Case_study]] provides a detailed case
+# study in the methods, and will be of interest to software
+# practitioners.  Section [[Analysis]] is a more wide-ranging and reflective
+# analysis of design patterns literature and practices.  Sections
+# [[Discussion]]-[[Conclusion]] prepares the ground for further work building on
+# the foregoing material, taking climate change adaptation as the focal
+# challenge.
 
-#+BEGIN_EXPORT latex
-Appendices and notes provide supplementary material.
-Several patterns in Appendix
-\ref{appendix} are referred to by name the text.  Inline \textsc{Small
-Caps} henceforth denotes references to external patterns, whereas ALL-CAPS
-indicates patterns listed in this Appendix.  Footnotes are indicated with
-numerical markers, while more extensive endnotes appear with alphabetic markers.\endnote{For example.}
-#+END_EXPORT
-
-\clearpage
+\begin{echo}
+Appendices and notes provide supplementary material.  Several patterns in Appendix \ref{appendix} are referred
+  to by name the text.  Inline \textsc{Small Caps} henceforth denotes
+  references to external patterns, whereas ALL-CAPS indicates patterns
+  listed in this Appendix.  Footnotes are indicated with numerical
+  markers, while more extensive endnotes appear with alphabetic
+  markers.\endnote{\textbf{To PLoP 2021 Writers’ Workshop attendees:} In particular, we use end notes to stash potential outtakes.
+    If you see something here that’s valuable, please let us know, and we may add it back into the paper.  If the material here
+  doesn’t help, it may go out in the final submission.  We probably will not include endnotes in the final submission!}
+\end{echo}
 
 * Methods
 <<methods>>
 
 \begin{echo}
 \begin{flushright}
-\emph{tl;dr: We detail the three methods we use in the paper.}
+\emph{tl;dr: We detail three methods that decompose the three components of design patterns into practical processes.}
 \end{flushright}
 \end{echo}
 
@@ -477,7 +463,7 @@ contain irreducible complexity — even when sharing the information
 about the path is relatively simple.
 
 ** Summary
-Having described the DPL, CLA, and PAR methods we are in a position to
+Having described the PAR, CLA, and DPL methods we are in a position to
 explain how they combine into one holistic pattern, in Leitner’s sense
 of a complete methodic description.  We will write this down using the
 classical DPL format: describing the associated /context/, the /problem/
@@ -492,8 +478,23 @@ need not be run in a fixed order, but are interwoven together.
 - *Problem*: Although we may encounter many difficulties in this context, our effort to understand them faces a central *challenge*, namely the fact that the problems span different layers and scales of complexity, so it can be hard to understand where the difficulties actually come from: accordingly, /we use the CLA to understand and frame the problems and their interconnections/.
 - *Solution*: Once we have grasped the problem, we need to elaborate an actionable solution that remains adaptable to ongoing changes in the context: /we use DPL to elaborate the solution/.
 
-\noindent
-(The following section provides an integrated example of the [[PLACARD][PLACARD]] pattern in use.)
+\begin{echo}
+\noindent Hopefully it is clear that all three subsidiary
+methods could also be written down using the same template.\endnote{Should we do this, as a matter of good discipline?  If we’re talking about Patterns of Patterns, I think it would be good to spell it out!  Note, I already wrote down “design pattern” as a pattern in “Patterns of Design” \cite{Corneli2018}!}
+\end{echo}
+For our present purposes, the main thing to notice is that the three methods
+help to make the design pattern method practicable.  We can use the
+PAR to move from a context to a “Context”, established and written
+down.  We can use CLA to move from a situation of concern to a
+situation in which the core “Problem” or “Problems” can be thought
+about.  However, the fact that DPL shows up inside of [[PLACARD][PLACARD]] without further elaboration may be somewhat
+concerning.
+\begin{echo}
+The reader may think: “admittedly, I can see how the methods that have been discussed could help in understanding
+the context and the problem, but is there anything here that can help with formulating solutions?”\endnote{\textbf{JC@coauthors:} I’m still a bit concerned about this!}
+\end{echo}
+This is a worthy concern, and something we will come back to later.
+For now, the following section provides an integrated example of the [[PLACARD][PLACARD]] pattern in use.
 
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
@@ -502,11 +503,11 @@ need not be run in a fixed order, but are interwoven together.
 [[file:placard.jpg]]
 
 * Case study: Planning “Season 1” for the Emacs Research Group
-<<Figure>>
+<<Case_study>>
 
 \begin{echo}
 \begin{flushright}
-\emph{tl;dr: We describe how we have jointly applied the three methods, PAR, CLA, and DPL.}
+\emph{tl;dr: We show how we have applied the three methods in an integrated manner within a transdisciplinary seminar.}
 \end{flushright}
 \end{echo}
 
@@ -540,11 +541,15 @@ PAR, reproduced in Table \ref{exemplar-par}).  Then, every six weeks
 or so, we merged selected bullet-points from these PARs into the CLA
 outline, depending on which section they seemed to fit best.
 \begin{echo}
-We elaborated those bullet points into a narrative form, which we revised to accommodate new data as time went on. We also began to develop TODO items that would make the next steps for this seminar group both
-actionable and meaningful.\endnote{ The Peeragogy approach to patterns is aligned with the feminist principle that all knowledge is incomplete (\url{https://mitpress.podbean.com/e/experiments-in-open-peer-review/}, minute 5). A “living” pattern is, accordingly, attached to Next Steps that would help to realise that pattern within a context; when we don’t have any next steps, we put the pattern in a \textsc{Scrapbook}.}
+We elaborated those bullet points into a narrative form,
+which we revised to accommodate new data as time went on.
+We also began to develop TODO items that would make the
+next steps for this seminar group both actionable and meaningful.\endnote{The Peeragogy approach to patterns
+is aligned with the feminist principle that all knowledge is incomplete (\url{https://mitpress.podbean.com/e/experiments-in-open-peer-review/}, minute 5).
+A “living” pattern is, accordingly, attached to Next Steps that would help to realise that pattern within a
+context; when we don’t have any next steps, we put the pattern in a \textsc{Scrapbook}.}
 \end{echo}
 
-8 See http://peeragogy.org/top for a reworking of the Peeragogy Handbook as a unified pattern languag
 Here, we collate these next steps with peeragogy design patterns like \textsc{Roadmap}
 cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top for a
 reworking of the /Peeragogy Handbook/ as a unified pattern language,
@@ -618,7 +623,7 @@ minimizes technical debt and allows space for serendipity to occur.
 - /Joe: Leo did an amazing job facilitating the meeting/
 - /Public Policy conference: (How to get a grant?)/
 
-# [fn:: This uses the specific affordances of Emacs and research as tools for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts. We could provide a variety of different services, keeping in mind that we have the advantage of “Lisp as alien technology”. Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]], in which Lisp or a structured approach to text editing is applied in new domains.  For example, what new affordances might Emacs bring to managing a collection of design patterns? This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about different ways to present the material we are working with. By relating this work to design patterns we position ourselves relative to other historical developments, and begin to do some new thinking about these developments: this is an opportunity to develop some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Ground]]. By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.]
+# [fn:: This uses the specific affordances of Emacs and research as tools for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts. We could provide a variety of different services, keeping in mind that we have the advantage of “Lisp as alien technology”. Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]], in which Lisp or a structured approach to text editing is applied in new domains.  For example, what new affordances might Emacs bring to managing a collection of design patterns? This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about different ways to present the material we are working with. By relating this work to design patterns we position ourselves relative to other historical developments, and begin to do some new thinking about these developments: this is an opportunity to develop some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Analysis]]. By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.]
 
 *** Next Steps
 :PROPERTIES:
@@ -723,11 +728,11 @@ described above, while pointers /from/ patterns /to/ next steps should
 ideally describe and enable concretely doable task breakdowns.
 
 * Analysis: CLA applied to Design Pattern Language literature and practices
-<<Ground>>
+<<Analysis>>
 
 \begin{echo}
 \begin{flushright}
-\emph{tl;dr: We study DPL using CLA to understand the trends and themes.}
+\emph{tl;dr: We study Design Pattern Languages practices using Causal Layered Analysis.}
 \end{flushright}
 \end{echo}
 
@@ -742,14 +747,20 @@ this cross-scale comparison yields new perspectives.  This, in
 turn, suggests opportunities for mutual learning and dialogue which
 can lead to more comprehensive understanding.
 
-Before embarking on the CLA itself, we present an example on the theme of
-"openness", to show what such an analysis can enable.  ERG and PLoP are both projects within the larger
+** Prelude: “Openness”
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+Before embarking on the CLA itself, we consider the theme of
+“openness”, as an example of the kind of topic that CLA can help elaborate.
+ERG and PLoP are two projects that are active within the larger
 system of contemporary computing, which is organised with various
 loose hierarchical structures.  As such, both projects inherit
 attributes from larger communities/networks and histories to which
 they are heirs.  For example, ERG is a small subcommunity of the
 larger Emacs community, and thus inherits two core tenets at the
-woldview level:
+worldview level:
 - A preference for Free/Libre/Open-Source Software, as defined by the "four freedoms".
 - Enthusiasm for the features and affordances of Emacs, an extensible, customizable, and self-documenting editor.
 
@@ -781,25 +792,24 @@ openness, along with its relationship to other linked concepts like
 freedom, rights, and ethics; from this basis we can explore dialectic
 tensions, and potentially initiate dialogue.
 
-“Openness” is but one of the themes we will examine in the CLA of the
-DPL literature and practices.  In précis,
+As we will see, CLA surfaces further dimensions and aspects of
+“openness” — and this is only one of the themes we will examine.  In
+précis,
 
 - We will look at queries raised by Alexander and his collaborator Bryant, along with a system of practical problems collected by Dawes and Ostwald.
 - We examine issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been framed at PLoP.
 - We examine a worldview linked with patterns through the lens of mob software and its critiques.
 - Lastly, we look at some symbols and philosophical traditions that enrich our understanding of the context in which Alexander developed his methods.
 
-In this section, we omit PARs, and have not specifically developed the
-material into high-level TODO items with connections to other
-patterns, as done in the previous section.  Practical next steps could
-be revisited in later work, and we discuss some likely directions in
-the following sections.
+Practical next steps linked to patterns (as in the previous section)
+could be developed in later work.  We discuss some likely directions
+in the following sections.
 
 ** Litany: Understanding data, headlines, empirical world (short term change)
 
 The first layer in CLA is the *litany layer*: it describes the problems
 that people are well familiar with.  In the case of the design
-patterns discourse, this level includes, for example, the familiar
+patterns discourse, this level includes — in particular — the familiar
 kinds of conflict-based problems that described in patterns and discussed
 at PLoP, along with higher-order problems of application, and debates about these (e.g.,
 ranging from Christopher Alexander’s “\textsc{Entryway Transition}” pattern to
@@ -810,7 +820,7 @@ problems abound.  Indeed, one of the core attributes of the pattern community is
 is not only comfortable with problems but that it actively seeks them
 out with a ‘problematizing’ discourse.
 
-Nevertheless, not all of the well-known and discussed problems have been solved.
+Not all of the well-known and discussed problems have been solved.
 For example, ‘Alexander's
 Problem’, as described by his collaborator Greg Bryant, is that:
 #+begin_quote
@@ -820,17 +830,18 @@ manage to grant, to his readers, the core sensibility that drove the
 work. He also did not organize the continuance of the research program
 that revolves around this sensibility. cite:bryant2015
 #+end_quote
-Attempts to work out a solution are developing.[fn:: https://www.buildingbeauty.org/ and https://www.buildingbeauty.org/beautiful-software]
-Coming at similar issues from a different direction, Alexander framed
-this query for the programmers who were using pattern methods at the turn of the millennium:
+Attempts to work out a practical solution to this problem are
+developing.[fn:: https://www.buildingbeauty.org/ and
+https://www.buildingbeauty.org/beautiful-software] Coming at the same
+basic issue from a more visionary standpoint, Alexander framed this
+query for the programmers who were using pattern methods at the turn
+of the millennium:
 #+begin_quote
 What is the Chartres of programming? What task is at a high enough
 level to inspire people writing programs, to reach for the stars?
 cite:alexander1999a
 #+end_quote
-These are some of the high-level problems that are known and discussed
-in the patterns community, but which do not necessarily have consensus
-answers.  More recently, Dawes and Ostwald cite:dawes2017a develop an
+More recently, Dawes and Ostwald cite:dawes2017a develop an
 elegant taxonomy of existing criticisms of the pattern method.  In
 outline, their taxonomy covers criticisms at the following three
 layers:
@@ -840,12 +851,13 @@ layers:
 
 By showing how the criticisms relate to one another, Dawes and Ostwald
 begin to develop a [[GENEALOGY][GENEALOGY]] at the level of critical perspectives.
-At the very least the critiques they examine show that there is not just
-one pattern discourse, but many.  In a parallel work the same authors analyse
-the structure of /A Pattern Language/, and develop three alternative perspectives on
-/APL/'s contents, which they refer to as the *generalised*, *creator*, and
-*user* perspectives cite:Dawes2018.  These perspectives amount to different techniques
-for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]].  We will elaborate at the next level.
+The critiques they examine show that there is not just one pattern
+discourse, but many.  In a parallel work the same authors analyse the
+structure of Alexander’s classic text, /A Pattern Language// (/APL/) and develop
+three alternative perspectives on /APL/'s contents, which they refer to
+as the *generalised*, *creator*, and *user* perspectives cite:Dawes2018.
+These perspectives amount to different techniques for [[REORDERING KNOWLEDGE][REORDERING
+KNOWLEDGE]].  We will elaborate at the next level.
 
 ** System: Systemic approaches and solutions (social system)
 The *system* layer is typically understood in terms of the *social
@@ -856,11 +868,7 @@ people living in cities, combined with the possibility of developing a
 more community-driven approach to design using contemporary
 technologies.  In short, at this level, we examine where the familiar problems come from.
 
-Using graph-theoretic measures of the /APL/ dataset, Dawes and Ostwald
-cite:Dawes2018 found that:
-- The creator model appears to be /less intelligible/ than the user model, while:
-- The creator’s perspective of the language is /more beautiful/.
-Their central finding is that many patterns in which
+Dawes and Ostwald’s cite:Dawes2018 central finding is that many patterns in which
 Alexander had medium or low confidence in fact occupy a relatively
 central position in /APL/'s graph:
 
@@ -878,20 +886,24 @@ rather than a definitive design guide” (p. 22).  Dawes and Ostwald
 suggest that their analysis could point to “prime opportunities to
 continue the development of /A Pattern Language/'' (p. 21).
 
-Here, however, a range of issues more closely linked to software and
-media begin to crop up.  There are a range of ‘other’ pattern
-discourses which could be relevant here — ‘other’ in the sense
-mentioned in our [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] pattern, so not necessarily in
-close touch with PLoP — these include PurPLSoc and the world of
-practicing architects.  There have been some attempts at creating
-systematic archives of patterns, but these haven’t always had significant
-buy-in from a wide community.
-
+\begin{echo}
+Here, a range of media issues media begin to crop
+up.\endnote{At this point it is also useful to recall that there are a
+range of ‘other’ pattern discourses which could be relevant to
+understanding how the problems emerge: here, ‘other’ is intended in
+the sense mentioned in our \hyperref[REORDERING KNOWLEDGE]{REORDERING
+KNOWLEDGE} pattern, i.e., pointing to other communities who are not in
+close touch with PLoP: these include PurPLSoc and the world of
+practicing architects.} Broadly put: there have been some attempts at
+creating systematic archives of patterns, but these haven’t always had
+significant buy-in from the communities that hope to continue the work
+that Alexander started.
+\end{echo}
 Importantly, the first-ever Wiki was developed in connection with a
 platform for developing, sharing, and revising pattern languages
 cite:cunningham2013a.[fn:: http://wiki.c2.com/?PeopleProjectsAndPatterns][fn:: http://c2.com/ppr/]
 However, there was a distinction between the discussions and the finished patterns.  In the 2013 retrospective,
-Ward Cunningham writes:
+Ward Cunningham and coauthor Michael Mehaffy write:
 #+begin_quote
 The original wiki technology functioned in a direct open-source mode,
 which allowed individuals to contribute small pieces to incrementally
@@ -905,16 +917,16 @@ On the c2 wiki, licensing was restrictive. Discussions were to take place in “
 
 Although Wiki technology could in principle have been a site for
 ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of patterns, this didn’t seem to happen on c2.
-This is itself interesting and worth deconstructing a bit.  Notably, there were only /four/ published “letters and
-replies”.[fn:: http://c2.com/ppr/letters/index.html]  Unfortunately,
-we could not find a public archive of the “design patterns mailing
-list” where further discussions took place.  This is certainly
-suggestive of contingency.
+This is itself interesting and worth deconstructing a bit.  Notably,
+there were only /four/ published “letters and replies”.[fn::
+http://c2.com/ppr/letters/index.html] Unfortunately, we could not find
+a public archive of the design patterns mailing list where further
+discussions took place.  This suggests certain factors of contingency
+in the development of the discourse.
 
-Over the years, other issues and concerns came to the fore.
-Jenifer Tidwell’s charges against the Gang of Four (alongside other
-developer-centric pattern languages) resonate with what we saw in
-Dawes and Ostwald, above:
+Over the years, other issues and concerns came to the fore.  Dawes and
+Ostwald’s cite:Dawes2018 remarks on multiple perspectives on pattern
+languages resonate Jenifer Tidwell’s charges against the Gang of Four:
 
 #+begin_quote
 ... the reality of a software artifact that the developer sees is not
@@ -925,7 +937,7 @@ building or a piece of software?  If that's not taken into account,
 how can we say our building -- or our software -- is “good”? — http://www.mit.edu/~jtidwell/gof_are_guilty.html
 #+end_quote
 
-Notice that now the /user/ of the designed artefact has entered the
+Notice that the /user/ of the designed artefact has entered the
 story as a different figure from the user of the pattern language,
 whom we met above.  Tidwell’s critique suggests at least a
 couple [[ALTERNATIVE PASTS AND
@@ -937,12 +949,12 @@ cite:tidwell2010designing and an essay by Jans Borchers cite:borchers2008pattern
 which drew inspiration from her critique both have over
 1000 citations on Google Scholar shows that Tidwell’s perspective has
 been impactful.  To get a sense of how the pattern community may have
-been informed by this critique — along with related trends and concerns — we can look at
+been informed by this critique — alongside other related trends and concerns — we can look at
 how the Writers Workshops at PLoP have evolved over time.  In Table [[tabplop]], a
 selection of titles of workshop sessions show how the focus of PLoP evolved from
 primarily ‘programming’ oriented to a much broader contextual view
 over time.  Indeed, by 2019, the focus is almost exclusively ‘contextual’.
-The way the themes under discussion have evolved evokes the layers of CLA.
+The way the themes under discussion have evolved brings to mind the layers of CLA.
 
 #+NAME: tabplop
 #+CAPTION: Evolution of PLoP Writers Workshop topics in selected years: CLA in the wild?
@@ -961,7 +973,7 @@ The next layer comprises *worldviews* (e.g., Alexander’s view that
 “There is a central quality which is the root criterion of life and
 spirit in a man, a town, a building, or a wilderness”).
 
-The situation with licensing on c2 is particularly interesting in
+The situation with licensing on =c2= is particularly interesting in
 light of Alexander’s perspective that /APL/ was a “living language”.  In
 principle, Wiki technology might have presented the opportunity to
 realise this vision fully for the first time, in a virtual setting.
@@ -1098,19 +1110,14 @@ rein to all tendencies; conflicts between people’s tendencies must be
 eliminated.
 #+end_quote
 
-Historically, there are at least two major varieties of wholeness: one that
-is based on progressive differentiation (perhaps understood as
-unfolding from substance, per Spinoza), and the other generated by
-interaction between components (perhaps that of mutually reflecting
-monads, per Leibniz).  In support of these allusions, a quote of
-Alexander from /TNO/: it “may be best if we redefine the concept of God
-in a way that is more directly linked to the concept of ‘the whole.’”
-This sounds a lot like Spinoza!
-# [fn:: Cf. cite:lord2020 for more on the theme of Spinoza and architecture.]
-# [fn:: The alchemical symbol for verdigris, and the planetary symbol for Earth.]
-# [fn:: Cf. https://en.wikipedia.org/wiki/The_Peripheral]
-
-We can obtain some useful [[DISTANCE][DISTANCE]] by thinking about how different kinds
+Historically, there are at least two major varieties of wholeness: one
+that is based on progressive differentiation (e.g., unfolding from
+substance, per Spinoza), and the other generated by interaction
+between components (e.g., mutually reflecting monads, per Leibniz).
+In support of these allusions, a quote of Alexander from /The Nature of
+Order/ (/TNO/): it “may be best if we redefine the concept of God in a
+way that is more directly linked to the concept of ‘the whole.’”
+\begin{echo}This sounds a lot like Spinoza!\endnote{We can obtain some useful \hyperref[DISTANCE]{DISTANCE} by thinking about how different kinds
 of wholeness are associated with different symbols. In terms of
 metaphors, we have already encountered overt images like that of
 Chartres cathedral.  If we allow ourselves to explore further afield,
@@ -1125,40 +1132,44 @@ also linked with the Carthusian order, and the Rod of Asclepius
 this last symbol sometimes being inter-confused with the Caduceus
 (\Caduceus, the symbol of Hermes, the deity associated with mediation
 of various forms, and also echoed in the planetary symbol for Mercury,
-\begingroup\alch\symbol{"53}\endgroup).
-
-These symbols are useful map-markers for the landscape we are
-exploring.  They can help to frame our understanding that the pattern
-discourse drawns to /both/ major traditions of wholeness, while also
+\begingroup\alch\symbol{"53}\endgroup).}
+\end{echo}
+Indeed, the pattern discourse appears to drawn from /both/ major traditions of wholeness, while also
 seeking to unite them.  We get the idea of unfolding in /APL/ and other
 pattern languages that work in a top-down manner: however, we also get
 the notion of patterns and principles that are generative of emergent
-phenomena.  As we mentioned above, at this level, architecture and
-programming were seen, by Alexander cite:alexander1999a, to unite: his
-questions for the computer scientists to whom he was speaking point in
-the direction of bio-hacking and nanotechnology (e.g., for molecular
-self-assembly) — at least at the allusive level if not at the concrete
-level.  The following quote suggests we are on a fruitful track:
+phenomena.
+
+At this level, architecture and programming were seen, by Alexander
+cite:alexander1999a, to unite: his questions for the computer
+scientists to whom he was speaking point in the direction of
+bio-hacking and nanotechnology (e.g., for molecular self-assembly) —
+at least at the allusive level.  The following quote suggests we have
+embarked on on a fruitful track by attempting ot think at the deeper
+layers of the pattern discourse:
 #+begin_quote
 Generative patterns work indirectly; they work on the underlying
 structure of a problem (which may not be manifest in the problem)
 rather than attacking the problem directly.[fn:: https://wiki.c2.com/?GenerativePattern]
 #+end_quote
 
-Clearly, another key metaphor in the discourse is the metaphor of /a language/:
-#+begin_quote
-... as in the case of natural languages, the pattern language is
+\begin{echo}
+Clearly, another key metaphor — which also has a
+generative aspect — is the metaphor of \emph{language}.\endnote{“... as
+in the case of natural languages, the pattern language is
 generative. It not only tells us the rules of arrangement, but shows
 us how to construct arrangements - as many as we want - which satisfy
-the rules. (at /ibid./, quoting from /The Timeless Way Of Building/, pp. 185-6)
-#+end_quote
+the rules.” — \url{https://wiki.c2.com/?GenerativePattern}, quoting from
+\emph{The Timeless Way Of Building}, pp. 185-6.}
+\end{echo}
 The prominence of linguistic metaphors within DPL reminds us that
-Alexander’s architectural oeuvre contains traces of many symbols associated
-with Hermes:
+Alexander’s architectural oeuvre other traces of symbols associated
+with Hermes: a deity associated with communication and mediation of
+various forms.
 #+begin_quote
 In the house, [Hermes’] place is at the door, protecting the
 threshold... He could be found around city gates, intersections, state
-borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes;
+borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes
 #+end_quote
 At the time when Hermes was actively embraced as a deity, in some
 traditions he was paired with Hestia, the goddess of the hearth, whose
@@ -1175,26 +1186,29 @@ of generativity ultimately recovers the wholeness of unfolding).
 
 Our task in this section has been to situate Alexander’s thought
 relative to the myths and symbols of wholeness; we’ve surfaced some of
-the tensions and dynamics that exist at this level.  Alexander, for
-his part, tags Nietzsche as a nihilist, and distinguishes his own work
-as comparatively hopeful cite:alexander1991perspectives.  For further
+the tensions and dynamics that exist at this level.
+\begin{echo}
+Alexander, for his part, tags Nietzsche as a nihilist, and distinguishes his own work
+as comparatively hopeful \cite{alexander1991perspectives}.\endnote{For further
 reflections on Nietzsche and wholeness that round out the perspective
-developed here, see cite:bishop2020holistic.  For further reflections
-on Hestia and Hermes, see cite:springhestia.
+developed here, see \cite{bishop2020holistic}.  For further reflections
+on Hestia and Hermes, see \cite{springhestia}.}
+\end{echo}
 
 ** Summary
-The primary benefit of this deep dive analysis is that we have gained
-new perspectives on how design patterns work.  In particular, we have
-illustrated the complexity that underpins the model.  The concept of
-patterns is simultaneously pragmatic and metaphysical in nature.
-Alexander expands on the latter themes in /TNO/.  What we’ve seen above
-is how these more ephemeral-seeming factors are ramified across
-various layers of organisation.  For example, the theme of openness
-that we touched on in the introduction to this section would now
-relate to openness to criticism, interpretation, and failure, as well
-as to physical forms of permeability.  A range of other themes that
-weave between the layers have also been drawn out, informing the
-following discussion.
+A key benefit of this deep dive into DPL via CLA is that we have
+gained some new perspectives on how design patterns work.  In
+particular, we have illustrated the complexity that underpins the
+model.  The concept of patterns is simultaneously pragmatic and
+metaphysical in nature.  Alexander expands on the latter themes in
+/TNO/.  What we’ve seen above is how these more ephemeral-seeming
+factors are ramified across various layers of organisation.
+
+For example, the theme of openness that we touched on in the
+introduction to this section would now relate to openness to
+/criticism/, /interpretation/, and /failure/, as well as to physical forms
+of /permeability/.  A range of other themes that weave between the
+layers have also been drawn out, informing the following discussion.
 
 # Nietzsche's Fundamental Metaphysical Position, By Martin Heidegger,
 # Translated by David Farrell Krell, Nietzsche, Volume Two, Chapter
@@ -1264,7 +1278,7 @@ schedule.  A suitable research strategy might be study how practices changed in
 the past and adapted to new circumstances, such as industrialization
 with its clockwork regimentation of the day.
 
-Meanwhile, cite:HEINONEN2017101 discuss a CLA game that developed four
+Meanwhile, Heinonen and coauthors cite:HEINONEN2017101 describe a CLA game that explored four
 different scenarios in small groups.  The four scenarios were “Radical
 Startups”, “Value-Driven Techemoths”, “Green DIY Engineers” and “New
 Consciousness”.  As groups worked through the CLA for each scenario,
@@ -1298,11 +1312,14 @@ not mutually exclusive.
 ** Scenario I. Patterns become explicitly computational.
 Patterns have periodically been discussed in explicitly computational
 terms — however, that direction of work so far remains mostly at the
-level of a proposal cite:alexander1999a,moran1971a, with limited
+level of a proposal cite:alexander1999a,moran1971a — with limited
 discipline-specific uptake within architectural design
-cite:jacobus2009a,OXMAN1994141.  Could this change?  We wonder if
-design patterns — and related designs for Ostrom-style institutions
-cite:ostrom2009a (p. 11) — should be brought onto a similar
+cite:jacobus2009a,OXMAN1994141, and a separate discipline-specific
+development in object-oriented programming (after Taibi and Ngo
+cite:taibi2003formal).  Could this change, to generalise and make
+interoperable the kinds of patterns that can be computed with?  For
+example, Ostrom-style institutions — which are closely linked design
+patterns cite:ostrom2009a (p. 11) — might be brought onto a
 computational footing, and included in the computational mix within
 climate modelling software.  These developments might be accompanied
 by more mathematical precision along the lines of [[FORMAL PATTERNS][FORMAL PATTERNS]],
@@ -1313,16 +1330,16 @@ a /formal pattern/ would have to respond to a conflict in the context,
 which requires a suitably formal notion of conflict.  One strategy
 would be to think of design patterns as conceptual blends
 cite:corneliPatternsDesign2018; different blends would have different
-possible and incompossible worlds associated with them.
-For example, the Cooling the Commons pattern language includes
-\textsc{Community Library} as one of its patterns; the library blends
-a learning space with cool refuge, and must balance their provisions
-against cost and effort.  If the library was blended with a
-\textsc{Writers Workshop}, it could become a place for the community
-to generate knowledge about further adaptive strategies.  However, this might conflict with the notion of
-library contents as being read-only, or with the view that libraries
-should be silent study spaces.  Could these ideas and complexities be
-reasoned about computationally?
+possible and incompossible worlds associated with them.  For example,
+the Cooling the Commons pattern language includes
+\textsc{Community Library} as one of its patterns; the library blends a learning space
+with cool refuge, and must balance their provisions against cost and
+effort.  If the library was blended with a \textsc{Writers Workshop},
+it could become a place for the community to generate knowledge about
+further adaptive strategies.  However, this might conflict with the
+notion of library contents as being read-only, or with the view that
+libraries should be silent study spaces.  Could these ideas and
+complexities be reasoned about computationally?
 
 ** Scenario II. Pattern language authoring communities move to free/libre/open source licensing.
 In the field of policy, ‘adaptive capacity’ describes a society’s
@@ -1393,27 +1410,6 @@ given serious thought.  /Progress/ will become measurable through
 markers of debate and perhaps through ensuing trial-and-error uptake
 or adaptation of the methods we’ve described.
 
-*** Methodological contribution
-PARs are related to patterns, in that they describe a context, and
-surface problems and solutions that arise or are likely to arise in
-that context.  They might be seen as a template for proto-patterns.
-However, they do not necessarily have a strong repeating aspect.  CLA
-could be seen to play the opposite role to PARs.  Metaphorically, CLA
-integrates the tangent vectors that characterise the observations we
-have gathered as we work together, and can be used to reconstruct the
-shared meaning of our work.  DPL, then, can turn this understanding
-into practical high-level plans.  By contextualising DPL with the
-other methods, we avoid brittle solutions and enrich our thinking.
-
-*** Constructively critical contribution
-If the ideas and methods we have examined were actively used and
-improved jointly by all of the different communities whose work we
-have drawn on, many things could start to move quickly.
-- The Emacs Research Group can use these ideas to help connect with potential stakeholders.
-- The Peeragogy network can help facilitate some of the discussions and projects.
-- PLoP can provide relevant social infrastructure and connections with others using pattern methods.
-- As we gather further evidence, we can return to the futures community and share what we learned with them, and expand the scale and scope of the integrated effort.
-
 * Related work
 <<Related_Work>>
 \begin{echo}
@@ -1421,6 +1417,72 @@ have drawn on, many things could start to move quickly.
 \emph{tl;dr: E.g., a layered approach also appears in the work of Alexander.}
 \end{flushright}
 \end{echo}
+
+#+BEGIN_EXPORT latex
+\afterpage{\clearpage
+\begin{figure}[h]
+\begin{equation*}
+  \xymatrix{
+    \hbox{\textbf{context}} & \hbox{\textbf{form}} & \hbox{\phantom{mental picturexxx}} \\
+    *+[F]{C1}  \ar@{<->}[r] & *+[F]{F1} &            \hbox{\hspace{-.2cm}actual world}}
+\end{equation*}
+\vskip 10pt
+\emph{\textbf{A.}~In this point there is a close relationship between content and form, and they evolve together.}
+\vskip -20pt
+\begin{equation*}
+  \xymatrix{
+    \hbox{\phantom{form}} & \hbox{\phantom{context}} & \hbox{\phantom{mental picture}} \\
+    *+[F]{C1} \ar[d] & *+[F]{F1} & \hbox {actual world} \\
+    *+[F]{C2}  \ar@{<->}[r] & *+[F]{F2} \ar[u] & \hbox {mental picture}}
+\end{equation*}
+\vskip 10pt
+\emph{\textbf{B.}~In this setting we add a mental picture $C2$ that abstracts from the context (e.g., design requirements).  This corresponds to $F2$ e.g., plans), and $F1$ abstracts further (e.g., a description of the plan).  This allows specialisation, but there’s no direct link between $C1$ and $F1$.}
+\vskip -20pt
+\begin{equation*}
+  \xymatrix{
+    \hbox{\phantom{form}} & \hbox{\phantom{context}} & \hbox{\phantom{mental picture}} \\
+    *+[F]{C1} \ar[d] & *+[F]{F1} & \hbox {actual world} \\
+    *+[F]{C2} \ar[d] & *+[F]{F2} \ar[u] & \hbox{mental picture} \\    
+    *+[F]{C3}  \ar@{<->}[r] & *+[F]{F3} \ar[u] & \hbox {formal picture}}
+\end{equation*}
+\vskip 10pt
+\emph{\textbf{C.}~Now we add a meta-language: the formal picture corresponding to the mental picture.}
+\vskip 10pt
+\begin{center}
+\begin{minipage}[c]{0.45\textwidth}
+\begin{equation*}
+  \xymatrix @C 5pt @R 6pt {
+    & \ar@2{->}[d]
+      & & & \t \ar@{-}[lld] \ar@{-}[rdd]  \ar@{-}[rrrdd] & & & & \\
+    & & \t \ar@{-}[ld] \ar@{-}[rdd] & & & & & & \\
+    & \t \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & & & \t
+      \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & \t \ar@{-}[d] \ar@{-}[rd] & \\
+  \t & \t & \t & \t & \t & \t & \t & \t & \t}
+\end{equation*}
+Program, consisting of sets, based on an analysis
+\end{minipage}
+\hskip 25pt
+\begin{minipage}[c]{0.45\textwidth}
+\begin{equation*}
+  \xymatrix @C 5pt @R 6pt {
+    & & & & \T \ar@{-}[lld] \ar@{-}[rdd]  \ar@{-}[rrrdd] & & & & \\
+    & & \T \ar@{-}[ld] \ar@{-}[rdd] & & & & & \ar@2{->}[u] & \\
+    & \T \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & & & \T
+     \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & \T \ar@{-}[d] \ar@{-}[rd] & \\
+  \T & \T & \T & \T & \T & \T & \T & \T & \T}
+\end{equation*}
+Realization, consisting of diagrams, a synthesis
+\end{minipage}
+\vskip 10pt
+\emph{\textbf{D.}~At this level we have methods for actually doing the programming.}
+\vskip 10pt
+\end{center}
+\caption{Diagrams from \emph{Synthesis of Form}\label{synthesis-diagrams}}
+\end{figure}
+\clearpage
+}
+#+END_EXPORT
+
 
 We are certainly not the only people to think about systems and
 futures: what is distinctive about this paper is that we’ve connected
@@ -1490,12 +1552,11 @@ briefly examine how this work relates to a somewhat similar agenda
 developed by Christopher Alexander himself.  We can begin by drawing
 the reader's attention to two diagrams from Alexander's "Notes on the
 Synthesis of Form", recopied below as Figure \ref{synthesis-diagrams}.
-Parts A.-C. of this figure have two columns corresponding to context
-(/sive/ problem) and form (/sive/ solution), and one, two, or three rows,
-corresponding to the "actual world", "mental picture" and "formal
-picture".  A design problem is posed at the level of the actual world,
-say, "build a house atop this hill" or "make a celebration song".
-
+Parts A.-C. of this figure have two columns corresponding to “context”
+and “form” (or what we have been calling a /solution/): and one, two, or three rows,
+corresponding to the “actual world”, “mental picture” and “formal
+picture”.  A design problem is posed at the level of the actual world,
+say, “build a house atop this hill” or “make a celebration song”.
 
 The design problem can be solved at one of the three levels.  The most
 direct approach is to work in the actual world.  For instance, a
@@ -1503,11 +1564,11 @@ musician might pick up an instrument, start playing something, try out
 different possibilities, modify notes or phrasings to make it sound
 better, and so come up with a song.
 
-At the level of "mental picture", a designer receives design
+At the level of “mental picture”, a designer receives design
 requirements which describe the problem, and produces a plan which
 describes a solution.  For instance, the host of the party might make
-a request "Write a joyous song for alto voice accompanied by flute and
-trumpet to celebrate the acceptance of our paper into the conference."
+a request “Write a joyous song for alto voice accompanied by flute and
+trumpet to celebrate the acceptance of our paper into the conference.”
 A composer might then sit down at a desk, away from any instruments,
 and write out a score which would later be handed to the singer and
 instrumentalists for performance.  Alexander points out that there is a
@@ -1539,12 +1600,12 @@ in the synthesis; and ultimately, described 15 principles that could
 guide a design at an even more abstract level.
 
 In this paper, we have considered the problems faced by groups of
-people organizing their activities.  The naive "actual world" approach
+people organizing their activities.  The naive “actual world” approach
 (Figure \ref{synthesis-diagrams}A.) would be when a group takes a
 "seat of the pants" approach to dealing with issues as they come up in
-the course of work.  PAR can help to sketch a "mental picture".  CLA
+the course of work.  PAR can help to sketch a “mental picture”.  CLA
 and DPL can be used as techniques for analysis and synthesis at the
-"formal picture" level.  By applying CLA to DPL, we’ve gained an
+“formal picture” level.  By applying CLA to DPL, we’ve gained an
 understanding of some of the meta-level issues involved with applying
 DPL.  Just as even a talented musician without a solid grasp of music
 theory would be hard pressed to compose an augmentation canon or
@@ -1556,68 +1617,6 @@ Alexander’s oeuvre.  In future work it would be interesting to look
 further at how this relates to program-specific design considerations,
 as described, e.g., by Felleisen et al. cite:felleisen2018design.
 
-
-#+BEGIN_EXPORT latex
-\begin{figure}[h]
-\begin{equation*}
-  \xymatrix{
-    \hbox{\textbf{context}} & \hbox{\textbf{form}} & \hbox{\phantom{mental picturexxx}} \\
-    *+[F]{C1}  \ar@{<->}[r] & *+[F]{F1} &            \hbox{\hspace{-.2cm}actual world}}
-\end{equation*}
-\vskip 10pt
-\emph{\textbf{A.}~In this point there is a close relationship between content and form, and they evolve together.}
-\vskip -20pt
-\begin{equation*}
-  \xymatrix{
-    \hbox{\phantom{form}} & \hbox{\phantom{context}} & \hbox{\phantom{mental picture}} \\
-    *+[F]{C1} \ar[d] & *+[F]{F1} & \hbox {actual world} \\
-    *+[F]{C2}  \ar@{<->}[r] & *+[F]{F2} \ar[u] & \hbox {mental picture}}
-\end{equation*}
-\vskip 10pt
-\emph{\textbf{B.}~In this setting we add a mental picture $C2$ that abstracts from the context (e.g., design requirements).  This corresponds to $F2$ e.g., plans), and $F1$ abstracts further (e.g., a description of the plan).  This allows specialisation, but there’s no direct link between $C1$ and $F1$.}
-\vskip -20pt
-\begin{equation*}
-  \xymatrix{
-    \hbox{\phantom{form}} & \hbox{\phantom{context}} & \hbox{\phantom{mental picture}} \\
-    *+[F]{C1} \ar[d] & *+[F]{F1} & \hbox {actual world} \\
-    *+[F]{C2} \ar[d] & *+[F]{F2} \ar[u] & \hbox{mental picture} \\    
-    *+[F]{C3}  \ar@{<->}[r] & *+[F]{F3} \ar[u] & \hbox {formal picture}}
-\end{equation*}
-\vskip 10pt
-\emph{\textbf{C.}~Now we add a meta-language: the formal picture corresponding to the mental picture.}
-\vskip 10pt
-\begin{center}
-\begin{minipage}[c]{0.45\textwidth}
-\begin{equation*}
-  \xymatrix @C 5pt @R 6pt {
-    & \ar@2{->}[d]
-      & & & \t \ar@{-}[lld] \ar@{-}[rdd]  \ar@{-}[rrrdd] & & & & \\
-    & & \t \ar@{-}[ld] \ar@{-}[rdd] & & & & & & \\
-    & \t \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & & & \t
-      \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & \t \ar@{-}[d] \ar@{-}[rd] & \\
-  \t & \t & \t & \t & \t & \t & \t & \t & \t}
-\end{equation*}
-Program, consisting of sets, based on an analysis
-\end{minipage}
-\hskip 25pt
-\begin{minipage}[c]{0.45\textwidth}
-\begin{equation*}
-  \xymatrix @C 5pt @R 6pt {
-    & & & & \T \ar@{-}[lld] \ar@{-}[rdd]  \ar@{-}[rrrdd] & & & & \\
-    & & \T \ar@{-}[ld] \ar@{-}[rdd] & & & & & \ar@2{->}[u] & \\
-    & \T \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & & & \T
-     \ar@{-}[ld] \ar@{-}[d] \ar@{-}[rd] & & \T \ar@{-}[d] \ar@{-}[rd] & \\
-  \T & \T & \T & \T & \T & \T & \T & \T & \T}
-\end{equation*}
-Realization, consisting of diagrams, a synthesis
-\end{minipage}
-\vskip 10pt
-\emph{\textbf{D.}~At this level we have methods for actually doing the programming.}
-\vskip 10pt
-\end{center}
-\caption{Diagrams from \emph{Synthesis of Form}\label{synthesis-diagrams}}
-\end{figure}
-#+END_EXPORT
 
 * Conclusion
 <<Conclusion>>
@@ -1637,8 +1636,25 @@ constructively-critical:
 - Our analysis points to issues that the design pattern community will
   wish to consider as it shapes its own further development.
 
-We conclude with a PAR for the paper as a whole.
-\bigskip
+We also have an answer to Alexander’s question, however, we’re not
+sure if he’ll like it.  The ‘Chartres of programming’ has been hidden
+in plain view all along.  Alejandro Jodorowsky refers to the
+Marseilles Tarot as a “nomadic cathedral” \cite{jodorowsky2009way}
+(p. 10); pattern languages are very much the same sort of thing.
+
+We close with an epilogue sourced from Virgina Woolf.  For her, any
+shock — or, we might say a crisis — was ‘followed by the desire to
+explain it.’
+
+\begin{quote}
+\emph{It is only by putting it into words that I make it whole; this wholeness
+means that it has lost its power to hurt me; it gives me, perhaps because by doing
+so I take away the pain, a great delight to put the severed parts together.}  [...]
+\emph{From this I reach what I might call a philosophy; at any rate it is a constant
+idea of mine; that behind the cotton wool is hidden a pattern; that we — I mean all
+human beings — are connected with this; that the whole world is a work of art;
+that we are parts of the work of art.}
+\end{quote}
 
 * Acknowledgements
 :PROPERTIES:
@@ -1663,11 +1679,13 @@ David O’Toole.
 * APPENDIX: PARs
 <<appendix-pars>>
 
-Table \ref{exemplar-par} is the first PAR prepared by the Emacs Research Group, whose work we will look at in more detail in our Case Study.
-
+[[exemplar-par]] is the first PAR prepared by the Emacs Research Group,
+whose work we will look at in more detail in our Case Study.
+[[second-exemplar-par]] is a PAR we developed after submitting the first
+version of this paper to PLoP.
+** PAR: Emacs Research Group, December 2, 2020
+<<exemplar-par>>
 #+BEGIN_EXPORT latex
-\begin{table}[H]
-\begin{mdframed}\small
 \begin{enumerate}
 \item \textbf{Review the intention: what do we expect to learn or make together?}
 \begin{itemize}
@@ -1708,11 +1726,109 @@ Table \ref{exemplar-par} is the first PAR prepared by the Emacs Research Group, 
 \item Someone to schedule the next meeting... accomodate UTC+8, maybe use BBB; Leo will publish scheduler
 \end{itemize}
 \end{enumerate}
-\end{mdframed}
-\caption{Example of a PAR: Emacs Research Group, December 2, 2020\label{exemplar-par}}
-\end{table}
 #+END_export
 
+** PAR: Coauthors of Patterns of Patterns, July, 2021
+<<second-exemplar-par>>
+
+#+BEGIN_EXPORT latex
+\textbf{1. Review the intention: what do we expect to learn or make together?}
+\begin{itemize}
+\item Our intention was to apply the CLA method from future studies to
+design pattern theory, in order to provide a methodologically
+salient perspective on the future of pattern theory.
+\item Within the Emacs Research Group, we used PARs, CLA, and DPL to
+manage our work, and we shared a description that process and its
+results as a case study here.
+\item And to make sense of how these things connect with each other —
+practically, to show how causal layered analysis could work
+synergistically with pattern theory.
+\item To get practice using PARs and CLA as frameworks to support our
+learning and thinking about patterns of patterns, we also used these
+methodologies in other concurrent project
+\end{itemize}
+\textbf{2. Establish what is happening: what and how are we learning?}
+\begin{itemize}
+\item We introduced our methods and illustrative case study, then took a
+deep dive into patterns.
+\item We connected our observations with some broader literature on future
+studies and proposed scenarios describing ways in which design
+patterns might evolve.
+\item We used these methodologies to learn more about and reflect on our
+working methods at large: we improved out meta-methodological
+capacity in this regard.
+\end{itemize}
+\textbf{3. What are some different perspectives on what’s happening?}
+\begin{itemize}
+\item JC:\footnote{Viewpoints contributed by authors, listed here by first and last initials. This could be seen as somewhat analogous to a CRediT (Contributor Roles Taxonomy) statement, but rather than saying what roles people filled, it talks about their view on the paper at present.} The patterns and futures communities need to be talking to each other!
+\item RP: One of our goals with the paper was to make the connection
+between futures and patterns.  We could have discussed earlier some
+scenarios for the paper, like “what if it doesn’t get published?”
+We could have had a meeting way back in May or June where we looked
+at scenarios.  We could take the scenarios above and use them to
+start building out a set of further scenarios for Emacs Research
+Group, peeragogy, and so on.
+\item LV: I’m glad everyone is on board in reviewing the paper. The
+diverse views of contributors provides some wealth because people
+are discovering things in different ways.  We’ve nicely modularised
+the pattern of reviewing a paper, and brought different gazes that
+can only lead to more wealth and appreciation.
+\item NA: Hi folx I'm still a bit disoriented with the jet lag, enjoy the
+break and see y'all in August!
+\item CD: Keep in mind that these are patterns people but not CLA people
+(by default): we should make sure that we have presented CLA in a
+way that they grasp.
+\item AM@CD: I'm sure patterns people are very clever cookies anyway. Are
+we patterns people? If we try to imitate their language too much —
+might we say something silly?
+\item VB: It starts to make more sense: patterns become recognisable
+patterns, we understand the paths we did, we can better understand
+the steps that we will do.  We developed methods that can be
+repeated and upgraded.  Our familiarity with working with methods
+helped us in our work; and clarity in methods will help us welcome
+newcomers.  We can pitch to people about this.  We’re complex
+people; as we open to each other we can better be open to others.
+\item AM@VB: Welcoming for newcomers — nice! I agree, it's easy to use
+these methods (I certainly managed it)!
+\item CP: \emph{Fearless Change} is related work in connection with the futures
+stuff.  You need things like this as projects develop over time to
+understand what’s going on.  I feel more access to this paper than
+our previous writing topics on this topic.
+\end{itemize}
+\textbf{4. What did we learn or change?}
+\begin{itemize}
+\item Relative to earier attempts to describe patterns to the futures
+community, this work is more mature.
+\item It is a fitting third installation to round out Joe’s “Patterns”
+trilogy \cite{corneli2015a,Corneli2018}.
+\item Our methods are compatible with the ideas described by Christopher
+Alexander, and a lot more detail about how these methods can be
+applied to the activities of an organisation.
+\item There’s a whole behind the scenes, there’s a lot of heart and soul
+here that could make it more like joint autobiography.
+\end{itemize}
+\textbf{5. What else should we change going forward?}
+\begin{itemize}
+\item We believe we have an answer to Alexander’s question.  We’re not
+sure he’ll like it.  The ‘Chartres of programming’ has been hidden
+in plain view all along.  Alejandro Jodorowsky refers to the
+Marseilles Tarot as a “nomadic cathedral” \cite{jodorowsky2009way}
+(p. 10); pattern languages are very much the same sort of thing.
+This is a project of many lifetimes of work; let’s understand it
+better so that we can coordinate in parallel.  Let’s make sure we
+get relevant material in front of the people who need to see it, in
+a form that they can engage with, with the aim of building community
+in varied contexts.
+\item Since we have approached writing this paper in a transdisciplinary
+manner, rather than as experts, there will be more here for all of
+us to learn.  Shall we perhaps structure our work on the paper
+differently in the next phase?  At the moment, the organisation has
+been mostly ad-hoc and organic.  As part of our reflection on
+methods, we've talked about things like the pomodoro technique:
+maybe we don’t want to be that strict, but at minimum we will likely
+want to do more to figure out scheduling with the many authors.
+\end{itemize}
+#+END_export
 
 * APPENDIX: Patterns
 <<appendix>>
@@ -1918,9 +2034,40 @@ of free/libre/open source software?
 
 * OUTTAKES
 
-#+INCLUDE: "first-par.tex" export latex
+# #+INCLUDE: "first-par.tex" export latex
+
+** Methodological contribution
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+PARs are related to patterns, in that they describe a context, and
+surface problems and solutions that arise or are likely to arise in
+that context.  They might be seen as a template for proto-patterns.
+However, they do not necessarily have a strong repeating aspect.  CLA
+could be seen to play the opposite role to PARs.  Metaphorically, CLA
+integrates the tangent vectors that characterise the observations we
+have gathered as we work together, and can be used to reconstruct the
+shared meaning of our work.  DPL, then, can turn this understanding
+into practical high-level plans.  By contextualising DPL with the
+other methods, we avoid brittle solutions and enrich our thinking.
+
+** Constructively critical contribution
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+If the ideas and methods we have examined were actively used and
+improved jointly by all of the different communities whose work we
+have drawn on, many things could start to move quickly.
+- The Emacs Research Group can use these ideas to help connect with potential stakeholders.
+- The Peeragogy network can help facilitate some of the discussions and projects.
+- PLoP can provide relevant social infrastructure and connections with others using pattern methods.
+- As we gather further evidence, we can return to the futures community and share what we learned with them, and expand the scale and scope of the integrated effort.
+
 
 ** Fundamental definition of patterns
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 Let’s begin by setting to one side any specialist notion of ‘patterns’
 that we may have in mind, and think about patterns in a fundamental
