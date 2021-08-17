@@ -1721,13 +1721,12 @@ David O’Toole.
 * NOTES :noexport:
 \printendnotes*[sverre]
 
-* APPENDIX: PARs
+* APPENDIX: Example PAR
 <<appendix-pars>>
 
 [[exemplar-par]] is the first PAR prepared by the Emacs Research Group,
 whose work we will look at in more detail in our Case Study.
-[[second-exemplar-par]] is a PAR we developed after submitting the first
-version of this paper to PLoP.
+# [[second-exemplar-par]] is a PAR we developed after submitting the first version of this paper to PLoP.
 ** PAR: Emacs Research Group, December 2, 2020
 <<exemplar-par>>
 #+BEGIN_EXPORT latex
@@ -1773,7 +1772,7 @@ version of this paper to PLoP.
 \end{enumerate}
 #+END_export
 
-** PAR: Coauthors of Patterns of Patterns, July, 2021
+** PAR: Coauthors of Patterns of Patterns, July, 2021 :noexport:
 <<second-exemplar-par>>
 
 #+BEGIN_EXPORT latex
@@ -2129,7 +2128,7 @@ in second phase.
 
 In the third phase, each participant will be invited to weave
 information from each level of the CLA into a Project Action Review
-(in it’s pre-PAR formulation) to describe something that they would
+(in the pre-PAR formulation) to describe something that they would
 like to work on in the future, either in their professional life or in
 their own community.
 
