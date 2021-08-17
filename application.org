@@ -1390,7 +1390,7 @@ specification can reveal a lot about the program’s operating context,
 a /formal pattern/ would have to respond to a conflict in the context,
 which requires a suitably formal notion of conflict.  One strategy
 would be to think of design patterns as conceptual blends
-cite:corneliPatternsDesign2018; different blends would have different
+cite:Corneli2018; different blends would have different
 possible and incompossible worlds associated with them.  For example,
 the Cooling the Commons pattern language includes
 \textsc{Community Library} as one of its patterns; the library blends a learning space
