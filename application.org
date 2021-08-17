@@ -763,9 +763,11 @@ terminating states.  Indeed, a useful analogy can be made with the
 notion of a macro or program.  Once we notice that we end up repeating
 the same gesture frequently, we may then look for ways to automate
 that.  In order to do the actual automation, we need a grasp of the
-relevant existing facilities; in Emacs, the low-lying solutions
-include recording keyboard macros or writing Lisp code, whereas the
-more involve working together with other people.
+relevant existing facilities.  In Emacs, the low-lying solutions
+include recording keyboard macros or writing Lisp code.  More involved
+and less easily automatable solutions may involve working together
+with other people who have different knowledge or facility with other
+tools.
 
 Broadly, a solution can often be decomposed into subtasks.  At each
 point in the solution-development process, if we are able to
