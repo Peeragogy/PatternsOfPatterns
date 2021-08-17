@@ -1498,7 +1498,7 @@ or adaptation of the methods we’ve described.
     *+[F]{C2}  \ar@{<->}[r] & *+[F]{F2} \ar[u] & \hbox {mental picture}}
 \end{equation*}
 \vskip 10pt
-\emph{\textbf{B.}~Here, we add a mental picture $C2$ that abstracts from the context (e.g., design requirements).  Now work takes place mediated by a design process, via $F2$, e.g., plans, which abstract the solution.  This allows specialisation, but there’s no longer a direct unmediated link between $C1$ and $F1$.}
+\emph{\textbf{B.}~Here, we add a mental picture that abstracts from the context (e.g., design requirements) and the form (e.g., plans).  In short, now work takes place mediated by a design process.  This allows specialisation of labour, but there’s no longer a direct unmediated link between $C1$ and $F1$.}
 \vskip -20pt
 \begin{equation*}
   \xymatrix{
@@ -1580,12 +1580,13 @@ tensions.
   colonialism.
 
 To expand on this point: we can position the broader orientation of our work as a
-counterposition to cite:kostakisDesignGlobalManufacture2015 who argued
+counterposition to Kostakis et al. cite:kostakisDesignGlobalManufacture2015 who argued
 for a development model based on “thinking global and producing
 local.”  At the centre of their vision is a global pool of designs,
 which are put into production in local Fab Lab facilities.  By
 contrast, the [[PLACARD][PLACARD]] pattern centres local circumstances and
-histories (via PARs and CLA-linked methods like [[GENEALOGY][GENEALOGY]]).  We would
+histories (via PARs, CLA-linked methods like [[GENEALOGY][GENEALOGY]], and
+the context-specific information embedded in DPL).  We would
 expect to see varied knowledge bases develop, that are rich with
 cultural diversity and human relationships.  [[PLACARD][PLACARD]] methods could
 flips the Kostakis et al. formula on its head: patterns are primarily
@@ -1617,10 +1618,10 @@ Synthesis of Form", recopied below as Figure \ref{synthesis-diagrams}.
 Parts A.-C. of this figure have two columns corresponding to “context”
 and “form” (or what we have been calling a /solution/): and one, two, or three rows,
 corresponding to the “actual world”, “mental picture” and “formal
-picture”.  A design problem is posed at the level of the actual world,
+picture”.  A creative problem is posed at the level of the actual world,
 say, “build a house atop this hill” or “make a celebration song”.
 
-The design problem can be solved at one of the three levels.  The most
+The problem can be addressed at any one of the three levels.  The most
 direct approach is to work in the actual world.  For instance, a
 musician might pick up an instrument, start playing something, try out
 different possibilities, modify notes or phrasings to make it sound
@@ -1694,7 +1695,7 @@ future studies to the domain of patterns.  We demonstrated how methods
 from future studies, design pattern theory, and distributed project
 management can be combined.  Our analysis points to issues that the
 design pattern community will wish to consider as it shapes its own
-further development.  Much remains to be done.  Furthermore, perhaps
+further development.  Much remains to be done.  We note that perhaps
 the ‘Chartres of programming’ has been hidden in plain view all along.
 Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic
 cathedral” \cite{jodorowsky2009way} (p. 10); pattern languages are
