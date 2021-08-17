@@ -113,7 +113,7 @@ In 1999, Alexander spoke to computer scientists about “the generation
 of a living world” and the future of design patterns
 cite:alexander1999a.  We cannot afford to take his remarks as mere
 metaphor.  Towards realising the promise of design patterns, what we
-offer here an excavation and reworking of the theory.
+offer here is an excavation and reworking of the theory.
 
 \begin{quote}
 \emph{‘Sir, know that while wandering through the forest I
