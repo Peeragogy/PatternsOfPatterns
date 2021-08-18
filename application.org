@@ -118,24 +118,23 @@ for an excavation and reworking of the theory.
 \begin{quote}
 \emph{‘Sir, know that while wandering through the forest I
 saw an ancient path. I followed it and saw an ancient city. Renovate
-that city, Sir!’}
-— \href{https://suttacentral.net/sn12.65/en/bodhi}{Saṁyutta Nikāya, Connected Discourses on Causation, 12.65. The City}, Quoted in \cite{JGB127}.
+that city, Sir!’}—\href{https://suttacentral.net/sn12.65/en/bodhi}{Saṁyutta Nikāya, Connected Discourses on Causation, 12.65. The City}, Quoted in \cite{JGB127}.
 \end{quote}
-
 ** Outline of Methods
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+<<outline_of_methods>>
 
-We detail three techniques which can help a community carry out
-self-evaluation and peer learning.  Each of the methods fills a
-fundamental role (Table \ref{tab:acronyms}), and each has natural
+We detail three methods which can help a community carry out
+self-evaluation and peer learning.  Each of them fills a
+fundamental role, and each has natural
 use-cases when considered in isolation.  When combined, the methods
 provide a more holistic mixed pattern, as will be described in due
 course.  The tripartite division here mirrors classical
 psychology cite:Hilgard1980, and continues to be
 relevant in contemporary neuroscience cite:Teufel2020.  Here, our
-focus is on scaffolding social perception, cognition, and action.
+focus is on scaffolding social perception, cognition, and action (Table \ref{tab:acronyms}).
 
 \begin{echo}
 \begin{table}[h]
@@ -238,15 +237,6 @@ of our [[Discussion][*Discussion*]].
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-# A reader who wishes to learn about the methods should be able to read
-# Section [[methods]] in a stand-alone fashion, where we give practical
-# guidance and examples.  Section [[Case_study]] provides a detailed case
-# study in the methods, and will be of interest to software
-# practitioners.  Section [[Analysis]] is a more wide-ranging and reflective
-# analysis of design patterns literature and practices.  Sections
-# [[Discussion]]-[[Conclusion]] prepares the ground for further work building on
-# the foregoing material, taking climate change adaptation as the focal
-# challenge.
 
 \begin{echo}
 Appendix \ref{appendix-pars} contains sample Project Action Reviews.
@@ -262,6 +252,37 @@ the paper and makes some of the ideas within it interactive.
   doesn’t help, it may go away in the final submission; i.e., we probably will \emph{not} include endnotes in the final submission!}
 \end{echo}
 
+# Clarify punctuation usage?  Certainly with coauthors!
+
+* Background
+
+Anyone who has studied psychology and neuroscience is liable to agree
+that perception, cognition, and action are needed by all living
+beings, and even by robots.  Some of this thinking can be applied to
+organisations, as in the work of Stafford Beer.  However, it is harder
+to say what it means to be a well-functioning society, or to be a good
+member society in a time of crisis.  To get started, it makes sense to
+begin at the large macro-historical scale.
+
+#+begin_quote
+For Sarkar, there have been four historical ways humans have dealt
+with their physical and social environment: either by being dominated
+by it, by dominating it through the body, dominating it through the
+mind, or dominating it through the environment
+itself. cite:inayatullah1999situating
+#+end_quote
+
+Community assembly of ecosystems and the growth of embryos are
+relevant natural examples of processes that have `futures'.  These
+natural processes are ordered, not only in space but also in time.
+Reflecting on these examples, we see more clearly why it is that
+futurists and designers need to connect with each other.  We can also
+reflect that while science fiction can provide a `thinking machine'
+cite:Doherty2020, it cannot provide historically robust alternatives
+to the global crises that we face.  Again, we need an approach that
+integrates thinking with action and awareness, and that work across
+scales: from individual agents to distributed networks.
+
 * Methods
 <<methods>>
 
@@ -276,10 +297,13 @@ the paper and makes some of the ideas within it interactive.
 The US Army developed a methodology called the /After Action Review/ or
 AAR, which they use in training elite soldiers
 cite:Training-the-Force.  AARs can be used to assign responsibility
-when things ‘go wrong’ in these trainings, and can help people figure
+when things go wrong in these trainings, and can help people figure
 out how to do better next time.  The method has also been used effectively
-in business settings cite:learning-in-the-thick-of-it.  In a
-distributed peer-to-peer collaboration, we wanted an adaptation of the
+in business settings cite:learning-in-the-thick-of-it.   As such, After Action Review
+shares common ground with the \textsc{Daily Scrum} and
+\textsc{Sprint Retrospective} cite:sutherland2019a patterns from Scrum.  However,
+it does not have the product orientation of Scrum.
+In a distributed peer-to-peer collaboration, we wanted an adaptation of the
 AAR that would make it more open ended and horizontal in nature.  We
 came up with the following template:
 
@@ -289,20 +313,16 @@ came up with the following template:
 4. What did we learn or change?
 5. What else should we change going forward?
 
-When we fill in the template, we call it “doing a /PAR”/.  As an
-acronym, “PAR” has stood for various things over the years —
-Peeragogical Action Review, Project Action Review — but we like PAR as
+When we fill in the template, we call it “doing a /PAR.”/  As an
+acronym, “PAR” has stood for various things over the years—Peeragogical Action Review, Project Action Review—but we like PAR as
 a stand-alone term.  Allusively, it brings to mind the corresponding
 concept of /par/ in golf, and helps give us a sense of how we are doing
 at any given point in time.[fn:: “In golf, /par/ is the predetermined
 number of strokes that a proficient golfer should require to complete
 a hole, a round (the sum of the pars of the played holes), or a
-tournament (the sum of the pars of each round).” — Wikipedia] Like the
+tournament (the sum of the pars of each round).”—Wikipedia] Like the
 Army, we typically use PARs retrospectively (“what /did/ we
-expect to learn or make together?”).  In this sense “doing a PAR”
-shares common ground with the \textsc{Daily Scrum} and
-\textsc{Sprint Retrospective} cite:sutherland2019a patterns from Scrum.  However,
-PARs can be used without the product orientation of Scrum.  Indeed,
+expect to learn or make together?”).  Indeed,
 PARs can also be applied to look forward, proactively, as a way to
 scaffold anticipation by “remembering the future”
 cite:arnkil2008remembering.  In that case, item (5) can be expanded to
@@ -312,27 +332,30 @@ are provided in Appendix [[appendix-pars]].
 ** Causal Layered Analysis
 <<CLA_patterns>>
 
-# "Let’s stick with layer as opposed to level."
+#                                                    "Let’s stick with layer as opposed to level."
 
 Sohail Inayatullah developed Causal Layered Analysis (CLA)
 cite:inayatullah1998b,inayatullah2004causal as a research methodology
 for examining a topic of concern at four layers that he refers to as
-the /litany/, /system/, /worldview/ and /myth/.  This work draws on his
-scholarship of P. R. Sarkar.  Here, we explain each of the levels
-according to the following schema:
+the /litany/, /system/, /worldview/ and /myth/.  Part of the reason we do such
+an analysis is that there are different kinds of causes, ranging from
+immediate things to deeper causes.  Inyatullah’s work draws on his
+scholarship of P. R. Sarkar cite:inayatullah1999situating.[fn::¶¶¶ Explanation of what’s going on?]
+In developing a CLA, none of the four layers is
+privileged over the others, nor are they examined in isolation.
+Rather, one moves between them, examining how they relate to one
+another.  One can then integrate these insights to form a more
+comprehensive basis for understanding what is happening in the present
+and for anticipating the future.
+
+Here, we explain each of the levels according to the following schema:
 
 - *Contents*: /What is found in this layer?/
 - *Analysis*: /Techniques for analysis of this layer./
 - *Literature*: /Instances of texts which are typically operative at this layer./
 
-In developing a Causal Layered Analysis, none of the four layers is
-privileged over the others, nor are they examined in isolation.
-Rather, one moves between them, examining how they relate to one
-another. One can then integrate these insights to form
-a more comprehensive basis for understanding what is happening in the
-present and for anticipating the future.  To illustrate the four
-layers and associated techniques, we introduce a running example of a
-mom-and-pop pizza shop.
+To illustrate the four layers and associated techniques, we introduce
+a running example of a mom-and-pop pizza shop.
 
 *** Litany
 
@@ -349,7 +372,6 @@ Imagine a couple who on some of their first dates enjoy going out for pizza. The
 - *Literature*: Editorials and policy institute reports.
 
 **** 🍕 Example, System Layer
-
 Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
 
 *** Relation of System Layer and Litany Layer
@@ -361,8 +383,8 @@ The stress mentioned above is an upshot of all of the activity
 described.  Business is booming, money is flowing: that’s not the
 problem.  However, some confusion has ensued about who should be
 managing the restaurant, on what days, where to get the ingredients,
-and how much they should spend.  We also get a sense of what’s missing
-at the system level, namely, they haven’t yet found a good way to sort
+and how much they should spend.  Here we get a sense of what’s missing
+at the system level, namely, they haven’t yet found a systematic way to sort
 out the confusion.
 
 *** Worldview
@@ -377,39 +399,44 @@ out the confusion.
 
 **** 🍕 Example, Worldview Layer
 Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
-
 *** Relation of Worldview Layer and System Layer
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-We looked at the choices that the couple made relative to their environment.  Now we see something about the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, their two worldviews — while not disjoint or necessarily in conflict — are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved now that they are small business owners.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
+Earlier we looked at the choices that the couple made, relative to their experiences, environment, and background.  Now we see some of the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, their two worldviews—while not disjoint or necessarily in conflict—are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved now that they are small business owners.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
 
 *** Myth
-
 - *Contents*: The symbols and tales which give meaning to life.
 - *Analysis*: Study meaningful symbols and the myths and rituals within which they participate.
 - *Literature*: Poetry, art, anthropology, Jungian analysis.
-
 **** 🍕 Example, Myth Layer
-Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.  They share some of this information with a wise counsellor, whom they meet in a consulting room filled with lovely plants.  Together, they put together a strategy that helps them to respond to the circumstances that have evolved.  They decide to close the shop Monday through Wednesday, to spend time away from the business.  They engage with hobbies like writing, woodwork, and painting, and they tend their garden together.  Thursday through Sunday, they resolidify their intention to make their work together a meditation on love. They develop new ideas, related to food and otherwise. Boosted by their time off, they prepare more innovative meals and, while the restaurant remains affordable, they garner enthusiastic crit from foodies.
-
+Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
 *** Relation of Myth Layer and Worldview Layer
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-We learned about Mom and Pop’s individual worldviews earlier.
-Now we see how their social outlook led them to seek a
-solution together with a trusted confidante.  Moreover, as a result of
-finding new ways to integrate important symbols and identities into
-their lives; we see how the myth layer supports an adapted worldview
-that introduces new patterns into their daily and weekly rituals, along
-with new sources of meaning.
+Innovation at the myth layer supports an adapted worldview that
+introduces new patterns into their daily and weekly rituals, along
+with new sources of meaning.  Mom and Pop decide to close the shop Monday
+through Wednesday, to spend time away from the business, as part of a
+new weekly cycle that mirrors the seasons.[fn:: ¶¶¶ Is this clear?  See paragraph about Campbell later.]
+
+# They engage with hobbies like writing, woodwork, and painting, and
+# they tend their garden together.  Thursday through Sunday, they
+# resolidify their intention to make their work together a meditation on
+# love. They develop new ideas, related to food and otherwise.  Boosted
+# by their time off, they prepare more innovative meals and, while the
+# restaurant remains affordable, they garner enthusiastic crit from
+# foodies.
 
 ** Design Pattern Languages
-Like an ellipse, the design pattern has two main foci: context and community.
-# [fn:: An ellipse is the set of all points in a plane such that the sum of their distances from two fixed points is a constant.]
+
+The two senses of ‘pattern’ mentioned above—‘As an element in the /world/...’ and
+‘As an element of /language/...’—are mirrored within the
+concept of a design pattern.  Like an ellipse, the design pattern has
+two main foci: context and community.
 
 - /Context/ shapes and constrains the type of activity which is being considered, be it designing a building, writing software, or something else.
 - /Community/ encompasses the stakeholders --- experts and non-experts alike --- who are involved with or affected by a particular project.
@@ -435,7 +462,7 @@ to a type of conflict which itself repeats within a particular
 context.  Furthermore, it does this in a way that makes the solution
 teachable, learnable, and otherwise replicable within a given
 community.  However, if the design pattern makes the solution to the
-problem too obvious, then “design”, /per se/, is no longer needed!\endnote{For example, Peter Norvig argued that we see fewer of the design patterns typical of Object Oriented programs inside programs written in functional and dynamic languages, because these languages embed many of the typical OO patterns as language features.} We
+problem too obvious, then design, /per se/, is no longer needed!\endnote{For example, Peter Norvig argued that we see fewer of the design patterns typical of Object Oriented programs inside programs written in functional and dynamic languages, because these languages embed many of the typical OO patterns as language features.} We
 might say that the design pattern carries with it a fragment of
 irreducible complexity.  This perspective may or may not be
 surprising.
@@ -477,30 +504,34 @@ in other ways that solve a range of social problems
 cite:handelman1998a. In short, the difference between these two
 traversal stories suggests that the process of finding “the path that
 is capable of leading to a good structure” cite:alexander1999a may
-contain irreducible complexity — even when sharing the information
+contain irreducible complexity—even when sharing the information
 about the path is relatively simple.
 
 ** Summary
-Having described the PAR, CLA, and DPL methods we are in a position to
-explain how they combine into one holistic pattern, in Leitner’s sense
-of a complete methodic description.  We will write this down using the
-classical DPL format: describing the associated /context/, the /problem/
-denoting a conflict, together with a /solution/.  As it happens, the
-three acronyms can be combined and remixed in a clever way to provide
-a title for this pattern.  This accurately suggests that the methods
-need not be run in a fixed order, but are interwoven together. Figure [[fig:placard]] provides a mnemonic.[fn:: For French speakers, /placard/ means ‘cupboard’, and there is another idiom, /mise en placard/, which applies to an employee whose tasks have all been reassigned.  While that is not quite the case here, it is potentially suggestive as another mnemonic.]
+Having defined and described the PAR, CLA, and DPL methods which were
+introduced in capsule form in Section \ref{outline_of_methods} with
+reference to the sensory, cognitive, and motor theory of mind, we are
+now in a position to explain how they combine into one holistic
+pattern, in Leitner’s sense of a complete methodic description.  We
+will write this down using the classical DPL format: describing the
+associated /context/, the /problem/ denoting a conflict, together with a
+/solution/.  As it happens, the three acronyms can be combined and
+remixed in a clever way to provide a title for this pattern.  This
+accurately suggests that the methods need not be run in a fixed order,
+but are interwoven together.
+
+\clearpage
 
 *** PLACARD
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 <<PLACARD>>
-- *Context*: In the course of working on a project together: /we use the PAR to understand and establish our working context/.
+- *Context*: In the course of working on a project together: /we use the PAR to get a sense of our working context/.
 - *Problem*: Although we may encounter many difficulties in this context, our effort to understand them faces a central *challenge*, namely the fact that the problems span different layers and scales of complexity, so it can be hard to understand where the difficulties actually come from: accordingly, /we use the CLA to understand and frame the problems and their interconnections/.
 - *Solution*: Once we have grasped the problem, we need to elaborate an actionable solution that remains adaptable to ongoing changes in the context: /we use DPL to elaborate the solution/.
 
-\begin{echo}
-\noindent Hopefully it is clear that all three subsidiary
-methods could also be written down using the same template.\endnote{Should we do this, as a matter of good discipline?  If we’re talking about Patterns of Patterns, I think it would be good to spell it out!  Note, I already wrote down “design pattern” as a pattern in “Patterns of Design” \cite{Corneli2018}!}
-\end{echo}
-For our present purposes, the main thing to notice is that using the three methods
+Figure [[fig:placard]] provides a mnemonic.[fn:: For French speakers, /placard/ means ‘cupboard’, and there is an idiom, /placardisé/, which refers to an employee whose tasks all have been reassigned to others; the import is similar to the English idiom ‘put to pasture’. While it is not the case that [[PLACARD][PLACARD]] reassigns all DPL functions to other methods, the French idiom is potentially suggestive as another mnemonic.] The main thing to notice is that using the three methods
 together helps to make the design pattern method practicable.  We can use the
 PAR to move from a context to a “Context”, established and written
 down.  We can use CLA to move from a situation of concern to a
@@ -511,7 +542,7 @@ concerning.
 The reader may be wondering: “I think I can see how the methods that have been discussed could help in understanding
 the \textbf{context} and the \textbf{problem}, but is there anything here that actually helps with formulating \textbf{solutions}?”\endnote{\textbf{JC@coauthors:} I’m still a bit concerned about this!}
 \end{echo}
-This is certainly a worthy concern, and something we will come back to in Section [[erg-summary]], after looking at an integrated example of the [[PLACARD][PLACARD]] pattern in use.
+This is certainly a worthy concern, and something we will come back to in Section [[erg-summary]], after looking at an example of the [[PLACARD][PLACARD]] pattern in use.
 
 #+ATTR_ORG: :width 700px
 #+ATTR_HTML: :width 700px
@@ -531,14 +562,14 @@ This is certainly a worthy concern, and something we will come back to in Sectio
 
 This section summarises the concrete application of the methods
 from Section [[methods]] within an active seminar, the Emacs
-Research Group, which was convened following EmacsConf
+Research Group (ERG), which was convened following EmacsConf
 2020.[fn:: https://emacsconf.org/2020/; the conference took place November 28th and 29th of 2020.]
 We illustrate how the
 three methods introduced above interoperate.  In our case, this
 analysis has allowed us to develop a trajectory for the project.
 As a case study, this section gives more-or-less
 self-contained example and shows how mixing the three methods
-gives us more than the sum of the parts
+gives us more than the sum of the parts.
 
 In the ERG, we think of the work carried out up to this point as
 *Season 0*, on the view that so far our thinking has developed
@@ -553,13 +584,13 @@ https://github.com/exp2exp/exp2exp.github.io, with meeting notes and
 PARs indexed and viewable on the web at
 https://exp2exp.github.io/erg.]  This allowed us to track progress,
 and to surface key issues and concerns.  For example, bootstrapping needs
-related to scheduling and collaboration tools, along persistent
+related to scheduling and collaboration tools, along with persistent
 questions about how best to go public, are documented in our first
-PAR, reproduced in Appendix \ref{exemplar-par}).  Then, every six weeks
-or so, we merged selected bullet-points from these PARs into the CLA
+PAR, which is reproduced in Appendix \ref{appendix-pars}.  Every six weeks
+or so, we merged selected bullet-points from our PARs into the CLA
 outline in an intuitive way, depending on which section they seemed to fit best.
 \begin{echo}
-We elaborated those bullet points into a narrative form,
+We also elaborated those bullet points into a narrative form,
 which we revised to accommodate new data as time went on.
 We also began to develop TODO items that would make the
 next steps for this seminar group both actionable and meaningful.\endnote{The Peeragogy approach to patterns
@@ -572,10 +603,9 @@ Here, we collate these next steps with peeragogy design patterns like \textsc{Ro
 cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top for a
 reworking of the /Peeragogy Handbook/ as a unified pattern language,
 which extends the earlier presentation in cite:patterns-of-peeragogy.]
-To make the way process works somewhat more clear, we include the data supporting the CLA from
 \begin{echo}
-PARs carried out in our 1\textsuperscript{st}, 10\textsuperscript{th}, and 18\textsuperscript{th} sessions.
-The PARs are provided in full in Appendix \ref{appendix-pars}.\footnote{We did two PARs during the eighteenth session.}
+To make the way this process works somewhat more clear to the reader, we include the data supporting the CLA from PARs carried out in our 1\textsuperscript{st}, 10\textsuperscript{th}, and 18\textsuperscript{th} sessions (marked with ①, ⑩, and ⑱ below).
+% \footnote{We did two PARs during the eighteenth session.}
 \end{echo}
 By the time of our fourth iteration of the larger
 $\mathrm{PAR}\rightarrow\mathrm{CLA}$ cycle, each section had
@@ -606,23 +636,16 @@ activities elsewhere, including by getting some training events up and
 running.
 # [fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMAL PATTERNS][FORMAL PATTERNS]] pattern.]
 
-*** Supporting data from ERG’s first session
+*** Supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+\begin{itemize}
+\item[①] \emph{Everyone shared a brief intro and ideas so we got to know each other}
+\item[⑩] \emph{We’ve brainstormed a couple of options for getting out there: White-papers, Grants, Journal papers (very concrete)}
+\item[⑱] \emph{Alex: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further}
+\end{itemize}
 
-- /Everyone shared a brief intro and ideas so we got to know each other/
-
-*** Supporting data from ERG’s tenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /We’ve brainstormed a couple of options for getting out there: White-papers, Grants, Journal papers (very concrete)/
-*** Supporting data from ERG’s eighteenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /Alex: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further/
 *** Next Steps
 :PROPERTIES:
 :UNNUMBERED: t
@@ -639,7 +662,7 @@ running.
 If we tackle big enough projects, it will bring with it the need for
 collaboration.  We like to create tangible deliverables (e.g. journal
 articles). However, “If we knew what the outcome was, it wouldn’t be
-research” — therefore, we’re focusing initially on research methods
+research”—therefore, we’re focusing initially on research methods
 and design documents. That may result in a longer time to write
 initial papers, but when something is released it is more thoroughly
 prepared. Meanwhile, we keep our skills sharp by fixing bugs,
@@ -647,26 +670,18 @@ improving our own workflows, and actively exploring the landscape. All
 these activities are part of the system we implement regularly, which
 minimizes technical debt and allows space for serendipity to occur.
 
-*** Supporting data from ERG’s first session
+*** Supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-- /Part of a greater sense of trying to do something with EmacsConf to federate the community/
-- /Joe: Leo did an amazing job facilitating the meeting/
-- /Public Policy conference: (How to get a grant?)/
+\begin{itemize}
+\item[①] \emph{Part of a greater sense of trying to do something with EmacsConf to federate the community}
+\item[①] \emph{Joe: Leo did an amazing job facilitating the meeting}
+\item[①] \emph{Public Policy conference: (How to get a grant?)}
+\item[⑩] \emph{Potential interview with Leo \& Jethro Kuan (co-maintainers of org-roam)}
+\item[⑱] \emph{Leo did a nice job of intervening}
+\end{itemize}
 
-# [fn:: This uses the specific affordances of Emacs and research as tools for [[DECONSTRUCTION][DECONSTRUCTION]] of adjacent contexts. We could provide a variety of different services, keeping in mind that we have the advantage of “Lisp as alien technology”. Such stakeholders might be identified by imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]], in which Lisp or a structured approach to text editing is applied in new domains.  For example, what new affordances might Emacs bring to managing a collection of design patterns? This could support us in [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], as we think about different ways to present the material we are working with. By relating this work to design patterns we position ourselves relative to other historical developments, and begin to do some new thinking about these developments: this is an opportunity to develop some [[GENEALOGY][GENEALOGY]]; we pursue that in Section [[Analysis]]. By expecting the unexpected we [[DISTANCE][DISTANCE]] ourselves somewhat from current circumstances; see further details in the [[SERENDIPITY][SERENDIPITY]] pattern.]
-
-*** Supporting data from ERG’s tenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /Potential interview with Leo & Jethro Kuan (co-maintainers of org-roam)/
-*** Supporting data from ERG’s eighteenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /Leo did a nice job of intervening/
 *** Next Steps
 :PROPERTIES:
 :UNNUMBERED: t
@@ -696,34 +711,27 @@ is common for all collaborators is that the transfer of information
 must be uninhibited.  If we all had our slipboxes online, we could
 interlink them.  This would generalise *ORCiD*, and allow people to
 reference processes that are undergoing evolution.  Maybe a service
-like this would turn into a ‘Tinder for academics’ — helping to match
+like this would turn into a ‘Tinder for academics’—helping to match
 people based on their interests (or similar people in different
 fields).  So, what’s the price point?  Instead of paying money to go
 to conferences, now we can spontaneously make conferences and
-workshops.  As a guess, $750.0 per user per year might be a fair price
-— for those who can afford to pay it — if the service helps people to
+workshops.  As a guess, $750.0 per user per year might be a fair price—for those who can afford to pay it—if the service helps people to
 do better research and saves a bunch of travel.  We could also set up
 a pricing model proportional to each country’s carbon emissions or
 something like that.
 # [fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
 
-*** Supporting data from ERG’s first session
+*** Supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-- /Wonderful outcome from attending EmacsConf 2020!/
+\begin{itemize}
+\item[①] \emph{Wonderful outcome from attending EmacsConf 2020!}
+\item[⑩] \emph{Anthropology + Psychology is a special nightmare for reproducibility}
+\item[⑩] \emph{Maybe the ERG could contribute further patterns?}
+\item[⑱] \emph{But there’s a problem with Emacs, which is that there isn’t proper intro}
+\end{itemize}
 
-*** Supporting data from ERG’s tenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /Anthropology + Psychology is a special nightmare for reproducibility/
-- /Maybe the ERG could contribute further patterns?/
-*** Supporting data from ERG’s eighteenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /But there’s a problem with Emacs, which is that there isn’t proper intro/
 *** Next Steps
 :PROPERTIES:
 :UNNUMBERED: t
@@ -741,7 +749,7 @@ perspective]]’.  This includes both retrospective and prospective
 thinking.  For example, the things that were timely 7 years ago might
 not be so timely now; in many cases the relevance of a given
 innovation goes down over time.  However, Emacs has an evolutionary
-character that has allowed it to keep up with the times — becoming
+character that has allowed it to keep up with the times—becoming
 more relevant and useful ever since Steele and Stallman started to
 systematise [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor MACroS]] for the Text Editor and Corrector (TECO)
 program.  Not only has the technology evolved, but so has the social
@@ -753,27 +761,16 @@ of a system for addressing large-scale existential problems, by
 expanding the frontier of what’s possible for human beings.
 # [fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
 
-*** Supporting data from ERG’s first session
+*** Supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-- /We generally agreed that we want to make something that exposes intrinsic value of using these tools/
-
-*** Supporting data from ERG’s tenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-\begin{echo}
 \begin{itemize}
-\item[] [None recorded at this level from this PAR.]
+\item[①] \emph{We generally agreed that we want to make something that exposes intrinsic value of using these tools}
+\item[⑩] [None recorded at this level from this PAR.]
+\item[⑱] \emph{But there was no such guidance; you were in the middle of an alien playground. “But I just wanted to do my Clojure stuff.”}
 \end{itemize}
-\end{echo}
 
-*** Supporting data from ERG’s eighteenth session
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-- /But there was no such guidance; you were in the middle of an alien playground. “But I just wanted to do my Clojure stuff.”/
 *** Next Steps
 :PROPERTIES:
 :UNNUMBERED: t
@@ -785,15 +782,15 @@ expanding the frontier of what’s possible for human beings.
 
 ** Summary
 <<erg-summary>>
-The narrative paragraphs at each level describe patterns occurring
+The narrative paragraphs at each level describe abstract patterns occurring
 among, and mutual accommodation between, the bullet points that developed
 in our PARs.  The Next Steps typically do not represent concrete
-objectives, for instance in a ‘S.M.A.R.T’ format,[fn:: Specific, Measurable, Achievable, Realistic, and Time-bound — Wikipedia]
-but are, rather, descriptions of anticipated patterns of
-behaviour.  To refine these items into tasks that are concretely
+objectives, for instance in a ‘S.M.A.R.T’ format.[fn:: Specific, Measurable, Achievable, Realistic, and Time-bound—Wikipedia]
+They are, rather, descriptions of anticipated patterns of behaviour—here linked to /bona fide/ design patterns.
+To refine these items into tasks that are concretely
 doable within the upcoming *Season 1* will require further breakdown and
 elaboration.  We foresee this to be an iterative process, assisted
-by bidirectional links between patterns and next steps.
+by bidirectional links between patterns and next steps (and potentially aided by software tools).
 
 Looking back over the case study, we can now outline an answer to the
 concern raised at the end of Section [[methods]], namely how do the
@@ -811,30 +808,34 @@ underlying trends, causes, and potential terminating states.
 
 A useful analogy can be made with the notion of a macro or program.
 Once we notice that we end up repeating the same gesture frequently,
-we may then look for ways to automate that.  In order to do the actual
+we may then look for ways to automate it.  In order to do the
 automation, we need a grasp of the relevant existing facilities.  With
 Emacs, the most straightforward tasks can be automated by using
 built-in commands, or by recording new keyboard macros.  Other tasks
-typically are automated through new Lisp code, or with interfaces to
+are typically automated through new Lisp code, or with interfaces to
 other programs.  Still more involved and less readily automated
 solutions require working together with other people who have
 different knowledge or facility with other tools.
 
-Broadly, a solution can often be decomposed into interrelated
-subtasks.  If we are able to understand the (sub-)context and
-(sub-)problems in detail, we can then make predictions about the way
-an intervention could change the overall system.  As we will revisit
-again later on in the paper, “two different forms of information
-processing (bottom-up and top-down)” cite:Teufel2020.  CLA can help
-with both.
-
-Nominally, CLA is an analytic tool that decomposes a problematc
-situation into layers and causes operating at and between these
-layers.  In this sense it functions top down.  However, CLA also plays
+\begin{echo}
+Broadly, a solution process can often be decomposed into interrelated
+subtasks.  If we are able to understand the \mbox{(sub-)}context and
+\mbox{(sub-)}problems in detail—along with their relationships to other parts
+of the developing decomposition—then we can then make predictions about the way
+an intervention could change the overall system.
+\end{echo}
+As we will revisit
+again later on in the paper, there are “two different forms of information
+processing (bottom-up and top-down)” cite:Teufel2020; CLA can help with both,
+and in so doing can indeed assist with solution-development.
+Nominally, CLA is an analytic tool that decomposes a problematic
+situation into /layers/, and /causes/
+ operating at and between these
+layers.  In this sense it functions top-down.  However, CLA also plays
 a synthesis role.  Whereas we could compare the PAR to a tangent
 vector or derivative that gives a momentary reading of how things are
 going at a given point in time, CLA can be used to integrate these
-observations into an overall plan.
+observations into an overall plan—as we’ve seen above.
 
 * Analysis: CLA applied to Design Pattern Language literature and practices
 <<Analysis>>
@@ -848,8 +849,8 @@ observations into an overall plan.
 In the previous section we narrowed our attention to the Emacs
 Research Group and developed a Causal Layered Analysis built by
 studying the PARs we had carried out.  We connected the results with
-Peeragogy patterns as a way to check our work and connect with a
-broader community.  In this section, we will broaden our gaze
+Peeragogy patterns as a way to check our work, connect with a
+broader community, and maintain plans for the future.  In this section, we will broaden our gaze
 considerably further.  Although the two sections traverse different
 scales, a CLA of the design pattern community can, subsequently, be
 compared with what we saw above, and this cross-scale comparison
@@ -867,8 +868,8 @@ in the following sections.
 
 The first layer in CLA is the *litany layer*: it describes the problems
 that people are well familiar with.  In the case of the design
-patterns discourse, this level includes — in particular — the familiar
-kinds of conflict-based problems that described in patterns and discussed
+patterns discourse, this level includes—in particular—the familiar
+kinds of conflict-based problems that are described in patterns and discussed
 at PLoP, along with higher-order problems of application, and debates about these (e.g.,
 ranging from Christopher Alexander’s “\textsc{Entryway Transition}” pattern to
 his remarks about how people who attempted to apply his methods
@@ -949,8 +950,7 @@ Here, a range of media issues begin to crop
 up.\endnote{At this point it is also useful to recall that there are a
 range of ‘other’ pattern discourses which could be relevant to
 understanding how the problems emerge: here, ‘other’ is intended in
-the sense mentioned in our \hyperref[REORDERING KNOWLEDGE]{REORDERING
-KNOWLEDGE} pattern, i.e., pointing to other communities who are not in
+the sense mentioned in our \hyperref[REORDERING KNOWLEDGE]{REORDERING KNOWLEDGE} pattern, i.e., pointing to other communities who are not in
 close touch with PLoP: these include PurPLSoc and the world of
 practicing architects.}
 \end{echo}
@@ -967,7 +967,7 @@ The original wiki technology functioned in a direct open-source mode,
 which allowed individuals to contribute small pieces to incrementally
 improve the whole.
 #+end_quote
-This is true if by “open source” we understand /what you see when you click Edit/ — but
+This is true if by “open source” we understand what you see when you click Edit—but
 the statement could be misleading relative to contemporary usage, which is often linked with
 the Open Source Initiative’s definition, which centers on the premise that
 “Open source doesn’t just mean access to the source code.”[fn:: https://opensource.org/osd]
@@ -992,7 +992,7 @@ the only one that's important.  What about the user's reality?  Why
 has that been ignored in all the software patterns work that's been
 done?  Isn't the user's experience the ultimate reason for designing a
 building or a piece of software?  If that's not taken into account,
-how can we say our building -- or our software -- is “good”? — http://www.mit.edu/~jtidwell/gof_are_guilty.html
+how can we say our building -- or our software -- is “good”?—http://www.mit.edu/~jtidwell/gof_are_guilty.html
 #+end_quote
 
 Notice that the /user/ of the designed artefact has entered the
@@ -1007,7 +1007,7 @@ cite:tidwell2010designing and an essay by Jans Borchers cite:borchers2008pattern
 which drew inspiration from her critique both have over
 1000 citations on Google Scholar shows that Tidwell’s perspective has
 been impactful.  To get a sense of how the pattern community may have
-been informed by this critique — alongside other related trends and concerns — we can look at
+been informed by this critique—alongside other related trends and concerns—we can look at
 how the Writers Workshops at PLoP have evolved over time.  In Table [[tabplop]], a
 selection of titles of workshop sessions show how the focus of PLoP evolved from
 primarily ‘programming’ oriented to a much broader contextual view
@@ -1040,8 +1040,7 @@ with a free content license on Wikipedia (originally GNU FDL, later
 CC-By-SA).
 
 Fast-forwarding to the present day, Christopher Alexander’s website
-=patternlanguage.com= writes about [[https://www.patternlanguage.com/membership/memberstour3-struggle.html][The Struggle for People to be Free]] —
-but it is not referencing freedom in the GNU sense.
+=patternlanguage.com= writes about [[https://www.patternlanguage.com/membership/memberstour3-struggle.html][The Struggle for People to be Free]]—but it is not referencing freedom in the GNU sense.
 
 In 1979 he was thusly concerned: “Instead of being widely shared, the
 pattern languages which determine how a town gets made becomes
@@ -1057,9 +1056,9 @@ essay [[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erotic Life o
 working that seems to bring back the early days of hacker culture.
 (Notably, this essay was presented as a keynote talk at the same
 programming conference where Alexander had spoken four years
-previously.)  They reference the open source community — but not the
+previously.)  They reference the open source community—but not the
 free software community, so we will follow Gabriel and Goldman’s usage
-here — as the origin of Mob Software.
+here—as the origin of Mob Software.
 
 #+begin_quote
 Because the open source proposition asked the crucial first question,
@@ -1086,8 +1085,8 @@ centered.
 
 On a technical basis, Gabriel’s vision sounds a lot like today’s world
 of /microservices/.
-While his vision hasn’t fully come to pass — for example there are still many
-services with proprietary source code — nowadays many big companies
+While his vision hasn’t fully come to pass—for example there are still many
+services with proprietary source code—nowadays many big companies
 are also big proponents of open source.  Here we can notice that
 Gabriel was employing a technique of imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND
 FUTURES]], e.g., he imagined a future in which:
@@ -1190,14 +1189,13 @@ of wholeness are associated with different symbols. In terms of
 metaphors, we have already encountered overt images like that of
 Chartres cathedral.  If we allow ourselves to explore further afield,
 other symbols of wholeness come to mind: these include the circle, the
-cross — or potentially the cross inside a circle,
+cross—or potentially the cross inside a circle,
 \begingroup\alch\symbol{"3B}\endgroup.
 Related but more
 elaborated symbols include the circle with a cross rising above it
 (\varTerra) which is both the modern astronomical symbol for Earth and
 also linked with the Carthusian order, and the Rod of Asclepius
-(\Asclepius, for the deity associated with healing or making whole) —
-this last symbol sometimes being inter-confused with the Caduceus
+(\Asclepius, for the deity associated with healing or making whole)—this last symbol sometimes being inter-confused with the Caduceus
 (\Caduceus, the symbol of Hermes, the deity associated with mediation
 of various forms, and also echoed in the planetary symbol for Mercury,
 \begingroup\alch\symbol{"53}\endgroup).}
@@ -1211,8 +1209,7 @@ phenomena.
 At this level, architecture and programming were seen, by Alexander
 cite:alexander1999a, to unite: his questions for the computer
 scientists to whom he was speaking point in the direction of
-bio-hacking and nanotechnology (e.g., for molecular self-assembly) —
-at least at the allusive level.  The following quote suggests we have
+bio-hacking and nanotechnology (e.g., for molecular self-assembly)—at least at the allusive level.  The following quote suggests we have
 embarked on a fruitful track by attempting ot think at the deeper
 layers of the pattern discourse:
 #+begin_quote
@@ -1222,12 +1219,12 @@ rather than attacking the problem directly.[fn:: https://wiki.c2.com/?Generative
 #+end_quote
 
 \begin{echo}
-Clearly, another key metaphor — which also has a
-generative aspect — is the metaphor of \emph{language}.\endnote{“... as
+Clearly, another key metaphor—which also has a
+generative aspect—is the metaphor of \emph{language}.\endnote{“... as
 in the case of natural languages, the pattern language is
 generative. It not only tells us the rules of arrangement, but shows
 us how to construct arrangements - as many as we want - which satisfy
-the rules.” — \url{https://wiki.c2.com/?GenerativePattern}, quoting from
+the rules.”—\url{https://wiki.c2.com/?GenerativePattern}, quoting from
 \emph{The Timeless Way Of Building}, pp. 185-6.}
 \end{echo}
 The prominence of linguistic metaphors within DPL reminds us that
@@ -1249,8 +1246,7 @@ generativity and mutation.  The dichotomy seems to repeat itself
 within the /TNO/ principles themselves: recalling that "focus" is the Latin
 term for the hearth, Strong Centers would align with Hestia, whereas
 Hermes would align more with Deep Interlock and Ambiguity.  The
-resolution of the two forces within pattern language — as a form —
-seems be a variation of these Nietzschean lines: “anything that is
+resolution of the two forces within pattern language—as a form—seems be a variation of these Nietzschean lines: “anything that is
 becoming returns” (i.e., is discussable as pattern), and, “contingency
 resolves itself into necessity” (i.e., the wholeness of generativity
 ultimately recovers the wholeness of unfolding).
@@ -1261,8 +1257,7 @@ relative to the myths and symbols of wholeness; we’ve surfaced some of
 the tensions and dynamics that exist at this level.  Relationships to some
 other contemporary thinkers are discussed by Elsheshtawy \cite{Elsheshtawy2001},
 in particular, a relationship to Piaget’s conception of operational wholeness is developed.
-Alexander, for his part, professed ignorance of French Structuralist theory (quoted at \emph{ibid.}) —
-in particular, of Barthes and Foucault, whom Inayatullah draws upon — and he tags Nietzsche
+Alexander, for his part, professed ignorance of French Structuralist theory (quoted at \emph{ibid.})—in particular, of Barthes and Foucault, whom Inayatullah draws upon—and he tags Nietzsche
 as a nihilist, while distinguishing his own work
 as comparatively hopeful \cite{alexander1991perspectives}. For further
 reflections on Nietzsche and wholeness, see \cite{bishop2020holistic}.
@@ -1335,8 +1330,7 @@ point to the way pattern thinking moves from the big scale to the
 small.
 #+end_quote
 Reading this, we were concerned that, while the Cooling the Commons patterns
-do acknowledge “horizontal complexity” — namely, through interlinked patterns —
-the process does not deal with the “vertical complexity” coming from
+do acknowledge “horizontal complexity”—namely, through interlinked patterns—the process does not deal with the “vertical complexity” coming from
 the fact that diurnal rhythms are deeply embedded in biology and
 culture.  People have cultural beliefs about the activities
 that are appropriate for different times of day.  Public and domestic rituals
@@ -1358,7 +1352,7 @@ Consciousness”.  As groups worked through the CLA for each scenario,
 they developed a range of new ideas.  How would these have collated
 with the patterns developed by Tonkinwise and Lopes and colleagues?
 Might players have spotted ways in which the patterns would conflict
-with deeper values — or ways in which they might be exploited to cause
+with deeper values—or ways in which they might be exploited to cause
 chaos in the city cite:friction2016a?
 
 Broadening our exploration of how design patterns relate to futures
@@ -1384,15 +1378,15 @@ not mutually exclusive.
 
 ** Scenario I. Patterns become explicitly computational.
 Patterns have periodically been discussed in explicitly computational
-terms — however, that direction of work so far remains mostly at the
+terms—however, that direction of work so far remains mostly at the
 level of a proposal cite:alexander1999a,moran1971a, with limited
 discipline-specific uptake within architectural design
 cite:jacobus2009a,OXMAN1994141, and a separate discipline-specific
 development in object-oriented programming (after Taibi and Ngo
 cite:taibi2003formal).  Could this change, to generalise and make
 interoperable the kinds of patterns that can be computed with?  For
-example, Ostrom-style institutions — which are closely linked design
-patterns cite:ostrom2009a (p. 11) — might be brought onto a
+example, Ostrom-style institutions—which are closely linked design
+patterns cite:ostrom2009a (p. 11)—might be brought onto a
 computational footing, and included in the computational mix within
 climate modelling software.  Some contemporary research looks at
 extracting institutional descriptions from text using an institutional
@@ -1426,7 +1420,7 @@ environmental change.  As an example: Mehaffy and coauthors worked with Ward
 Cunningham to make their book /A New Pattern Language for Growing
 Regions/ cite:mehaffy2020new into a wiki, [[http://npl.wiki][npl.wiki]], which is licensed
 under CC BY-SA 4.0.  Will other pattern developers follow suit and
-move to open licensing — and suitable infrastructures for working with open contents?
+move to open licensing—and suitable infrastructures for working with open contents?
 
 # add refs to reproducible research papers
 # add refs to Minnesota 2050 paper
@@ -1434,8 +1428,7 @@ move to open licensing — and suitable infrastructures for working with open co
 
 ** Scenario III. PLACARD scaffolds new literacies of collaboration.
 
-As we’ve seen in our work with Emacs and Peeragogy — and previously with PlanetMath cite:krowne2003,corneli-thesis —
-projects need a lot more than simply access to source code in order to
+As we’ve seen in our work with Emacs and Peeragogy (and previously with PlanetMath cite:krowne2003,corneli-thesis) projects need a lot more than simply access to source code in order to
 thrive.  We see a link to the topic of reproducible research.  Above
 and beyond the immediate technical considerations cite:sandve2013ten,
 we think that something is “reproducible” if it is teachable to
@@ -1452,7 +1445,7 @@ combined modelling with scenario planning cite:olabisi2010.  However,
 actually solving large-scale problems together in interdisciplinary
 teams will require new thinking and additional tools: to bridge
 between the viewpoints of, e.g., professional futurists, programmers,
-data scientists, local farmers — and to draw on the insights of
+data scientists, local farmers—and to draw on the insights of
 citizen scientists cite:wildschut2017a.
 
 ** Scenario IV. Patterns eat Big Tech.
@@ -1479,9 +1472,9 @@ for a few highly-paid rockstars, but for everyone.
 
 # Need to recap Alexander 1999 at some point
 
-Our /vision for change/ — now speaking as part of the design pattern
-community — is that the four scenarios we described above will be
-given serious thought.  /Progress/ will become measurable through
+Our vision for change—now speaking as part of the design pattern
+community—is that the four scenarios we described above will be
+given serious thought.  Progress will become measurable through
 markers of debate and perhaps through ensuing trial-and-error uptake
 or adaptation of the methods we’ve described.
 
@@ -1621,14 +1614,14 @@ that wholesome in every case?  And who decides?
 Having raised these concerns we certainly will not reject them out of
 hand, rather, we suggest that the philosophical and cultural issues
 around patterns need further thought.  This underscores our broader
-point that thinking about how patterns — and other methods — should be
+point that thinking about how patterns—and other methods—should be
 done contextually.
 
 That dovetails with our next point, which is to briefly examine how
 this work relates to a somewhat similar agenda developed by
 Christopher Alexander himself.  We can begin by drawing the reader's
 attention to two diagrams from Alexander's /Notes on the Synthesis of
-Form/ (/NSF/) recopied below as Figure \ref{synthesis-diagrams}.  Parts
+Form/ (/NSF/) recopied here as Figure \ref{synthesis-diagrams}.  Parts
 A.-C. of this figure have two columns corresponding to “context” and
 “form” (i.e., the latter being analogous to what we have been calling
 a /solution/ in this paper).  These component figures have one, two, or
@@ -1692,7 +1685,7 @@ Thanks to CLA, we have also gained a further understanding of some
 meta-level issues that can arise when with applying DPL.  Our analysis
 and scenarios point to a range of social and cultural issues, like
 varied notions of openness, the complex relationship between diversity and hierarchy, the tensions between innovation and efficiency,
-and the interaction of formal and informal reasoning — all of which
+and the interaction of formal and informal reasoning—all of which
 can round out the already well-recognised “concerns for pedagogy,
 efficiency, flexibility, and convincing argument”
 cite:postmodernProgramming embraced by pattern authors.  Just as even
@@ -1754,10 +1747,10 @@ David O’Toole.
 \appendix
 * NOTES :noexport:
 \printendnotes*[sverre]
-* APPENDIX: Example PARs
+* APPENDIX: Example PAR
 <<appendix-pars>>
 
-** PAR: Emacs Research Group, December 2, 2020
+*Emacs Research Group, December 2, 2020*
 <<exemplar-par>>
 #+BEGIN_EXPORT latex
 \begin{enumerate}
@@ -1802,7 +1795,7 @@ David O’Toole.
 \end{enumerate}
 #+END_export
 
-** PAR: Emacs Research Group, February 13, 2021
+** PAR: Emacs Research Group, February 13, 2021 :noexport:
 <<exemplar-par-2>>
 *** 1. Review the intention: what do we expect to learn or make together?
 **** We all met one another!
@@ -1828,7 +1821,7 @@ David O’Toole.
 **** Joe mentions that the Peeragogy Handbook only lists 9 patterns
 **** Maybe the ERG could contribute further patterns?
 
-** PAR: Emacs Research Group, April 17, 2021: Special guest session
+** PAR: Emacs Research Group, April 17, 2021: Special guest session :noexport:
 <<exemplar-par-3>>
 *** 1. Review the intention: what do we expect to learn or make together?
 **** Alex learn some Emacs paradigms
@@ -1838,7 +1831,7 @@ David O’Toole.
 **** Helpful to go over /what Emacs is/ rather than just showing the detail
 **** Plurimodel approach, between ‘lay perspective of how do I do who I do elsewhere’ 
 **** Getting the wireframe
-**** Demos in Emacs Lisp, Clojure, and R — we could do Javascript or whatever
+**** Demos in Emacs Lisp, Clojure, and R—we could do Javascript or whatever
 **** evil mode
 *** 3. What are some different perspectives on what’s happening?
 **** We could use these patterns with others
@@ -1847,7 +1840,7 @@ David O’Toole.
 **** “if you don’t like the default, that’s OK, the E stands for Extensible”
 **** Alex’s perspective: I thought you’d ask me. Learning Emacs as someone who never used Emacs or Lisp before is hard. But, when you can talk to people and get a feedback loop going, then it comes into its own. Documentation exists but it’s learning a new language. Let alone the keybindings. But if I listen to you talking, I hear the important stuff. 
 **** Docs are more intended as reference
-**** “What is the specific command to do this” — it would be like trying to learn a language with a dictionary and grammar book
+**** “What is the specific command to do this”—it would be like trying to learn a language with a dictionary and grammar book
 **** Alex agrees with Leo’s playground perspective: I know what to do in another setting... but not here!
 **** Emacs is so much more than the text editor
 **** Text-interface?
@@ -1860,23 +1853,23 @@ David O’Toole.
 *** 5. What else should we change going forward?
 **** We’re missing a proper tutorial introduction to Emacs
 **** Human mediation between the documentation and what Emacs is ... is what allows you to apprehend the value of what Emacs is
-**** If we had a good tutorial (we do have good docs) — the feeling of being guided by a human voice would be enough...
+**** If we had a good tutorial (we do have good docs)—the feeling of being guided by a human voice would be enough...
 **** But there was no such guidance; you were in the middle of an alien playground.  “But I just wanted to do my Clojure stuff.”
 **** Joe can guide: both how to do the Clojure stuff and how to do the high-level stuff, and how to learn the ropes more efficiently
-**** Alex, please take notes on how you learn Emacs, and adopt a meta perspective. If you want to do something but you don’t know how to do it in Emacs, document it. Write a little about your experience — it will make it easier for us to help you, and help other people with their similar user stories. =#emacs-classroom=?
+**** Alex, please take notes on how you learn Emacs, and adopt a meta perspective. If you want to do something but you don’t know how to do it in Emacs, document it. Write a little about your experience—it will make it easier for us to help you, and help other people with their similar user stories. =#emacs-classroom=?
 
-** PAR: Emacs Research Group, April 17, 2021: Full session
+** PAR: Emacs Research Group, April 17, 2021: Full session :noexport:
 <<exemplar-par-4>>
 *** 1. Review the intention: what do we expect to learn or make together?
 **** AM: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further
-**** RSP: In part 2 wanted to make progress with the layered analysis — to actually do it! — making some progress
+**** RSP: In part 2 wanted to make progress with the layered analysis—to actually do it!—making some progress
 *** 2. Establish what is happening: what and how are we learning?
-**** Joe was given the keys to the car — though Leo did take them back
+**** Joe was given the keys to the car—though Leo did take them back
 *** 3. What are some different perspectives on what’s happening?
 **** Leo did a nice job of intervening
 **** Missed Noorah and hope she and Alex will talk at some stage soon (e.g., about writing)
 **** Missing David and Charlie; did they get the link?
-**** Ray has serious commitments in bio — now catching up with the Easter stuff
+**** Ray has serious commitments in bio—now catching up with the Easter stuff
 *** 4. What did we learn or change?
 **** I think we got a better sense of CLA and a new use case
 **** Alex’s schedule is busy in 2 weeks, though has finished up some classwork freeing up time
@@ -1898,8 +1891,7 @@ salient perspective on the future of pattern theory.
 \item Within the Emacs Research Group, we used PARs, CLA, and DPL to
 manage our work, and we shared a description that process and its
 results as a case study here.
-\item And to make sense of how these things connect with each other —
-practically, to show how causal layered analysis could work
+\item And to make sense of how these things connect with each other—practically, to show how causal layered analysis could work
 synergistically with pattern theory.
 \item To get practice using PARs and CLA as frameworks to support our
 learning and thinking about patterns of patterns, we also used these
@@ -1937,8 +1929,7 @@ break and see y'all in August!
 (by default): we should make sure that we have presented CLA in a
 way that they grasp.
 \item AM@CD: I'm sure patterns people are very clever cookies anyway. Are
-we patterns people? If we try to imitate their language too much —
-might we say something silly?
+we patterns people? If we try to imitate their language too much—might we say something silly?
 \item VB: It starts to make more sense: patterns become recognisable
 patterns, we understand the paths we did, we can better understand
 the steps that we will do.  We developed methods that can be
@@ -1946,7 +1937,7 @@ repeated and upgraded.  Our familiarity with working with methods
 helped us in our work; and clarity in methods will help us welcome
 newcomers.  We can pitch to people about this.  We’re complex
 people; as we open to each other we can better be open to others.
-\item AM@VB: Welcoming for newcomers — nice! I agree, it's easy to use
+\item AM@VB: Welcoming for newcomers—nice! I agree, it's easy to use
 these methods (I certainly managed it)!
 \item CP: \emph{Fearless Change} is related work in connection with the futures
 stuff.  You need things like this as projects develop over time to
@@ -1995,11 +1986,11 @@ want to do more to figure out scheduling with the many authors.
 ** DECONSTRUCTION
 <<DECONSTRUCTION>>
 
-- *Context*: A text: here meaning anything that can be critiqued — a movie, a book, a worldview, a person — something or someone that can be read.  (/NB./, every text has a /context/: much like every pattern has a context.)
+- *Context*: A text: here meaning anything that can be critiqued—a movie, a book, a worldview, a person—something or someone that can be read.  (/NB./, every text has a /context/: much like every pattern has a context.)
 - *Problem*: The existence of a ‘text’ suggests a *conflict* between (1) the notion of truth embedded in that text, and (2) the text itself as historically situated or positioned within relationships of power.
 - *Solution*: We break apart the text’s components, asking what is visible and what is invisible? Who or what is privileged within or by the text? Which assumptions does the text make preferable?  How is ‘truth’ produced within the text?  Who is silenced?  In this way, we ‘deconstruct’ the universality of the text and show its contingent nature.
 
-# LV: It feels like this is full-circle back to Sapir-Whorf where the language you speak frames how you think... if language is supposed to be the trace of our cognition, and have an input on how you think — the way we use or modify idioms is telling of how culture manifests itself into language & language manifests into cognition.
+# LV: It feels like this is full-circle back to Sapir-Whorf where the language you speak frames how you think... if language is supposed to be the trace of our cognition, and have an input on how you think—the way we use or modify idioms is telling of how culture manifests itself into language & language manifests into cognition.
 
 #+BEGIN_COMMENT
 \noindent
@@ -2053,7 +2044,7 @@ understandings into the current context.
 
 - *Context*: The present.
 - *Problem*: The present seems ‘normal’, but this *conflicts* with any impetus to change.
-- *Solution*: We ask: which scenarios make the present remarkable?  Make it unfamiliar? Denaturalize it?  Where are these scenarios, e.g., are they in historical space — the futures that could have been — or in present or future space? By establishing a sense of distance from the present, we can return to explore the present from a different point of view.  We are more likely to see the ever-changing character of the present, points of leverage, and how to use them.
+- *Solution*: We ask: which scenarios make the present remarkable?  Make it unfamiliar? Denaturalize it?  Where are these scenarios, e.g., are they in historical space—the futures that could have been—or in present or future space? By establishing a sense of distance from the present, we can return to explore the present from a different point of view.  We are more likely to see the ever-changing character of the present, points of leverage, and how to use them.
 
 #+BEGIN_COMMENT
 \noindent
@@ -2199,8 +2190,8 @@ neo-carbon scenarios we will work with are: “Radical Startups”
 Consciousness”.  To make these scenarios tangible to participants, we
 will use the published descriptions of the *Neo-Carbon Energy Scenarios*
 from cite:heinonenradical, along with information about how the
-workshop has been run in the past, both with cite:heinonen2017a and
-without cite:heinonen2017neo CLA scaffolding.  Additionally, we will
+workshop has been run in the past (both with cite:heinonen2017a and
+without cite:heinonen2017neo CLA scaffolding).  Additionally, we will
 introduce COOLING cards, based on the 41 patterns from the *Cooling the
 Commons* pattern language[fn::
 https://www.coolingthecommons.com/pattern%20deck/], and RULES,
@@ -2216,16 +2207,17 @@ We will divide participants into four groups (or fewer; so that there
 are at least four persons per group).  Each group will be embedded
 within a scenario.  Game play will be roughly as per Flaws of the
 Smart City.  Turn consist of a randomised selections of a RULE,
-ACTION, PLACE, and ISSUE card, but now additionally a COOLING card
-will be selected.  Following the selected RULE (e.g., to play as a
-Guardian Angel or Evil Genius), participants will discuss how the
-COOLING cards can be disrupted or enhanced, and additionally discuss
-how these cards fit into the scenario’s historical development.
+ACTION, PLACE, and ISSUE card.  Following the selected RULE (e.g., to
+play as an Evil Genius or Guardian Angel), participants will discuss
+how the COOLING cards can be employed to disrupt or enhance the city.
 
-Within each turn, participants will then align the ACTION, PLACE,
-ISSUE, and COOLING cards with the four layers of the CLA.
-Participants will be asked to annotate each layer, and additionally
-not any related or new patterns that would be relevant at each level.
+At the end of each turn, participants will be asked to align the
+ACTION, PLACE, ISSUE, and selected COOLING cards with the four layers
+of the CLA.  Participants will be asked to annotate each layer, and
+additionally, make note of any related or new patterns that would be
+relevant at each level.  They will additionally be asked to make note
+of how these selected cards fit into the scenario’s historical
+development.
 
 *** Part two
 :PROPERTIES:
@@ -2240,11 +2232,12 @@ in second phase.
 :UNNUMBERED: t
 :END:
 
-In the third phase, each participant will be invited to weave
-information from each level of the CLA into a Project Action Review
-(in the pre-PAR formulation) to describe something that they would
-like to work on in the future, either in their professional life or in
-their own community.
+In the third phase, participants will be remixed from across the
+scenarios and will be invited to work in these new groups to reflect
+on the scenarios and develop a Project Action Review (in the pre-PAR
+formulation) to describe something that they would, concretely, like
+to work on in the future, either in their professional networks, or in
+their local communities.
 
 * The end                                                           :ignore:
 
@@ -2295,7 +2288,7 @@ have drawn on, many things could start to move quickly.
 Let’s begin by setting to one side any specialist notion of ‘patterns’
 that we may have in mind, and think about patterns in a fundamental
 way.  Some patterns repeat in /space/, some in /time/, some in both /space
-and time/ — a tiling, a beat, a wave.  In the physical world, it would
+and time/—a tiling, a beat, a wave.  In the physical world, it would
 seem that patterns cannot repeat exactly, or forever.  The elements
 that comprise a pattern are subject to spatial or temporal
 displacement, and other forms of variation.
@@ -2311,7 +2304,7 @@ look into the matter further, two central features emerge.
 :UNNUMBERED: t
 :END:
 
-# US Army — Steve Blank
+# US Army—Steve Blank
 # Download entrepreneurship patterns for Vitor
 
 In our Discussion we draw out implications for the future of
@@ -2335,7 +2328,7 @@ would help improve collaboration within the design patterns community.
 means that it has lost its power to hurt me; it gives me, perhaps because by doing
 so I take away the pain, a great delight to put the severed parts together.}  [...]
 \emph{From this I reach what I might call a philosophy; at any rate it is a constant
-idea of mine; that behind the cotton wool is hidden a pattern; that we — I mean all
-human beings — are connected with this; that the whole world is a work of art;
+idea of mine; that behind the cotton wool is hidden a pattern; that we—I mean all
+human beings—are connected with this; that the whole world is a work of art;
 that we are parts of the work of art.}
 \end{quote}
