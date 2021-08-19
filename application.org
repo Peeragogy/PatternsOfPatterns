@@ -239,7 +239,7 @@ of our [[Discussion][*Discussion*]].
 :END:
 
 \begin{echo}
-Appendix \ref{appendix-pars} contains sample Project Action Reviews.
+Appendix \ref{appendix-pars} contains a sample Project Action Review.
 Several patterns in Appendix \ref{appendix} are referred
   to by name the text.  Henceforth, text in \textsc{Small Caps}
   references external patterns, whereas ALL-CAPS references patterns
@@ -339,7 +339,7 @@ cite:inayatullah1998b,inayatullah2004causal as a research methodology
 for examining a topic of concern at four layers that he refers to as
 the /litany/, /system/, /worldview/ and /myth/.  Part of the reason we do such
 an analysis is that there are different kinds of causes, ranging from
-immediate things to deeper causes.  Inyatullah’s work draws on his
+immediate events to deep-seated cultural beliefs.  Inyatullah’s work draws on his
 scholarship of P. R. Sarkar cite:inayatullah1999situating.[fn::¶¶¶ Explanation of what’s going on?]
 In developing a CLA, none of the four layers is
 privileged over the others, nor are they examined in isolation.
@@ -1377,7 +1377,7 @@ layers of CLA.  We should emphasise that these scenarios are
 not mutually exclusive.
 
 ** Scenario I. Patterns become explicitly computational.
-Patterns have periodically been discussed in explicitly computational
+Patterns have been discussed in explicitly computational
 terms—however, that direction of work so far remains mostly at the
 level of a proposal cite:alexander1999a,moran1971a, with limited
 discipline-specific uptake within architectural design
@@ -1398,7 +1398,8 @@ specification can reveal a lot about the program’s operating context,
 a /formal pattern/ would have to respond to a conflict in the context,
 which requires a suitably formal notion of conflict.  One strategy
 would be to think of design patterns as conceptual blends
-cite:Corneli2018; different blends would have different possible and
+cite:Corneli2018, with a computational interpretation cite:SCHORLEMMER2021118.
+Different blends would have different possible and
 incompossible worlds associated with them.  For example, the Cooling
 the Commons pattern language includes \textsc{Community Library} as
 one of its patterns; the library blends a learning space with cool
@@ -1469,14 +1470,17 @@ for a few highly-paid rockstars, but for everyone.
 # Only half of the students will make it to the end of the course and only half of those get A’s
 
 ** Summary
-
-# Need to recap Alexander 1999 at some point
-
+#                                                                   Need to recap Alexander 1999 at some point
 Our vision for change—now speaking as part of the design pattern
-community—is that the four scenarios we described above will be
-given serious thought.  Progress will become measurable through
-markers of debate and perhaps through ensuing trial-and-error uptake
-or adaptation of the methods we’ve described.
+community—is that the four scenarios we described above will be given
+serious thought.  Progress will become measurable through markers of
+debate and perhaps through ensuing trial-and-error uptake or
+adaptation of the methods we’ve described.  Appendix [[flaws-appendix]]
+contains a workshop proposal that we will submit to PLoP 2021
+alongside this paper.  In the workshop we hope to explore the “biome”
+of concepts and techniques that can help to build adaptivity in
+groups.  If the workshop goes well, it could be repeated around with
+changes to explore other topics, such as food security.
 
 * Related work
 <<Related_Work>>
@@ -1747,10 +1751,14 @@ David O’Toole.
 \appendix
 * NOTES :noexport:
 \printendnotes*[sverre]
-* APPENDIX: Example PAR
+* APPENDIX: Example PAR: Emacs Research Group, December 2, 2020
 <<appendix-pars>>
 
-*Emacs Research Group, December 2, 2020*
+The Emacs Research Group maintained a practice of carrying out a PAR
+at the end of each meeting.[fn:: Data archived at
+[[https://github.com/exp2exp/exp2exp.github.io]].] This is the first of
+those PARs.
+
 <<exemplar-par>>
 #+BEGIN_EXPORT latex
 \begin{enumerate}
@@ -2176,68 +2184,103 @@ of free/libre/open source software?
 <<flaws-appendix>>
 
 Our workshop explores the interaction between Design Pattern Languages
-and Causal Layered Analysis in the context of a cooperative game.
+and Causal Layered Analysis (CLA) in the context of a cooperative game.
+It also introduces attendees to these methods, assuming no previous
+background.  The theme of the workshop is amelioration of and adaptation
+to climate change in an urban setting.  Since cities account for more than
+70% of global CO2 emissions, the workshop will help participants engage
+with a crucial challenge of our time.
 
 The workshop will combine material from several existing sources:
 
-- Neo-Carbon Energy Scenarios
-- Cooling the Commons
-- Flaws of the Smart City
+- Neo-Carbon Energy Scenarios cite:heinonenradical,heinonen2017a,heinonen2017neo
+- Cooling the Commons cite:cooling2021
+- Flaws of the Smart City cite:friction2018
+- Causal Layered Analysis cite:inayatullah1998b
 
-As briefly described in Section [[Discussion]] of our paper, the four
-neo-carbon scenarios we will work with are: “Radical Startups”
-“Value-Driven Techemoths” “Green DIY Engineers”, and “New
-Consciousness”.  To make these scenarios tangible to participants, we
-will use the published descriptions of the *Neo-Carbon Energy Scenarios*
-from cite:heinonenradical, along with information about how the
-workshop has been run in the past (both with cite:heinonen2017a and
-without cite:heinonen2017neo CLA scaffolding).  Additionally, we will
-introduce COOLING cards, based on the 41 patterns from the *Cooling the
-Commons* pattern language[fn::
-https://www.coolingthecommons.com/pattern%20deck/], and RULES,
-ACTIONS, PLACES, and ISSUES cards per *Flaws of the Smart City*.[fn::
-http://metameso.org/org-notes/kaiju.html]
+CLA is a research methodology for examining a topic of concern and
+forming a plan of response that takes into account different kinds of
+causes, ranging from immediate events to deep-seated cultural beliefs.
+CLA has previously been applied in a workshop setting to analyse the four
+neo-carbon scenarios: “Radical Startups”, “Value-Driven Techemoths”,
+“Green DIY Engineers”, and “New Consciousness”.  To make
+these scenarios tangible to participants, we will draw on existing published
+descriptions of the scenarios and earlier workshop results.  In our workshop
+we will then explore the scenarios further by using *Cooling* cards, based
+on the 41 patterns from the Cooling the Commons pattern language.  We
+will use the interactive game Flaws of the Smart City to structure game play.
 
-*** Part one
+** Training phase.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-We will divide participants into four groups (or fewer; so that there
-are at least four persons per group).  Each group will be embedded
-within a scenario.  Game play will be roughly as per Flaws of the
-Smart City.  Turn consist of a randomised selections of a RULE,
-ACTION, PLACE, and ISSUE card.  Following the selected RULE (e.g., to
-play as an Evil Genius or Guardian Angel), participants will discuss
-how the COOLING cards can be employed to disrupt or enhance the city.
+The workshop involves different roles, and participants will be
+briefed on these roles in separate groups, along with a short general
+introduction.  The four roles are linked with the four resources
+mentioned above:
 
+- *Historian* (briefed on the Neo-Carbon Energy Scenarios)
+- *Designer* (briefed on the Cooling the Commons cards and pattern methods)
+- *Kaijū Communicator* (briefed on Flaws of the Smart City)
+- *Analyst* (briefed on CLA)
+
+** Part one.
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+We will divide participants into four groups (or fewer; so long as
+there are at least four persons per group, representing the four roles).
+Each group will be embedded within a scenario. Basic game play will be roughly
+as per Flaws of the Smart City: a turn consists of a randomised selection of a *Rule*,
+*Action*, *Place*, and *Issue* card. Following the selected RULE (e.g., to
+play as an Evil Genius or Guardian Angel), participants will discuss
+how the *Cooling* cards can be employed to disrupt or enhance the city.
 At the end of each turn, participants will be asked to align the
-ACTION, PLACE, ISSUE, and selected COOLING cards with the four layers
-of the CLA.  Participants will be asked to annotate each layer, and
-additionally, make note of any related or new patterns that would be
-relevant at each level.  They will additionally be asked to make note
+*Action*, *Place*, *Issue*, and selected *Cooling* card(s) with the four layers
+of the CLA. Participants will be asked to annotate each layer, and
+in addition, make note of any related or new design patterns that would be
+relevant at each level. They will additionally be asked to make note
 of how these selected cards fit into the scenario’s historical
 development.
 
-*** Part two
+** Part two.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
 The resulting tableaux will then be shared back with the larger group
-in second phase.
+in a short presentation.
 
-*** Part three
+** Part three.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-In the third phase, participants will be remixed from across the
-scenarios and will be invited to work in these new groups to reflect
-on the scenarios and develop a Project Action Review (in the pre-PAR
-formulation) to describe something that they would, concretely, like
-to work on in the future, either in their professional networks, or in
-their local communities.
+In the third phase, participants will be remixed from across the four
+scenarios and roles, and will be invited to work in these new groups
+to reflect on the scenarios and develop a Project Action Review (in
+the pre-PAR formulation, see below) to describe something that they
+would, concretely, like to work on in the future, either in their
+professional networks, or in their local communities.
+
+1. Review the intention: what do we expect to learn or make together?
+2. Establish what is happening: what and how are we learning?
+3. What are some different perspectives on what’s happening?
+4. What did we learn or change?
+5. What else should we change going forward?
+
+** References :noexport:
+
+S. Heinonen, M. Minkkinen, J. Karjalainen, and S. Inayatullah. Testing transformative energy scenarios through causal layered
+analysis gaming. Technological Forecasting and Social Change 124 (2017), 101–113. https://doi.org/10.1016/j.techfore.2016.10.011
+
+Sirkka Heinonen, Noora Vähäkari, and Joni Karjalainen. Neo-Carbon Energy World; What Opportunities for Chile. Neo-Carbon Energy Futures Clinique IV (2017).
+
+S. Inayatullah. 1998. Poststructuralism as method. Futures 30, 8 (1998), 815–829. DOI:http://dx.doi.org/10.1016/S0016-3287(98)00086-X
+
+Cameron Tonkinwise and Abby Mellick Lopes. Cooling the Commons. (2021). https://www.coolingthecommons.com/pattern%20deck/
 
 * The end                                                           :ignore:
 
