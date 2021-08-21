@@ -62,6 +62,28 @@
 :END:
 <<Abstract>>
 
+- Audience somewhat ready
+- Background added, conclusions to add to abstract
+- After Action Review OK, let’s do it ourselves
+- Title explained in Section 1 — could we put a note about ‘X of X’ (see Leo’s notes)
+- What are the broader aims... — "GET GRANTS", "GUIDANCE FOR DISTRIBUTED COMMUNITIES"  E.g., these existing specific distributed communities and methods that we do in the paper; futurists, design, peeragogy, emacs research group; the paper is something like a paper prototype of something we could actually build at some stage.  How best to take it up we don’t fully state but we give lots of leads.
+- "We are actually able to help solve problems using these methods!" — Is it practical for patterns community?
+- "Fellowship" of methods and communities as the hero.  This could go right into the abstract.
+- We’ve removed a bunch of stuff, rephrasing, restructured to flow better.  Leo will wreck everything.  It’s just about ready.  So we don’t need more overhaul.
+- Challenges as part of an overview... finish on a positive note?
+- Abstract presents our wares, and we’re working on that now.
+- We think that the concepts are nicely framed now.  Joe teaser for another paper: rant about "that which arises falls away"
+- Last edits Saturday following the ERG check-in
+** Red pen before Monday, maybe based on any final feedback from Noorah or others?
+- Are there 3 or 4 things in here that we could move elsewhere and just reference?
+** Joe soapbox:
+- Grant proposal with Abby is very linked
+- Second half revision pending.
+- Not much need to further discuss the paper... MM has pretty much accepted the paper and wants to develop ideas further.
+- Alex is thinking about how to bring these things w/ him into industry, continuing to collaborate with us on research in some form.
+- Noorah similarly into practical policy development
+- We’d like to put out a new edition of the Peeragogy Handbook sometime, this is pretty closely related to this work
+- There could be an ERG remix
 * What do we mean by “Patterns of Patterns”?
 <<Introduction>>
 
@@ -89,8 +111,7 @@ observe them in the way sand forms underwater ridges subject to waves
 and tides, or the way a cell ‘solves’ a metabolic problem.  Design
 comes into play with the second sense.  Leitner summarised how this is
 meant to work: ``Patterns are shared as complete methodic descriptions
-intended for practical use by experts and non-experts''
-cite:leitner2015a.
+intended for practical use by experts and non-experts'' cite:leitner2015a.
 
 We now ask: what happens if we think about patterns in the second
 sense from the vantage point of the first sense?  Already there are a
