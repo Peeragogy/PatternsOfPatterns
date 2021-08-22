@@ -84,6 +84,8 @@
 - Noorah similarly into practical policy development
 - We’d like to put out a new edition of the Peeragogy Handbook sometime, this is pretty closely related to this work
 - There could be an ERG remix
+** If raising questions are part of the contribution
+- Thinking about patterns contextually — what does this mean?
 * What do we mean by “Patterns of Patterns”?
 <<Introduction>>
 
@@ -116,31 +118,33 @@ intended for practical use by experts and non-experts'' cite:leitner2015a.
 We now ask: what happens if we think about patterns in the second
 sense from the vantage point of the first sense?  Already there are a
 number of practical texts that use patterns (in the second sense) to
-talk about patterns (in the second sense): they share methods that aid
+talk about patterns (again in the second sense): they share methods that aid
 in discovery, writing, workshopping, and the broader application of
-pattern methods.  By contrast we develop a more fundamental analysis,
+design patterns.  By contrast we develop a more fundamental analysis,
 and only then use this to work towards a new level of practicality.
 
 Granted, the relevant forces are no longer simply physical, but are
 socially distributed and culturally determined.  Architects, computer
 scientists, and institutional designers have all had very different
 things to say about design patterns.  Others who may never have heard
-of design patterns have relevant things to bring to the
-conversation.  Here, we combine patterns with methods from future
+of design patterns have relevant things to bring to the conversation.
+Here, we combine patterns with methods that originate in future
 studies and elite training, and aim to show how these methods can be
 used together to tackle problems both big and small.
 
-In 1999, Alexander spoke to computer scientists about “the generation
-of a living world” and the future of design patterns
-cite:alexander1999a.  We cannot afford to take his remarks as mere
-metaphor.  Towards realising the promise of design patterns, we aim
-for an excavation and reworking of the theory.
+In 1999, Alexander spoke to computer scientists about the future of
+design patterns and “the generation of a living world”
+cite:alexander1999a.  We believe this is more than a metaphor, and that
+design patterns have considerable contemporary relevance.
+Towards realising their promise, we aim for an
+excavation and reworking of the theory.
 
-\begin{quote}
-\emph{‘Sir, know that while wandering through the forest I
-saw an ancient path. I followed it and saw an ancient city. Renovate
-that city, Sir!’}—\href{https://suttacentral.net/sn12.65/en/bodhi}{Saṁyutta Nikāya, Connected Discourses on Causation, 12.65. The City}, Quoted in \cite{JGB127}.
-\end{quote}
+# \begin{quote}
+# \emph{‘Sir, know that while wandering through the forest I
+# saw an ancient path. I followed it and saw an ancient city.
+# Renovate that city, Sir!’}—\href{https://suttacentral.net/sn12.65/en/bodhi}{Saṁyutta Nikāya, Connected Discourses on Causation, 12.65. The City}, Quoted in \cite{JGB127}.
+# \end{quote}
+
 ** Outline of Methods
 :PROPERTIES:
 :UNNUMBERED: t
@@ -152,10 +156,11 @@ self-evaluation and peer learning.  Each of them fills a
 fundamental role, and each has natural
 use-cases when considered in isolation.  When combined, the methods
 provide a more holistic mixed pattern, as will be described in due
-course.  The tripartite division here mirrors classical
-psychology cite:Hilgard1980, and continues to be
-relevant in contemporary neuroscience cite:Teufel2020.  Here, our
+course.  Our
 focus is on scaffolding social perception, cognition, and action (Table \ref{tab:acronyms}).
+The tripartite division here mirrors classical
+psychology cite:Hilgard1980, and continues to be
+relevant in contemporary neuroscience cite:Teufel2020. 
 
 \begin{echo}
 \begin{table}[h]
@@ -236,7 +241,7 @@ as they evolve.
 :END:
 
 In the [[Case_study][*Case Study*]] section, we focus on a concrete use case that
-combines the three methods to manage a transdisciplinary research
+combines the three methods to manage and plan a transdisciplinary research
 seminar.  This case study provides a detailed practical example that
 other projects across the pattern language space may wish to emulate
 (or adapt) in their settings.
@@ -281,7 +286,7 @@ Anyone who has studied psychology and neuroscience is liable to agree
 that perception, cognition, and action are needed by all living
 beings, and even by robots.  Some of this thinking can be applied to
 organisations, as in the work of Stafford Beer.  However, it is harder
-to say what it means to be a well-functioning society, or to be a good
+to say what it means to be a well-functioning society—or what it means to be a good
 member society in a time of crisis.  To get started, it makes sense to
 begin at the large macro-historical scale.
 
@@ -297,7 +302,8 @@ Community assembly of ecosystems and the growth of embryos are
 relevant natural examples of processes that have `futures'.  These
 natural processes are ordered, not only in space but also in time.
 Reflecting on these examples, we see more clearly why it is that
-futurists and designers need to connect with each other.  We can also
+futurists and designers can benefit by connecting with each other,
+in order to work together across scales.  We can also
 reflect that while science fiction can provide a `thinking machine'
 cite:Doherty2020, it cannot provide historically robust alternatives
 to the global crises that we face.  Again, we need an approach that
@@ -334,7 +340,8 @@ came up with the following template:
 4. What did we learn or change?
 5. What else should we change going forward?
 
-When we fill in the template, we call it “doing a /PAR.”/  As an
+When we fill in the template, we call it “doing a /PAR.”/  A real-world example is provided in Appendix [[appendix-pars]].
+As an
 acronym, “PAR” has stood for various things over the years—Peeragogical Action Review, Project Action Review—but we like PAR as
 a stand-alone term.  Allusively, it brings to mind the corresponding
 concept of /par/ in golf, and helps give us a sense of how we are doing
@@ -343,12 +350,11 @@ number of strokes that a proficient golfer should require to complete
 a hole, a round (the sum of the pars of the played holes), or a
 tournament (the sum of the pars of each round).”—Wikipedia] Like the
 Army, we typically use PARs retrospectively (“what /did/ we
-expect to learn or make together?”).  Indeed,
+expect to learn or make together?”).  However,
 PARs can also be applied to look forward, proactively, as a way to
 scaffold anticipation by “remembering the future”
 cite:arnkil2008remembering.  In that case, item (5) can be expanded to
-include a number of different forward-looking scenarios.  Two examples
-are provided in Appendix [[appendix-pars]].
+include a number of different forward-looking scenarios.
 
 ** Causal Layered Analysis
 <<CLA_patterns>>
@@ -575,12 +581,6 @@ This is certainly a worthy concern, and something we will come back to in Sectio
 * Case study: Planning “Season 1” for the Emacs Research Group
 <<Case_study>>
 
-# \begin{echo}
-# \begin{flushright}
-# \emph{tl;dr: We show how we have applied the three methods in an integrated manner within a transdisciplinary seminar.}
-# \end{flushright}
-# \end{echo}
-
 This section summarises the concrete application of the methods
 from Section [[methods]] within an active seminar, the Emacs
 Research Group (ERG), which was convened following EmacsConf
@@ -643,6 +643,9 @@ granularity.
 # action: *Season 1* will be shaped by this narrative and the
 # corresponding TODO items.
 
+The following four subsections present the result of applying the
+methods described above.
+
 ** Understanding data, headlines, empirical world (short term change)
 
 We’ve made progress since we started with the raw themes of *Research
@@ -657,7 +660,7 @@ activities elsewhere, including by getting some training events up and
 running.
 # [fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMAL PATTERNS][FORMAL PATTERNS]] pattern.]
 
-*** Supporting data
+*** Representative supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -691,7 +694,7 @@ improving our own workflows, and actively exploring the landscape. All
 these activities are part of the system we implement regularly, which
 minimizes technical debt and allows space for serendipity to occur.
 
-*** Supporting data
+*** Representative supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -742,7 +745,7 @@ a pricing model proportional to each country’s carbon emissions or
 something like that.
 # [fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
 
-*** Supporting data
+*** Representative supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -782,7 +785,7 @@ of a system for addressing large-scale existential problems, by
 expanding the frontier of what’s possible for human beings.
 # [fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
 
-*** Supporting data
+*** Representative supporting data
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -815,29 +818,7 @@ by bidirectional links between patterns and next steps (and potentially aided by
 
 Looking back over the case study, we can now outline an answer to the
 concern raised at the end of Section [[methods]], namely how do the
-[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?  Let’s begin
-by revisiting the notion of patterns from a fundamental perspective.
-Patterns are something that repeat.  Some patterns repeat in space,
-some in time, some in both space and time; think of a tiling, a beat,
-a wave.  In the physical world, it would seem that patterns cannot
-repeat exactly, or forever. Their elements are subject to spatial or
-temporal displacement, and other forms of variation.  By using the PAR
-or another sensory method, we are able to identify recurring themes.
-Then, by using the CLA or some other cognitive method, we are able to
-organise these repeating themes in a structure that exposes the
-underlying trends, causes, and potential terminating states.
-
-A useful analogy can be made with the notion of a macro or program.
-Once we notice that we end up repeating the same gesture frequently,
-we may then look for ways to automate it.  In order to do the
-automation, we need a grasp of the relevant existing facilities.  With
-Emacs, the most straightforward tasks can be automated by using
-built-in commands, or by recording new keyboard macros.  Other tasks
-are typically automated through new Lisp code, or with interfaces to
-other programs.  Still more involved and less readily automated
-solutions require working together with other people who have
-different knowledge or facility with other tools.
-
+[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?
 \begin{echo}
 Broadly, a solution process can often be decomposed into interrelated
 subtasks.  If we are able to understand the \mbox{(sub-)}context and
@@ -1188,7 +1169,8 @@ mainstream of architecture.  The key differentiator is not the
 language of problems and solutions which would be familiar to anyone
 with an engineering background; rather, but in a certain notion of
 /wholeness/.  Which notion of wholeness remains to be surfaced.
-Quoting, again, from “The Atoms of Environmental Structure”:
+Quoting, again, from “The Atoms of Environmental Structure”, we get
+some relevant background:
 
 #+begin_quote
 We believe that all values can be replaced by one basic value:
@@ -1400,45 +1382,39 @@ not mutually exclusive.
 ** Scenario I. Patterns become explicitly computational.
 Patterns have been discussed in explicitly computational
 terms—however, that direction of work so far remains mostly at the
-level of a proposal cite:alexander1999a,moran1971a, with limited
-discipline-specific uptake within architectural design
-cite:jacobus2009a,OXMAN1994141, and a separate discipline-specific
-development in object-oriented programming (after Taibi and Ngo
-cite:taibi2003formal).  Could this change, to generalise and make
-interoperable the kinds of patterns that can be computed with?  For
-example, Ostrom-style institutions—which are closely linked design
-patterns cite:ostrom2009a (p. 11)—might be brought onto a
-computational footing, and included in the computational mix within
-climate modelling software.  Some contemporary research looks at
-extracting institutional descriptions from text using an institutional
-grammar cite:Rice2021. These developments might be accompanied by more
-mathematical precision along the lines of [[FORMAL PATTERNS][FORMAL PATTERNS]], e.g.,
-drawing on and moving beyond computational paradigms such as
-contract-based programming and the Semantic Web.  While a program
-specification can reveal a lot about the program’s operating context,
-a /formal pattern/ would have to respond to a conflict in the context,
-which requires a suitably formal notion of conflict.  One strategy
-would be to think of design patterns as conceptual blends
-cite:Corneli2018, with a computational interpretation cite:SCHORLEMMER2021118.
-Different blends would have different possible and
-incompossible worlds associated with them.  For example, the Cooling
-the Commons pattern language includes \textsc{Community Library} as
-one of its patterns; the library blends a learning space with cool
-refuge, and must balance these provisions against cost and effort.  If
-the library was additionally blended with a \textsc{Writers Workshop}, it could
-become a place for the community to generate knowledge about further
-adaptive strategies.  However, this might conflict with the notion of
-library contents as being read-only, or with the view that libraries
-should be silent study spaces.  Could these ideas and complexities be
-reasoned about computationally?
+level of a proposal cite:alexander1999a,moran1971a, with only limited
+discipline-specific uptake (e.g.  cite:jacobus2009a,
+cite:OXMAN1994141, cite:taibi2003formal).  Could this change, to
+generalise the kinds of patterns that can be
+computed with, and make them interoperable?  For example, recent work looks at how to extract
+descriptions Ostrom-style institutions from text cite:Rice2021: such
+institutions are closely linked with design patterns cite:ostrom2009a
+(p. 11).  Could this line of work be extended, so that other kinds of
+design patterns could be recognised where they appear?  Could such
+descriptions be computed with directly?  One strategy would be to
+think of design patterns as conceptual blends cite:Corneli2018, which
+have a computational interpretation cite:SCHORLEMMER2021118.  For
+example, the Cooling the Commons pattern language includes
+\textsc{Community Library} as one of its patterns; this blends a
+learning space with cool refuge, and must balance these provisions
+against cost and effort.  If the library was additionally blended with
+a \textsc{Writers Workshop}, it could become a place for the community
+to generate knowledge about new adaptive strategies.  However, this
+might conflict with the notion of library contents as being read-only,
+or with the view that libraries should be silent study spaces.  Could
+these ideas and complexities be reasoned about computationally?
 
 ** Scenario II. Pattern language authoring communities move to free/libre/open source licensing.
-In the field of policy, ‘adaptive capacity’ describes a society’s
-ability to recover after a shock
-cite:thonicke2020advancing,magnan2010better.
-This in turn is linked with the health and adaptivity of the society’s
-institutions cite:fidelman2017institutions.  Innovation may be a necessary response to ongoing
-environmental change.  As an example: Mehaffy and coauthors worked with Ward
+# Let’s explore!
+
+In the field of policy, /resilience/ describes a society’s
+ability to recover after a shock; whereas /adaptive capacity/ describes
+its ability to move to a new state cite:thonicke2020advancing,magnan2010better.
+This ability is, in turn, linked with the health and adaptivity of the society’s
+institutions cite:fidelman2017institutions.  Free/Libre/Open Source licensing is
+one possible institutional innovation in the way design patterns are used that could
+support social learning, in turn, boost adaptive capacity cite:THIHONGPHUONG20171.
+As an example of work heading in this direction, Mehaffy and coauthors collaborated with Ward
 Cunningham to make their book /A New Pattern Language for Growing
 Regions/ cite:mehaffy2020new into a wiki, [[http://npl.wiki][npl.wiki]], which is licensed
 under CC BY-SA 4.0.  Will other pattern developers follow suit and
@@ -1450,12 +1426,14 @@ move to open licensing—and suitable infrastructures for working with open cont
 
 ** Scenario III. PLACARD scaffolds new literacies of collaboration.
 
-As we’ve seen in our work with Emacs and Peeragogy (and previously with PlanetMath cite:krowne2003,corneli-thesis) projects need a lot more than simply access to source code in order to
-thrive.  We see a link to the topic of reproducible research.  Above
-and beyond the immediate technical considerations cite:sandve2013ten,
-we think that something is “reproducible” if it is teachable to
-someone new!  We’ve found Org Mode (and literate programming in
-general) to be useful for this.  At the same time, collaboration
+As we’ve seen in our work with Emacs and Peeragogy (and previously
+with the online community PlanetMath cite:krowne2003,corneli-thesis) projects need more
+than simply access to source code in order to thrive.  We see a link
+to the topic of reproducible research.  Above and beyond the immediate
+technical considerations cite:sandve2013ten, the process of doing
+science is “reproducible” if the methods are teachable to others.  The
+Literate Programming paradigm is useful for this.[fn:: For a discussion of doing reproducible research with Emacs, see https://emacsnyc.org/2014/11/03/org-mode-for-reproducible-research.html].
+  At the same time, collaboration
 across different skill sets is challenging.  One reason we need
 additional scaffolding would be familiar to the protagonists of our
 pizza story: “Innovation foils attempts to be consistent and
@@ -1476,7 +1454,7 @@ of the discussions at PLoP and other venues, along with the other
 points above, brings to mind Hesse’s /The Glass Bead Game/.  For those
 who are familiar with the novel, this reference could also suggest:
 proceed with caution.  How hierarchical do we want our community, or
-our society, to be?  How critical are we capable of being towards the
+our society, to be?  How much are we in touch with practical realities?  How critical are we capable of being towards the
 tenets we hold dear?  When reflecting on futures-oriented discourses,
 Slaughter described a spectrum: “participatory and open at one pole
 and closed (or professionalised) at the other” cite:SLAUGHTER1989447.
@@ -1501,16 +1479,11 @@ contains a workshop proposal that we will submit to PLoP 2021
 alongside this paper.  In the workshop we hope to explore the “biome”
 of concepts and techniques that can help to build adaptivity in
 groups.  If the workshop goes well, it could be repeated around with
-changes to explore other topics, such as food security.
+changes to explore other topics, such as food security, or, indeed,
+the future of design patterns.
 
 * Related work
 <<Related_Work>>
-
-# \begin{echo}
-# \begin{flushright}
-# \emph{tl;dr: E.g., a layered approach also appears in the work of Alexander.}
-# \end{flushright}
-# \end{echo}
 
 #+BEGIN_EXPORT latex
 \afterpage{\clearpage
@@ -1576,7 +1549,6 @@ Realization, consisting of diagrams, a synthesis
 \clearpage
 }
 #+END_EXPORT
-
 
 We are certainly not the only people to think about systems and
 futures: what is distinctive about this paper is that we’ve connected
@@ -1709,43 +1681,83 @@ envisioned, returning to the other methods as needed.
 Thanks to CLA, we have also gained a further understanding of some
 meta-level issues that can arise when with applying DPL.  Our analysis
 and scenarios point to a range of social and cultural issues, like
-varied notions of openness, the complex relationship between diversity and hierarchy, the tensions between innovation and efficiency,
-and the interaction of formal and informal reasoning—all of which
-can round out the already well-recognised “concerns for pedagogy,
-efficiency, flexibility, and convincing argument”
-cite:postmodernProgramming embraced by pattern authors.  Just as even
-a talented musician without a solid grasp of music theory would be
-hard pressed to compose an augmentation canon or symphony, so too we
-suggest that a group which faces complex challenges may want to
-consider the meta-level issues that can be addressed with [[PLACARD][PLACARD]]
-techniques when orchestrating their activities.  In sum, the methods
-we’ve discussed can be used to operationalise a strategy that is at
-the heart of Christopher Alexander’s oeuvre.  In future work it would
-be interesting to look further at how this relates to program-specific
+varied notions of openness, the complex relationship between diversity
+and hierarchy, the tensions between innovation and efficiency, and the
+interaction of formal and informal reasoning—all of which can round
+out the already well-recognised “concerns for pedagogy, efficiency,
+flexibility, and convincing argument” cite:postmodernProgramming
+embraced by pattern authors.  Just as even a talented musician without
+a solid grasp of music theory would be hard pressed to compose an
+augmentation canon or symphony, so too we suggest that a group which
+faces complex challenges may want to consider the meta-level issues
+that can be addressed with [[PLACARD][PLACARD]] techniques when orchestrating their
+activities.  In sum, the methods we’ve discussed can be used to
+operationalise a strategy that is at the heart of Christopher
+Alexander’s oeuvre.  In future work it would be interesting to look
+further at how this relates to programs- and programming-specific
 design considerations, as described, e.g., by Felleisen et
 al. cite:felleisen2018design.
 
 * Conclusion
 <<Conclusion>>
-# \begin{echo}
-# \begin{flushright}
-# \emph{tl;dr: If the methods introduced here were adopted by the pattern community, this could bring benefits..}
-# \end{flushright}
-# \end{echo}
 
 In 1999, the architect Christopher Alexander discussed the future of
-design patterns with an audience of programmers.  We have revisited
-this topic, centred on an application of a technique from the field of
-future studies to the domain of patterns.  We demonstrated how methods
-from future studies, design pattern theory, and distributed project
-management can be combined.  Our analysis points to issues that the
-design pattern community will wish to consider as it shapes its own
-further development.  As Turing has said about the future, we can see
-plenty there that needs to be done.  As regards Alexander’s visionary
-question: perhaps the ‘Chartres of programming’ has been hidden in
-plain view all along.  Alejandro Jodorowsky refers to the Marseilles
-Tarot as a “nomadic cathedral” \cite{jodorowsky2009way} (p. 10);
-pattern languages are very much the same sort of thing.
+design patterns with an audience of programmers.  We revisited
+this topic, aided by a method from the field of future studies.  We
+developed a practical case study, an analysis of the design pattern
+discourse, as well as several scenarios that members of the design
+pattern community might wish to consider as they give shape to this
+community’s future development.
+
+We began by thinking about patterns from a fundamental
+perspective.  Some patterns repeat in space, some in time, some in both
+space and time; think of a tiling, a beat, a wave.  However, patterns
+cannot repeat exactly: their elements are subject to spatial or
+temporal displacement, and other forms of variation.  We need suitable
+abilities or methods to perceive and work with patterns.
+The methods we used in the paper were the Project Action Review (PAR),
+Causal Layered Analysis (CLA), and Design Pattern Languages (DPL), though other methods
+that fill the same purpose could be used.
+-  By using the PAR (or another sensory method), we are able to identify recurring themes.
+- Then, by using the CLA (or another cognitive method), we are able to organise these repeating themes in a structure that exposes the underlying trends, causes, and potential terminating states.
+- With DPL (or another motor method) we can make what we have learned actionable.
+The methods can be interwoven, as we illustrated by combining PAR, CLA, and DPL into the [[PLACARD][PLACARD]] pattern.
+
+In our case study, we have seen that the combination of PARs and CLAs
+can be used as methods to create a rough plan.  Adding connections
+from this developing plan to an existing DPL further strengthened our
+work, not least by by connecting it to a broader community.  We have
+used [[PLACARD][PLACARD]] as a way to integrate perspectives from people with
+different backgrounds.  The constituent methods themselves are sourced
+from different communities, and we believe that [[PLACARD][PLACARD]] may be useful
+for bringing these communities together, to help their work become
+more robust.
+
+We can imagine these methods being readily applied in workshop
+settings. For example, if we were to gather a group of citizens,
+experts, and other stakeholders to talk together about the city, they
+could use the methods we’ve described to surface issues, rehash
+concerns, and sensemake together.  “Anticipatory Social Science” is a
+broader term for this kind of work.  Working with methods that
+distribute perception, cognition, and action, we may become more able
+to work with uncertainty, and support innovation.  Especially when we
+are think about contemporary problems like climate change, it is not
+enough to think about the past; ultimately, we need to develop a
+transformative set of tools and methods cite:miller2018transforming.
+Citizen science has a potentially important role to play here
+cite:wildschut2017a, and the methods described could help to support
+widespread engagement.
+
+Our paper reflects on several domains in which design patterns have
+been used.  Alongside the broader transdisciplinary contribution, we have
+started to develop a set of requirements software that can assist with
+computational aspects of this process.  As Turing said about the
+future, we can see plenty there that needs to be done.  Lastly, as
+regards Alexander’s visionary question: perhaps the ‘Chartres of
+programming’ has been hidden in plain view all along.  Alejandro
+Jodorowsky refers to the Marseilles Tarot as a “nomadic cathedral”
+\cite{jodorowsky2009way} (p. 10); it seems to us that pattern languages
+are very much the same sort of thing.
 
 # \begin{quote}
 # So too, bhikkhus, I saw the ancient path, the ancient road travelled
@@ -2396,3 +2408,52 @@ idea of mine; that behind the cotton wool is hidden a pattern; that we—I mean 
 human beings—are connected with this; that the whole world is a work of art;
 that we are parts of the work of art.}
 \end{quote}
+
+
+** summary erg
+
+
+Looking back over the case study, we can now outline an answer to the
+concern raised at the end of Section [[methods]], namely how do the
+[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?  Let’s begin
+by revisiting the notion of patterns from a fundamental perspective.
+Patterns are something that repeat.  Some patterns repeat in space,
+some in time, some in both space and time; think of a tiling, a beat,
+a wave.  In the physical world, it would seem that patterns cannot
+repeat exactly, or forever. Their elements are subject to spatial or
+temporal displacement, and other forms of variation.  By using the PAR
+or another sensory method, we are able to identify recurring themes.
+Then, by using the CLA or some other cognitive method, we are able to
+organise these repeating themes in a structure that exposes the
+underlying trends, causes, and potential terminating states.
+
+A useful analogy can be made with the notion of a macro or program.
+Once we notice that we end up repeating the same gesture frequently,
+we may then look for ways to automate it.  In order to do the
+automation, we need a grasp of the relevant existing facilities.  With
+Emacs, the most straightforward tasks can be automated by using
+built-in commands, or by recording new keyboard macros.  Other tasks
+are typically automated through new Lisp code, or with interfaces to
+other programs.  Still more involved and less readily automated
+solutions require working together with other people who have
+different knowledge or facility with other tools.
+
+\begin{echo}
+Broadly, a solution process can often be decomposed into interrelated
+subtasks.  If we are able to understand the \mbox{(sub-)}context and
+\mbox{(sub-)}problems in detail—along with their relationships to other parts
+of the developing decomposition—then we can then make predictions about the way
+an intervention could change the overall system.
+\end{echo}
+As we will revisit
+again later on in the paper, there are “two different forms of information
+processing (bottom-up and top-down)” cite:Teufel2020; CLA can help with both,
+and in so doing can indeed assist with solution-development.
+Nominally, CLA is an analytic tool that decomposes a problematic
+situation into /layers/, and /causes/
+ operating at and between these
+layers.  In this sense it functions top-down.  However, CLA also plays
+a synthesis role.  Whereas we could compare the PAR to a tangent
+vector or derivative that gives a momentary reading of how things are
+going at a given point in time, CLA can be used to integrate these
+observations into an overall plan—as we’ve seen above.
