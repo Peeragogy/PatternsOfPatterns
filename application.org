@@ -438,7 +438,7 @@ Earlier we looked at the choices that the couple made, relative to their experie
 - *Analysis*: Study meaningful symbols and the myths and rituals within which they participate.
 - *Literature*: Poetry, art, anthropology, Jungian analysis.
 **** 🍕 Example, Myth Layer
-Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom looks back to childhood memories of parents who loved cooking together and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
+Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom has fond childhood memories of parents who loved cooking together, and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
 *** Relation of Myth Layer and Worldview Layer
 :PROPERTIES:
 :UNNUMBERED: t
@@ -994,7 +994,7 @@ the only one that's important.  What about the user's reality?  Why
 has that been ignored in all the software patterns work that's been
 done?  Isn't the user's experience the ultimate reason for designing a
 building or a piece of software?  If that's not taken into account,
-how can we say our building -- or our software -- is “good”?—http://www.mit.edu/~jtidwell/gof_are_guilty.html
+how can we say our building -- or our software -- is “good”? (http://www.mit.edu/~jtidwell/gof_are_guilty.html)
 #+end_quote
 
 Notice that the /user/ of the designed artefact has entered the
@@ -1121,10 +1121,11 @@ visions of the future of programming cite:postmodernProgramming.  An
 embrace of diverse perspectives seems to be a fundamental part of the
 associated worldview.  After all, the
 primary theoretical model of a computer is termed "universal".
-Perhaps there is a paradox here, insofar as we embrace diverse
+Perhaps there is a bit of a paradox or double bind here, insofar as we embrace diverse
 perspectives just as long as they are compatible with our core tenets.
 For at least some pattern authors, these include “their love of programs
-and programming” (/ibid./).
+and programming” (/ibid./).  (On this last point, both VanDrunen and Gabriel
+seem to agree.)
 \clearpage
 
 #+NAME: tabone
@@ -1392,24 +1393,25 @@ terms—however, that direction of work so far remains mostly at the
 level of a proposal cite:alexander1999a,moran1971a, with only limited
 discipline-specific uptake (e.g.  cite:jacobus2009a,
 cite:OXMAN1994141, cite:taibi2003formal).  Could this change, to
-generalise the kinds of patterns that can be
-computed with, and make them interoperable?  For example, recent work looks at how to extract
+generalise the kinds of patterns that can be computed with, and make
+them interoperable?  For example, recent work looks at how to extract
 descriptions Ostrom-style institutions from text cite:Rice2021: such
 institutions are closely linked with design patterns cite:ostrom2009a
 (p. 11).  Could this line of work be extended, so that other kinds of
-design patterns could be recognised where they appear?  Could such
-descriptions be computed with directly?  One strategy would be to
-think of design patterns as conceptual blends cite:Corneli2018, which
-have a computational interpretation cite:SCHORLEMMER2021118.  For
-example, the Cooling the Commons pattern language includes
-\textsc{Community Library} as one of its patterns; this blends a
-learning space with cool refuge, and must balance these provisions
-against cost and effort.  If the library was additionally blended with
-a \textsc{Writers Workshop}, it could become a place for the community
-to generate knowledge about new adaptive strategies.  However, this
-might conflict with the notion of library contents as being read-only,
-or with the view that libraries should be silent study spaces.  Could
-these ideas and complexities be reasoned about computationally?
+design patterns could be recognised where they appear?  Could the
+extracted descriptions be used directly in computations?  One strategy
+would be to think of design patterns as conceptual blends
+cite:Corneli2018, which have a computational interpretation
+cite:SCHORLEMMER2021118.  For example, the Cooling the Commons pattern
+language includes \textsc{Community Library} as one of its patterns;
+this blends a learning space with cool refuge, and must balance these
+provisions against cost and effort.  If the library was additionally
+blended with a \textsc{Writers Workshop}, it could become a place for
+the community to generate knowledge about new adaptive strategies.
+However, this might conflict with the notion of library contents as
+being read-only, or with the view that libraries should be silent
+study spaces.  Could these ideas and complexities be reasoned about
+computationally?
 
 ** Scenario II. Pattern language authoring communities move to free/libre/open source licensing.
 # Let’s explore!
