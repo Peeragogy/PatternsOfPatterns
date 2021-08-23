@@ -1116,10 +1116,10 @@ Gabriel and Goldman talk about sharing and gift culture in their essay
 [[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erotic Life of Code]].[fn:: Notably, this essay was
 presented as a keynote talk at the same programming conference where
 Alexander had delivered his keynote, cite:alexander1999a, four years previously.]  This reference suggests
-another reason why sharing knowledge in non-editable can be
+another reason why sharing knowledge in non-editable formats can be
 problematic.  Their primary source on gift culture is Hyde
 cite:hyde2019gift, who talks about what happens when exchange items
-are taken out of the gift exchange culture and puts in a museum:
+are taken out of the gift exchange culture and put in a museum:
 
 #+begin_quote
 A commodity is truly “used up” when it is sold because nothing about
@@ -1524,7 +1524,7 @@ patterns as conceptual blends cite:Corneli2018, which can be given a
 computational interpretation cite:SCHORLEMMER2021118.  For example,
 the Cooling the Commons pattern language includes
 \textsc{Community Library} as one of its patterns; the pattern blends a learning space
-with cool refuge, and must balance these provisions against cost and
+with a cool refuge, and must balance these provisions against cost and
 effort.  If the library was additionally blended with a
 \textsc{Writers Workshop}, it could become a place for the community
 to generate knowledge about new adaptive strategies.  However, this
@@ -1541,7 +1541,7 @@ its ability to move to a new state cite:thonicke2020advancing,magnan2010better.
 This ability is, in turn, linked with the health and adaptivity of the society’s
 institutions cite:fidelman2017institutions.  Free/Libre/Open Source licensing is
 one possible institutional innovation in the way design patterns are used that could
-support social learning, in turn, boost adaptive capacity cite:THIHONGPHUONG20171.
+support social learning, and, in turn, boost adaptive capacity cite:THIHONGPHUONG20171.
 As an example of work heading in this direction, Mehaffy and coauthors collaborated with Ward
 Cunningham to make their book /A New Pattern Language for Growing
 Regions/ cite:mehaffy2020new into a wiki, [[http://npl.wiki][npl.wiki]], which is licensed
@@ -1799,7 +1799,7 @@ and DPL can then be used to formulate a “formal picture”, as in our
 Case Study, where we moved from informal PARs, via a CLA, to next
 steps linked with patterns.  Once this has been done, we arrive at a
 stage where we can use DPL to synthesise solutions, much as Alexander
-envisioned, returning to the other methods as needed.
+envisioned;  [[PLACARD][PLACARD]] would additionally suggest to return to the other methods as needed.
 
 Thanks to CLA, we have also gained a further understanding of some
 meta-level issues that can arise when applying DPL.  Our analysis
@@ -1835,7 +1835,7 @@ community’s future development.
 We began by thinking about patterns from a fundamental perspective.
 Some patterns repeat in space, some in time, some in both space and
 time; think of a tiling, a beat, a wave.  However, patterns cannot
-repeat exactly: their elements are subject to spatial or temporal
+repeat exactly or forever: their elements are subject to spatial or temporal
 displacement, and other forms of variation.  We need suitable
 abilities—and methods—to perceive and work with patterns.  The methods
 we used in the paper were the Project Action Review (PAR), Causal
@@ -1854,7 +1854,7 @@ can be used as methods to create a rough plan.  Adding connections
 from this developing plan to an existing DPL further strengthened our
 work, not least by connecting it to a broader community.  We have
 used [[PLACARD][PLACARD]] as a way to integrate perspectives from people with
-different backgrounds.  The constituent methods themselves are sourced
+different backgrounds.  The constituent methods are themselves sourced
 from different communities, and we believe that [[PLACARD][PLACARD]] may be useful
 for bringing these communities together, which could help their
 work become more robust.
