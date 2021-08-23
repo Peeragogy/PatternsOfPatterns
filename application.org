@@ -294,22 +294,18 @@ in this time of crisis?  Stephen Batchelor writes:
 If I am to take this crisis with the seriousness I feel it deserves,
 then I need to align my thoughts and actions. I require a coherent
 worldview to provide a rational and ethical foundation for my
-behavior. (/ibid/.)
+behavior. (/ibid/., and in quotes in the following paragraph).
 #+end_quote
 
-Design patterns could be seen to be a paragon of the “technical
-mindset” (/ibid/.), a growing repository
-of technical fixes.  However, the pattern methods seem to be more than
-this.  Perhaps they are also part of the required worldview just
-mentioned.  It is certainly an interesting coincidence that the
-pattern discourse is contemporaneous with the climate crisis, both
-getting an official start in 1979.
-
-Patterns may help us “imagine how human communities might come to
-flourish in a radically changed world” and articulate “forms of
-collective action that can respond to the climate emergency that
-threatens life on Earth” (/ibid/.).  As we begin this exploration it is
-useful to juxtapose our exploration of patterns against a
+Perhaps pattern methods could fill part of this need.  On the one
+hand, patterns could simply be regarded the paragon of the “technical mindset”, a
+growing repository of technical fixes.  However, based on the
+underlying philosophical orientation, pattern methods also suggest
+themselves as a methodology that can help “imagine how human
+communities might come to flourish in a radically changed world” and
+articulate “forms of collective action that can respond to the climate
+emergency that threatens life on Earth”.  As we begin this exploration
+it is useful to juxtapose our exploration of patterns against a
 macro-historical scale.
 
 #+begin_quote
@@ -325,12 +321,13 @@ growth of embryos are two natural examples of processes that have
 `futures'.  These natural processes are ordered, not only in space but
 also in time.  Reflecting on these examples, we see more clearly why
 it is that futurists and designers can benefit by connecting with each
-other, in order to work together across scales.  We can also reflect
-that while science fiction can provide a `thinking machine'
-cite:Doherty2020, it cannot by itself provide historically robust alternatives
-to the global crises that we face.  Again, we need an approach that
-integrates thinking with action and awareness, and that work across
-scales: from individual agents to distributed networks.
+other, in order to work together across time and space at various
+scales.  We may also reflect that while science fiction can provide a
+`thinking machine' cite:Doherty2020, it cannot by itself provide
+historically robust alternatives to the global crises that we face.
+Again, we need an approach that integrates thinking with action and
+awareness, and that works across scales: from individual agents to
+distributed networks.
 
 * Methods
 <<methods>>
@@ -389,7 +386,15 @@ for examining a topic of concern at four layers that he refers to as
 the /litany/, /system/, /worldview/ and /myth/.  Part of the reason we do such
 an analysis is that there are different kinds of causes, ranging from
 immediate events to deep-seated cultural beliefs.  Inyatullah’s work draws on his
-scholarship of P. R. Sarkar cite:inayatullah1999situating.[fn::¶¶¶ Explanation of what’s going on?]
+scholarship of P. R. Sarkar cite:inayatullah1999situating.
+#+begin_quote
+This perspective is derived from Indian philosophical thought...which
+asserts that the mind is constituted in shells or kosas. Moving up and
+down the shells is a process of moral and spiritual
+enlightenment. Going deeper into the mind is an inward process through
+which truths are
+realized.[fn::https://proutglobe.org/2013/06/the-further-reaches-of-policy-making-cla/]
+#+end_quote
 In developing a CLA, none of the four layers is
 privileged over the others, nor are they examined in isolation.
 Rather, one moves between them, examining how they relate to one
@@ -569,8 +574,6 @@ remixed in a clever way to provide a title for this pattern.  This
 accurately suggests that the methods need not be run in a fixed order,
 but are interwoven together.
 
-\clearpage
-
 *** PLACARD
 :PROPERTIES:
 :UNNUMBERED: t
@@ -580,7 +583,14 @@ but are interwoven together.
 - *Problem*: Although we may encounter many difficulties in this context, our effort to understand them faces a central *challenge*, namely the fact that the problems span different layers and scales of complexity, so it can be hard to understand where the difficulties actually come from: accordingly, /we use the CLA to understand and frame the problems and their interconnections/.
 - *Solution*: Once we have grasped the problem, we need to elaborate an actionable solution that remains adaptable to ongoing changes in the context: /we use DPL to elaborate the solution/.
 
-Figure [[fig:placard]] provides a mnemonic.[fn:: For French speakers, /placard/ means ‘cupboard’, and there is an idiom, /placardisé/, which refers to an employee whose tasks all have been reassigned to others; the import is similar to the English idiom ‘put to pasture’. While it is not the case that [[PLACARD][PLACARD]] reassigns all DPL functions to other methods, the French idiom is potentially suggestive as another mnemonic.] The main thing to notice is that using the three methods
+\begin{wrapfigure}{l}{0.5\textwidth}
+\centering
+\vspace{-.8\baselineskip}
+\includegraphics[width=.5\textwidth]{placard.jpg}
+\caption{\label{fig:placard}Mnemonic illustration of the \hyperref[PLACARD]{PLACARD} pattern\vspace{-1\baselineskip}}
+\end{wrapfigure}
+
+Figure \ref{fig:placard} provides a mnemonic.[fn:: For French speakers, /placard/ means ‘cupboard’, and there is an idiom, /placardisé/, which refers to an employee whose tasks all have been reassigned to others; the import is similar to the English idiom ‘put to pasture’. While it is not the case that [[PLACARD][PLACARD]] reassigns all DPL functions to other methods, the French idiom is potentially suggestive as another mnemonic.] The main thing to notice is that using the three methods
 together helps to make the design pattern method practicable.  We can use the
 PAR to move from a context to a “Context”, established and written
 down.  We can use CLA to move from a situation of concern to a
@@ -593,12 +603,6 @@ the \textbf{context} and the \textbf{problem}, but is there anything here that a
 \end{echo}
 This is certainly a worthy concern, and something we will come back to in Section [[erg-summary]], after looking at an example of the [[PLACARD][PLACARD]] pattern in use.
 
-#+ATTR_ORG: :width 700px
-#+ATTR_HTML: :width 700px
-#+ATTR_LATEX: :width .5\textwidth :placement [H]
-#+CAPTION: Mnemonic illustration of the [[PLACARD][PLACARD]] pattern
-#+NAME: fig:placard
-[[file:placard.jpg]]
 
 * Case study: Planning “Season 1” for the Emacs Research Group
 <<Case_study>>
@@ -1099,6 +1103,7 @@ previously.)  They reference the open source community—but not the
 free software community, so we will follow Gabriel and Goldman’s usage
 here—as the origin of Mob Software.
 
+
 #+begin_quote
 Because the open source proposition asked the crucial first question,
 I include it in what I am calling “mob software,” but mob software
@@ -1142,27 +1147,7 @@ by VanDrunen “traces the source of Gabriel’s ideas by examining the
 authorities he cites and how he uses them and evaluates their validity
 on their own terms” cite:vandrunenchristian.  His critique functions
 as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
-Some key excerpts appear in Table [[tabone]].  At the same time, it is
-worth noting that this is by no means a complete critique.  As an
-an example of one direction that we will not have time and space to
-develop here, some applications of the concept of ‘gift culture’ have been
-criticised as hegemonic in nature cite:Mallard2019: should we expect
-pattern-theoretic, mob, or free/libre/open source software culture to
-be immune from such concerns?  VanDrunen’s criticisms are useful for our
-purposes not because they provide the last word, but because they points to the
-importance of considering the deeper layers in developing a concept
-or approach.  There may also be conflicts at the deeper layers.
-
-It is also worth noting that mob software is but one of many diverse
-visions of the future of programming cite:postmodernProgramming.  An
-embrace of diverse perspectives seems to be a fundamental part of the
-associated worldview.  After all, the
-primary theoretical model of a computer is termed "universal".
-Perhaps there is a bit of a paradox or double bind here, insofar as we embrace diverse
-perspectives just as long as they are compatible with our core tenets.
-For at least some pattern authors, these include “their love of programs
-and programming” (/ibid./).  (On this last point, both VanDrunen and Gabriel
-seem to agree.)
+Some key excerpts appear in Table [[tabone]].  
 
 #+NAME: tabone
 #+CAPTION: Key observations from VanDrunen’s critique of Gabriel’s “Mob Software” essay
@@ -1178,6 +1163,29 @@ seem to agree.)
 | “Gabriel’s own experience may color his perception. He founded a software company that produced programs for Lisp development and which went bankrupt after 10 years.”                                                                                |
 | “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim”                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+It is worth noting that this is by no means a complete critique.  As
+an an example of one direction that we will not have time and space to
+develop here, some applications of the concept of ‘gift culture’ have
+been criticised as hegemonic in nature cite:Mallard2019: should we
+expect pattern-theoretic, mob, or free/libre/open source software
+culture to be immune from such concerns?  VanDrunen’s criticisms are
+useful for our purposes not because they provide the last word, but
+because they points to the importance of considering the deeper layers
+in developing a concept or approach.  There may also be conflicts at
+the deeper layers.
+
+It is also worth noting that mob software is but one of many diverse
+visions of the future of programming cite:postmodernProgramming.  An
+embrace of diverse perspectives seems to be a fundamental part of the
+associated worldview.  After all, the
+primary theoretical model of a computer is termed "universal".
+Perhaps there is a bit of a paradox or double bind here, insofar as we embrace diverse
+perspectives just as long as they are compatible with our core tenets.
+For at least some pattern authors, these include “their love of programs
+and programming” (/ibid./).  (On this last point, both VanDrunen and Gabriel
+seem to agree.)
+
 
 ** Myths: metaphors and narratives (longer term change)
 
@@ -1353,8 +1361,7 @@ examined separately by proponents of both CLA and DPL.  We use this
 recent history to frame future work building on the case study and
 analysis developed above.
 
-In an overview of their work on the Cooling the Commons pattern
-language=, Cameron Tonkinwise and Abby Mellick Lopes write:
+In an overview of their work on the Cooling the Commons pattern language, Cameron Tonkinwise and Abby Mellick Lopes write:
 #+begin_quote
 A design pattern is first an observation: “People in that kind of designed situation tend to do this sort of thing”. It is then possible to design an intervention that redirects those tendencies. If that intervention succeeds, it can become a recommended pattern to help other designers: “If you encounter this kind of situation, try to make these kinds of interventions” cite:theconversation2021.
 #+end_quote
@@ -1419,10 +1426,10 @@ lead to diverse scenarios.  We think that design patterns can be
 useful inside scenarios, and also used to scaffold the design and
 evolution of scenarios.
 
-With this in mind, here are four scenarios that will be of
-interest to DPL practitioners, roughly pegged to the four
-layers of CLA.  We should emphasise that these scenarios are
-not mutually exclusive.
+With these reflections in mind, here are four scenarios that will be
+of interest to DPL practitioners, roughly pegged to the four layers of
+CLA.  We should emphasise that these scenarios are not mutually
+exclusive.
 
 ** Scenario I. Patterns become explicitly computational.
 Patterns have been discussed in explicitly computational
@@ -1436,12 +1443,12 @@ descriptions of Ostrom-style institutions from text cite:Rice2021: such
 institutions are closely linked with design patterns cite:ostrom2009a
 (p. 11).  Could this line of work be extended, so that other kinds of
 design patterns could be recognised where they appear?  Could the
-extracted descriptions be used directly in computations?  One strategy
-would be to think of design patterns as conceptual blends
-cite:Corneli2018, which have a computational interpretation
+extracted descriptions be used directly in computations?  One fruitful strategy
+might be to think of design patterns as conceptual blends
+cite:Corneli2018, which can be given a computational interpretation
 cite:SCHORLEMMER2021118.  For example, the Cooling the Commons pattern
 language includes \textsc{Community Library} as one of its patterns;
-this blends a learning space with cool refuge, and must balance these
+the pattern blends a learning space with cool refuge, and must balance these
 provisions against cost and effort.  If the library was additionally
 blended with a \textsc{Writers Workshop}, it could become a place for
 the community to generate knowledge about new adaptive strategies.
@@ -1754,8 +1761,9 @@ displacement, and other forms of variation.  We need suitable
 abilities—and methods—to perceive and work with patterns.  The methods
 we used in the paper were the Project Action Review (PAR), Causal
 Layered Analysis (CLA), and Design Pattern Languages (DPL)—though
-other methods that fulfill the same purpose can certainly be used.
--  By using the PAR (or another sensory method), we are able to identify recurring themes.
+other methods that fulfill the same basic purpose could be used
+without significantly changing the overall import of what we say here.
+- By using the PAR (or another sensory method), we are able to identify recurring themes.
 - Then, by using the CLA (or another cognitive method), we are able to organise these repeating themes in a structure that exposes the underlying trends, causes, and potential terminating states.
 - With DPL (or another motor method) we can make what we have learned actionable.
 The methods can be interwoven, as we illustrated by combining PAR, CLA, and DPL into the [[PLACARD][PLACARD]] pattern.
@@ -1778,8 +1786,8 @@ experts, and other stakeholders to talk together about the city, they
 could use the methods we’ve described to surface issues, rehash
 concerns, and sensemake together.  “Anticipatory Social Science” is a
 broader term for this kind of work.  Working with methods that
-distribute perception, cognition, and action, we may become more able
-to work with uncertainty, and support innovation.  Especially when we
+distribute perception, cognition, and action, we may become more comfortable
+with uncertainty, and better able to support innovation.  Especially when we
 think about contemporary problems like climate change, it is not
 enough to think about the past; ultimately, we need to develop a
 transformative set of tools and methods cite:miller2018transforming; 
