@@ -110,7 +110,7 @@ relevant. [emphasis added]
 
 Patterns in the first sense are basically physical in nature.  We can
 observe them in the way sand forms underwater ridges subject to waves
-and tides, or the way a cell ‘solves’ a metabolic problem.  Design
+and tides, in photosynthesis, and in metabolism.  Design
 comes into play with the second sense.  Leitner summarised how this is
 meant to work: ``Patterns are shared as complete methodic descriptions
 intended for practical use by experts and non-experts'' cite:leitner2015a.
@@ -134,7 +134,7 @@ used together to tackle problems both big and small.
 
 In 1999, Alexander spoke to computer scientists about the future of
 design patterns and “the generation of a living world”
-cite:alexander1999a.  We believe this is more than a metaphor.
+cite:alexander1999a.  We believe that this should be seen as more than just a metaphor.
 Towards realising the promise of design patterns, we aim for an
 excavation and reworking of the theory.
 
@@ -210,7 +210,7 @@ effectively we are using other methods.
 The goal of this methodology is to achieve a deep and inclusive
 understanding by integrating empiricist, interpretative, critical, and
 actionable knowledge surrounding a topic of concern.  Without an
-integrated understanding, a group runs the risk of getting lost a
+integrated understanding, a group runs the risk of getting lost in a
 muddle of details.  CLA can pull together information logged in PARs
 into a coherent body of self-knowledge.  It can also help to surface
 concerns that might remain implicit in pattern language: for example,
@@ -265,7 +265,7 @@ of our [[Discussion][*Discussion*]].
 \begin{echo}
 Appendix \ref{appendix-pars} contains a sample Project Action Review.
 Several patterns in Appendix \ref{appendix} are referred
-  to by name the text.  Henceforth, text in \textsc{Small Caps}
+  to by name in the text.  Henceforth, text in \textsc{Small Caps}
   references external patterns, whereas ALL-CAPS references patterns
   listed in this paper and the Appendix.
 Appendix \ref{flaws-appendix} contains a workshop design that accompanies
@@ -280,13 +280,37 @@ the paper and makes some of the ideas within it interactive.
 
 * Background
 
-Anyone who has studied psychology and neuroscience is liable to agree
-that perception, cognition, and action are needed by all living
-beings, and even by robots.  Some of this thinking can be applied to
-organisations, as in the work of Stafford Beer.  However, it is harder
-to say what it means to be a well-functioning society—or what it means to be a good
-member society in a time of crisis.  To get started, it makes sense to
-begin at the large macro-historical scale.
+Anyone who has studied psychology or neuroscience is liable to agree
+that perception, cognition, and action are necessary functions for all
+living beings, and even for robots.  Some of this thinking can be
+applied to organisations, as in the work of Stafford Beer.  However,
+it is harder to say what it means to be a well-functioning society—or
+what it means to be a good member of society in a time of crisis.
+Alexander’s hopeful stance on the generation of a living world
+presently comes up against a reality in which ‘everything is burning’
+cite:batchelor2020embracing.  How are we to understand design patterns
+in this time of crisis?  Stephen Batchelor writes:
+#+begin_quote
+If I am to take this crisis with the seriousness I feel it deserves,
+then I need to align my thoughts and actions. I require a coherent
+worldview to provide a rational and ethical foundation for my
+behavior. (/ibid/.)
+#+end_quote
+
+Design patterns could be seen to be a paragon of the “technical
+mindset” (/ibid/.), a growing repository
+of technical fixes.  However, the pattern methods seem to be more than
+this.  Perhaps they are also part of the required worldview just
+mentioned.  It is certainly an interesting coincidence that the
+pattern discourse is contemporaneous with the climate crisis, both
+getting an official start in 1979.
+
+Patterns may help us “imagine how human communities might come to
+flourish in a radically changed world” and articulate “forms of
+collective action that can respond to the climate emergency that
+threatens life on Earth” (/ibid/.).  As we begin this exploration it is
+useful to juxtapose our exploration of patterns against a
+macro-historical scale.
 
 #+begin_quote
 For Sarkar, there have been four historical ways humans have dealt
@@ -296,14 +320,14 @@ mind, or dominating it through the environment
 itself. cite:inayatullah1999situating
 #+end_quote
 
-Community assembly of ecosystems and the growth of embryos are
-relevant natural examples of processes that have `futures'.  These
-natural processes are ordered, not only in space but also in time.
-Reflecting on these examples, we see more clearly why it is that
-futurists and designers can benefit by connecting with each other,
-in order to work together across scales.  We can also
-reflect that while science fiction can provide a `thinking machine'
-cite:Doherty2020, it cannot provide historically robust alternatives
+Along with human societies, community assembly of ecosystems and the
+growth of embryos are two natural examples of processes that have
+`futures'.  These natural processes are ordered, not only in space but
+also in time.  Reflecting on these examples, we see more clearly why
+it is that futurists and designers can benefit by connecting with each
+other, in order to work together across scales.  We can also reflect
+that while science fiction can provide a `thinking machine'
+cite:Doherty2020, it cannot by itself provide historically robust alternatives
 to the global crises that we face.  Again, we need an approach that
 integrates thinking with action and awareness, and that work across
 scales: from individual agents to distributed networks.
@@ -322,7 +346,7 @@ scales: from individual agents to distributed networks.
 The US Army developed a methodology called the /After Action Review/ or
 AAR, which they use in training elite soldiers
 cite:Training-the-Force.  AARs can be used to assign responsibility
-when things go wrong in these trainings, and can help people figure
+when things go wrong in training activities, and can help people figure
 out how to do better next time.  The method has also been used effectively
 in business settings cite:learning-in-the-thick-of-it.   As such, After Action Review
 shares common ground with the \textsc{Daily Scrum} and
@@ -586,7 +610,7 @@ Research Group (ERG), which was convened following EmacsConf
 We illustrate how the
 three methods introduced above interoperate.  In our case, this
 analysis has allowed us to develop a trajectory for the project.
-As a case study, this section gives more-or-less
+As a case study, this section is a more-or-less
 self-contained example and shows how mixing the three methods
 gives us more than the sum of the parts.
 
@@ -816,16 +840,19 @@ within the upcoming *Season 1* will require further breakdown and
 elaboration.  We foresee this to be an iterative process, assisted by
 bidirectional links between patterns and next steps.
 
-Software tools aid will managing this information, though our current
-prototypes could certainly be improved.  These prototypes are based on
-on Emacs’s built-in Org Mode (a tool for managing information
-structured in outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an
-Emacs package layered on Org Mode and used for creating zettelkasten,
-which are, essentially, wikis), and Org Roam Server (a further layer
-for visualisation of the resulting network structures).  As described
-in Section [[erg_worldview]], these tools have some deficiencies when
-it comes to interlinking varied contents—such as patterns and next
-steps—from distributed sources.  In short, we need to keep improving our tools in order to effectively manage growing distributed, interlinked, collections of PARs, CLAs, and DPLs, alongside other scientific and technical corpora.
+Software tools will help with this, though our current prototypes
+could certainly be improved.  These prototypes are based on on Emacs’s
+built-in Org Mode (a tool for managing information structured in
+outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an Emacs package
+layered on Org Mode and used for creating zettelkasten, which are,
+essentially, wikis), and Org Roam Server (a further layer for
+visualisation of the resulting network structures).  As described in
+Section [[erg_worldview]], these tools have some deficiencies when it
+comes to interlinking varied contents—such as patterns and next
+steps—from distributed sources.  In short, we need to keep improving
+our tools in order to effectively manage growing distributed,
+interlinked, collections of PARs, CLAs, and DPLs, alongside other
+scientific and technical corpora.
 
 Looking back over the case study, we can now outline an answer to the
 concern raised at the end of Section [[methods]], namely how do the
@@ -1054,7 +1081,7 @@ CC-By-SA).
 Fast-forwarding to the present day, Christopher Alexander’s website
 =patternlanguage.com= writes about [[https://www.patternlanguage.com/membership/memberstour3-struggle.html][The Struggle for People to be Free]]—but it is not referencing freedom in the GNU sense.
 
-In 1979 he was thusly concerned: “Instead of being widely shared, the
+In 1979 he was concerned: “Instead of being widely shared, the
 pattern languages which determine how a town gets made becomes
 specialized and private.”  In 2021, /APL/ itself is only legally
 available for subscribers or for people who purchase a paper copy of
@@ -1116,15 +1143,15 @@ authorities he cites and how he uses them and evaluates their validity
 on their own terms” cite:vandrunenchristian.  His critique functions
 as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
 Some key excerpts appear in Table [[tabone]].  At the same time, it is
-worth noting that this is by no means the a complete critique.  As an
+worth noting that this is by no means a complete critique.  As an
 an example of one direction that we will not have time and space to
 develop here, some applications of the concept of ‘gift culture’ have been
 criticised as hegemonic in nature cite:Mallard2019: should we expect
 pattern-theoretic, mob, or free/libre/open source software culture to
-be immune from such critiques?  VanDrunen’s critique is useful for our
-purposes not because it is the last word, but because it points to the
-importance of considering the deeper layers in developing a concept.
-There may also be a conflicts at these layers.
+be immune from such concerns?  VanDrunen’s criticisms are useful for our
+purposes not because they provide the last word, but because they points to the
+importance of considering the deeper layers in developing a concept
+or approach.  There may also be conflicts at the deeper layers.
 
 It is also worth noting that mob software is but one of many diverse
 visions of the future of programming cite:postmodernProgramming.  An
@@ -1220,7 +1247,7 @@ also linked with the Carthusian order, and the Rod of Asclepius
 of various forms, and also echoed in the planetary symbol for Mercury,
 \begingroup\alch\symbol{"53}\endgroup).}
 \end{echo}
-Indeed, the pattern discourse appears to drawn from /both/ major traditions of wholeness, while also
+Indeed, the pattern discourse appears to draw from /both/ major traditions of wholeness, while also
 seeking to unite them.  We get the idea of unfolding in /APL/ and other
 pattern languages that work in a top-down manner: however, we also get
 the notion of patterns and principles that are generative of emergent
@@ -1230,7 +1257,7 @@ At this level, architecture and programming were seen, by Alexander
 cite:alexander1999a, to unite: his questions for the computer
 scientists to whom he was speaking point in the direction of
 bio-hacking and nanotechnology (e.g., for molecular self-assembly)—at least at the allusive level.  The following quote suggests we have
-embarked on a fruitful track by attempting ot think at the deeper
+embarked on a fruitful track by attempting to think at the deeper
 layers of the pattern discourse:
 #+begin_quote
 Generative patterns work indirectly; they work on the underlying
@@ -1364,7 +1391,7 @@ levels.  A more comprehensive approach might, for instance, re-examine
 rituals to see which of them relate to the phenomenon of sunrise
 versus the act of getting up and starting the day, and then figuring
 out how to adapt these rituals to a new schedule.  A suitable research
-strategy might be study how practices changed in the past, as with the
+strategy might be to study how practices changed in the past, as with the
 introduction of industrialization and its clockwork regimentation of
 the day.
 
@@ -1405,7 +1432,7 @@ discipline-specific uptake (e.g.  cite:jacobus2009a,
 cite:OXMAN1994141, cite:taibi2003formal).  Could this change, to
 generalise the kinds of patterns that can be computed with, and make
 them interoperable?  For example, recent work looks at how to extract
-descriptions Ostrom-style institutions from text cite:Rice2021: such
+descriptions of Ostrom-style institutions from text cite:Rice2021: such
 institutions are closely linked with design patterns cite:ostrom2009a
 (p. 11).  Could this line of work be extended, so that other kinds of
 design patterns could be recognised where they appear?  Could the
@@ -1481,7 +1508,7 @@ Access to meaningful participation is a serious question in our
 current technological culture cite:unger2019knowledge.  Does our
 experience of unequal access reappear in the future cultures we
 envision?  With due care, patterns might become the basis of
-widespread technical literacies, not only an elite group of hackers or
+widespread technical literacies, not only for an elite group of hackers or
 for a few highly-paid rockstars, but for everyone.
 
 # maybe reference the Bloom’s 2 Sigma problem here
@@ -1515,7 +1542,9 @@ and other review tools).  The work as a whole has some analogies with
 a method called Causal Layered Synthesis developed by Paul Wildman
 cite:wildman2010engaging. Seamon cite:seamon2019christopher develops an
 analysis of Chrisopher Alexander’s work with some parallels to our
-analysis of DPL via CLA.
+analysis of DPL via CLA.  At the broadest philosophical level,
+Simondon cite:simondon2009technical provides a detailed analysis of
+the technical mentality, which can help to frame pattern methods.
 
 To further our understanding, we begin this section by engaging
 potential criticisms.  Some prominent critical voices have been
@@ -1547,7 +1576,7 @@ pattern centres local circumstances and histories (via PARs,
 CLA-linked methods like [[GENEALOGY][GENEALOGY]], and the context-specific
 information embedded in DPL).  We would expect to see varied knowledge
 bases develop, that are rich with cultural diversity and human
-relationships.  [[PLACARD][PLACARD]] methods could flips the Kostakis et
+relationships.  [[PLACARD][PLACARD]] methods could flip the Kostakis et
 al. formula on its head: patterns are primarily tools for thinking
 locally about particular contexts, individual relationships, conflicts
 and circumstances; CLA puts them in context, and PAR keeps this system
@@ -1680,14 +1709,14 @@ people organizing their activities.  The naive “actual world” approach
 (Figure \ref{synthesis-diagrams}A.) would be when a group takes a
 "seat of the pants" approach to dealing with issues as they come up in
 the course of work.  PAR can help to sketch a “mental picture”.  CLA
-and DPL then be used first to formulate a “formal picture”, as in our
-Case Study, where we moved from informal PARs via a CLA to next steps
+and DPL can then be used to formulate a “formal picture”, as in our
+Case Study, where we moved from informal PARs, via a CLA, to next steps
 linked with patterns.  Once this has been done, we arrive at a stage
-where we can use DPL to synthesise solutions, much as Alexander much
+where we can use DPL to synthesise solutions, much as Alexander
 envisioned, returning to the other methods as needed.
 
 Thanks to CLA, we have also gained a further understanding of some
-meta-level issues that can arise when with applying DPL.  Our analysis
+meta-level issues that can arise when applying DPL.  Our analysis
 and scenarios point to a range of social and cultural issues—like
 varied notions of openness, the complex relationship between diversity
 and hierarchy, the tensions between innovation and efficiency, and the
@@ -1698,7 +1727,7 @@ embraced by pattern authors.  Just as even a talented musician without
 a solid grasp of music theory would be hard pressed to compose an
 augmentation canon or symphony, so too we suggest that a group which
 faces complex challenges may want to consider the meta-level issues
-that can be addressed with [[PLACARD][PLACARD]] techniques when orchestrating their
+that can be addressed with [[PLACARD][PLACARD]] when orchestrating their
 activities.  In sum, the methods we’ve discussed can be used to
 operationalise a strategy that is at the heart of Christopher
 Alexander’s oeuvre.  In future work it would be interesting to look
@@ -1717,15 +1746,15 @@ discourse, as well as several scenarios that members of the design
 pattern community might wish to consider as they give shape to this
 community’s future development.
 
-We began by thinking about patterns from a fundamental
-perspective.  Some patterns repeat in space, some in time, some in both
-space and time; think of a tiling, a beat, a wave.  However, patterns
-cannot repeat exactly: their elements are subject to spatial or
-temporal displacement, and other forms of variation.  We need suitable
-abilities—and methods—to perceive and work with patterns.
-The methods we used in the paper were the Project Action Review (PAR),
-Causal Layered Analysis (CLA), and Design Pattern Languages (DPL), though other methods
-that fill the same purpose could be used.
+We began by thinking about patterns from a fundamental perspective.
+Some patterns repeat in space, some in time, some in both space and
+time; think of a tiling, a beat, a wave.  However, patterns cannot
+repeat exactly: their elements are subject to spatial or temporal
+displacement, and other forms of variation.  We need suitable
+abilities—and methods—to perceive and work with patterns.  The methods
+we used in the paper were the Project Action Review (PAR), Causal
+Layered Analysis (CLA), and Design Pattern Languages (DPL)—though
+other methods that fulfill the same purpose can certainly be used.
 -  By using the PAR (or another sensory method), we are able to identify recurring themes.
 - Then, by using the CLA (or another cognitive method), we are able to organise these repeating themes in a structure that exposes the underlying trends, causes, and potential terminating states.
 - With DPL (or another motor method) we can make what we have learned actionable.
@@ -1736,7 +1765,7 @@ The methods can be interwoven, as we illustrated by combining PAR, CLA, and DPL 
 In our case study, we have seen that the combination of PARs and CLAs
 can be used as methods to create a rough plan.  Adding connections
 from this developing plan to an existing DPL further strengthened our
-work, not least by by connecting it to a broader community.  We have
+work, not least by connecting it to a broader community.  We have
 used [[PLACARD][PLACARD]] as a way to integrate perspectives from people with
 different backgrounds.  The constituent methods themselves are sourced
 from different communities, and we believe that [[PLACARD][PLACARD]] may be useful
@@ -1751,9 +1780,10 @@ concerns, and sensemake together.  “Anticipatory Social Science” is a
 broader term for this kind of work.  Working with methods that
 distribute perception, cognition, and action, we may become more able
 to work with uncertainty, and support innovation.  Especially when we
-are think about contemporary problems like climate change, it is not
+think about contemporary problems like climate change, it is not
 enough to think about the past; ultimately, we need to develop a
-transformative set of tools and methods cite:miller2018transforming.
+transformative set of tools and methods cite:miller2018transforming; 
+and beyond this, a coherent worldview, and even new myths.
 Citizen science has a potentially important role to play here
 cite:wildschut2017a, and the methods described could help to support
 widespread engagement.
