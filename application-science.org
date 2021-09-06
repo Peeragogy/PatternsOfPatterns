@@ -15,12 +15,14 @@
 #+LATEX_HEADER: \renewcommand\thelinenumber{\color{red}\arabic{linenumber}}
 # #+LATEX_HEADER: \linenumbers
 #+LATEX_HEADER: \usepackage{xunicode}
-#+LATEX_HEADER: \usepackage{xelatexemoji}
-#+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{./svg/U#1.PDF}
-#+LATEX_HEADER: \usepackage[no-sscript]{xltxtra}
+# #+LATEX_HEADER: \usepackage{xelatexemoji}
+# #+LATEX_HEADER: \renewcommand{\xelatexemojipath}[1]{./svg/U#1.PDF}
+# #+LATEX_HEADER: \usepackage[no-sscript]{xltxtra}
 #+LATEX_HEADER: \usepackage{natbib}
 #+LATEX_HEADER: \usepackage{float}
 #+LATEX_HEADER: \usepackage{xypic}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \newcommand*\circlednum[1]{\resizebox{1em}{!}{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}}
 #+LATEX_HEADER: \usepackage{amsmath, amssymb}
 #+LATEX_HEADER: \def\t{\scriptstyle\triangle}
 #+LATEX_HEADER: \def\T{\textstyle\blacktriangle}
@@ -56,6 +58,7 @@
 
 
 \input{title-stuff}
+\clearpage
 * Abstract                                                        :noexport:
 :PROPERTIES:
 :UNNUMBERED: t
@@ -112,15 +115,24 @@ to give them some more *Background* on these topics?
 *** [5.] Also, his broader question about "next steps", and our related in-house ambition to do a review of the process.
 <<next_steps>>
 
-* What do we mean by “Patterns of Patterns”?
+* Introduction
 <<Introduction>>
 
-What are patterns, anyway?  We can start with Christopher Alexander's
-phrase: ``Each pattern is a three-part rule, which expresses a
-relation between a certain context, a problem, and a solution''
-\citep[p.~247]{alexander1979a}.  He went on to unpack this phrase in
-two different ways:
-# [fn:: https://wiki.c2.com/?PatternDefinition]
+In 1999, the architect Christopher Alexander discussed the future of
+design patterns with an audience of programmers cite:alexander1999a.
+We revisit this topic, aided by an method from the field of future
+studies.  We use this method to analyse design pattern
+literature and practices, and, additionally, present a practical case
+study in which we deploy design patterns together with futuring and
+distributed project management methods.  Building on these
+explorations, we develop several scenarios charactising potential
+directions for the development of design pattern methods.  The contribution of the paper is
+simultaneously theoretical and practical.  Towards realising the
+promise of design patterns, we aim for an excavation and reworking of
+the theory.
+
+We begin by recalling that Christopher Alexander thought about
+patterns in both a fundamental and a methodological sense.
 
 #+begin_quote
 /As an element in the world/, each pattern is a relationship between a
@@ -131,45 +143,31 @@ forces to resolve themselves.\medskip
 /As an element of language/, a pattern is an instruction, which shows
 how this spatial configuration can be used, over and over again, to
 resolve the given system of forces, wherever the context makes it
-relevant. [emphasis added]
+relevant. \citep[p.~247]{alexander1979a} (our emphasis)
 #+end_quote
 
-Patterns in the first sense are basically physical in nature.  We can
-observe them in the way sand forms underwater ridges subject to waves
-and tides, in photosynthesis, and in metabolism.  Design
+Patterns in the first sense are basically physical in nature.  /Design/
 comes into play with the second sense.  Leitner summarised how this is
 meant to work: ``Patterns are shared as complete methodic descriptions
-intended for practical use by experts and non-experts'' cite:leitner2015a.
+intended for practical use by experts and non-experts''
+cite:leitner2015a.
 
 We now ask: what happens if we think about patterns in the second
 sense from the vantage point of the first sense?  Already there are a
 number of practical texts that use patterns (in the second sense) to
-talk about patterns (again in the second sense): they share methods that aid
-in discovery, writing, workshopping, and the broader application of
-design patterns.  By contrast we develop a more fundamental analysis,
-and only then use this to work towards a new level of practicality.
+talk about patterns (again in the second sense): they share methods
+that aid in discovery, writing, workshopping, and the broader
+application of design patterns.  By contrast we develop a more
+fundamental analysis, and to use this to work towards a new level of
+practicality.
 
 Granted, the relevant forces are no longer simply physical, but are
 socially distributed and culturally determined.  Architects, computer
 scientists, and institutional designers have all had very different
-things to say about design patterns.  Others who may never have heard
-of design patterns have relevant things to bring to the conversation.
-Here, we combine patterns with methods that originate in future
-studies and elite training, and aim to show how these methods can be
-used together to tackle problems both big and small.
-
-In 1999, Alexander spoke to computer scientists about the future of
-design patterns and “the generation of a living world”
-cite:alexander1999a.  We believe that this should be seen as more than just a metaphor.
-Towards realising the promise of design patterns, we aim for an
-excavation and reworking of the theory.
-
-# \begin{quote}
-# \emph{‘Sir, know that while wandering through the forest I
-# saw an ancient path. I followed it and saw an ancient city.
-# Renovate that city, Sir!’}—\href{https://suttacentral.net/sn12.65/en/bodhi}{Saṁyutta Nikāya, Connected Discourses on Causation, 12.65. The City}, Quoted in \cite{JGB127}.
-# \end{quote}
-
+things to say about design patterns.  We will, additionally, combine
+design patterns with methods that originate in future studies and
+elite training.  We will suggest that these methods can be used
+together to tackle problems both big and small.
 ** Outline of Methods
 :PROPERTIES:
 :UNNUMBERED: t
@@ -184,7 +182,7 @@ course.  Our
 focus is on scaffolding social perception, cognition, and action (Table \ref{tab:acronyms}).
 The tripartite division here mirrors classical
 psychology cite:Hilgard1980, and continues to be
-relevant in contemporary neuroscience cite:Teufel2020. 
+relevant in contemporary neuroscience cite:Teufel2020.
 
 \begin{echo}
 \begin{table}[h]
@@ -264,42 +262,26 @@ as they evolve.
 :UNNUMBERED: t
 :END:
 
-In the [[Case_study][*Case Study*]] section, we focus on a concrete use case that
-combines the three methods to manage and plan a transdisciplinary research
-seminar.  This case study provides a detailed practical example that
-other projects across the pattern language space may wish to emulate
-(or adapt) in their settings.
-
-In the [[Analysis][*Analysis*]], we use CLA to analyse design patterns methods.  The
-high-level evolution of the DPL method in response to criticism,
-innovation, technical developments, and long-term cultural change has
-not been previously studied in an integrated manner.  CLA allows us to
-surface the direction of travel of pattern language methods, helping
-us integrate foundational perspectives and empirical observation.  We
-identify trends within the pattern discourse towards transdisciplinary
-thinking and large-scale collaboration; and we connect Alexander's
-concept of wholeness with the broader evolution of Western
-philosophical thought.  This, in turn, shapes our understanding of
-what pattern languages can do in the future, which becomes the focus
-of our [[Discussion][*Discussion*]].
-
+- We used Causal Layered Analysis to describe the evolution of Design Pattern Language methods in response to criticism, innovation, technical developments, and long-term cultural change.  We additionally surface some of the forces and tensions in the discourse.
+- We used Design Pattern Language methods, together with Project Action Reviews and Causal Layered Analysis, to organise a research seminar.  Our case study shows how the methods can be fruitfully combined, and suggests how others might take up the combined methods.
+- We reflect on these processes to scaffold our discussion of the future of design patterns.
 ** Supplementary Material
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
 \begin{echo}
+For concision, we present details of our Analysis and Case Study in Appendix \ref{Analysis} and Appendix \ref{Case_study}, respectively.
+Our methods are further illustrated in additional supplements.
 Appendix \ref{appendix-pars} contains a sample Project Action Review.
+Appendix \ref{appendix-pizza} contains a short story that
+can be used to become acquainted with Causal Layered Analysis.
 Several patterns in Appendix \ref{appendix} are referred
   to by name in the text.  Henceforth, text in \textsc{Small Caps}
   references external patterns, whereas ALL-CAPS references patterns
   listed in this paper and the Appendix.
-Appendix \ref{flaws-appendix} contains a workshop design that accompanies
+Lastly, Appendix \ref{flaws-appendix} contains a workshop design that accompanies
 the paper and makes some of the ideas within it interactive.
-% Footnotes are indicated with numerical markers, while more extensive endnotes appear with alphabeticmarkers.
-\endnote{\textbf{To PLoP 2021 Writers’ Workshop attendees:} In particular, we use end notes to stash potential outtakes.
-    If you see something here that’s valuable, please let us know, and we may add it back into the paper.  If the material here
-  doesn’t help, it may go away in the final submission; i.e., we probably will \emph{not} include endnotes in the final submission!}
 \end{echo}
 
 # Clarify punctuation usage?  Certainly with coauthors!
@@ -307,7 +289,6 @@ the paper and makes some of the ideas within it interactive.
 * Background
 
 # Batchelor fits w/ Sarkar, epilogue to Inyatullah
-# 
 
 Perception, cognition, and action are necessary functions for all
 living beings, and even for robots cite:cassimatis2004integrating.
@@ -315,9 +296,8 @@ Some of this thinking can be applied to organisations, as in the work
 of Stafford Beer cite:beer1972brain.  However, it is harder to say
 what it means to be a well-functioning society; and what it means to be
 a good member of a society in a time of crisis is a longstanding question.
-Alexander’s hopeful stance on the generation of a living world presently comes up against
-a reality in which ‘everything is burning’
-cite:batchelor2020embracing.  How are we to understand design patterns
+Alexander’s hopeful stance on the generation of a living world cite:alexander1999a comes up against
+a reality in which /everything is burning/ cite:batchelor2020embracing.  How are we to understand design patterns
 in this present time of crisis?  Stephen Batchelor writes:
 #+begin_quote
 If I am to take this crisis with the seriousness I feel it deserves,
@@ -329,7 +309,6 @@ behavior. (/ibid/., and in quotes in the following paragraph).
 Perhaps pattern methods could fill part of this need.  On the one
 hand, patterns could simply be regarded the paragon of the “technical
 mindset”, a growing repository of technical fixes.
-Heidegger would contrast this way of thinking with the /poiesis/ of the fine arts.
 Thinking at a deeper level, pattern methods also suggest themselves as a
 methodology that can help “imagine how human communities might come to
 flourish in a radically changed world” and articulate “forms of
@@ -368,10 +347,11 @@ distributed networks.
 # \end{flushright}
 # \end{echo}
 
-Subsections [[par_method]], [[CLA_patterns]] and [[dpl_method]] describe the
-Project Action Review, Causal Layered Analysis, and Design Pattern
-Languages methods; then subsection [[methods_summary]] pulls them
-together as a design pattern.
+In Section [[Introduction]] we briefly summarised the methods we use in
+this paper.  Subsections [[par_method]], [[CLA_patterns]] and [[dpl_method]]
+describe the Project Action Review, Causal Layered Analysis, and
+Design Pattern Languages methods in further detail. Subsection
+[[methods_summary]] pulls these methods together as a design pattern.
 
 ** Project Action Review
 <<par_method>>
@@ -414,8 +394,6 @@ include a number of different forward-looking scenarios.
 ** Causal Layered Analysis
 <<CLA_patterns>>
 
-#                                                    "Let’s stick with layer as opposed to level."
-
 Sohail Inayatullah developed Causal Layered Analysis (CLA)
 cite:inayatullah1998b,inayatullah2004causal as a research methodology
 for examining a topic of concern at four layers that he refers to as
@@ -436,90 +414,62 @@ privileged over the others, nor are they examined in isolation.
 Rather, one moves between them, examining how they relate to one
 another.  One can then integrate these insights to form a more
 comprehensive basis for understanding what is happening in the present
-and for anticipating the future.
-
-Here, we explain each of the levels according to the following schema:
+and for anticipating the future.  Table \ref{tab:cla-summary} describes each of the four layers according to the following schema:
 
 - *Contents*: /What is found in this layer?/
 - *Analysis*: /Techniques for analysis of this layer./
 - *Literature*: /Instances of texts which are typically operative at this layer./
 
-To illustrate the four layers and associated techniques, we introduce
-a running example of a mom-and-pop pizza shop.
+#                                                    🍕🍕🍕🍕
+#                                                    "Let’s stick with layer as opposed to level."
 
-*** Litany
+To further illustrate the four layers and show how such an analysis
+might proceed, Appendix \ref{appendix-pizza} introduces a CLA analysis
+of a fictional mom-and-pop pizza shop.
 
-- *Contents*: Observable facts, events, and quantitative trends.
-- *Analysis*: Minimal processing of data.
-- *Literature*: News reports, tax filings, chit-chat.
-
-**** 🍕 Example, Litany Layer
-Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
-*** System
-
-- *Contents*: The social, economic, political, and historical forces which shape events.
-- *Analysis*: Technical explanations and interpretation of data within a given paradigm.
-- *Literature*: Editorials and policy institute reports.
-
-**** 🍕 Example, System Layer
-Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
-
-*** Relation of System Layer and Litany Layer
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-The stress mentioned above is an upshot of all of the activity
-described.  Business is booming, money is flowing: that’s not the
-problem.  However, some confusion has ensued about who should be
-managing the restaurant, on what days, where to get the ingredients,
-and how much they should spend.  Here we get a sense of what’s missing
-at the system level, namely, they haven’t yet found a systematic way to sort
-out the confusion.
-
-*** Worldview
-
-- *Contents*: Core values and attitudes which motivate choices and
-  actions.
-- *Analysis*: Uncover deep assumptions and study the mental and
-  linguistic constructs which undergird how people interact with each
-  other and their surroundings.  Compare and critique paradigms and
-  discourses.
-- *Literature*: Works of philosophy and critical theory.
-
-**** 🍕 Example, Worldview Layer
-Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
-*** Relation of Worldview Layer and System Layer
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-Earlier we looked at the choices that the couple made, relative to their experiences, environment, and background.  Now we see some of the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, their two worldviews—while not disjoint or necessarily in conflict—are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved now that they are small business owners.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
-
-*** Myth
-- *Contents*: The symbols and tales which give meaning to life.
-- *Analysis*: Study meaningful symbols and the myths and rituals within which they participate.
-- *Literature*: Poetry, art, anthropology, Jungian analysis.
-**** 🍕 Example, Myth Layer
-Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom has fond childhood memories of parents who loved cooking together, and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
-*** Relation of Myth Layer and Worldview Layer
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-Innovation at the myth layer supports an adapted worldview that
-introduces new patterns into their daily and weekly rituals, along
-with new sources of meaning.  Mom and Pop decide to close the shop Monday
-through Wednesday, to spend time away from the business, as part of a
-new weekly cycle that mirrors the seasons.
-
-# They engage with hobbies like writing, woodwork, and painting, and
-# they tend their garden together.  Thursday through Sunday, they
-# resolidify their intention to make their work together a meditation on
-# love. They develop new ideas, related to food and otherwise.  Boosted
-# by their time off, they prepare more innovative meals and, while the
-# restaurant remains affordable, they garner enthusiastic crit from
-# foodies.
+\begin{table}[t]
+\begin{mdframed}
+\begin{tabular}{c}
+\textbf{Litany}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] Observable facts, events, and quantitative trends.
+\item[Analysis:] Minimal processing of data.
+\item[Literature:] News reports, tax filings, chit-chat.
+\end{description}
+\medskip
+\end{minipage}\\
+\textbf{System}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] The social, economic, political, and historical forces which shape events.
+\item[Analysis:] Technical explanations and interpretation of data within a given paradigm.
+\item[Literature:] Editorials and policy institute reports.
+\end{description}
+\medskip
+\end{minipage}\\
+\textbf{Worldview}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] Core values and attitudes which motivate choices and actions.
+\item[Analysis:] Uncover deep assumptions and study the mental and linguistic constructs which undergird how people interact with each other and their surroundings.  Compare and critique paradigms and discourses.
+\item[Literature:] Works of philosophy and critical theory.
+\end{description}
+\medskip
+\end{minipage}\\
+\textbf{Myth}\\
+\begin{minipage}{\textwidth}
+\begin{description}
+\item[Contents:] The symbols and tales which give meaning to life.
+\item[Analysis:] Study symbols and narratives, and the myths and rituals within which they participate.
+\item[Literature:] Poetry, art, anthropology, Jungian analysis.
+\end{description}
+\end{minipage}
+\end{tabular}
+\end{mdframed}
+\medskip
+\caption{Overview of the layers in Causal Layered Analysis\label{tab:cla-summary}}
+\end{table}
 
 ** Design Pattern Languages
 <<dpl_method>>
@@ -535,7 +485,8 @@ two main foci: context and community.
 Integral to the basic concept of a design pattern is a third feature
 that describes the interaction of the community and the context.  The
 community uses the pattern to overcome some real or potential /conflict/
-that they experience within this context.  The conflict is also
+that they experience within this context.[fn::¶¶¶ Let’s make sure to be clear that the community is not necessarily homogeneous, and this can be part of how they experience the conflict; i.e., it is not necessarily the case that all members of the community share the same experience or view of the conflict situation, or that they are all uniformly affected by it.]
+The conflict is also
 referred to as a /problem/; its resolution is described as a /solution/.
 Alexander and Poyner emphasised that ‘design’ is not needed when the
 conflict can be resolved in an obvious or straightforward manner.  For
@@ -639,19 +590,107 @@ the \textbf{context} and the \textbf{problem}, but is there anything here that a
 \end{echo}
 This is certainly a worthy concern, and something we will come back to in Section [[erg-summary]], after looking at an example of the [[PLACARD][PLACARD]] pattern in use.
 
+* Results
+<<Results>>
 
-* Case study: Planning “Season 1” for the Emacs Research Group
-<<Case_study>>
+We developed two Causal Layered Analyses that traverse different
+scales.  At the larger scale, we developed a CLA of the design pattern
+literature and practices, with the purpose of scaffolding an
+examination of the future of the design pattern theory.  At the
+smaller scale, we made practical use of CLA alongside the PAR and DPL
+methods within a distributed research seminar.  Details of the
+analyses are presented in Appendix \ref{Analysis} and Appendix
+\ref{Case_study}, respectively, henceforth referred to here as the
+*Analysis* and *Case Study*.
 
-This section summarises the concrete application of the methods
-from Section [[methods]] within an active seminar, the Emacs
+In précis, our Analysis examined:
+- Queries raised by Alexander and his collaborator Bryant, along with a systematic analysis of criticisms of pattern methods collected by Dawes and Ostwald.
+- Issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been framed at PLoP.
+- The worldview linked with patterns through the lens of mob software and its critiques.
+- Symbols and philosophical traditions that enrich our understanding of the context in which Alexander developed his methods.
+
+Taking a deep dive into DPL via CLA allows us to gain perspectives on
+how design patterns work.  In particular, we have illustrated the
+complexity that underpins the model.  We see how the concept of
+patterns is simultaneously pragmatic and metaphysical in nature.
+Alexander expands on the latter themes in /TNO/.  Our Analysis shows how
+the more ephemeral-seeming factors are ramified across various layers
+of organisation.
+
+Our Case Study works at the small scale, but combines all three
+methods in line with the [[PLACARD][PLACARD]] pattern introduced
+above.  Specifically, in the research seminar, we used the PAR to
+surface matters of concern and highlights in each session of the
+seminar.  We used the CLA to organise this body of data into a
+coherent statement of purpose.  Then, we used DPL to turn this
+statement into a plan of action.
+
+Looking across the Analysis and Case Study suggests several useful
+points of comparison.  Firstly, although the Analysis was not
+explicitly connected with patterns—as in the Case Study—that
+limitation could filled out in later work.  In some sense that would
+be needed to formally address the theme of our title, “Patterns of
+Patterns”.  That said, at a narrative level we develop directions for
+development in the following sections, and as such the Analysis gives
+rise to an informal set of high-level patterns.
+
+Additionally, we can reflect that the focal communities in our
+Analysis and Case Study—namely, the Pattern Languages of Programs
+conference, and the Emacs Research Group—are both projects within the
+larger system of contemporary computing, which is organised with
+various loose hierarchical structures.  As such, both projects inherit
+attributes from the larger communities/networks and histories to which
+they are heirs.
+
+The Emacs Research Group is a small subcommunity of the larger Emacs
+community, and thus inherits two core tenets at the /worldview/ level:
+
+- A preference for Free/Libre/Open-Source Software, as defined by the “four freedoms”.[fn:: https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms]
+- Enthusiasm for the features and affordances of Emacs, an extensible, customizable, and self-documenting editor cite:Stallman1981.
+
+Both of these points have their origins in the worldviews and myths of
+the hacker culture, in which Stallman, Steele and Gabriel all
+participated.  As we saw above, at the worldview level, FLOSS is
+sometimes linked with the concepts of a “gift economy”
+cite:raymond1999cathedral and the theory of “self-organized emergence” /à
+la/ Kauffman.  Whereas Stallman, Steele, and Gabriel come primarily
+from the functional programming background, Ward Cunningham comes from
+the Object Oriented (OO) programming subcommunity: these different
+communities were not always in direct contact.  The =c2= pattern wiki
+was primarily linked with OO traditions.  
+
+There, “openness” is a key value at the worldview level: we observed,
+that the emphasis was on /in situ/ editability and community effort.
+With Emacs and the broader GNU project, the emphasis is both on the
+availability of source code and the right to reuse it.  A third
+perspective on openness comes from Gene Demby and Ashe Dryden, who,
+along with others, have pointed out that the open source community may
+not be so open, in practical terms, to newcomers from all genders and
+ethnic backgrounds.[fn::
+https://www.npr.org/sections/codeswitch/2013/12/05/248791579/why-isnt-open-source-a-gateway-for-coders-of-color][fn::
+https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community]
+
+Meanwhile, the theme of /openness/ appears, with varations, at all
+levels of our Analysis.  It can now be seen as manifold openness /to/:
+- /criticism/ (Dawes and Ostwald cite:dawes2017a),
+- /interpretation/ (Dawes and Ostwald again cite:Dawes2018)
+- /failure/ (Gabriel cite:gabriel2002a), as well as to physical forms of
+- /permeability/ (Alexander of /APL/, together with the Greek god Hermes cite:benvenuto1993hermes).
+
+Bringing these perspectives together affords a more comprehensive
+understanding of the concept of openness, along with its relationship
+to other linked concepts like freedom, rights, and ethics; from this
+basis we can explore dialectic tensions, and potentially initiate
+dialogue.  “Openness” is but one of the themes appeared in the
+CLA of the DPL literature and practices.
+
+Meanwhile, from our Case Study we can see, in practical terms, how
+content like that developed in the an analysis can develop further.  
+The Case Study applied the [[PLACARD][PLACARD]] method to Emacs
 Research Group (ERG), which was convened following EmacsConf
 2020.[fn:: https://emacsconf.org/2020/; the conference took place November 28th and 29th of 2020.]
-We illustrate how the
-three methods introduced above interoperate.  In our case, this
-analysis has allowed us to develop a trajectory for the project.
-As a case study, this section is a more-or-less
-self-contained example and shows how mixing the three methods
+In our case, this analysis has allowed us to develop a trajectory for the project.
+As a broader point of reflection, the case study shows how mixing the three methods
 gives us more than the sum of the parts.
 
 In the ERG, we think of the work carried out up to this point as
@@ -682,758 +721,6 @@ A “living” pattern is, accordingly, attached to Next Steps that would help t
 context; when we don’t have any next steps, we put the pattern in a \textsc{Scrapbook}.}
 \end{echo}
 
-Here, we collate these next steps with peeragogy design patterns like \textsc{Roadmap}
-cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top for a
-reworking of the /Peeragogy Handbook/ as a unified pattern language,
-which extends the earlier presentation in cite:patterns-of-peeragogy.]
-\begin{echo}
-To make the way this process works somewhat more clear to the reader, we include the data supporting the CLA from PARs carried out in our 1\textsuperscript{st}, 10\textsuperscript{th}, and 18\textsuperscript{th} sessions (marked with ①, ⑩, and ⑱ below).
-% \footnote{We did two PARs during the eighteenth session.}
-\end{echo}
-By the time of our fourth iteration of the larger
-$\mathrm{PAR}\rightarrow\mathrm{CLA}$ cycle, each section had
-accumulated around 20-30 bullet points of supporting data at a similar level of
-granularity.
-
-# We elaborate new patterns where
-# there is no match for our current needs; one per CLA section:
-# [[FORMAL PATTERNS][FORMAL PATTERNS]], [[SERENDIPITY][SERENDIPITY]], [[RECOMMENDER][RECOMMENDER]] and [[DIVERSITY][DIVERSITY]].  We also
-# cross-reference each of the TODO items with the most closely
-# associated patterns from the poststructural futures toolbox
-# from Section [[CLA_patterns]].  This shows how the lines of
-# thinking that underpins the CLA method can inform further
-# action: *Season 1* will be shaped by this narrative and the
-# corresponding TODO items.
-
-The following four subsections present the result of applying the
-methods described above.
-
-** Understanding data, headlines, empirical world (short term change)
-
-We’ve made progress since we started with the raw themes of *Research
-on/in/with Emacs* back in December 2020.  We’ve met almost every week
-since then, and interviewed some interesting and varied guests.  We
-have a clearer idea of what we want to talk about at the next
-EmacsConf, and how we can be of service to researchers and Emacs
-users.  We have been using a workflow that helps us carefully review
-progress, diagnose issues, and manage our energy.  The next phase of
-this project is to “go public” and mesh with ongoing related
-activities elsewhere, including by getting some training events up and
-running.
-# [fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMAL PATTERNS][FORMAL PATTERNS]] pattern.]
-
-*** Representative supporting data
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-\begin{itemize}
-\item[①] \emph{Everyone shared a brief intro and ideas so we got to know each other}
-\item[⑩] \emph{We’ve brainstormed a couple of options for getting out there: White-papers, Grants, Journal papers (very concrete)}
-\item[⑱] \emph{Alex: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further}
-\end{itemize}
-
-*** Next Steps
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-| Maintain plans for the next six months                  | \textsc{Roadmap}     |
-| Keep doing PARs and CLAs                                | \textsc{Assessment}  |
-| Mesh with other ongoing activities elsewhere            | \textsc{Cooperation} |
-| New user workshops: “Zero to Org Roam”                  | \textsc{Newcomer}    |
-| Come up with a categorical treatment of todo-categories | [[FORMAL PATTERNS][FORMAL PATTERNS]]      |
-
-** Systemic approaches and solutions (social system)
-
-If we tackle big enough projects, it will bring with it the need for
-collaboration.  We like to create tangible deliverables (e.g. journal
-articles). However, “If we knew what the outcome was, it wouldn’t be
-research”—therefore, we’re focusing initially on research methods
-and design documents. That may result in a longer time to write
-initial papers, but when something is released it is more thoroughly
-prepared. Meanwhile, we keep our skills sharp by fixing bugs,
-improving our own workflows, and actively exploring the landscape. All
-these activities are part of the system we implement regularly, which
-minimizes technical debt and allows space for serendipity to occur.
-
-*** Representative supporting data
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-\begin{itemize}
-\item[①] \emph{Part of a greater sense of trying to do something with EmacsConf to federate the community}
-\item[①] \emph{Joe: Leo did an amazing job facilitating the meeting}
-\item[①] \emph{Public Policy conference: (How to get a grant?)}
-\item[⑩] \emph{Potential interview with Leo \& Jethro Kuan (co-maintainers of org-roam)}
-\item[⑱] \emph{Leo did a nice job of intervening}
-\end{itemize}
-
-*** Next Steps
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-| Identify potential stakeholders in Emacs Research               | \textsc{Community}          |
-| Identify stakeholders in the kind of activities we can support  | \textsc{A Specific Project} |
-| Identify venues where we can reach these different stakeholders | \textsc{Wrapper}            |
-| Create some publication to plant a flag for our group           | \textsc{Paper}              |
-| Keep exploring!                                                 | SERENDIPITY                 |
-
-** Worldview, ways of knowing and alternative discourse
-<<erg_worldview>>
-
-We have looked at RStudio and Roam Research as models of (some of) the
-kinds of things we think Emacs can learn from and eventually improve upon.
-‘Practice’ and ‘method’ keep coming up in our discussions as,
-respectively, ‘more bottom up’ and ‘more top down’ ways of actualising
-things.  Concretely, we’ve been studying our own processes and looking
-for the tools and settings that are the most conducive to the work we
-want to do.  For example, instead of having a single Org Roam
-directory shared via Git, what if we had ways of managing sharing of
-notes across ‘graphs’?
-
-Collaboration is familiar to teams across all domains. Even authors
-working alone will collaborate with their past and future selves. What
-is common for all collaborators is that the transfer of information
-must be uninhibited.  If we all had our slipboxes online, we could
-interlink them.[fn:: The zettelkasten (German: “slip box”, plural zettelkästen) is a method of note-taking and personal knowledge management used in research and study.  ([[https://en.wikipedia.org/wiki/Zettelkasten][Wikipedia]])]  This would generalise *ORCiD*, and allow people to
-reference processes that are undergoing evolution.  Maybe a service
-like this would turn into a ‘Tinder for academics’—helping to match
-people based on their interests (or similar people in different
-fields).  So, what’s the price point?  Instead of paying money to go
-to conferences, now we can spontaneously make conferences and
-workshops.  As a guess, $750.0 per user per year might be a fair price—for those who can afford to pay it—if the service helps people to
-do better research and saves a bunch of travel.  We could also set up
-a pricing model proportional to each country’s carbon emissions or
-something like that.
-# [fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
-
-*** Representative supporting data
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-\begin{itemize}
-\item[①] \emph{Wonderful outcome from attending EmacsConf 2020!}
-\item[⑩] \emph{Anthropology + Psychology is a special nightmare for reproducibility}
-\item[⑩] \emph{Maybe the ERG could contribute further patterns?}
-\item[⑱] \emph{But there’s a problem with Emacs, which is that there isn’t proper intro}
-\end{itemize}
-
-*** Next Steps
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-| Spec out the Emacs based ‘answer’ to RStudio, Roam Research                  | \textsc{Community}  |
-| Develop our own intention-based workflow                                     | \textsc{Forum}      |
-| Continue to develop and refine our methods                                   | \textsc{Assessment} |
-| Product and business development plans for a multigraph interlinking service | \textsc{Website}    |
-| A tool to find and match peers/content                                       | RECOMMENDER         |
-
-** Myths, metaphors and narratives: imagined (longer term change)
-
-In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
-perspective]]’.  This includes both retrospective and prospective
-thinking.  For example, the things that were timely 7 years ago might
-not be so timely now; in many cases the relevance of a given
-innovation goes down over time.  However, Emacs has an evolutionary
-character that has allowed it to keep up with the times—becoming
-more relevant and useful ever since Steele and Stallman started to
-systematise [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor MACroS]] for the Text Editor and Corrector (TECO)
-program.  Not only has the technology evolved, but so has the social
-setting in which this work is done.  Whereas the concepts underlying
-the free software movement were based on “[[http://www.gnu.org/software/emacs/emacs-paper.html][communal sharing]]” of source
-code, these methods can be extended and allow us to synthesise new
-relationships within broader semiotic commons.  Emacs can become part
-of a system for addressing large-scale existential problems, by
-expanding the frontier of what’s possible for human beings.
-# [fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
-
-*** Representative supporting data
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-\begin{itemize}
-\item[①] \emph{We generally agreed that we want to make something that exposes intrinsic value of using these tools}
-\item[⑩] [None recorded at this level from this PAR.]
-\item[⑱] \emph{But there was no such guidance; you were in the middle of an alien playground. “But I just wanted to do my Clojure stuff.”}
-\end{itemize}
-
-*** Next Steps
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-| Survey related work                                                 | \textsc{Context}    |
-| Assess what we’re learning                                          | \textsc{Assessment} |
-| Think about how we can help improve gender balance in Free Software | DIVERSITY           |
-
-** Summary
-<<erg-summary>> The narrative paragraphs at each level describe
-abstract patterns occurring among, and mutual accommodation between,
-the bullet points that developed in our PARs.  The Next Steps
-typically do not represent concrete objectives, for instance in a
-‘S.M.A.R.T’ format.[fn:: Specific, Measurable, Achievable, Realistic,
-and Time-bound (Wikipedia)] They are, rather, descriptions of
-anticipated patterns of behaviour—here linked to /bona fide/ design
-patterns.  To refine these items into tasks that are concretely doable
-within the upcoming *Season 1* will require further breakdown and
-elaboration.  We foresee this to be an iterative process, assisted by
-bidirectional links between patterns and next steps.
-
-Software tools will help with this, though our current prototypes
-could certainly be improved.  These prototypes are based on Emacs’s
-built-in Org Mode (a tool for managing information structured in
-outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an Emacs package
-layered on Org Mode and used for creating zettelkasten, which are,
-essentially, wikis), and Org Roam Server (a further layer for
-visualisation of the resulting network structures).  As described in
-Section [[erg_worldview]], these tools have some deficiencies when it
-comes to interlinking varied contents—such as patterns and next
-steps—from distributed sources.  In short, we need to keep improving
-our tools in order to effectively manage growing distributed,
-interlinked, collections of PARs, CLAs, and DPLs, alongside other
-scientific and technical corpora.  Federated Wikis comprise another area
-of work where these concerns are being approached in technical terms
-cite:esfandiari2016distributed,cunningham2013a.
-
-Looking back over the case study, we can now outline an answer to the
-concern raised at the end of Section [[methods]], namely how do the
-[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?
-Broadly, a solution process can often be decomposed into interrelated
-subtasks cite:alexander1964notes,polya1945solve,polya1954plausible.
-\begin{echo}
-A standard problem-solving methodology is to understand the \mbox{(sub-)}context and
-\mbox{(sub-)}problems in detail—along with their relationships to other parts
-of the developing decomposition—and on this basis make predictions about the way
-an intervention could change the overall system.
-\end{echo}
-As we saw in the references to /practice/ and /method/, above, and will
-revisit again later on in the paper, there are “two different forms of
-information processing (bottom-up and top-down)” cite:Teufel2020.  CLA
-can help with both, and in so doing can indeed assist with
-solution-development.  Nominally, CLA is an analytic tool that
-decomposes a problematic situation into /layers/, and /causes/ operating
-at and between these layers.  In this sense it functions top-down.
-However, CLA also plays a synthesis role.  Whereas we could compare
-the PAR to a tangent vector or derivative that gives a momentary
-reading of how things are going at a given point in time, CLA can be
-used to integrate these observations into an overall plan—as we’ve
-seen above.
-
-* Analysis: CLA applied to Design Pattern Language literature and practices
-<<Analysis>>
-
-# \begin{echo}
-# \begin{flushright}
-# \emph{tl;dr: We study Design Pattern Languages practices using Causal Layered Analysis.}
-# \end{flushright}
-# \end{echo}
-
-In the previous section we narrowed our attention to the Emacs
-Research Group and developed a Causal Layered Analysis built by
-studying the PARs we had carried out.  We connected the results with
-Peeragogy patterns as a way to check our work, connect with a
-broader community, and maintain plans for the future.  In this section, we will broaden our gaze
-considerably further.  Although the two sections traverse different
-scales, a CLA of the design pattern community can, subsequently, be
-compared with what we saw above, and this cross-scale comparison
-yields new perspectives.  In précis, in this section:
-- We will look at queries raised by Alexander and his collaborator Bryant, along with a systematic analysis of criticisms of pattern methods collected by Dawes and Ostwald.
-- We examine issues related to how people share and discuss patterns, as well as the changing way in which these discussions have been framed at PLoP.
-- We examine a worldview linked with patterns through the lens of mob software and its critiques.
-- Lastly, we look at some symbols and philosophical traditions that enrich our understanding of the context in which Alexander developed his methods.
-
-Practical next steps linked to patterns (as in the previous section)
-could be developed in later work.  We discuss some likely directions
-for development in the following sections.
-
-** Litany: Understanding data, headlines, empirical world (short term change)
-
-# ¶¶¶ Peace movement vs Anti-war movement: issues of identity after "success"
-
-The first layer in CLA is the *litany layer*: it describes the problems
-that people are well familiar with.  In the case of the design
-patterns discourse, this level includes—in particular—the familiar
-kinds of conflict-based problems that are described in patterns and discussed
-at PLoP, along with higher-order problems of application, and debates about these (e.g.,
-ranging from Christopher Alexander’s “\textsc{Entryway Transition}” pattern to
-his remarks about how people who attempted to apply his methods
-ended up placing “alcoves everywhere”, etc.). This layer is sometimes
-also referred to as the *problem level*: in the patterns discourse,
-problems abound.  Indeed, one of the core attributes of the pattern community is that it
-is not only comfortable with problems but that it actively seeks them
-out with a ‘problematizing’ discourse.
-
-Not all of the well-known and discussed problems have been solved.
-For example, ‘Alexander's
-Problem’, as described by his collaborator Greg Bryant, is that:
-#+begin_quote
-... despite all of the tools he created, his penetrating research, his
-many well-wrought projects, and his excellent writing, he did not
-manage to grant, to his readers, the core sensibility that drove the
-work. He also did not organize the continuance of the research program
-that revolves around this sensibility. cite:bryant2015
-#+end_quote
-Attempts to work out a practical solution to this problem are
-developing.[fn:: https://www.buildingbeauty.org/ and
-https://www.buildingbeauty.org/beautiful-software] Coming at the same
-basic issue from a more visionary standpoint, Alexander framed this
-query for the programmers who were using pattern methods at the turn
-of the millennium:
-#+begin_quote
-What is the Chartres of programming? What task is at a high enough
-level to inspire people writing programs, to reach for the stars?
-cite:alexander1999a
-#+end_quote
-More recently, Dawes and Ostwald cite:dawes2017a develop an
-elegant taxonomy of criticisms of the pattern method.  In
-outline, their taxonomy covers criticisms at the following three
-layers:
-- Conceptualisation :: Ontology, Epistemology \newline /(e.g., “Rejecting pluralistic values confuses subjective and objective phenomena”)/
-- Development and documentation :: Reasoning, Testing, Scholarship \newline\hfill /(e.g., “The definitions of ‘patterns’ and ‘forces’ are inexplicit”)/
-- Implementation and outcomes :: Controlling, Flawed, Unsuccessful \newline\hfill /(e.g., “Patterns disallow radical solutions”)/
-
-By showing how the criticisms relate to one another, Dawes and Ostwald
-begin to develop a [[GENEALOGY][GENEALOGY]] at the level of critical perspectives.
-The critiques they examine show that there is not just one pattern
-discourse, but many.  In a parallel work the same authors analyse the
-structure of Alexander’s classic text, /A Pattern Language/ (/APL/) and develop
-three alternative perspectives on /APL/'s contents, which they refer to
-as the *generalised*, *creator*, and *user* perspectives cite:Dawes2018.
-These perspectives amount to different techniques for [[REORDERING KNOWLEDGE][REORDERING
-KNOWLEDGE]].  We will elaborate at the next level.
-
-** System: Systemic approaches and solutions (social system)
-The *system* layer is typically understood in terms of the *social
-phenomena* that cause the problems at the litany layer to emerge (along
-with their familiar solutions).  In the original setting in which
-patterns developed, this layer would have included causes such as more
-people living in cities, combined with the possibility of developing a
-more community-driven approach to design using contemporary
-technologies.  In short, at this level, we examine where the familiar problems come from.
-
-Dawes and Ostwald’s cite:Dawes2018 central finding is that many patterns in which
-Alexander had medium or low confidence in fact occupy a relatively
-central position in /APL/'s graph:
-
-#+begin_quote
-... the patterns which are most likely to be encountered by designers –
-are most easily accessed, or provide greatest access to other patterns
-– might be those which Alexander acknowledged were incapable of
-providing fundamental solutions to the problems they addressed.
-#+end_quote
-
-This means that novice users could be expected to encounter problems
-in application of /APL/'s patterns: “despite its often authoritative and
-dogmatic tone, Alexander’s text was framed as a work in progress,
-rather than a definitive design guide” (p. 22).  Dawes and Ostwald
-suggest that their analysis could point to “prime opportunities to
-continue the development of /A Pattern Language/'' (p. 21).
-
-\begin{echo}
-Here, a range of media issues begin to crop
-up.\endnote{At this point it is also useful to recall that there are a
-range of ‘other’ pattern discourses which could be relevant to
-understanding how the problems emerge: here, ‘other’ is intended in
-the sense mentioned in our \hyperref[REORDERING KNOWLEDGE]{REORDERING KNOWLEDGE} pattern, i.e., pointing to other communities who are not in
-close touch with PLoP: these include PurPLSoc and the world of
-practicing architects.}
-\end{echo}
-Broadly put: there have been some attempts at
-creating systematic archives of patterns cite:koppeRepos,inventadoRepos, but these
-efforts haven’t always garnered significant buy-in.
-Importantly, the first-ever Wiki was developed in connection with a
-platform for developing, sharing, and revising pattern languages
-cite:cunningham2013a.[fn:: http://wiki.c2.com/?PeopleProjectsAndPatterns][fn:: http://c2.com/ppr/]
-However, there was a distinction between the discussions and the finished patterns.  In the 2013 retrospective,
-Ward Cunningham and coauthor Michael Mehaffy write:
-#+begin_quote
-The original wiki technology functioned in a direct open-source mode,
-which allowed individuals to contribute small pieces to incrementally
-improve the whole. (/ibid./)
-#+end_quote
-This is true if by “open source” we understand what you see when you click Edit—but
-the statement could be misleading relative to contemporary usage, which is often linked with
-the Open Source Initiative’s definition, which centers on the premise that
-“Open source doesn’t just mean access to the source code.”[fn:: https://opensource.org/osd]
-On the =c2= wiki, licensing was restrictive. Discussions were to take place in “letters and replies” rather than revision or annotation of the published patterns; rights associated with the finished patterns were closely guarded.[fn:: http://c2.com/ppr/titles.html][fn:: http://c2.com/ppr/about/copyright.html]
-
-Although Wiki technology could in principle have been a site for
-ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of patterns, this hadn’t happened on =c2=.
-This is itself interesting and worth deconstructing a bit.  Notably,
-there were only /four/ published “letters and replies”.[fn::
-http://c2.com/ppr/letters/index.html] Unfortunately, we could not find
-a public archive of the design patterns mailing list where further
-discussions took place.  This suggests certain factors of contingency
-in the development of the discourse.  Over the years, some of these concerns have been addressed—e.g.,
-through the introduction of Federated Wikis and new licensing
-models—and other issues and concerns came to the fore.
-
-Dawes and Ostwald’s cite:Dawes2018 remarks on multiple perspectives on
-pattern languages resonate Jenifer Tidwell’s charges against the Gang
-of Four:
-
-#+begin_quote
-... the reality of a software artifact that the developer sees is not
-the only one that's important.  What about the user's reality?  Why
-has that been ignored in all the software patterns work that's been
-done?  Isn't the user's experience the ultimate reason for designing a
-building or a piece of software?  If that's not taken into account,
-how can we say our building -- or our software -- is “good”? — “The Gang of Four Are Guilty”[fn:: [[http://www.mit.edu/~jtidwell/gof_are_guilty.html]]]
-#+end_quote
-
-Notice that the /user/ of the designed artefact has entered the
-story as a different figure from the user of the pattern language,
-whom we met above.  Tidwell’s critique suggests at least a
-couple [[ALTERNATIVE PASTS AND
- FUTURES][ALTERNATIVE PASTS AND FUTURES]]: e.g., what if the end-user had been
-placed at the centre the whole time?  Alternatively, what if the
-primary focus of patterns was to facilitate interaction between
-different stakeholders?  The fact that Tidwell’s book
-cite:tidwell2010designing and an essay by Jans Borchers cite:borchers2008pattern
-which drew inspiration from her critique both have over
-1000 citations on Google Scholar shows that Tidwell’s perspective has
-been impactful.  To get a sense of how the pattern community may have
-been informed by this critique—alongside other related trends and concerns—we can look at
-how the Writers Workshops at PLoP have evolved over time.  In Table [[tabplop]], a
-selection of titles of workshop sessions show how the focus of PLoP evolved from
-primarily ‘programming’ oriented to a much broader contextual view
-over time.  Indeed, by 2019, the focus is almost exclusively ‘contextual’.
-The way the themes under discussion have evolved brings to mind the layers of CLA.
-
-#+NAME: tabplop
-#+CAPTION: Evolution of PLoP Writers Workshop topics in selected years: CLA in the wild?
-| *1997*                        | *2011*         | *2015*                            | *2019*               |
-| Architecture                | Architecture | Pattern Writing                 | Group Architecture |
-| Roles and Analysis          | Design       | Software Architecture & Process | Culture            |
-| People and Process          | Information  | Cloud & Security                | Meta               |
-| Domain Specific Techniques  | People       | Innovation & Analysis           | Education          |
-| OO Techniques               | Pedagogy     | People & Education              |                    |
-| Non-OO Techniques           |              |                                 |                    |
-
-\rowcolors{2}{gray!25}{white}
-** Worldview: ways of knowing and alternative discourse
-
-The next layer comprises *worldviews* (e.g., Alexander’s view that
-“There is a central quality which is the root criterion of life and
-spirit in a man, a town, a building, or a wilderness”).
-
-The situation with licensing on =c2= is particularly interesting in
-light of Alexander’s perspective that /APL/ was a “living language”.  In
-principle, Wiki technology might have presented the opportunity to
-realise this vision fully for the first time, in a virtual setting.
-Wiki technology did become widely influential when it was combined
-with a free content license on Wikipedia (originally GNU FDL, later
-CC-By-SA).
-
-Fast-forwarding to the present day, Christopher Alexander’s website
-=patternlanguage.com= writes about [[https://www.patternlanguage.com/membership/memberstour3-struggle.html][The Struggle for People to be Free]]—but it is not referencing freedom in the GNU sense.
-
-In 1979 he was concerned: “Instead of being widely shared, the
-pattern languages which determine how a town gets made becomes
-specialized and private.”  In 2021, /APL/ itself is only legally
-available for subscribers or for people who purchase a paper copy of
-the book. (Or through a library!)  Of course, like many famous texts
-it can also be obtained extra-legally for download as a PDF: but that
-format does not afford downstream users the opportunity to collaborate
-on the text’s further development.
-
-Gabriel and Goldman talk about sharing and gift culture in their essay
-[[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erotic Life of Code]].[fn:: Notably, this essay was
-presented as a keynote talk at the same programming conference where
-Alexander had delivered his keynote, cite:alexander1999a, four years previously.]  This reference suggests
-another reason why sharing knowledge in non-editable formats can be
-problematic.  Their primary source on gift culture is Hyde
-cite:hyde2019gift, who talks about what happens when exchange items
-are taken out of the gift exchange culture and put in a museum:
-
-#+begin_quote
-A commodity is truly “used up” when it is sold because nothing about
-the exchange assures its return.  The visiting sea captain may pay
-handsomely for a Kula necklace, but because the sale removes it from
-the circle, it wastes it, no matter the price.  Gifts that remain
-gifts can support an affluence of satisfaction, even without numerical
-abundance. (/ibid./, Chapter 1, p. 29)
-#+end_quote
-
-Gabriel and Goldman reference the open source community—but not the
-free software community, so we will follow their usage here—as the
-origin of Mob Software.
-
-#+begin_quote
-Because the open source proposition asked the crucial first question,
-I include it in what I am calling “mob software,” but mob software
-goes way beyond what open source is up to today. cite:gabriel2000mob
-#+end_quote
-
-That question is: “What if what once was scarce is now abundant?”  It
-is well known that the PLoP conference series builds on this idea: it
-includes shepherding and workshops cite:gabriel2002a as well as games,
-informal gifts, and other measures that aim to create a sense of
-psychological safety: all features that make PLoP a space where
-‘failure’ is OK and even celebrated, as per Mob Software.  The essay
-develops its own criticisms of open source, e.g., “the open-source
-community is extremely conservative” and forking happens rarely.
-(Five years later, with the creation of Git, forking became more
-typical.)  Resonating with Tidwell’s critique from above:
-
-#+begin_quote
-One difference between open source and mob software is that open
-source topoi are technological while mob software topoi are people
-centered.
-#+end_quote
-
-On a technical basis, Gabriel’s vision sounds a lot like today’s world
-of /microservices/.
-While his vision hasn’t fully come to pass—for example there are still many
-services with proprietary source code—nowadays many big companies
-are also big proponents of open source.  Here we can notice that
-Gabriel was employing a technique of imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND
-FUTURES]], e.g., he imagined a future in which:
-
-#+begin_quote
-Mentoring circles and other forms of workshop are the mainstay of
-software development education. There are hundreds of millions of
-programmers.
-#+end_quote
-
-We would like to dig somewhat deeper into the foundations of the
-worldview that Gabriel puts forth in this essay. Usefully, an article
-by VanDrunen “traces the source of Gabriel’s ideas by examining the
-authorities he cites and how he uses them and evaluates their validity
-on their own terms” cite:vandrunenchristian.  VanDrunen’s critique functions
-as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
-Some key excerpts appear in Table [[tabone]].  
-
-#+NAME: tabone
-#+CAPTION: Key observations from VanDrunen’s critique of Gabriel’s “Mob Software” essay
-#+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| “Kauffman’s work is about a rediscovery of the sacred, and it amounts to a proposal of the laws of self-organization as a new deity”                                                                                                                  |
-| “One thing we find in common with Lewis Thomas’s ants, Kauffman’s autocatalytic sets of proteins, and the agents inhabiting Sugarscape is that they all lack intelligence.”                                                                           |
-| “In other words, the rules given by Gabriel describe only the conforming aspect of group behavior. In reality, there is a tension between independent and conforming tendencies, and the flock patterns emerge from the interaction between the two.” |
-| “His examples of ‘mob activity’... the making of the Oxford English Dictionary, cathedral-building, and open source software discussed later—all had oversight, master-planning of some sort.”                                                        |
-| “There are several distinct senses of ‘gift’ that lie behind these ideas, but common to each of them is the notation that a gift is a thing we do not get by our own efforts.” [Quoting Hyde cite:hyde2019gift.] |
-| “Certainly proprietary code is shared property among those working in a corporate development team, but it is not common to the larger community of software developers and users.”                                                                   |
-| “A computer program is not like a poem or a dance in this way; if the programmer is not able to produce something parsable in the programming language or cannot fit the instructions together in a logical way, the program simply will not work.”   |
-| “Gabriel’s own experience may color his perception. He founded a software company that produced programs for Lisp development and which went bankrupt after 10 years.”                                                                                |
-| “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim”                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-It is worth noting that this is by no means a complete critique.  As
-an an example of one direction that we will not have time and space to
-develop here, some applications of the concept of ‘gift culture’ have
-been criticised as hegemonic in nature cite:Mallard2019: should we
-expect pattern-theoretic, mob, or free/libre/open source software
-culture to be immune from such concerns?  VanDrunen’s criticisms are
-useful for our purposes not because they provide the last word, but
-because they points to the importance of considering the deeper layers
-in developing a concept or approach.  There may also be conflicts at
-these deeper layers.
-
-It is also worth noting that mob software is but one of many diverse
-visions of the future of programming cite:postmodernProgramming.  An
-embrace of diverse perspectives seems to be a fundamental part of the
-associated worldview.  After all, the
-primary theoretical model of a computer is termed "universal".
-Perhaps there is a bit of a paradox or double bind here, insofar as we embrace diverse
-perspectives just as long as they are compatible with our core tenets.
-For at least some pattern authors, these include “their love of programs
-and programming” (/ibid./).  (On this last point, both VanDrunen and Gabriel
-seem to agree.)
-
-
-** Myths: metaphors and narratives (longer term change)
-
-Lastly, there are *myths or metaphors* (e.g., Alexander’s idea that the
-architect’s work is done ‘for the glory of God’ (see Galle
-cite:GALLE2020345) or his conception that ‘primitive’ dwellings
-contain more life).  To emphasize, CLA does not dismiss myths in the
-slightest: on the contrary, they are what drive the other layers.
-Another term that is used to characterise this layer is *narratives*.
-VanDrunen surfaced various concepts in Gabriel’s essay that would be
-at home at this level, for example, the concept of duende that Gabriel
-takes over from Garcia Lorca originally derives from /dueño de casa/,
-the name of a certain kind of household spirit.  However, myth here
-does not just refer to such entities, but to the most deeply held
-beliefs and concepts that underlie worldviews.
-
-One important narrative for the pattern discourse is in plain view
-within the terminology of problems and solutions, which come from
-mathematics and physics.  Alexander worked /at the level of narrative/
-to connect the patterns discourse to a scientific worldview, seeking a
-sense of objectivity.  For example, in “The Atoms of Environmental
-Structure”:
-
-#+begin_quote
-most designers ... say that the environment cannot be right or wrong
-in any objective sense but that it can only be judged according to
-criteria, or goals, or policies, or values, which have themselves been
-arbitrarily chosen.  We believe this point of view is mistaken.
-#+end_quote
-
-Notice that, here, the discourse is positioned as different from the
-mainstream of architecture.  The key differentiator is not the
-language of problems and solutions, which would be familiar to anyone
-with an engineering background; rather, but in a certain notion of
-/wholeness/.  Which notion of wholeness remains to be surfaced.
-Quoting, again, from “The Atoms of Environmental Structure”, we get
-some relevant background:
-
-#+begin_quote
-We believe that all values can be replaced by one basic value:
-everything desirable in life can be described in terms of freedom of
-people’s underlying tendencies. ... The environment should give free
-rein to all tendencies; conflicts between people’s tendencies must be
-eliminated.
-#+end_quote
-
-Historically, there are at least two major varieties of wholeness: one
-that is based on progressive differentiation (e.g., unfolding from
-substance, per Spinoza), and the other generated by interaction
-between components (e.g., mutually reflecting monads, per Leibniz).
-In support of these allusions, a quote of Alexander from /The Nature of
-Order/ (/TNO/): it “may be best if we redefine the concept of God in a
-way that is more directly linked to the concept of ‘the whole.’”
-\begin{echo}This sounds a lot like Spinoza!\endnote{We can obtain some useful \hyperref[DISTANCE]{DISTANCE} by thinking about how different kinds
-of wholeness are associated with different symbols. In terms of
-metaphors, we have already encountered overt images like that of
-Chartres cathedral.  If we allow ourselves to explore further afield,
-other symbols of wholeness come to mind: these include the circle, the
-cross—or potentially the cross inside a circle,
-\begingroup\alch\symbol{"3B}\endgroup.
-Related but more
-elaborated symbols include the circle with a cross rising above it
-(\varTerra) which is both the modern astronomical symbol for Earth and
-also linked with the Carthusian order, and the Rod of Asclepius
-(\Asclepius, for the deity associated with healing or making whole)—this last symbol sometimes being inter-confused with the Caduceus
-(\Caduceus, the symbol of Hermes, the deity associated with mediation
-of various forms, and also echoed in the planetary symbol for Mercury,
-\begingroup\alch\symbol{"53}\endgroup).}
-\end{echo}
-Indeed, the pattern discourse appears to draw from /both/ major traditions of wholeness, while also
-seeking to unite them.  We get the idea of unfolding in /APL/ and other
-pattern languages that work in a top-down manner: however, we also get
-the notion of patterns and principles that are generative of emergent
-phenomena.
-
-At this level, architecture and programming were seen, by Alexander
-cite:alexander1999a, to unite: his questions for the computer
-scientists to whom he was speaking point in the direction of
-bio-hacking and nanotechnology (e.g., for molecular self-assembly)—at least at the allusive level.  The following quote suggests we have
-embarked on a fruitful track by attempting to think at the deeper
-layers of the pattern discourse:
-#+begin_quote
-Generative patterns work indirectly; they work on the underlying
-structure of a problem (which may not be manifest in the problem)
-rather than attacking the problem directly.[fn:: https://wiki.c2.com/?GenerativePattern]
-#+end_quote
-
-\begin{echo}
-Clearly, another key metaphor—which also has a
-generative aspect—is the metaphor of \emph{language}.\endnote{“... as
-in the case of natural languages, the pattern language is
-generative. It not only tells us the rules of arrangement, but shows
-us how to construct arrangements - as many as we want - which satisfy
-the rules.”—\url{https://wiki.c2.com/?GenerativePattern}, quoting from
-\emph{The Timeless Way Of Building}, pp. 185-6.}
-\end{echo}
-The prominence of linguistic metaphors within DPL reminds us that
-Alexander’s architectural oeuvre contains many traces of symbols associated
-with Hermes: a deity associated with communication and mediation.
-Through these reflections we gain some useful [[DISTANCE][DISTANCE]].
-#+begin_quote
-In the house, [Hermes’] place is at the door, protecting the
-threshold... He could be found around city gates, intersections, state
-borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes
-#+end_quote
-At the time when Hermes was actively embraced as a deity, in some
-traditions he was paired with Hestia, the goddess of the hearth, whose
-“domain was internal, the closed, the fixed, the inward” (/ibid./, here
-and in quotes later in this paragraph).  The discourse around patterns
-contains some aspects that move towards foundations (e.g., in the form
-of fundamental principles, per /TNO/).  Such foundations could be
-associated with Hestia, whereas Hermes would be on the side of
-generativity and mutation.  The dichotomy seems to repeat itself
-within the /TNO/ principles themselves: recalling that "focus" is the Latin
-term for the hearth, Strong Centers would align with Hestia, whereas
-Hermes would align more with Deep Interlock and Ambiguity.  The
-resolution of the two forces within pattern language—as a form—seems be a variation of these Nietzschean lines: “anything that is
-becoming returns” (i.e., is discussable as pattern), and, “contingency
-resolves itself into necessity” (i.e., the wholeness of generativity
-ultimately recovers the wholeness of unfolding).
-
-\begin{echo}
-Our task in this section has been to situate Alexander’s thought
-relative to the myths and symbols of wholeness; we’ve surfaced some of
-the tensions and dynamics that exist at this level.  Relationships to some
-other contemporary thinkers are discussed by Elsheshtawy \cite{Elsheshtawy2001},
-in particular, a relationship to Piaget’s conception of operational wholeness is developed.
-Alexander, for his part, professed ignorance of French Structuralist theory (quoted at \emph{ibid.})—in particular, of Barthes and Foucault, whom Inayatullah draws upon—and he tags Nietzsche
-as a nihilist, while distinguishing his own work
-as comparatively hopeful \cite{alexander1991perspectives}. For further
-reflections on Nietzsche and wholeness, see \cite{bishop2020holistic}.
-For more on Hestia and Hermes in an architectural
-context, see \cite{springhestia}.
-\end{echo}
-
-** Summary
-A benefit of this deep dive into DPL via CLA is that we have gained
-some new perspectives on how design patterns work.  In particular, we
-have illustrated the complexity that underpins the model.  The concept
-of patterns is simultaneously pragmatic and metaphysical in nature.
-Alexander expands on the latter themes in /TNO/.  What we’ve seen above
-is how these more ephemeral-seeming factors are ramified across
-various layers of organisation.  For example, the theme of /openness/
-can now be related to openness /to/:
-- /criticism/ (Dawes and Ostwald cite:dawes2017a),
-- /interpretation/ (Dawes and Ostwald again cite:Dawes2018)
-- /failure/ (Gabriel cite:gabriel2002a), as well as to physical forms of
-- /permeability/ (Alexander of /APL/ and the Greek god Hermes cite:benvenuto1993hermes).
-
-We can expand this point and use it to illustrate what such an
-analysis can potentially enable; specifically, we are interested in
-CLA as a way to bring together different communities.  For example,
-ERG and PLoP are both projects within the larger system of
-contemporary computing, which is organised with various loose
-hierarchical structures.  As such, both projects inherit attributes
-from the larger communities/networks and histories to which they are
-heirs. For example, ERG is a small subcommunity of the larger Emacs
-community, and thus inherits two core tenets at the /worldview/ level:
-
-- A preference for Free/Libre/Open-Source Software, as defined by the “four freedoms”.[fn:: https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms]
-- Enthusiasm for the features and affordances of Emacs, an extensible, customizable, and self-documenting editor cite:Stallman1981.
-
-Both of these points have their origins in the worldviews and myths of
-the hacker culture, in which Stallman, Steele and Gabriel all
-participated.  As we saw above, at the worldview level, FLOSS is
-sometimes linked with the concepts of a “gift economy”
-cite:raymond1999cathedral and the theory of “self-organized emergence” /à
-la/ Kauffman.  Whereas Stallman, Steele, and Gabriel come primarily
-from the functional programming background, Ward Cunningham comes from
-the Object Oriented (OO) programming subcommunity: these different
-communities were not always in direct contact.  The =c2= pattern wiki
-was primarily linked with OO traditions.  There, “openness” is a key
-value at the worldview level: as we observed, the emphasis was on /in
-situ/ editability and community effort.  With Emacs, the emphasis is
-both on the availability of source code and the right to reuse it.  A
-third perspective on openness comes from Gene Demby and Ashe Dryden,
-who, along with others, have pointed out that the open source
-community may not be so open, in practical terms, to newcomers from
-all genders and ethnic backgrounds.[fn:: https://www.npr.org/sections/codeswitch/2013/12/05/248791579/why-isnt-open-source-a-gateway-for-coders-of-color][fn:: https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community] 
-
-Bringing these perspectives together affords a more comprehensive
-understanding of the concept of openness, along with its relationship
-to other linked concepts like freedom, rights, and ethics; from this
-basis we can explore dialectic tensions, and potentially initiate
-dialogue.  “Openness” is but one of the themes appeared in the
-CLA of the DPL literature and practices.  Various themes weaving
-between the layers have been drawn out, informing the following
-discussion.
-
-# Nietzsche 's Fundamental Metaphysical Position, By Martin Heidegger,
-# Translated by David Farrell Krell, Nietzsche, Volume Two, Chapter
-# 26, pp. 198-208
 
 * Discussion
 <<Discussion>>
@@ -1588,10 +875,7 @@ technical considerations cite:sandve2013ten, the process of doing
 science is “reproducible” if the methods are teachable to others.  The
 Literate Programming paradigm can be useful for this.[fn:: For notes on doing reproducible research with Emacs, see https://emacsnyc.org/2014/11/03/org-mode-for-reproducible-research.html]
   At the same time, collaboration
-across different skill sets is challenging.  One reason we need
-additional scaffolding might be familiar to the protagonists of our
-pizza story: “Innovation foils attempts to be consistent and
-efficient” cite:tan2020uncertainty (p. 12).  Adapting to climate
+across different skill sets is challenging.    Adapting to climate
 change won’t work if we only do business as usual.  In the Minnesota
 2050 project, participants were selected from a variety of professions
 and leadership roles to produce scenarios for energy and land use, and
@@ -1938,7 +1222,683 @@ Smith, David O’Toole, and Rebecca Raper.
 \appendix
 * NOTES :noexport:
 \printendnotes*[sverre]
-* APPENDIX: Example PAR: Emacs Research Group, December 2, 2020
+* SUPPLEMENT: Analysis: CLA applied to Design Pattern Language literature and practices
+<<Analysis>>
+
+** Litany: Understanding data, headlines, empirical world (short term change)
+
+# ¶¶¶ Peace movement vs Anti-war movement: issues of identity after "success"
+
+The first layer in CLA is the *litany layer*: it describes the problems
+that people are well familiar with.  In the case of the design
+patterns discourse, this level includes—in particular—the familiar
+kinds of conflict-based problems that are described in patterns and discussed
+at PLoP, along with higher-order problems of application, and debates about these (e.g.,
+ranging from Christopher Alexander’s “\textsc{Entryway Transition}” pattern to
+his remarks about how people who attempted to apply his methods
+ended up placing “alcoves everywhere”, etc.). This layer is sometimes
+also referred to as the *problem level*: in the patterns discourse,
+problems abound.  Indeed, one of the core attributes of the pattern community is that it
+is not only comfortable with problems but that it actively seeks them
+out with a ‘problematizing’ discourse.
+
+Not all of the well-known and discussed problems have been solved.
+For example, ‘Alexander's
+Problem’, as described by his collaborator Greg Bryant, is that:
+#+begin_quote
+... despite all of the tools he created, his penetrating research, his
+many well-wrought projects, and his excellent writing, he did not
+manage to grant, to his readers, the core sensibility that drove the
+work. He also did not organize the continuance of the research program
+that revolves around this sensibility. cite:bryant2015
+#+end_quote
+Attempts to work out a practical solution to this problem are
+developing.[fn:: https://www.buildingbeauty.org/ and
+https://www.buildingbeauty.org/beautiful-software] Coming at the same
+basic issue from a more visionary standpoint, Alexander framed this
+query for the programmers who were using pattern methods at the turn
+of the millennium:
+#+begin_quote
+What is the Chartres of programming? What task is at a high enough
+level to inspire people writing programs, to reach for the stars?
+cite:alexander1999a
+#+end_quote
+More recently, Dawes and Ostwald cite:dawes2017a develop an
+elegant taxonomy of criticisms of the pattern method.  In
+outline, their taxonomy covers criticisms at the following three
+layers:
+- Conceptualisation :: Ontology, Epistemology \newline /(e.g., “Rejecting pluralistic values confuses subjective and objective phenomena”)/
+- Development and documentation :: Reasoning, Testing, Scholarship \newline\hfill /(e.g., “The definitions of ‘patterns’ and ‘forces’ are inexplicit”)/
+- Implementation and outcomes :: Controlling, Flawed, Unsuccessful \newline\hfill /(e.g., “Patterns disallow radical solutions”)/
+
+By showing how the criticisms relate to one another, Dawes and Ostwald
+begin to develop a [[GENEALOGY][GENEALOGY]] at the level of critical perspectives.
+The critiques they examine show that there is not just one pattern
+discourse, but many.  In a parallel work the same authors analyse the
+structure of Alexander’s classic text, /A Pattern Language/ (/APL/) and develop
+three alternative perspectives on /APL/'s contents, which they refer to
+as the *generalised*, *creator*, and *user* perspectives cite:Dawes2018.
+These perspectives amount to different techniques for [[REORDERING KNOWLEDGE][REORDERING
+KNOWLEDGE]].  We will elaborate at the next level.
+
+** System: Systemic approaches and solutions (social system)
+The *system* layer is typically understood in terms of the *social
+phenomena* that cause the problems at the litany layer to emerge (along
+with their familiar solutions).  In the original setting in which
+patterns developed, this layer would have included causes such as more
+people living in cities, combined with the possibility of developing a
+more community-driven approach to design using contemporary
+technologies.  In short, at this level, we examine where the familiar problems come from.
+
+Dawes and Ostwald’s cite:Dawes2018 central finding is that many patterns in which
+Alexander had medium or low confidence in fact occupy a relatively
+central position in /APL/'s graph:
+
+#+begin_quote
+... the patterns which are most likely to be encountered by designers –
+are most easily accessed, or provide greatest access to other patterns
+– might be those which Alexander acknowledged were incapable of
+providing fundamental solutions to the problems they addressed.
+#+end_quote
+
+This means that novice users could be expected to encounter problems
+in application of /APL/'s patterns: “despite its often authoritative and
+dogmatic tone, Alexander’s text was framed as a work in progress,
+rather than a definitive design guide” (p. 22).  Dawes and Ostwald
+suggest that their analysis could point to “prime opportunities to
+continue the development of /A Pattern Language/'' (p. 21).
+
+\begin{echo}
+Here, a range of media issues begin to crop
+up.\endnote{At this point it is also useful to recall that there are a
+range of ‘other’ pattern discourses which could be relevant to
+understanding how the problems emerge: here, ‘other’ is intended in
+the sense mentioned in our \hyperref[REORDERING KNOWLEDGE]{REORDERING KNOWLEDGE} pattern, i.e., pointing to other communities who are not in
+close touch with PLoP: these include PurPLSoc and the world of
+practicing architects.}
+\end{echo}
+Broadly put: there have been some attempts at
+creating systematic archives of patterns cite:koppeRepos,inventadoRepos, but these
+efforts haven’t always garnered significant buy-in.
+Importantly, the first-ever Wiki was developed in connection with a
+platform for developing, sharing, and revising pattern languages
+cite:cunningham2013a.[fn:: http://wiki.c2.com/?PeopleProjectsAndPatterns][fn:: http://c2.com/ppr/]
+However, there was a distinction between the discussions and the finished patterns.  In the 2013 retrospective,
+Ward Cunningham and coauthor Michael Mehaffy write:
+#+begin_quote
+The original wiki technology functioned in a direct open-source mode,
+which allowed individuals to contribute small pieces to incrementally
+improve the whole. (/ibid./)
+#+end_quote
+This is true if by “open source” we understand what you see when you click Edit—but
+the statement could be misleading relative to contemporary usage, which is often linked with
+the Open Source Initiative’s definition, which centers on the premise that
+“Open source doesn’t just mean access to the source code.”[fn:: https://opensource.org/osd]
+On the =c2= wiki, licensing was restrictive. Discussions were to take place in “letters and replies” rather than revision or annotation of the published patterns; rights associated with the finished patterns were closely guarded.[fn:: http://c2.com/ppr/titles.html][fn:: http://c2.com/ppr/about/copyright.html]
+
+Although Wiki technology could in principle have been a site for
+ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of patterns, this hadn’t happened on =c2=.
+This is itself interesting and worth deconstructing a bit.  Notably,
+there were only /four/ published “letters and replies”.[fn::
+http://c2.com/ppr/letters/index.html] Unfortunately, we could not find
+a public archive of the design patterns mailing list where further
+discussions took place.  This suggests certain factors of contingency
+in the development of the discourse.  Over the years, some of these concerns have been addressed—e.g.,
+through the introduction of Federated Wikis and new licensing
+models—and other issues and concerns came to the fore.
+
+Dawes and Ostwald’s cite:Dawes2018 remarks on multiple perspectives on
+pattern languages resonate Jenifer Tidwell’s charges against the Gang
+of Four:
+
+#+begin_quote
+... the reality of a software artifact that the developer sees is not
+the only one that's important.  What about the user's reality?  Why
+has that been ignored in all the software patterns work that's been
+done?  Isn't the user's experience the ultimate reason for designing a
+building or a piece of software?  If that's not taken into account,
+how can we say our building -- or our software -- is “good”? — “The Gang of Four Are Guilty”[fn:: [[http://www.mit.edu/~jtidwell/gof_are_guilty.html]]]
+#+end_quote
+
+Notice that the /user/ of the designed artefact has entered the
+story as a different figure from the user of the pattern language,
+whom we met above.  Tidwell’s critique suggests at least a
+couple [[ALTERNATIVE PASTS AND
+ FUTURES][ALTERNATIVE PASTS AND FUTURES]]: e.g., what if the end-user had been
+placed at the centre the whole time?  Alternatively, what if the
+primary focus of patterns was to facilitate interaction between
+different stakeholders?  The fact that Tidwell’s book
+cite:tidwell2010designing and an essay by Jans Borchers cite:borchers2008pattern
+which drew inspiration from her critique both have over
+1000 citations on Google Scholar shows that Tidwell’s perspective has
+been impactful.  To get a sense of how the pattern community may have
+been informed by this critique—alongside other related trends and concerns—we can look at
+how the Writers Workshops at PLoP have evolved over time.  In Table [[tabplop]], a
+selection of titles of workshop sessions show how the focus of PLoP evolved from
+primarily ‘programming’ oriented to a much broader contextual view
+over time.  Indeed, by 2019, the focus is almost exclusively ‘contextual’.
+The way the themes under discussion have evolved brings to mind the layers of CLA.
+
+#+NAME: tabplop
+#+CAPTION: Evolution of PLoP Writers Workshop topics in selected years: CLA in the wild?
+| *1997*                        | *2011*         | *2015*                            | *2019*               |
+| Architecture                | Architecture | Pattern Writing                 | Group Architecture |
+| Roles and Analysis          | Design       | Software Architecture & Process | Culture            |
+| People and Process          | Information  | Cloud & Security                | Meta               |
+| Domain Specific Techniques  | People       | Innovation & Analysis           | Education          |
+| OO Techniques               | Pedagogy     | People & Education              |                    |
+| Non-OO Techniques           |              |                                 |                    |
+
+\rowcolors{2}{gray!25}{white}
+** Worldview: ways of knowing and alternative discourse
+
+The next layer comprises *worldviews* (e.g., Alexander’s view that
+“There is a central quality which is the root criterion of life and
+spirit in a man, a town, a building, or a wilderness”).
+
+The situation with licensing on =c2= is particularly interesting in
+light of Alexander’s perspective that /APL/ was a “living language”.  In
+principle, Wiki technology might have presented the opportunity to
+realise this vision fully for the first time, in a virtual setting.
+Wiki technology did become widely influential when it was combined
+with a free content license on Wikipedia (originally GNU FDL, later
+CC-By-SA).
+
+Fast-forwarding to the present day, Christopher Alexander’s website
+=patternlanguage.com= writes about [[https://www.patternlanguage.com/membership/memberstour3-struggle.html][The Struggle for People to be Free]]—but it is not referencing freedom in the GNU sense.
+
+In 1979 he was concerned: “Instead of being widely shared, the
+pattern languages which determine how a town gets made becomes
+specialized and private.”  In 2021, /APL/ itself is only legally
+available for subscribers or for people who purchase a paper copy of
+the book. (Or through a library!)  Of course, like many famous texts
+it can also be obtained extra-legally for download as a PDF: but that
+format does not afford downstream users the opportunity to collaborate
+on the text’s further development.
+
+Gabriel and Goldman talk about sharing and gift culture in their essay
+[[https://dreamsongs.com/MobSoftware.html][Mob Software: The Erotic Life of Code]].[fn:: Notably, this essay was
+presented as a keynote talk at the same programming conference where
+Alexander had delivered his keynote, cite:alexander1999a, four years previously.]  This reference suggests
+another reason why sharing knowledge in non-editable formats can be
+problematic.  Their primary source on gift culture is Hyde
+cite:hyde2019gift, who talks about what happens when exchange items
+are taken out of the gift exchange culture and put in a museum:
+
+#+begin_quote
+A commodity is truly “used up” when it is sold because nothing about
+the exchange assures its return.  The visiting sea captain may pay
+handsomely for a Kula necklace, but because the sale removes it from
+the circle, it wastes it, no matter the price.  Gifts that remain
+gifts can support an affluence of satisfaction, even without numerical
+abundance. (/ibid./, Chapter 1, p. 29)
+#+end_quote
+
+Gabriel and Goldman reference the open source community—but not the
+free software community, so we will follow their usage here—as the
+origin of Mob Software.
+
+#+begin_quote
+Because the open source proposition asked the crucial first question,
+I include it in what I am calling “mob software,” but mob software
+goes way beyond what open source is up to today. cite:gabriel2000mob
+#+end_quote
+
+That question is: “What if what once was scarce is now abundant?”  It
+is well known that the PLoP conference series builds on this idea: it
+includes shepherding and workshops cite:gabriel2002a as well as games,
+informal gifts, and other measures that aim to create a sense of
+psychological safety: all features that make PLoP a space where
+‘failure’ is OK and even celebrated, as per Mob Software.  The essay
+develops its own criticisms of open source, e.g., “the open-source
+community is extremely conservative” and forking happens rarely.
+(Five years later, with the creation of Git, forking became more
+typical.)  Resonating with Tidwell’s critique from above:
+
+#+begin_quote
+One difference between open source and mob software is that open
+source topoi are technological while mob software topoi are people
+centered.
+#+end_quote
+
+On a technical basis, Gabriel’s vision sounds a lot like today’s world
+of /microservices/.
+While his vision hasn’t fully come to pass—for example there are still many
+services with proprietary source code—nowadays many big companies
+are also big proponents of open source.  Here we can notice that
+Gabriel was employing a technique of imagining [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND
+FUTURES]], e.g., he imagined a future in which:
+
+#+begin_quote
+Mentoring circles and other forms of workshop are the mainstay of
+software development education. There are hundreds of millions of
+programmers.
+#+end_quote
+
+We would like to dig somewhat deeper into the foundations of the
+worldview that Gabriel puts forth in this essay. Usefully, an article
+by VanDrunen “traces the source of Gabriel’s ideas by examining the
+authorities he cites and how he uses them and evaluates their validity
+on their own terms” cite:vandrunenchristian.  VanDrunen’s critique functions
+as a (detailed) [[DECONSTRUCTION][DECONSTRUCTION]] of the thinking behind Gabriel’s essay.
+Some key excerpts appear in Table [[tabone]].  
+
+#+NAME: tabone
+#+CAPTION: Key observations from VanDrunen’s critique of Gabriel’s “Mob Software” essay
+#+ATTR_LATEX: :environment longtable :align |p{\textwidth}|  :label tabone
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| “Kauffman’s work is about a rediscovery of the sacred, and it amounts to a proposal of the laws of self-organization as a new deity”                                                                                                                  |
+| “One thing we find in common with Lewis Thomas’s ants, Kauffman’s autocatalytic sets of proteins, and the agents inhabiting Sugarscape is that they all lack intelligence.”                                                                           |
+| “In other words, the rules given by Gabriel describe only the conforming aspect of group behavior. In reality, there is a tension between independent and conforming tendencies, and the flock patterns emerge from the interaction between the two.” |
+| “His examples of ‘mob activity’... the making of the Oxford English Dictionary, cathedral-building, and open source software discussed later—all had oversight, master-planning of some sort.”                                                        |
+| “There are several distinct senses of ‘gift’ that lie behind these ideas, but common to each of them is the notation that a gift is a thing we do not get by our own efforts.” [Quoting Hyde cite:hyde2019gift.] |
+| “Certainly proprietary code is shared property among those working in a corporate development team, but it is not common to the larger community of software developers and users.”                                                                   |
+| “A computer program is not like a poem or a dance in this way; if the programmer is not able to produce something parsable in the programming language or cannot fit the instructions together in a logical way, the program simply will not work.”   |
+| “Gabriel’s own experience may color his perception. He founded a software company that produced programs for Lisp development and which went bankrupt after 10 years.”                                                                                |
+| “Moreover, if Gabriel means to suggest that these programming languages or models could have made programming more accessible to the masses lacking technical skill, it is quite a dubious claim”                                                    |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+It is worth noting that this is by no means a complete critique.  As
+an an example of one direction that we will not have time and space to
+develop here, some applications of the concept of ‘gift culture’ have
+been criticised as hegemonic in nature cite:Mallard2019: should we
+expect pattern-theoretic, mob, or free/libre/open source software
+culture to be immune from such concerns?  VanDrunen’s criticisms are
+useful for our purposes not because they provide the last word, but
+because they points to the importance of considering the deeper layers
+in developing a concept or approach.  There may also be conflicts at
+these deeper layers.
+
+It is also worth noting that mob software is but one of many diverse
+visions of the future of programming cite:postmodernProgramming.  An
+embrace of diverse perspectives seems to be a fundamental part of the
+associated worldview.  After all, the
+primary theoretical model of a computer is termed "universal".
+Perhaps there is a bit of a paradox or double bind here, insofar as we embrace diverse
+perspectives just as long as they are compatible with our core tenets.
+For at least some pattern authors, these include “their love of programs
+and programming” (/ibid./).  (On this last point, both VanDrunen and Gabriel
+seem to agree.)
+
+** Myths: metaphors and narratives (longer term change)
+
+Lastly, there are *myths or metaphors* (e.g., Alexander’s idea that the
+architect’s work is done ‘for the glory of God’ (see Galle
+cite:GALLE2020345) or his conception that ‘primitive’ dwellings
+contain more life).  To emphasize, CLA does not dismiss myths in the
+slightest: on the contrary, they are what drive the other layers.
+Another term that is used to characterise this layer is *narratives*.
+VanDrunen surfaced various concepts in Gabriel’s essay that would be
+at home at this level, for example, the concept of duende that Gabriel
+takes over from Garcia Lorca originally derives from /dueño de casa/,
+the name of a certain kind of household spirit.  However, myth here
+does not just refer to such entities, but to the most deeply held
+beliefs and concepts that underlie worldviews.
+
+One important narrative for the pattern discourse is in plain view
+within the terminology of problems and solutions, which come from
+mathematics and physics.  Alexander worked /at the level of narrative/
+to connect the patterns discourse to a scientific worldview, seeking a
+sense of objectivity.  For example, in “The Atoms of Environmental
+Structure”:
+
+#+begin_quote
+most designers ... say that the environment cannot be right or wrong
+in any objective sense but that it can only be judged according to
+criteria, or goals, or policies, or values, which have themselves been
+arbitrarily chosen.  We believe this point of view is mistaken.
+#+end_quote
+
+Notice that, here, the discourse is positioned as different from the
+mainstream of architecture.  The key differentiator is not the
+language of problems and solutions, which would be familiar to anyone
+with an engineering background; rather, but in a certain notion of
+/wholeness/.  Which notion of wholeness remains to be surfaced.
+Quoting, again, from “The Atoms of Environmental Structure”, we get
+some relevant background:
+
+#+begin_quote
+We believe that all values can be replaced by one basic value:
+everything desirable in life can be described in terms of freedom of
+people’s underlying tendencies. ... The environment should give free
+rein to all tendencies; conflicts between people’s tendencies must be
+eliminated.
+#+end_quote
+
+Historically, there are at least two major varieties of wholeness: one
+that is based on progressive differentiation (e.g., unfolding from
+substance, per Spinoza), and the other generated by interaction
+between components (e.g., mutually reflecting monads, per Leibniz).
+In support of these allusions, a quote of Alexander from /The Nature of
+Order/ (/TNO/): it “may be best if we redefine the concept of God in a
+way that is more directly linked to the concept of ‘the whole.’”
+\begin{echo}This sounds a lot like Spinoza!\endnote{We can obtain some useful \hyperref[DISTANCE]{DISTANCE} by thinking about how different kinds
+of wholeness are associated with different symbols. In terms of
+metaphors, we have already encountered overt images like that of
+Chartres cathedral.  If we allow ourselves to explore further afield,
+other symbols of wholeness come to mind: these include the circle, the
+cross—or potentially the cross inside a circle,
+\begingroup\alch\symbol{"3B}\endgroup.
+Related but more
+elaborated symbols include the circle with a cross rising above it
+(\varTerra) which is both the modern astronomical symbol for Earth and
+also linked with the Carthusian order, and the Rod of Asclepius
+(\Asclepius, for the deity associated with healing or making whole)—this last symbol sometimes being inter-confused with the Caduceus
+(\Caduceus, the symbol of Hermes, the deity associated with mediation
+of various forms, and also echoed in the planetary symbol for Mercury,
+\begingroup\alch\symbol{"53}\endgroup).}
+\end{echo}
+Indeed, the pattern discourse appears to draw from /both/ major traditions of wholeness, while also
+seeking to unite them.  We get the idea of unfolding in /APL/ and other
+pattern languages that work in a top-down manner: however, we also get
+the notion of patterns and principles that are generative of emergent
+phenomena.
+
+At this level, architecture and programming were seen, by Alexander
+cite:alexander1999a, to unite: his questions for the computer
+scientists to whom he was speaking point in the direction of
+bio-hacking and nanotechnology (e.g., for molecular self-assembly)—at least at the allusive level.  The following quote suggests we have
+embarked on a fruitful track by attempting to think at the deeper
+layers of the pattern discourse:
+#+begin_quote
+Generative patterns work indirectly; they work on the underlying
+structure of a problem (which may not be manifest in the problem)
+rather than attacking the problem directly.[fn:: https://wiki.c2.com/?GenerativePattern]
+#+end_quote
+
+\begin{echo}
+Clearly, another key metaphor—which also has a
+generative aspect—is the metaphor of \emph{language}.\endnote{“... as
+in the case of natural languages, the pattern language is
+generative. It not only tells us the rules of arrangement, but shows
+us how to construct arrangements - as many as we want - which satisfy
+the rules.”—\url{https://wiki.c2.com/?GenerativePattern}, quoting from
+\emph{The Timeless Way Of Building}, pp. 185-6.}
+\end{echo}
+The prominence of linguistic metaphors within DPL reminds us that
+Alexander’s architectural oeuvre contains many traces of symbols associated
+with Hermes: a deity associated with communication and mediation.
+Through these reflections we gain some useful [[DISTANCE][DISTANCE]].
+#+begin_quote
+In the house, [Hermes’] place is at the door, protecting the
+threshold... He could be found around city gates, intersections, state
+borders, and tombs (the gateways to the other world). cite:benvenuto1993hermes
+#+end_quote
+At the time when Hermes was actively embraced as a deity, in some
+traditions he was paired with Hestia, the goddess of the hearth, whose
+“domain was internal, the closed, the fixed, the inward” (/ibid./, here
+and in quotes later in this paragraph).  The discourse around patterns
+contains some aspects that move towards foundations (e.g., in the form
+of fundamental principles, per /TNO/).  Such foundations could be
+associated with Hestia, whereas Hermes would be on the side of
+generativity and mutation.  The dichotomy seems to repeat itself
+within the /TNO/ principles themselves: recalling that "focus" is the Latin
+term for the hearth, Strong Centers would align with Hestia, whereas
+Hermes would align more with Deep Interlock and Ambiguity.  The
+resolution of the two forces within pattern language—as a form—seems be a variation of these Nietzschean lines: “anything that is
+becoming returns” (i.e., is discussable as pattern), and, “contingency
+resolves itself into necessity” (i.e., the wholeness of generativity
+ultimately recovers the wholeness of unfolding).
+
+\begin{echo}
+Our task in this section has been to situate Alexander’s thought
+relative to the myths and symbols of wholeness; we’ve surfaced some of
+the tensions and dynamics that exist at this level.  Relationships to some
+other contemporary thinkers are discussed by Elsheshtawy \cite{Elsheshtawy2001},
+in particular, a relationship to Piaget’s conception of operational wholeness is developed.
+Alexander, for his part, professed ignorance of French Structuralist theory (quoted at \emph{ibid.})—in particular, of Barthes and Foucault, whom Inayatullah draws upon—and he tags Nietzsche
+as a nihilist, while distinguishing his own work
+as comparatively hopeful \cite{alexander1991perspectives}. For further
+reflections on Nietzsche and wholeness, see \cite{bishop2020holistic}.
+For more on Hestia and Hermes in an architectural
+context, see \cite{springhestia}.
+\end{echo}
+
+
+* SUPPLEMENT: Case study: Planning “Season 1” for the Emacs Research Group
+<<Case_study>>
+
+
+# We elaborate new patterns where
+# there is no match for our current needs; one per CLA section:
+# [[FORMAL PATTERNS][FORMAL PATTERNS]], [[SERENDIPITY][SERENDIPITY]], [[RECOMMENDER][RECOMMENDER]] and [[DIVERSITY][DIVERSITY]].  We also
+# cross-reference each of the TODO items with the most closely
+# associated patterns from the poststructural futures toolbox
+# from Section [[CLA_patterns]].  This shows how the lines of
+# thinking that underpins the CLA method can inform further
+# action: *Season 1* will be shaped by this narrative and the
+# corresponding TODO items.
+
+
+Here, we collate these next steps with peeragogy design patterns like \textsc{Roadmap}
+cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top for a
+reworking of the /Peeragogy Handbook/ as a unified pattern language,
+which extends the earlier presentation in cite:patterns-of-peeragogy.]
+\begin{echo}
+To make the way this process works somewhat more clear to the reader, we include the data supporting the CLA from PARs carried out in our 1\textsuperscript{st}, 10\textsuperscript{th}, and 18\textsuperscript{th} sessions (marked with ①, ⑩, and ⑱ below).
+% \footnote{We did two PARs during the eighteenth session.}
+\end{echo}
+By the time of our fourth iteration of the larger
+$\mathrm{PAR}\rightarrow\mathrm{CLA}$ cycle, each section had
+accumulated around 20-30 bullet points of supporting data at a similar level of
+granularity.
+
+
+The following four subsections present the result of applying the
+methods described above.
+
+** Understanding data, headlines, empirical world (short term change)
+
+We’ve made progress since we started with the raw themes of *Research
+on/in/with Emacs* back in December 2020.  We’ve met almost every week
+since then, and interviewed some interesting and varied guests.  We
+have a clearer idea of what we want to talk about at the next
+EmacsConf, and how we can be of service to researchers and Emacs
+users.  We have been using a workflow that helps us carefully review
+progress, diagnose issues, and manage our energy.  The next phase of
+this project is to “go public” and mesh with ongoing related
+activities elsewhere, including by getting some training events up and
+running.
+# [fn:: Our plans for *Season 1* should allow flexibility for [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], since we may all be thinking about things differently, and we will have different outside commitments. This will allow us to develop a [[GENEALOGY][GENEALOGY]] of the themes and actions we are developing. This helps to realise the [[DISTANCE][DISTANCE]] pattern, since we can understand our efforts through the eyes of others. This helps to realise the [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] pattern, because we better understand how the project looks for someone who is just getting started now. A suitable degree of formality can assist with [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]], see further details in the [[FORMAL PATTERNS][FORMAL PATTERNS]] pattern.]
+
+*** Representative supporting data
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+\begin{itemize}
+\item[①] \emph{Everyone shared a brief intro and ideas so we got to know each other}
+\item[⑩] \emph{We’ve brainstormed a couple of options for getting out there: White-papers, Grants, Journal papers (very concrete)}
+\item[⑱] \emph{Alex: My major intention was to meet you guys and learn something, wanting to reinforce existing knowledge of emacs and develop it further}
+\end{itemize}
+
+*** Next Steps
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+| Maintain plans for the next six months                  | \textsc{Roadmap}     |
+| Keep doing PARs and CLAs                                | \textsc{Assessment}  |
+| Mesh with other ongoing activities elsewhere            | \textsc{Cooperation} |
+| New user workshops: “Zero to Org Roam”                  | \textsc{Newcomer}    |
+| Come up with a categorical treatment of todo-categories | [[FORMAL PATTERNS][FORMAL PATTERNS]]      |
+
+** Systemic approaches and solutions (social system)
+
+If we tackle big enough projects, it will bring with it the need for
+collaboration.  We like to create tangible deliverables (e.g. journal
+articles). However, “If we knew what the outcome was, it wouldn’t be
+research”—therefore, we’re focusing initially on research methods
+and design documents. That may result in a longer time to write
+initial papers, but when something is released it is more thoroughly
+prepared. Meanwhile, we keep our skills sharp by fixing bugs,
+improving our own workflows, and actively exploring the landscape. All
+these activities are part of the system we implement regularly, which
+minimizes technical debt and allows space for serendipity to occur.
+
+*** Representative supporting data
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+\begin{itemize}
+\item[①] \emph{Part of a greater sense of trying to do something with EmacsConf to federate the community}
+\item[①] \emph{Joe: Leo did an amazing job facilitating the meeting}
+\item[①] \emph{Public Policy conference: (How to get a grant?)}
+\item[⑩] \emph{Potential interview with Leo \& Jethro Kuan (co-maintainers of org-roam)}
+\item[⑱] \emph{Leo did a nice job of intervening}
+\end{itemize}
+
+*** Next Steps
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+| Identify potential stakeholders in Emacs Research               | \textsc{Community}          |
+| Identify stakeholders in the kind of activities we can support  | \textsc{A Specific Project} |
+| Identify venues where we can reach these different stakeholders | \textsc{Wrapper}            |
+| Create some publication to plant a flag for our group           | \textsc{Paper}              |
+| Keep exploring!                                                 | SERENDIPITY                 |
+
+** Worldview, ways of knowing and alternative discourse
+<<erg_worldview>>
+
+We have looked at RStudio and Roam Research as models of (some of) the
+kinds of things we think Emacs can learn from and eventually improve upon.
+‘Practice’ and ‘method’ keep coming up in our discussions as,
+respectively, ‘more bottom up’ and ‘more top down’ ways of actualising
+things.  Concretely, we’ve been studying our own processes and looking
+for the tools and settings that are the most conducive to the work we
+want to do.  For example, instead of having a single Org Roam
+directory shared via Git, what if we had ways of managing sharing of
+notes across ‘graphs’?
+
+Collaboration is familiar to teams across all domains. Even authors
+working alone will collaborate with their past and future selves. What
+is common for all collaborators is that the transfer of information
+must be uninhibited.  If we all had our slipboxes online, we could
+interlink them.[fn:: The zettelkasten (German: “slip box”, plural zettelkästen) is a method of note-taking and personal knowledge management used in research and study.  ([[https://en.wikipedia.org/wiki/Zettelkasten][Wikipedia]])]  This would generalise *ORCiD*, and allow people to
+reference processes that are undergoing evolution.  Maybe a service
+like this would turn into a ‘Tinder for academics’—helping to match
+people based on their interests (or similar people in different
+fields).  So, what’s the price point?  Instead of paying money to go
+to conferences, now we can spontaneously make conferences and
+workshops.  As a guess, $750.0 per user per year might be a fair price—for those who can afford to pay it—if the service helps people to
+do better research and saves a bunch of travel.  We could also set up
+a pricing model proportional to each country’s carbon emissions or
+something like that.
+# [fn:: Whereas these are existing commercial packages, some of the workflows could be restructured and, e.g., made more accessible or potentially more powerful through integration with other open tools. This is a way of [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]] at the level of projects and business operations. We recognise that we’re all coming from different places with [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]].  How can our workflow better reflect that? Can we engage in an ongoing [[DECONSTRUCTION][DECONSTRUCTION]] of the methods as we use them? (Admittedly, a little bit like rebuilding the plane while it is still flying, but with some care it should be possible.) We can think about different ways of approaching knowledge construction as a way of deepening the [[GENEALOGY][GENEALOGY]] pattern in practice. By developing a paper that situates our work in a wider context we develop some [[DISTANCE][DISTANCE]] from the closed-doors of *Season 0* and engage more creative thinking (and others’ views on!) *Season 1*. Clearly, this is a way to operationalise [[REORDERING KNOWLEDGE][REORDERING KNOWLEDGE]]; see further details in the [[RECOMMENDER][RECOMMENDER]] pattern.]
+
+*** Representative supporting data
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+\begin{itemize}
+\item[①] \emph{Wonderful outcome from attending EmacsConf 2020!}
+\item[⑩] \emph{Anthropology + Psychology is a special nightmare for reproducibility}
+\item[⑩] \emph{Maybe the ERG could contribute further patterns?}
+\item[⑱] \emph{But there’s a problem with Emacs, which is that there isn’t proper intro}
+\end{itemize}
+
+*** Next Steps
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+| Spec out the Emacs based ‘answer’ to RStudio, Roam Research                  | \textsc{Community}  |
+| Develop our own intention-based workflow                                     | \textsc{Forum}      |
+| Continue to develop and refine our methods                                   | \textsc{Assessment} |
+| Product and business development plans for a multigraph interlinking service | \textsc{Website}    |
+| A tool to find and match peers/content                                       | RECOMMENDER         |
+
+** Myths, metaphors and narratives: imagined (longer term change)
+
+In our concrete methods, we have aligned ourselves with the ‘[[https://longtermist.substack.com/][long-term
+perspective]]’.  This includes both retrospective and prospective
+thinking.  For example, the things that were timely 7 years ago might
+not be so timely now; in many cases the relevance of a given
+innovation goes down over time.  However, Emacs has an evolutionary
+character that has allowed it to keep up with the times—becoming
+more relevant and useful ever since Steele and Stallman started to
+systematise [[https://www.oreilly.com/openbook/freedom/ch06.html][Editor MACroS]] for the Text Editor and Corrector (TECO)
+program.  Not only has the technology evolved, but so has the social
+setting in which this work is done.  Whereas the concepts underlying
+the free software movement were based on “[[http://www.gnu.org/software/emacs/emacs-paper.html][communal sharing]]” of source
+code, these methods can be extended and allow us to synthesise new
+relationships within broader semiotic commons.  Emacs can become part
+of a system for addressing large-scale existential problems, by
+expanding the frontier of what’s possible for human beings.
+# [fn:: As we develop the relationships of Emacs to its context, the process can operationalise [[DECONSTRUCTION][DECONSTRUCTION]]. We referenced \textsc{Assessment} above with regard to PARs and CLAs; here we can imagine other techniques for assessing learning, thinking across [[ALTERNATIVE PASTS AND FUTURES][ALTERNATIVE PASTS AND FUTURES]] in which these methods become more embedded in technological workflows. One way to proceed could be through a [[DECONSTRUCTION][DECONSTRUCTION]] of the practices of free/libre/open source; see further details in the [[DIVERSITY][DIVERSITY]] pattern.]
+
+*** Representative supporting data
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+\begin{itemize}
+\item[①] \emph{We generally agreed that we want to make something that exposes intrinsic value of using these tools}
+\item[⑩] [None recorded at this level from this PAR.]
+\item[⑱] \emph{But there was no such guidance; you were in the middle of an alien playground. “But I just wanted to do my Clojure stuff.”}
+\end{itemize}
+
+*** Next Steps
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+| Survey related work                                                 | \textsc{Context}    |
+| Assess what we’re learning                                          | \textsc{Assessment} |
+| Think about how we can help improve gender balance in Free Software | DIVERSITY           |
+
+** Summary
+<<erg-summary>> The narrative paragraphs at each level describe
+abstract patterns occurring among, and mutual accommodation between,
+the bullet points that developed in our PARs.  The Next Steps
+typically do not represent concrete objectives, for instance in a
+‘S.M.A.R.T’ format.[fn:: Specific, Measurable, Achievable, Realistic,
+and Time-bound (Wikipedia)] They are, rather, descriptions of
+anticipated patterns of behaviour—here linked to /bona fide/ design
+patterns.  To refine these items into tasks that are concretely doable
+within the upcoming *Season 1* will require further breakdown and
+elaboration.  We foresee this to be an iterative process, assisted by
+bidirectional links between patterns and next steps.
+
+Software tools will help with this, though our current prototypes
+could certainly be improved.  These prototypes are based on Emacs’s
+built-in Org Mode (a tool for managing information structured in
+outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an Emacs package
+layered on Org Mode and used for creating zettelkasten, which are,
+essentially, wikis), and Org Roam Server (a further layer for
+visualisation of the resulting network structures).  As described in
+Section [[erg_worldview]], these tools have some deficiencies when it
+comes to interlinking varied contents—such as patterns and next
+steps—from distributed sources.  In short, we need to keep improving
+our tools in order to effectively manage growing distributed,
+interlinked, collections of PARs, CLAs, and DPLs, alongside other
+scientific and technical corpora.  Federated Wikis comprise another area
+of work where these concerns are being approached in technical terms
+cite:esfandiari2016distributed,cunningham2013a.
+
+Looking back over the case study, we can now outline an answer to the
+concern raised at the end of Section [[methods]], namely how do the
+[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?
+Broadly, a solution process can often be decomposed into interrelated
+subtasks cite:alexander1964notes,polya1945solve,polya1954plausible.
+\begin{echo}
+A standard problem-solving methodology is to understand the \mbox{(sub-)}context and
+\mbox{(sub-)}problems in detail—along with their relationships to other parts
+of the developing decomposition—and on this basis make predictions about the way
+an intervention could change the overall system.
+\end{echo}
+As we saw in the references to /practice/ and /method/, above, and will
+revisit again later on in the paper, there are “two different forms of
+information processing (bottom-up and top-down)” cite:Teufel2020.  CLA
+can help with both, and in so doing can indeed assist with
+solution-development.  Nominally, CLA is an analytic tool that
+decomposes a problematic situation into /layers/, and /causes/ operating
+at and between these layers.  In this sense it functions top-down.
+However, CLA also plays a synthesis role.  Whereas we could compare
+the PAR to a tangent vector or derivative that gives a momentary
+reading of how things are going at a given point in time, CLA can be
+used to integrate these observations into an overall plan—as we’ve
+seen above.
+* APPENDIX: Example PAR: Emacs Research Group, December 2, 2020 
 <<appendix-pars>>
 
 The Emacs Research Group maintained a practice of carrying out a PAR
@@ -2173,6 +2133,42 @@ maybe we don’t want to be that strict, but at minimum we will likely
 want to do more to figure out scheduling with the many authors.
 \end{itemize}
 #+END_export
+
+* APPENDIX: The Four Season’s Pizzaria
+<<appendix-pizza>>
+** \includegraphics[width=1em]{U1f355.PDF} Example, System Layer
+Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
+
+** \includegraphics[width=1em]{U1f355.PDF} Example, Litany Layer
+Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
+** \includegraphics[width=1em]{U1f355.PDF} Example, Worldview Layer
+Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
+** \includegraphics[width=1em]{U1f355.PDF} Example, Myth Layer
+Pop looks up to Thoreau and Emerson as personal heroes, and knows /Walden/ and /Self-Reliance/ backwards and forwards.  Mom has fond childhood memories of parents who loved cooking together, and her memories evoke an age of innocence.  For her, the circle is a powerful symbol of wholeness and community: when she brings a pizza to children at the round tables of the restaurant, she feels like a mystagogue initiating the next generation.
+
+** Potential Dénouement
+# The stress mentioned above is an upshot of all of the activity described.  Business is booming, money is flowing: that’s not the problem.  However, some confusion has ensued about who should be managing the restaurant, on what days, where to get the ingredients, and how much they should spend.  Here we get a sense of what’s missing at the system level, namely, they haven’t yet found a systematic way to sort out the confusion.
+
+# Earlier we looked at the choices that the couple made, relative to their experiences, environment, and background.  Now we see some of the deeper reasons for those choices. Despite the difference in approach and outward orientation, both Mom and Pop have worldviews which are fundamentally oriented towards people: most of the time they get along well, and they enjoy working together.  However, their two worldviews—while not disjoint or necessarily in conflict—are not automatically well aligned; nor are they automatically well-suited to the new situation that has evolved now that they are small business owners.  If the couple wishes to resolve the stress that they are facing, they would be wise to wonder if their problems originate at an even deeper level: one which they have not explored together before.
+
+Innovation at the myth layer supports an adapted worldview that
+introduces new patterns into Mom and Pop’s daily and weekly rituals,
+along with new sources of meaning.  Firstly, they focus on improving
+the quality of the food they serve, and receive rave reviews from food
+critics.  This exercises their creativity and ultimately changes the
+whole approach: “Innovation foils attempts to be consistent and
+efficient” cite:tan2020uncertainty (p. 12).  Additionally, Mom and Pop
+decide to close the shop Monday through Wednesday, to spend some time
+away from the business, as part of a new weekly cycle that mirrors the
+seasons.
+
+# They engage with hobbies like writing, woodwork, and painting, and
+# they tend their garden together.  Thursday through Sunday, they
+# resolidify their intention to make their work together a meditation on
+# love. They develop new ideas, related to food and otherwise.  Boosted
+# by their time off, they prepare more innovative meals and, while the
+# restaurant remains affordable, they garner enthusiastic crit from
+# foodies.
 
 * APPENDIX: Patterns
 <<appendix>>
