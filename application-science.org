@@ -685,13 +685,14 @@ dialogue.  “Openness” is but one of the themes appeared in the
 CLA of the DPL literature and practices.
 
 Meanwhile, from our Case Study we can see, in practical terms, how
-content like that developed in the an analysis can develop further.  
-The Case Study applied the [[PLACARD][PLACARD]] method to Emacs
-Research Group (ERG), which was convened following EmacsConf
-2020.[fn:: https://emacsconf.org/2020/; the conference took place November 28th and 29th of 2020.]
-In our case, this analysis has allowed us to develop a trajectory for the project.
-As a broader point of reflection, the case study shows how mixing the three methods
-gives us more than the sum of the parts.
+content like that developed in the Analysis could be developed
+further.  The Case Study applied the [[PLACARD][PLACARD]] method to Emacs Research
+Group (ERG), which was convened following EmacsConf 2020.[fn::
+https://emacsconf.org/2020/; the conference took place November 28th
+and 29th of 2020.]  In our case, this analysis has allowed us to
+develop a trajectory for the project.  As a broader point of
+reflection, the case study shows how mixing the three methods gives us
+more than the sum of the parts.
 
 The Case Study contextualize the work of the Emacs Research Group
 relative to the PLoP and Peeragogy communities.  Over the 25 sessions
@@ -2133,11 +2134,10 @@ want to do more to figure out scheduling with the many authors.
 
 * APPENDIX: The Four Season’s Pizzaria
 <<appendix-pizza>>
-** \includegraphics[width=1em]{U1f355.PDF} Example, System Layer
-Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
-
 ** \includegraphics[width=1em]{U1f355.PDF} Example, Litany Layer
 Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
+** \includegraphics[width=1em]{U1f355.PDF} Example, System Layer
+Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
 ** \includegraphics[width=1em]{U1f355.PDF} Example, Worldview Layer
 Pop values self-reliance and self-cultivation. For him, the worth of a person is determined not by possessions, external circumstances, or social status, but by character and accomplishments. He believes that every person has an inner purpose and that the surest way to be happy and useful to society is to follow one's inner voice and encourage others to do the same. Mom values relationships and community. Her goal in life is to make the world a better place by bringing people together and slowing down the pace of life at least long enough to let neighbors chat and get to know each other. Pop, inspired by historical figures like Thoreau, sees living “off-grid” as an ideal: a way to be independent from modern civilization, and more in touch with nature.  It can be hard for him to reconcile his community spirit with his individualism.  Mom, on the other hand, envisions an ideal community where healthy relationships are facilitated over good meals.  She sees the restaurant as a way to build relationships with diners and others in the food supply chain and local community.
 ** \includegraphics[width=1em]{U1f355.PDF} Example, Myth Layer
