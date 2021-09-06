@@ -588,7 +588,7 @@ concerning.
 The reader may be wondering: “I think I can see how the methods that have been discussed could help in understanding
 the \textbf{context} and the \textbf{problem}, but is there anything here that actually helps with formulating \textbf{solutions}?”\endnote{\textbf{JC@coauthors:} I’m still a bit concerned about this!}
 \end{echo}
-This is certainly a worthy concern, and something we will come back to in Section [[erg-summary]], after looking at an example of the [[PLACARD][PLACARD]] pattern in use.
+This is certainly a worthy concern, and something we will come back to after looking at an example of the [[PLACARD][PLACARD]] pattern in use.
 
 * Results
 <<Results>>
@@ -657,7 +657,7 @@ la/ Kauffman.  Whereas Stallman, Steele, and Gabriel come primarily
 from the functional programming background, Ward Cunningham comes from
 the Object Oriented (OO) programming subcommunity: these different
 communities were not always in direct contact.  The =c2= pattern wiki
-was primarily linked with OO traditions.  
+was primarily linked with OO traditions.
 
 There, “openness” is a key value at the worldview level: we observed,
 that the emphasis was on /in situ/ editability and community effort.
@@ -693,34 +693,83 @@ In our case, this analysis has allowed us to develop a trajectory for the projec
 As a broader point of reflection, the case study shows how mixing the three methods
 gives us more than the sum of the parts.
 
-In the ERG, we think of the work carried out up to this point as
-*Season 0*, on the view that so far our thinking has developed
-rhizomatically, underground, rather than fully in the public sphere.
-The following analysis serves to contextualize our work relative to
-the PLoP and Peeragogy communities.  Over the 25 sessions of our
-seminar to date, we used CLA in combination with PARs to address the
-question ‘What is our vision for change and how is progress
-measurable?’.  More specifically: we did a PAR at the end of every
-(approximately weekly, two-hour) session.[fn:: Data archived at
+The Case Study contextualize the work of the Emacs Research Group
+relative to the PLoP and Peeragogy communities.  Over the 25 sessions
+of the seminar to date, we used CLA in combination with PARs to
+address the question ‘What is our vision for change and how is
+progress measurable?’.  More specifically: we did a PAR at the end of
+every (approximately weekly, two-hour) session.[fn:: Data archived at
 https://github.com/exp2exp/exp2exp.github.io, with meeting notes and
 PARs indexed and viewable on the web at
 https://exp2exp.github.io/erg.]  This allowed us to track progress,
-and to surface key issues and concerns.  For example, bootstrapping needs
-related to scheduling and collaboration tools, along with persistent
-questions about how best to go public, are documented in our first
-PAR, which is reproduced in Appendix \ref{appendix-pars}.  Every six weeks
-or so, we merged selected bullet-points from our PARs into the CLA
-outline in an intuitive way, depending on which section they seemed to fit best.
-\begin{echo}
+and to surface key issues and concerns.  For example, bootstrapping
+needs related to scheduling and collaboration tools, along with
+persistent questions about how best to go public, are documented in
+our first PAR, which is reproduced in Appendix \ref{appendix-pars}.
+Every six weeks or so, we merged selected bullet-points from our PARs
+into the CLA outline in an intuitive way, depending on which section
+they seemed to fit best.
+
 We also elaborated those bullet points into a narrative form,
 which we revised to accommodate new data as time went on.
 We also began to develop TODO items that would make the
-next steps for this seminar group both actionable and meaningful.\endnote{The Peeragogy approach to patterns
-is aligned with the feminist principle that all knowledge is incomplete (\url{https://mitpress.podbean.com/e/experiments-in-open-peer-review/}, minute 5).
-A “living” pattern is, accordingly, attached to Next Steps that would help to realise that pattern within a
-context; when we don’t have any next steps, we put the pattern in a \textsc{Scrapbook}.}
-\end{echo}
+next steps for this seminar group both actionable and meaningful.
+We then connected these TODO items to design patterns collected in the
+Peeragogy Handbook (cite:peeragogy-handbook-long and =peeragogy.org=).
 
+These TODO items typically are not concrete objectives, but are, rather, descriptions of
+anticipated patterns of behaviour—here linked to /bona fide/ design
+patterns.  To refine these items into tasks that are concretely doable
+within the upcoming *Season 1* will require further breakdown and
+elaboration.  We foresee this to be an iterative process, assisted by
+bidirectional links between patterns and next steps.
+
+Software tools will help with this.  Our current prototypes could
+certainly be improved.  These prototypes are based on Emacs’s
+built-in Org Mode (a tool for managing information structured in
+outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an Emacs package
+layered on Org Mode and used for creating zettelkasten, which are,
+essentially, wikis), and Org Roam Server (a further layer for
+visualisation of the resulting network structures).  These tools have some deficiencies when it
+comes to interlinking varied contents—such as patterns and next
+steps—from distributed sources (such as the Peeragogy project on the one hand
+and the Emacs Research Group on the other).  In short, we need to keep improving
+our tools in order to effectively manage growing distributed,
+interlinked, collections of PARs, CLAs, and DPLs, alongside other
+scientific and technical corpora.  Federated Wikis comprise another area
+of work where these concerns are being approached in technical terms
+cite:esfandiari2016distributed,cunningham2013a.
+
+Looking back over the Case Study, we can now outline an answer to the
+concern raised at the end of Section [[methods]], namely how do the
+[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?
+Broadly, a solution process can often be decomposed into interrelated
+subtasks cite:alexander1964notes,polya1945solve,polya1954plausible.
+
+\begin{echo}
+A standard problem-solving methodology is to understand the \mbox{(sub-)}context and
+\mbox{(sub-)}problems in detail—along with their relationships to other parts
+of the developing decomposition—and on this basis make predictions about the way
+an intervention could change the overall system.
+\end{echo}
+As we saw in the references to /practice/ and /method/, above, and will
+revisit again later on in the paper, there are “two different forms of
+information processing (bottom-up and top-down)” cite:Teufel2020.  CLA
+can help with both, and in so doing can indeed assist with
+solution-development.  Nominally, CLA is an analytic tool that
+decomposes a problematic situation into /layers/, and /causes/ operating
+at and between these layers.  In this sense it functions top-down.
+However, CLA also plays a synthesis role.  Whereas we could compare
+the PAR to a tangent vector or derivative that gives a momentary
+reading of how things are going at a given point in time, CLA can be
+used to integrate these observations into an overall plan—as we’ve
+seen above.
+
+# \endnote{The Peeragogy approach to patterns
+# is aligned with the feminist principle that all knowledge is incomplete (\url{https://mitpress.podbean.com/e/experiments-in-open-peer-review/}, minute 5).
+# A “living” pattern is, accordingly, attached to Next Steps that would help to realise that pattern within a
+# context; when we don’t have any next steps, we put the pattern in a \textsc{Scrapbook}.}
+# \end{echo}
 
 * Discussion
 <<Discussion>>
@@ -1669,8 +1718,7 @@ context, see \cite{springhestia}.
 # action: *Season 1* will be shaped by this narrative and the
 # corresponding TODO items.
 
-
-Here, we collate these next steps with peeragogy design patterns like \textsc{Roadmap}
+We collate these next steps with peeragogy design patterns like \textsc{Roadmap}
 cite:peeragogy-handbook-long.[fn:: See http://peeragogy.org/top for a
 reworking of the /Peeragogy Handbook/ as a unified pattern language,
 which extends the earlier presentation in cite:patterns-of-peeragogy.]
@@ -1846,58 +1894,7 @@ expanding the frontier of what’s possible for human beings.
 | Assess what we’re learning                                          | \textsc{Assessment} |
 | Think about how we can help improve gender balance in Free Software | DIVERSITY           |
 
-** Summary
-<<erg-summary>> The narrative paragraphs at each level describe
-abstract patterns occurring among, and mutual accommodation between,
-the bullet points that developed in our PARs.  The Next Steps
-typically do not represent concrete objectives, for instance in a
-‘S.M.A.R.T’ format.[fn:: Specific, Measurable, Achievable, Realistic,
-and Time-bound (Wikipedia)] They are, rather, descriptions of
-anticipated patterns of behaviour—here linked to /bona fide/ design
-patterns.  To refine these items into tasks that are concretely doable
-within the upcoming *Season 1* will require further breakdown and
-elaboration.  We foresee this to be an iterative process, assisted by
-bidirectional links between patterns and next steps.
 
-Software tools will help with this, though our current prototypes
-could certainly be improved.  These prototypes are based on Emacs’s
-built-in Org Mode (a tool for managing information structured in
-outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an Emacs package
-layered on Org Mode and used for creating zettelkasten, which are,
-essentially, wikis), and Org Roam Server (a further layer for
-visualisation of the resulting network structures).  As described in
-Section [[erg_worldview]], these tools have some deficiencies when it
-comes to interlinking varied contents—such as patterns and next
-steps—from distributed sources.  In short, we need to keep improving
-our tools in order to effectively manage growing distributed,
-interlinked, collections of PARs, CLAs, and DPLs, alongside other
-scientific and technical corpora.  Federated Wikis comprise another area
-of work where these concerns are being approached in technical terms
-cite:esfandiari2016distributed,cunningham2013a.
-
-Looking back over the case study, we can now outline an answer to the
-concern raised at the end of Section [[methods]], namely how do the
-[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?
-Broadly, a solution process can often be decomposed into interrelated
-subtasks cite:alexander1964notes,polya1945solve,polya1954plausible.
-\begin{echo}
-A standard problem-solving methodology is to understand the \mbox{(sub-)}context and
-\mbox{(sub-)}problems in detail—along with their relationships to other parts
-of the developing decomposition—and on this basis make predictions about the way
-an intervention could change the overall system.
-\end{echo}
-As we saw in the references to /practice/ and /method/, above, and will
-revisit again later on in the paper, there are “two different forms of
-information processing (bottom-up and top-down)” cite:Teufel2020.  CLA
-can help with both, and in so doing can indeed assist with
-solution-development.  Nominally, CLA is an analytic tool that
-decomposes a problematic situation into /layers/, and /causes/ operating
-at and between these layers.  In this sense it functions top-down.
-However, CLA also plays a synthesis role.  Whereas we could compare
-the PAR to a tangent vector or derivative that gives a momentary
-reading of how things are going at a given point in time, CLA can be
-used to integrate these observations into an overall plan—as we’ve
-seen above.
 * APPENDIX: Example PAR: Emacs Research Group, December 2, 2020 
 <<appendix-pars>>
 
