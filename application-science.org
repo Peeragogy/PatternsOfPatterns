@@ -182,7 +182,7 @@ course.  Our
 focus is on scaffolding social perception, cognition, and action (Table \ref{tab:acronyms}).
 The tripartite division here mirrors classical
 psychology cite:Hilgard1980, and continues to be
-relevant in contemporary neuroscience cite:Teufel2020.
+relevant in contemporary neuroscience cite:Teufel2020,Friston2013.
 
 \begin{echo}
 \begin{table}[h]
@@ -875,14 +875,11 @@ generalise the kinds of patterns that can be computed with, and make
 them interoperable?  Polya had already been writing about patterns of
 plausible inference cite:polya1954plausible the year that Alexander
 started his undergraduate degree in Cambridge;  four years later
-Polya’s student Allen Newell was thinking about how to model the
-inference process computationally cite:newell1958.  More recent work looks at how to
-extract descriptions of Ostrom-style institutions from text
-cite:Rice2021: such institutions are closely linked with design
-patterns cite:ostrom2009a (p. 11).  Could this line of work be
-extended, so that other kinds of design patterns could be recognised
-where they appear?  Could the extracted descriptions be used directly
-in computations?  One fruitful strategy might be to think of design
+Polya’s student Allen Newell was beginning to think about how to model the
+inference process computationally cite:newell1958 (and see cite:newell1983heuristic).  Ostrom-style institutions are analogous to design
+patterns cite:ostrom2009a (p. 11). Recent work looks at how description of such institutions can extracted from text
+cite:Rice2021.  Could this line of work be extended, so that other kinds of patterns could be recognised where they appear?
+Could the extracted descriptions be used directly in computations?  One fruitful strategy might be to think of design
 patterns as conceptual blends cite:Corneli2018, which can be given a
 computational interpretation cite:SCHORLEMMER2021118.  For example,
 the Cooling the Commons pattern language includes
