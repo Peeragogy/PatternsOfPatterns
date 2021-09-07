@@ -2392,7 +2392,7 @@ In our workshop we will then explore the scenarios further by using
 pattern language.  We will use the interactive game Flaws of the Smart
 City to structure game play.
 
-** Training phase.
+** Training phase (45 minutes)
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -2408,7 +2408,7 @@ mentioned above:
 - *Analyst* (briefed on CLA)
 
 Players will be asked to define their role via the four CLA layers of
-/litany/, /system/, /worldview/, and /myth/.
+/litany/, /system/, /worldview/, and /myth/.  I.e., the participants will be asked to describe their problems, social context, worldview, and narratives via a quick Q&A process.
 
 In the general introduction we will give this example: the Cooling the
 Commons pattern language includes the pattern
@@ -2420,7 +2420,7 @@ If we examine this pattern via CLA, we can see some potential problems:
 - Worldview :: Public and domestic rituals are organized about the daily cycle.  People may have self-identity views of who they are relative to clock time, like “early bird gets the worm”.
 - Myth :: Times of day have symbolic associations.
 
-** Part one.
+** Part one (1 hour).
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -2434,28 +2434,44 @@ play as an Evil Genius or Guardian Angel), participants will discuss
 how the *Cooling* cards can be employed to disrupt or enhance the city.
 At the end of each turn, participants will be asked to align the
 *Action*, *Place*, *Issue*, and selected *Cooling* card(s) with the four layers
-of the CLA. Participants will be asked to annotate each layer, and
-in addition, make note of any adapted, related, or new design patterns that would be
-relevant at each level. They will additionally be asked to make note
-of how these selected cards fit into the scenario’s historical
-development.
+of the CLA.
 
-** Part two.
+Participants will be asked to annotate each layer, and in addition,
+make note of any adapted, related, or new design patterns that would
+be relevant at each level. They will additionally be asked to make
+note of how these selected cards fit into the scenario’s historical
+development.  Participants will be asked to explain their choices
+based on thinking about a realistic story for their role or
+combination of roles.
+
+** Part two (30 minutes)
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
 The resulting tableaux will then be shared back with the larger group
-in a short presentation.
+in a short presentation.  An example appears below:
 
-** Part three.
+| Litany    | SHOPPING STREET | People come and they have ideas about shopping.                     |                    |
+| System    | GAMIFY          | Imagine if you to 3 shops and stamp a card you get a free BBQ.      | OUTDOOR COOKING    |
+| Worldview | HISTORIAN       | They will bring their kids and want to teach them about the climate | OUTDOOR PLAY AREAS |
+| Myth      | LOSS OF PRIVACY | Concern about security and this is a trade-off.                     |                    |
+
+The /hoped for outcome/ would be that people can go on to make more
+informed decisions about how people think about the world.  They may
+go away thinking they need a better way to talk about these issues, so
+that's OK.
+
+** Part three (1 hour)                                             :noexport:
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
-In the third phase, participants will be remixed from across the four
-scenarios and roles, and will be invited to work in these new groups
-to reflect on the scenarios and develop a Project Action Review (in
+In the third phase, participants will be
+# remixed from across the four
+# scenarios and roles, and will be invited to work in these new groups
+# to reflect on the scenarios and 
+asked to develop a Project Action Review (in
 the pre-PAR formulation, see below) to describe something that they
 would, concretely, like to work on in the future, either in their
 professional networks, or in their local communities.
