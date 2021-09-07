@@ -2140,7 +2140,7 @@ want to do more to figure out scheduling with the many authors.
 \end{itemize}
 #+END_export
 
-* APPENDIX: The Four Season’s Pizzaria
+* APPENDIX: Le Quattro Stagioni
 <<appendix-pizza>>
 ** \includegraphics[width=1em]{U1f355.PDF} Example, Litany Layer
 Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
@@ -2456,7 +2456,7 @@ development.  Participants will be asked to explain their choices
 based on thinking about a realistic story for their role or
 combination of roles.
 
-** Part two (30 minutes)
+** Part two (45 minutes)
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
