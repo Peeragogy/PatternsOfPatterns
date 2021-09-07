@@ -2364,12 +2364,14 @@ of free/libre/open source software?
 <<flaws-appendix>>
 
 Our workshop explores the interaction between Design Pattern Languages
-and Causal Layered Analysis (CLA) in the context of a cooperative game.
-It also introduces attendees to these methods, assuming no previous
-background.  The theme of the workshop is amelioration of and adaptation
-to climate change in an urban setting.  Since cities account for more than
-70% of global CO2 emissions, the workshop will help participants engage
-with a crucial challenge of our time.
+and Causal Layered Analysis (CLA) in the context of a cooperative
+game.  It also introduces attendees to these methods, assuming no
+previous background.  The theme of the workshop is amelioration of and
+adaptation to climate change in an urban setting.  Since cities
+account for more than 70% of global CO2 emissions, the workshop will
+help participants engage with a crucial challenge of our time.  The
+hoped for outcome of the workshop would be that attendees would go on
+to make more informed decisions about this complex problem.
 
 The workshop will combine material from several existing sources:
 
@@ -2420,21 +2422,23 @@ If we examine this pattern via CLA, we can see some potential problems:
 - Worldview :: Public and domestic rituals are organized about the daily cycle.  People may have self-identity views of who they are relative to clock time, like “early bird gets the worm”.
 - Myth :: Times of day have symbolic associations.
 
-** Part one (1 hour).
+** Part one (1 hour)
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
 We will divide participants into four groups (or fewer; so long as
-there are at least four persons per group, representing the four roles).
-Each group will be embedded within a scenario. Basic game play will be roughly
-as per Flaws of the Smart City: a turn consists of a randomised selection of a *Rule*,
-*Action*, *Place*, and *Issue* card. Following the selected *Rule* (e.g., to
-play as an Evil Genius or Guardian Angel), participants will discuss
-how the *Cooling* cards can be employed to disrupt or enhance the city.
-At the end of each turn, participants will be asked to align the
-*Action*, *Place*, *Issue*, and selected *Cooling* card(s) with the four layers
-of the CLA.
+there are at least four persons per group, representing the four
+roles).  Each group will be embedded within a scenario. Basic game
+play will be roughly as per Flaws of the Smart City: a turn consists
+of a randomised selection of a *Rule*, *Action*, *Place*, and *Issue*
+card. Following the selected *Rule* (e.g., to play as an Evil Genius or
+Guardian Angel) or elaborating an answer from the point of view of one
+the roles assigned in the Training phase, participants will discuss
+how the *Cooling* cards can be employed to respond to the other cards
+that were drawn.  At the end of each turn, participants will be asked
+to align the *Action*, *Place*, *Issue*, and selected *Cooling* card(s) with
+the four layers of the CLA.
 
 Participants will be asked to annotate each layer, and in addition,
 make note of any adapted, related, or new design patterns that would
@@ -2450,17 +2454,31 @@ combination of roles.
 :END:
 
 The resulting tableaux will then be shared back with the larger group
-in a short presentation.  An example appears below:
+in a short presentation.  An example tableau appears below:
 
-| Litany    | SHOPPING STREET | People come and they have ideas about shopping.                     |                    |
-| System    | GAMIFY          | Imagine if you to 3 shops and stamp a card you get a free BBQ.      | OUTDOOR COOKING    |
-| Worldview | HISTORIAN       | They will bring their kids and want to teach them about the climate | OUTDOOR PLAY AREAS |
-| Myth      | LOSS OF PRIVACY | Concern about security and this is a trade-off.                     |                    |
+\begin{center}
+\begin{tabular}{llll}
+Litany & \textbf{Shopping Street} & \textsc{Street Parties \& Fêtes} \\
+System & \textbf{Gamify} & \textsc{Outdoor Cooking}\\
+Worldview & \textbf{Historian} & \textsc{Outdoor Play Areas}\\
+Myth & \textbf{Loss Of Privacy} & \textsc{Signage} \\
+\end{tabular}
+\end{center}
 
-The /hoped for outcome/ would be that people can go on to make more
-informed decisions about how people think about the world.  They may
-go away thinking they need a better way to talk about these issues, so
-that's OK.
+\noindent This might be narrated as follows:
+
+#+begin_quote
+Suppose there is a monthly event that encourages people to get to know
+the local shops.  This happens in the evening and into the night,
+which allows people to stay cool while socialising outside.  From a
+business standpoint, engagement might be gamified with an incentive:
+perhaps shops would stamp a card, and enough stamps would entitle the
+bearer to a free meal.  Families might want to bring their kids and
+have them entertained.  Companies might like to take this as an
+opportunity to push some of their messaging.  However, it is possible
+that any targeted messaging at or after the event would compromise the
+sense of community.
+#+end_quote
 
 ** Part three (1 hour)                                             :noexport:
 :PROPERTIES:
