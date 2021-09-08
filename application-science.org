@@ -1231,39 +1231,44 @@ the overall import of what we say here.
 - With DPL (or another motor method) we can make what we have learned actionable.
 The methods can be interwoven, as we illustrated by combining PAR, CLA, and DPL into the [[PLACARD][PLACARD]] pattern.
 
-# ¶¶¶ This reference to other methods isn’t gratuitous; what other ways are out there?  Can we find and study them?
+The limitations of the research presented will be clear.  Our case
+study examined a small and well-integrated population, which is
+moreover, a subset of the authors of the present paper.  While the
+case study provides a proof of concept for the applicability of the
+methods, in other settings, some or all of the methods might not be
+needed, or accepted.  Nevertheless, from a modelling perspective,
+[[PLACARD][PLACARD]] could potentially be used to make sense of even very different
+collaboration patterns—so long as they have sensory, cognitive, and
+action components.  Despite the limitations of the present study when
+it comes to scale, the evidence to support the use of the integrated
+[[PLACARD][PLACARD]] pattern may accumulate rapidly, if the method proves useful
+for bringing training, futures, and design communities together, in
+the first instance, and making their work more robust.
 
-In our case study, we have seen that the combination of PARs and CLAs
-can be used as methods to create a rough plan.  Adding connections
-from this developing plan to an existing DPL further strengthened our
-work, not least by connecting it to a broader community.  We have
-used [[PLACARD][PLACARD]] as a way to integrate perspectives from people with
-different backgrounds.  The constituent methods are themselves sourced
-from different communities, and we believe that [[PLACARD][PLACARD]] may be useful
-for bringing these communities together, which could help their
-work become more robust.
+As a way forward, we can imagine these methods being readily applied
+in workshop settings.  For example, if we were to gather a group of
+citizens, experts, and other stakeholders to talk together about the
+city, they could use the methods we’ve described to surface issues,
+rehash concerns, and sensemake together.  “Anticipatory Social
+Science” is a broader term for this kind of work.  Moreover, working
+with methods that distribute perception, cognition, and action, we may
+become more comfortable with uncertainty, and better able to support
+innovation.[fn::As Nietzsche said, “the more affects we are able to put into words about a thing, the more eyes, different eyes, we can use to observe one thing, the more complete will our ‘concept’ of this thing” cite:nietzsche2017nietzsche, p. 128.]
+Especially when we think about
+contemporary problems like climate change, it is not enough to think
+about the past; ultimately, we need to develop a transformative set of
+tools and methods cite:miller2018transforming; and beyond this, a
+coherent worldview, and even new myths.  Citizen science has a
+potentially important role to play here cite:wildschut2017a, and the
+methods described may help to support widespread engagement.
 
-We can imagine these methods being readily applied in workshop
-settings. For example, if we were to gather a group of citizens,
-experts, and other stakeholders to talk together about the city, they
-could use the methods we’ve described to surface issues, rehash
-concerns, and sensemake together.  “Anticipatory Social Science” is a
-broader term for this kind of work.  Working with methods that
-distribute perception, cognition, and action, we may become more comfortable
-with uncertainty, and better able to support innovation.  Especially when we
-think about contemporary problems like climate change, it is not
-enough to think about the past; ultimately, we need to develop a
-transformative set of tools and methods cite:miller2018transforming; 
-and beyond this, a coherent worldview, and even new myths.
-Citizen science has a potentially important role to play here
-cite:wildschut2017a, and the methods described could help to support
-widespread engagement.
 
 Our paper reflects on several domains in which design patterns have
 been used.  Alongside the broader transdisciplinary contribution, we
 have started to develop a set of requirements for software that can
 help people work with these methods.  As Turing said about the future,
 we can see plenty there that needs to be done.
+
 Lastly, as regards Alexander’s visionary question: perhaps the
 ‘Chartres of programming’ has been hidden in plain view all along.
 Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic
