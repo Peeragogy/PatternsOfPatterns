@@ -968,7 +968,7 @@ for a few highly-paid rockstars, but for everyone.
 The individual methods we described have various analogies (e.g., between
 PAR and AAR, or \textsc{Daily Scrum}, as noted above; one could also
 point to Architectural Decision Records[fn:: https://adr.github.io/]
-and other review tools).  The work as a whole has some analogies with
+and other review tools).  [[PLACARD][PLACARD]] has some analogies with
 a method called Causal Layered Synthesis developed by Paul Wildman
 cite:wildman2010engaging. Seamon cite:seamon2019christopher develops an
 analysis of Chrisopher Alexander’s work with some parallels to our
@@ -994,7 +994,7 @@ reveal further tensions.
   relationships, is potentially just another form of rehashed
   colonialism cite:puzio2020patterns.
 
-To expand on this: our work takes a counterposition to Kostakis et
+To expand on this: we takes a counterposition to Kostakis et
 al. cite:kostakisDesignGlobalManufacture2015 who argued for a
 development model based on “thinking global and producing local.”  At
 the centre of their vision is a global pool of designs, which are put
@@ -1192,7 +1192,9 @@ We are certainly not the only people to think about systems and
 futures: what is distinctive about this paper is that we’ve connected
 these domains with the design pattern terminology and methods.
 We began by thinking about patterns from a fundamental perspective:
-/patterns as elements in the world/.  Some patterns repeat in space,
+/patterns as elements in the world/.
+
+Some patterns repeat in space,
 some in time, some in both space and time; think of a tiling, a beat,
 a wave.  However, patterns cannot repeat exactly or forever: their
 elements are subject to spatial or temporal displacement, and other
@@ -1216,10 +1218,11 @@ needed, or accepted.  Nevertheless, from a modelling perspective,
 [[PLACARD][PLACARD]] could potentially be used to make sense of even very different
 collaboration patterns—so long as they have sensory, cognitive, and
 action components.  Despite the limitations of this study when
-it comes to scale, the evidence to support the use of the integrated
+it comes to scale, evidence to support the use of the integrated
 [[PLACARD][PLACARD]] pattern may accumulate rapidly, if the method proves useful
 for bringing training, futures, and design communities together, in
-the first instance, and making their work demonstrably more robust.
+the first instance, and if this makes their work demonstrably more robust
+(which we hypothesise that it would).
 
 As a way forward, we can imagine these methods being readily applied
 in workshop settings.  For example, if we were to gather a group of
