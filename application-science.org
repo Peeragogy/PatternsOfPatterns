@@ -649,8 +649,8 @@ In précis, in this study, we were interested in the following topics:
 Looking across the Analysis and Case Study suggests several useful
 points of comparison.  Firstly, we stopped short of developing a DPL
 breakdown of our Analysis, whereas we provide one in the Case Study.
-However, the Analysis has given rise to an informal description (presented in the following section)
-which could be further broken down in subsequent work, using the Case Study
+However, the two studies together have given rise to an informal description of scenarios (presented in the following section)
+which could be further broken down to frame subsequent work, using the Case Study
 as a model.
 
 We can also reflect that the focal communities in the two CLAs—namely,
@@ -658,10 +658,11 @@ the Pattern Languages of Programs conference, and the Emacs Research
 Group—are both projects within the larger system of contemporary
 computing, which is organized with various loose hierarchical
 structures.  Accordingly, both projects inherit attributes from the larger
-communities/networks and histories to which they are heirs.
+communities/networks and histories to which they are heirs.  Taken together the
+two studies offer a nuanced perspective on contemporary computer programming culture.
 
 Thus, the Emacs Research Group is a small subcommunity of the larger Emacs
-community, and thus inherits two core tenets at the /worldview/ level:
+community, and inherits two core tenets at the /worldview/ level:
 
 - A preference for Free/Libre/Open-Source Software, as defined by the “four freedoms” at the core of the GNU project.[fn:: https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms]
 - Enthusiasm for the features and affordances of Emacs: an extensible, customizable, and self-documenting editor cite:Stallman1981.
@@ -962,7 +963,7 @@ experience of unequal access reappear in the future cultures we
 envision?  With due care, patterns might become the basis of
 widespread technical literacies, not only for an elite group of hackers or
 for a few highly-paid rockstars, but for everyone.  Patterns have been used
-to describe soft skills for aspiring programming professionals cite:hoover2009apprenticeship,
+to describe soft skills that are useful for aspiring programming professionals cite:hoover2009apprenticeship,
 however this falls far short of reforming the sector.
 
 # maybe reference the Bloom’s 2 Sigma problem here
@@ -979,7 +980,9 @@ and other review tools).  [[PLACARD][PLACARD]] has some analogies with
 a method called Causal Layered Synthesis developed by Paul Wildman
 cite:wildman2010engaging. Seamon cite:seamon2019christopher develops an
 analysis of Christopher Alexander’s work with some parallels to our
-analysis of DPL via CLA.
+analysis of DPL via CLA.  The patterns collected in /Fearless Change/ 
+cite:manns2015a may be useful for negotiating uptake and development of the scenarios
+outlined above.
 
 ** Criticisms
 Some prominent critical voices have been introduced in our Analysis:
