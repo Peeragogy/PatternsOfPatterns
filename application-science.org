@@ -628,15 +628,20 @@ Finally, Peeragogy design patterns are used to formulate a plan of action
 informed by this analysis.  Thus, all three methods are combined in
 line with the [[PLACARD][PLACARD]] pattern introduced above.
 
-In précis, in this study, we were interested in the following topics:[fn:: ¶¶¶ Check order against CLA.]
+In précis, in this study, we were interested in the following topics:
+
+# Litany
+# System
+# Worldview
+# Myth
 
 - Emacs has a variety of constituents and stakeholders---old users, new users, developers---who have differing needs and desiderata. How can we better understand the community of people interested /in/ Emacs?
 
-- The methods, workflows, and tools we are developing help us carry out our own activities more thoroughly and efficiently and could be of interest outside the group. How could similar processes be useful to others who interact /with/ Emacs?
+- The methods, workflows, and tools we are developing help us carry out our own activities thoroughly and efficiently, and could be of interest outside the group. How might similar processes be useful to others who interact /with/ Emacs?
 
 - We want to be aware of activities going on elsewhere, learn from them, and mesh with them. How can we think /about/ Emacs with reference to this context?
 
-- We want to encapsulate what we learn in new actionable and deliverable designs for software. What experiments can we do /on/ Emacs that might improve it?
+- We want to encapsulate what we learn in new actionable and deliverable designs for software. What experiments can we do /on/ Emacs itself that might improve it?
 
 * Results
 <<Results>>
@@ -1032,7 +1037,7 @@ healthy futures.
     *+[F]{C2}  \ar@{<->}[r] & *+[F]{F2} \ar[u] & \hbox {mental picture}}
 \end{equation*}
 \vskip 10pt
-\emph{\textbf{B.}~Here, we add a mental picture that abstracts from the context (e.g., design requirements) and the form (e.g., plans).  In short, now work takes place mediated by a design process.  This allows specialization of labor, but there’s no longer a direct unmediated link between $C1$ and $F1$.}
+\emph{\textbf{B.}~Here, we add a mental picture that abstracts from the context (e.g., design requirements) and the form (e.g., plans).  In short, now work takes place mediated by a design process.  This allows specialization of labor, but there is no longer a direct unmediated link between $C1$ and $F1$.}
 \vskip -20pt
 \begin{equation*}
   \xymatrix{
@@ -1080,11 +1085,11 @@ Realization, consisting of diagrams, a synthesis
 #+END_EXPORT
 
 ** How PLACARD relates to Alexander’s broader programme
-We begin by drawing the reader's
+We draw the reader's
 attention to two diagrams from Alexander's /Notes on the Synthesis of
 Form/ (/NSF/) recopied here as Figure \ref{synthesis-diagrams}.  Parts
 A.-C. of this figure have two columns corresponding to “context” and
-“form” (i.e., the latter being analogous to what we have been calling
+“form” (the latter being analogous to what we have been calling
 a /solution/ in this paper).  These component figures have one, two, or
 three rows, with labels “actual world”, “mental picture” and “formal
 picture”.  A creative problem is posed at the level of the /actual
@@ -1186,9 +1191,8 @@ Our vision for change is that the four scenarios we developed (“Patterns becom
 “PLACARD scaffolds new literacies of collaboration”,
 “Patterns eat Big Tech”) will be given
 serious thought by other members of the patterns community.
-Our Case Study suggests
-the ways in which progress could be
-towards realizing these scenarios.  Progress will become measurable through markers of
+Our Case Study suggests ways in which progress could be
+made towards realizing these scenarios.  Progress will become measurable through markers of
 debate and dialogue between the different communities whose work we
 have drawn upon, and perhaps through trial-and-error uptake or
 adaptation of the methods we’ve described.  Key next steps for us will be outreach to
@@ -1527,7 +1531,7 @@ psychological safety: all features that make PLoP a space where
 ‘failure’ is OK and even celebrated, as per Mob Software.  The essay
 develops its own criticisms of open source, e.g., “the open-source
 community is extremely conservative” and forking happens rarely.
-(Five years later, with the creation of Git, forking became more
+(Five years later, with the creation of Git, a certain form of forking became more
 typical.)  Resonating with Tidwell’s critique from above:
 
 #+begin_quote
@@ -2545,152 +2549,3 @@ Cameron Tonkinwise and Abby Mellick Lopes. Cooling the Commons. (2021). https://
 
 \clearpage
 
-* OUTTAKES :noexport:
-
-# #+INCLUDE: "first-par.tex" export latex
-
-** Methodological contribution
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-PARs are related to patterns, in that they describe a context, and
-surface problems and solutions that arise or are likely to arise in
-that context.  They might be seen as a template for proto-patterns.
-However, they do not necessarily have a strong repeating aspect.  CLA
-could be seen to play the opposite role to PARs.  Metaphorically, CLA
-integrates the tangent vectors that characterize the observations we
-have gathered as we work together, and can be used to reconstruct the
-shared meaning of our work.  DPL, then, can turn this understanding
-into practical high-level plans.  By contextualizing DPL with the
-other methods, we avoid brittle solutions and enrich our thinking.
-
-** Constructively critical contribution
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-If the ideas and methods we have examined were actively used and
-improved jointly by all of the different communities whose work we
-have drawn on, many things could start to move quickly.
-- The Emacs Research Group can use these ideas to help connect with potential stakeholders.
-- The Peeragogy network can help facilitate some of the discussions and projects.
-- PLoP can provide relevant social infrastructure and connections with others using pattern methods.
-- As we gather further evidence, we can return to the futures community and share what we learned with them, and expand the scale and scope of the integrated effort.
-
-
-** Fundamental definition of patterns
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-Let’s begin by setting to one side any specialist notion of ‘patterns’
-that we may have in mind, and think about patterns in a fundamental
-way.  Some patterns repeat in /space/, some in /time/, some in both /space
-and time/—a tiling, a beat, a wave.  In the physical world, it would
-seem that patterns cannot repeat exactly, or forever.  The elements
-that comprise a pattern are subject to spatial or temporal
-displacement, and other forms of variation.
-
-Let’s now explore the notion of ‘design pattern’ starting from this
-foundation.  Leitner supplied the following summary: "[Design]
-Patterns are shared as complete methodic descriptions intended for
-practical use by experts and non-experts" \citep{leitner2015a}.  As we
-look into the matter further, two central features emerge.  
-
-** Outline of implications 
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-# US Army—Steve Blank
-# Download entrepreneurship patterns for Vitor
-
-In our Discussion we draw out implications for the future of
-design patterns.  We look briefly at how DPLs and CLA have been
-applied (separately) to discuss the problem of anthropogenic climate
-change.  We suggest that the integrated strategy we propose here could lead
-to more satisfactory outcomes on problems of this scale.  We then
-develop four scenarios for the possible future development of
-pattern-theoretic methods.  In the section on Related Work, we engage
-with further critical views, along with similar techniques that have
-been applied in the various communities who developed the methods we
-are studying, with a focus on Alexander’s /Synthesis of Form/.  By way of Conclusion, we present a PAR for the paper as a
-whole.  This is offered as an example of a potential best-practice for
-pattern authors, on the view that widespread adoption of this method
-would help improve collaboration within the design patterns community.
-
-** Epilogue sourced from Virgina Woolf.
-
-\begin{quote}
-\emph{It is only by putting {\upshape[the shock]} into words that I make it whole; this wholeness
-means that it has lost its power to hurt me; it gives me, perhaps because by doing
-so I take away the pain, a great delight to put the severed parts together.}  [...]
-\emph{From this I reach what I might call a philosophy; at any rate it is a constant
-idea of mine; that behind the cotton wool is hidden a pattern; that we—I mean all
-human beings—are connected with this; that the whole world is a work of art;
-that we are parts of the work of art.}
-\end{quote}
-
-
-** summary erg
-
-
-Looking back over the case study, we can now outline an answer to the
-concern raised at the end of Section [[methods]], namely how do the
-[[PLACARD][PLACARD]] methods help, concretely, to develop solutions?  Let’s begin
-by revisiting the notion of patterns from a fundamental perspective.
-Patterns are something that repeat.  Some patterns repeat in space,
-some in time, some in both space and time; think of a tiling, a beat,
-a wave.  In the physical world, it would seem that patterns cannot
-repeat exactly, or forever. Their elements are subject to spatial or
-temporal displacement, and other forms of variation.  By using the PAR
-or another sensory method, we are able to identify recurring themes.
-Then, by using the CLA or some other cognitive method, we are able to
-organize these repeating themes in a structure that exposes the
-underlying trends, causes, and potential terminating states.
-
-A useful analogy can be made with the notion of a macro or program.
-Once we notice that we end up repeating the same gesture frequently,
-we may then look for ways to automate it.  In order to do the
-automation, we need a grasp of the relevant existing facilities.  With
-Emacs, the most straightforward tasks can be automated by using
-built-in commands, or by recording new keyboard macros.  Other tasks
-are typically automated through new Lisp code, or with interfaces to
-other programs.  Still more involved and less readily automated
-solutions require working together with other people who have
-different knowledge or facility with other tools.
-
-Hello from joe
-
-
-Broadly, a solution process can often be decomposed into interrelated
-subtasks alexander1964notes,polya1945solve,polya1954plausible.  If we
-are able to understand the (sub-)context and (sub-)problems in
-detail—along with their relationships to other parts of the developing
-decomposition—then we can then make predictions about the way an
-intervention could change the overall system.  As we will revisit
-again later on in the paper, there are “two different forms of
-information processing (bottom-up and top-down)” cite:Teufel2020; CLA
-can help with both, and in so doing can indeed assist with
-solution-development.  Nominally, CLA is an analytic tool that
-decomposes a problematic situation into /layers/, and /causes/ operating
-at and between these layers.  In this sense it functions top-down.
-However, CLA also plays a synthesis role.  Whereas we could compare
-the PAR to a tangent vector or derivative that gives a momentary
-reading of how things are going at a given point in time, CLA can be
-used to integrate these observations into an overall plan—as we’ve
-seen above.
-
-** contentious point
-
-That said, this line of thinking leads us to ask if there is a form of
-hegemonic power lurking inside the methods we’ve described.  After
-all, the notion of gift culture has been critiqued on that basis
-cite:Mallard2019; would we expect pattern-theoretic or free software
-culture to be exempt?  Furthermore, supposing that patterns (and
-software) are indeed tools for liberating many human tendencies: is
-that wholesome in every case?  And who decides?
-Having raised these concerns we certainly will not reject them out of
-hand, rather, we suggest that the philosophical and cultural issues
-around patterns need further thought.  This underscores our broader
-point that thinking about how patterns—and other methods—should be
-done contextually.
