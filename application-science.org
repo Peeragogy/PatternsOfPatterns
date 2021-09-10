@@ -136,8 +136,7 @@ can be used together to tackle problems both big and small.
 We detail three methods which can help a community carry out
 self-evaluation and peer learning.  Each has natural
 use-cases when considered in isolation.  When combined, the methods
-provide a more holistic mixed pattern, as will be described in due
-course.  Our
+provide a more holistic mixed pattern.  Our
 focus is on scaffolding social perception, cognition, and action (Table \ref{tab:acronyms}).
 The tripartite division here mirrors classical
 psychology cite:Hilgard1980, and continues to be
@@ -256,7 +255,7 @@ of Stafford Beer cite:beer1972brain.  However, it is harder to say
 what it means to be a well-functioning society; and what it means to be
 a good member of a society in a time of crisis is a longstanding question.
 Alexander’s hopeful stance on “the generation of a living world” cite:alexander1999a currently
-comes up against a complex global crisis.
+comes up against complex global crises.
 How are we to understand design patterns in this context?  Stephen Batchelor writes:
 “If I am to take this crisis with the seriousness I feel it deserves,
 then I need to align my thoughts and actions. I require a coherent
@@ -265,12 +264,12 @@ behavior” cite:batchelor2020embracing.
 
 Perhaps pattern methods could fill part of this need.
 A simplistic view of design patterns would see in them only evidence of a “technical
-mindset” (/ibid./, here and in quotes throughout this paragraph), embodied in a growing repository of technical fixes.
+mindset” (/ibid./), embodied in a growing repository of technical fixes.
 However, thinking at a deeper level, pattern methods also suggest themselves as a
 methodology that can help “imagine how human communities might come to
 flourish in a radically changed world” and articulate “forms of
 collective action that can respond to the climate emergency that
-threatens life on Earth”.  It is useful
+threatens life on Earth” (/ibid/.).  It is useful
 to juxtapose our exploration of patterns against a macro-historical
 scale.
 
@@ -343,7 +342,10 @@ came up with the following template:
 
 When we fill in the template, we call it “doing a /PAR.”/  A real-world example is provided in Appendix [[appendix-pars]].
 As an
-acronym, “PAR” has stood for various things over the years—Peeragogical Action Review, Project Action Review—but we like PAR as
+acronym, “PAR” has stood for various things over the years—Paragogical Action
+Review,[fn:: ¶¶¶ Page 5 of http://ceur-ws.org/Vol-739/paper_5.pdf, Page 134 of Handbook v3]
+Peeragogical Action Review,[fn:: https://github.com/Peeragogy/Peeragogy.github.io/wiki/Monthly-Wrap:-March-2020]
+Project Action Review[fn:: https://web.archive.org/web/20150909224638/http://metameso.org/~joe/docs/The-Paragogical-Action-Review.pdf]]—but we like PAR as
 a stand-alone term.  Allusively, it brings to mind the corresponding
 concept of /par/ in golf, and helps give us a sense of how we are doing
 at any given point in time.[fn:: “In golf, /par/ is the predetermined
@@ -435,6 +437,7 @@ of a fictional mom-and-pop pizza shop.
 \end{mdframed}
 \medskip
 \caption{Overview of the layers in Causal Layered Analysis\label{tab:cla-summary}}
+\vspace{-2\baselineskip}
 \end{table}
 
 ** Design Pattern Languages
@@ -515,8 +518,8 @@ and DPL combine into one holistic pattern, in Leitner’s sense of a
 complete methodic description cite:leitner2015a.  We will write this
 down using the classical DPL format: describing the associated
 /context/, the /problem/ denoting a conflict, together with a /solution/.
-As it happens, the three acronyms introduced earlier can be combined and remixed in a
-clever way to provide a title for this pattern.
+As it happens, the three acronyms introduced earlier can be combined and remixed
+to provide a title for this pattern.
 $$\textrm{PAR}+\textrm{CLA}+\textrm{DPL}=\textrm{PLACARD}$$
 This accurately suggests that
 the methods need not be run in a fixed order, but are interwoven together.
@@ -672,8 +675,8 @@ the hacker culture.  Whereas Emacs is primarily associated with
 functional programming methods, applications of design patterns in
 computing have often been more closely associated with the Object
 Oriented (OO) programming style.  For example, the =c2= pattern wiki was
-primarily linked with OO traditions.  The members of these communities
-were not always in direct contact.
+primarily linked with OO traditions.[fn:: https://wiki.c2.com/?DesignPatterns]
+The members of these communities were not always in direct contact.
 
 On =c2=, “openness” was a key value at the worldview level: specifically,
 the emphasis was on /in situ/ editability and community effort.
@@ -716,30 +719,7 @@ The Case Study also serves to contextualize the work of the Emacs Research Group
 relative to the PLoP and Peeragogy communities.  Over the 25 sessions
 of ERG seminar, we used CLA in combination with PARs to
 address the question ‘What is our vision for change and how is
-progress measurable?’.  More specifically: we did a PAR at the end of
-every (approximately weekly, two-hour) session.[fn:: Data archived at
-https://github.com/exp2exp/exp2exp.github.io, with meeting notes and
-PARs indexed and viewable on the web at
-https://exp2exp.github.io/erg.]  This allowed us to track progress,
-and to surface key issues and concerns.  For example, bootstrapping
-needs related to scheduling and collaboration tools, along with
-persistent questions about how best to go public, are documented in
-our first PAR (reproduced in Appendix \ref{appendix-pars}).
-Every six weeks or so, we merged selected bullet-points from our PARs
-into the CLA outline in an intuitive way, depending on which section
-they seemed to fit best.
-We elaborated those bullet points into a narrative form,
-which we jointly revised to accommodate new data as time went on.
-We also began to develop TODO items that would make the
-next steps for this seminar group both actionable and meaningful.
-Additionally, we connected these TODO items to design patterns collected in the
-/Peeragogy Handbook/ cite:peeragogy-handbook-long (with ongoing work appearing at =peeragogy.org=).
-The TODO items typically are not concrete objectives, but are,
-rather, descriptions of anticipated patterns of behavior—here linked
-to /bona fide/ design patterns.  To refine these items into tasks that
-are concretely doable will require further breakdown and elaboration.
-
-We foresee this to be an iterative process, assisted by bidirectional
+progress measurable?’.  We foresee the PAR→CLA→DPL workflow to be iterative, assisted by bidirectional
 links between patterns and next steps, and additionally assisted by software tools.
 Our current prototypes could certainly be improved.  These prototypes are based on Emacs’s
 built-in Org Mode (a tool for managing information structured in
@@ -855,9 +835,9 @@ with deeper values—or ways in which they might be exploited to cause
 chaos cite:friction2016a?
 
 Broadening our exploration of how design patterns relate to futures
-studies, we should mention Schwartz cite:schwartz1996a (Appendix,
-pp. 241-248), /viz./, his “Steps to Developing Scenarios”.  This process
-follows an outline with a striking similarity to a design pattern
+studies, we note that Schwartz cite:schwartz1996a (Appendix,
+pp. 241-248, /viz./, his “Steps to Developing Scenarios”) described a process that
+follows an outline that is strikingly similar to a design pattern
 template.  Both Alexander and Schwartz advocate the identification of
 driving forces in a context.  However, unlike Alexander, Schwartz does
 not intend to resolve conflicts between the forces within a
@@ -869,8 +849,7 @@ evolution of scenarios.
 
 With these reflections in mind, here are four scenarios that will be
 of interest to DPL practitioners, roughly pegged to the four layers of
-CLA.  We should emphasize that these scenarios are not mutually
-exclusive.
+CLA.  We emphasize that these scenarios are not mutually exclusive.
 
 ** Scenario I. Patterns become explicitly computational
 Patterns have been discussed in explicitly computational
@@ -950,11 +929,11 @@ citizen scientists cite:wildschut2017a.
 ** Scenario IV. Patterns eat Big Tech
 Reflecting on the increasingly contextual and transdisciplinary nature
 of the discussions at PLoP and other venues, along with the other
-points above, brings to mind Hesse’s /The Glass Bead Game/.  For those
-who are familiar with the novel, this reference will suggest:
-proceed with caution.  How hierarchical do we want our community, or
-our society, to be?  How in touch are pattern authors with practical realities?  How critical are we capable of being towards the
-tenets we hold dear?  When reflecting on futures-oriented discourses,
+points above, brings to mind Hesse’s /The Glass Bead Game/.  In his novel, Hesse
+describes a society in which the community of scholars studying
+abstract patterns forms a strong hierarchy, which, however, is out of touch
+with practical realities experienced by outsiders.  This suggests to proceed
+with caution.  When reflecting on futures-oriented discourses,
 Slaughter described a spectrum: “participatory and open at one pole
 and closed (or professionalised) at the other” cite:SLAUGHTER1989447.
 Access to meaningful participation is a serious matter of concern in our
@@ -964,7 +943,8 @@ envision?  With due care, patterns might become the basis of
 widespread technical literacies, not only for an elite group of hackers or
 for a few highly-paid rockstars, but for everyone.  Patterns have been used
 to describe soft skills that are useful for aspiring programming professionals cite:hoover2009apprenticeship,
-however this falls far short of reforming the sector.
+however this falls far short of reforming the sector.  In order to reform the sector,
+we would need to study the forces that make it how it is today.
 
 # maybe reference the Bloom’s 2 Sigma problem here
 # Only half of the students will make it to the end of the course and only half of those get A’s
@@ -1269,11 +1249,22 @@ help people work with these methods.  As Alan Turing said about the
 future of computing machinery and intelligence, we can see plenty that
 needs to be done.
 
+# CD: In final paragraph can you connect back to the Nikāya quote on page 2?
+# JC+RP: Let’s leave this is an invitation to the reader to think this through for themselves... could be a whole be a whole other paper to confirm our general hypothesis related to the history of ideas.
+
 Lastly, as regards Alexander’s visionary question: perhaps the
 ‘Chartres of programming’ has been hidden in plain view all along.
 Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic
-cathedral” \cite{jodorowsky2009way} (p. 10); it seems to us that
-pattern languages are very much the same sort of thing.
+cathedral” \cite{jodorowsky2009way} (p. 10).  Are pattern languages
+the same sort of thing?  Consider that cathedrals were not just a
+place to pray or to do private inward contemplation, but also have
+meaningful layouts, and beautiful images in the form of stained glass
+windows to support people in understanding bible stories and otherwise
+create an appropriate environment to inspire devotion.  Similarly,
+design patterns typically come with images, and through venues like
+PLoP, are associated with spaces of congregation.  With [[PLACARD][PLACARD]], we
+have discovered a potential crossroads that could bring wider
+communities together.
 
 
 # \begin{quote}
@@ -1300,6 +1291,8 @@ comments and participation in online seminar discussions of: Roland
 Legrand, Charles Blass, Stephan Kreutzer, Giuliana Marques, Cris
 Gherhes, Qiantan Hong, Cameron Ray Smith, David O’Toole, Rebecca
 Raper, and Steve Corneli.
+
+The image presented here Figure 1 was made available under the terms of CC Zero by Lapsed Pacifist at =https://commons.wikimedia.org/wiki/File:Shell_to_Sea_placard.jpg=.
 
 \appendix
 * NOTES :noexport:
@@ -1752,6 +1745,29 @@ context, see \cite{springhestia}.
 # thinking that underpins the CLA method can inform further
 # action: *Season 1* will be shaped by this narrative and the
 # corresponding TODO items.
+
+We did a PAR at the end of
+every (approximately weekly, two-hour) session.[fn:: Data archived at
+https://github.com/exp2exp/exp2exp.github.io, with meeting notes and
+PARs indexed and viewable on the web at
+https://exp2exp.github.io/erg.]  This allowed us to track progress,
+and to surface key issues and concerns.  For example, bootstrapping
+needs related to scheduling and collaboration tools, along with
+persistent questions about how best to go public, are documented in
+our first PAR (reproduced in Appendix \ref{appendix-pars}).
+Every six weeks or so, we merged selected bullet-points from our PARs
+into the CLA outline in an intuitive way, depending on which section
+they seemed to fit best.
+We elaborated those bullet points into a narrative form,
+which we jointly revised to accommodate new data as time went on.
+We also began to develop TODO items that would make the
+next steps for this seminar group both actionable and meaningful.
+Additionally, we connected these TODO items to design patterns collected in the
+/Peeragogy Handbook/ cite:peeragogy-handbook-long (with ongoing work appearing at =peeragogy.org=).
+The TODO items typically are not concrete objectives, but are,
+rather, descriptions of anticipated patterns of behavior—here linked
+to /bona fide/ design patterns.  To refine these items into tasks that
+are concretely doable will require further breakdown and elaboration.
 
 Paragraphs summarising the CLA are augmented with representative data from the
 seminar sessions, and further broken down into next steps which are cross-referenced
