@@ -83,12 +83,12 @@
 
 In 1999, the architect Christopher Alexander discussed the future of
 design patterns with an audience of programmers cite:alexander1999a.
-We revisit this topic, aided by an method from the field of future
+We revisit this topic, aided by a method from the field of future
 studies.  We use this method to analyse design pattern
 literature and practices, and, additionally, present a practical case
 study in which we deploy design patterns together with futuring and
 distributed project management methods.  Building on these
-explorations, we develop several scenarios charactising potential
+explorations, we develop several scenarios characterizing potential
 directions for the development of design pattern methods.  The contribution of the paper is
 simultaneously theoretical and practical.  Towards realising the
 promise of design patterns, we aim for an excavation and reworking of
@@ -119,7 +119,7 @@ Already there are a number of practical texts that use patterns (in
 the second sense) to talk about patterns (again in the second sense):
 they share methods that aid in discovery, writing, workshopping, and
 the broader application of design patterns.  By contrast we develop a
-more fundamental analysis, and to use this to work towards a new level
+more fundamental analysis, and use this to work towards a new level
 of practicality.  Granted, the relevant forces are no longer simply
 physical, but are socially distributed and culturally determined.
 Architects, computer scientists, and institutional designers have all
@@ -294,7 +294,7 @@ they tangle with all of these complexities.  Whereas science fiction can
 provide a `thinking machine' cite:Doherty2020, it cannot by itself
 provide historically robust alternatives to the global crises that we
 face.  For that, we need a concrete, testable, and adaptable approach that
-integrates thinking with awareness and actien, and that works across
+integrates thinking with awareness and action, and that works across
 scales: from individual agents to distributed networks.
 
 * Methods
@@ -517,7 +517,7 @@ down using the classical DPL format: describing the associated
 /context/, the /problem/ denoting a conflict, together with a /solution/.
 As it happens, the three acronyms introduced earlier can be combined and remixed in a
 clever way to provide a title for this pattern.
-$$\textsc{PAR}+\textsc{CLA}+\textsc{DPL}=\textrm{PLACARD}$$
+$$\textrm{PAR}+\textrm{CLA}+\textrm{DPL}=\textrm{PLACARD}$$
 This accurately suggests that
 the methods need not be run in a fixed order, but are interwoven together.
 
@@ -632,7 +632,7 @@ In précis, in this study, we were interested in the following topics:[fn:: ¶¶
 
 - Emacs has a variety of constituents and stakeholders---old users, new users, developers---who have differing needs and desiderata. How can we better understand the community of people interested /in/ Emacs?
 
-- The methods, workflows, and tools we are developing help us carry out our own activities more throughly and efficiently and could be of interest outside the group. How could similar processes be useful to others who interact /with/ Emacs?
+- The methods, workflows, and tools we are developing help us carry out our own activities more thoroughly and efficiently and could be of interest outside the group. How could similar processes be useful to others who interact /with/ Emacs?
 
 - We want to be aware of activities going on elsewhere, learn from them, and mesh with them. How can we think /about/ Emacs with reference to this context?
 
@@ -645,7 +645,7 @@ Looking across the Analysis and Case Study suggests several useful
 points of comparison.  Firstly, we stopped short of developing a DPL
 breakdown of our Analysis, whereas we provide one in the Case Study.
 However, the Analysis has given rise to an informal description (presented in the following section)
-which could further broken down in subsequent work, using the Case Study
+which could be further broken down in subsequent work, using the Case Study
 as a model.
 
 We can also reflect that the focal communities in the two CLAs—namely,
@@ -734,7 +734,7 @@ to /bona fide/ design patterns.  To refine these items into tasks that
 are concretely doable will require further breakdown and elaboration.
 
 We foresee this to be an iterative process, assisted by bidirectional
-links between patterns and next steps, and additonally assisted by software tools.
+links between patterns and next steps, and additionally assisted by software tools.
 Our current prototypes could certainly be improved.  These prototypes are based on Emacs’s
 built-in Org Mode (a tool for managing information structured in
 outlines), Org Roam[fn:: [[https://www.orgroam.com/]]] (an Emacs package
@@ -742,8 +742,8 @@ layered on Org Mode and used for creating zettelkasten, which are,
 essentially, wikis), and Org Roam Server (a further layer for
 visualisation of the resulting network structures).  These tools have some deficiencies when it
 comes to interlinking varied contents—such as patterns and next
-steps—particularly when these originate from distributed sources (such as the Peeragogy project on the one hand
-and the Emacs Research Group on the other).  In short, we need to keep improving
+steps—particularly when these originate from distributed sources, such as the Peeragogy project on the one hand
+and the Emacs Research Group on the other.  In short, we need to keep improving
 our tools in order to effectively manage growing distributed,
 interlinked, collections of PARs, CLAs, and DPLs, alongside other
 scientific and technical corpora.  Federated Wikis are another area
@@ -879,7 +879,7 @@ started his undergraduate degree in Cambridge cite:polya1954plausible;  four yea
 Polya’s student Allen Newell was beginning to think about how to model the
 inference process computationally cite:newell1958,newell1983heuristic.  In the domain of
 economics, Ostrom-style institutions are analogous to design
-patterns cite:ostrom2009a (p. 11). Recent work looks at how description of such institutions can extracted from text
+patterns cite:ostrom2009a (p. 11). Recent work looks at how description of such institutions can be extracted from text
 cite:Rice2021.  Could this line of thinking be extended, so that other similar kinds of patterns could be recognised where they appear?
 Could the extracted descriptions be used directly in computations?  One fruitful strategy might be to think of design
 patterns as conceptual blends cite:Corneli2018, which can be given a
@@ -994,7 +994,7 @@ reveal further tensions.
   relationships, is potentially just another form of rehashed
   colonialism cite:puzio2020patterns.
 
-To expand on this: we takes a counterposition to Kostakis et
+To expand on this: we take a counterposition to Kostakis et
 al. cite:kostakisDesignGlobalManufacture2015 who argued for a
 development model based on “thinking global and producing local.”  At
 the centre of their vision is a global pool of designs, which are put
@@ -1139,10 +1139,10 @@ In this paper, we have considered the problems faced by groups of people
 organizing their activities, often in distributed networks.  The naive “actual world” approach
 (Figure \ref{synthesis-diagrams}A.) would be when a group takes a
 "seat of the pants" approach to dealing with issues as they come up in
-the course of work, and, moreover is not necessarily in touch with others elsewhere as the work develops.
+the course of work.  Moreover, they may not communicate with others elsewhere as the work develops.
 PAR can help to sketch a “mental picture” which can
 be readily shared with people who were not in attendance, and which can also be referred to later
-as a source of processed data.  CLA and DPL can then be used to formulate a “formal picture”: as in our
+as a source of partially processed data.  CLA and DPL can then be used to formulate a “formal picture”: as in our
 Case Study, where we moved from informal PARs, via a CLA, to next
 steps linked with design patterns.  Once this has been done, we arrive at a
 stage where we can use DPL to synthesise solutions, much as Alexander
@@ -1574,9 +1574,9 @@ an an example of one direction that we will not have time and space to
 develop here, some applications of the concept of ‘gift culture’ have
 been criticised as hegemonic in nature cite:Mallard2019: should we
 expect pattern-theoretic, mob, or free/libre/open source software
-culture to be immune from such concerns?  VanDrunen’s criticisms are
+culture to be immune from such concerns?  VanDrunen’s critique is
 useful for our purposes not because they provide the last word, but
-because they points to the importance of considering the deeper layers
+because this criticism points to the importance of considering the deeper layers
 in developing a concept or approach.  There may also be conflicts at
 these deeper layers.
 
@@ -1842,7 +1842,7 @@ Collaboration is familiar to teams across all domains. Even authors
 working alone will collaborate with their past and future selves. What
 is common for all collaborators is that the transfer of information
 must be uninhibited.  If we all had our slipboxes online, we could
-interlink them.[fn:: The zettelkasten (German: “slip box”, plural zettelkästen) is a method of note-taking and personal knowledge management used in research and study.  ([[https://en.wikipedia.org/wiki/Zettelkasten][Wikipedia]])]  This would generalise *ORCiD*, and allow people to
+interlink them.[fn:: The zettelkasten (German for “slip box”, plural zettelkästen) is a method of note-taking and personal knowledge management used in research and study.  ([[https://en.wikipedia.org/wiki/Zettelkasten][Wikipedia]])]  This would generalise *ORCiD*, and allow people to
 reference processes that are undergoing evolution.  Maybe a service
 like this would turn into a ‘Tinder for academics’—helping to match
 people based on their interests (or similar people in different
@@ -2153,7 +2153,7 @@ want to do more to figure out scheduling with the many authors.
 * APPENDIX: Le Quattro Stagioni, a CLA short story
 <<appendix-pizza>>
 ** \includegraphics[width=1em]{U1f355.PDF} Example, Litany Layer
-Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neopolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
+Imagine a couple who on some of their first dates enjoy going out for pizza. They like different toppings, but that doesn’t particularly matter, because each of them orders their own perfectly sized Neapolitan-style pizza, and eats it with gusto. Indeed, it turns out they like pizza so much that they would like to have it several nights a week. Going out that frequently would be expensive, so they erect a brick oven in their backyard and get good at making their own pizzas at home: selecting good ingredients, fermenting the dough, and baking at a high temperature. After some time goes by, they have gotten really good at this, and they daydream about opening their own restaurant. They look into some available practical guidance and adapt it for their use case. After a lot of planning and a whole lot of work, they get their new pizza restaurant up and running, and they are doing good business. However, as more time goes by, they begin to notice some stress.
 ** \includegraphics[width=1em]{U1f355.PDF} Example, System Layer
 Mom has practical experience of how restaurants operate coming from summers she spent working in a diner.  Pop is handy with tools, so he can set up and maintain restaurant equipment.  The policies of the town are favorable to small businesses.  The demographics of the town include a number of busy families with children who form a reliable customer base for the pizzeria.  As the pace of economic recovery picks up, townspeople have more money and less time, so they frequent restaurants and order takeout more frequently.  The restaurant maintains good connections with local suppliers, and Mom and Pop are proud of the high quality and affordable dining experience they can offer.  However, they are very, very, busy.
 ** \includegraphics[width=1em]{U1f355.PDF} Example, Worldview Layer
