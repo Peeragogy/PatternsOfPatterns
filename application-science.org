@@ -866,7 +866,7 @@ of interest to DPL practitioners, roughly pegged to the four layers of
 CLA.  We should emphasize that these scenarios are not mutually
 exclusive.
 
-** Scenario I. Patterns become explicitly computational.
+** Scenario I. Patterns become explicitly computational
 Patterns have been discussed in explicitly computational
 terms—however, that direction of work so far remains mostly at the
 level of a proposal cite:alexander1999a,moran1971a, with only limited
@@ -894,7 +894,7 @@ might conflict with the notion of library contents as being read-only,
 or with the view that libraries should be silent study spaces.  Could
 these ideas and complexities be reasoned about computationally?
 
-** Scenario II. Pattern language authoring communities move to free/libre/open source licensing.
+** Scenario II. Pattern language authoring communities move to free/libre/open source licensing
 # Let’s explore!
 
 In the field of policy, /resilience/ describes a society’s
@@ -919,7 +919,7 @@ as rallying point for the pattern community.
 # add refs to Minnesota 2050 paper
 # Maybe add a comment saying these people were ‘sort of’ working together (in different rooms)
 
-** Scenario III. PLACARD scaffolds new literacies of collaboration.
+** Scenario III. PLACARD scaffolds new literacies of collaboration
 
 As we’ve seen in our work with Emacs and Peeragogy (and previously
 with the online community PlanetMath cite:krowne2003,corneli-thesis) projects need more
@@ -941,7 +941,7 @@ between the viewpoints of, e.g., professional futurists, programmers,
 data scientists, local farmers—and to draw on the insights of
 citizen scientists cite:wildschut2017a.
 
-** Scenario IV. Patterns eat Big Tech.
+** Scenario IV. Patterns eat Big Tech
 Reflecting on the increasingly contextual and transdisciplinary nature
 of the discussions at PLoP and other venues, along with the other
 points above, brings to mind Hesse’s /The Glass Bead Game/.  For those
@@ -956,7 +956,9 @@ current technological culture cite:unger2019knowledge.  Does our
 experience of unequal access reappear in the future cultures we
 envision?  With due care, patterns might become the basis of
 widespread technical literacies, not only for an elite group of hackers or
-for a few highly-paid rockstars, but for everyone.
+for a few highly-paid rockstars, but for everyone.  Patterns have been used
+to describe soft skills for aspiring programming professionals cite:hoover2009apprenticeship,
+however this falls far short of reforming the sector.
 
 # maybe reference the Bloom’s 2 Sigma problem here
 # Only half of the students will make it to the end of the course and only half of those get A’s
@@ -1179,14 +1181,19 @@ discourse, as well as several scenarios that members of the design
 pattern community may wish to consider as they give shape to this
 community’s future development.
 
-Our vision for change—now speaking as part of the design pattern
-community—is that the four scenarios we developed will be given
-serious thought.  Progress will become measurable through markers of
+Our vision for change is that the four scenarios we developed (“Patterns become explicitly computational”,
+“Pattern language authoring communities move to free/libre/open source licensing”,
+“PLACARD scaffolds new literacies of collaboration”,
+“Patterns eat Big Tech”) will be given
+serious thought by other members of the patterns community.
+Our Case Study suggests
+the ways in which progress could be
+towards realizing these scenarios.  Progress will become measurable through markers of
 debate and dialogue between the different communities whose work we
-have drawn upon, and perhaps through ensuing trial-and-error uptake or
-adaptation of the methods we’ve described.  Our Case Study suggests
-the ways in which progress towards realizing these scenarios might be
-made actionable.
+have drawn upon, and perhaps through trial-and-error uptake or
+adaptation of the methods we’ve described.  Key next steps for us will be outreach to
+the communities familiar with CLA and Action Reviews, as we have done here with the patterns
+community.
 
 We are certainly not the only people to think about systems and
 futures: what is distinctive about this paper is that we’ve connected
