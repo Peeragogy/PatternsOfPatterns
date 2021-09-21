@@ -343,15 +343,15 @@ came up with the following template:
 When we fill in the template, we call it “doing a /PAR.”/  A real-world example is provided in Appendix [[appendix-pars]].
 As an
 acronym, “PAR” has stood for various things over the years—Paragogical Action
-Review,[fn:: ¶¶¶ Page 5 of http://ceur-ws.org/Vol-739/paper_5.pdf, Page 134 of Handbook v3]
+Review,[fn:: http://ceur-ws.org/Vol-739/paper_5.pdf (p. 5) and /Peeragogy Handbook/ v3, p. 134]
 Peeragogical Action Review,[fn:: https://github.com/Peeragogy/Peeragogy.github.io/wiki/Monthly-Wrap:-March-2020]
-Project Action Review[fn:: https://web.archive.org/web/20150909224638/http://metameso.org/~joe/docs/The-Paragogical-Action-Review.pdf]]—but we like PAR as
+Project Action Review—but we like PAR as
 a stand-alone term.  Allusively, it brings to mind the corresponding
 concept of /par/ in golf, and helps give us a sense of how we are doing
 at any given point in time.[fn:: “In golf, /par/ is the predetermined
 number of strokes that a proficient golfer should require to complete
 a hole, a round (the sum of the pars of the played holes), or a
-tournament (the sum of the pars of each round).”—Wikipedia] Like the
+tournament (the sum of the pars of each round).”—Wikipedia][fn:: https://web.archive.org/web/20150909224638/http://metameso.org/~joe/docs/The-Paragogical-Action-Review.pdf] Like the
 Army, we typically use PARs retrospectively (“what /did/ we
 expect to learn or make together?”).  However,
 PARs can also be applied to look forward, proactively, as a way to
@@ -956,8 +956,8 @@ we would need to study the forces that make it how it is today.
 The individual methods we described have various analogies (e.g., between
 PAR and AAR, or \textsc{Daily Scrum}, as noted above; one could also
 point to Architectural Decision Records[fn:: https://adr.github.io/]
-and other review tools).  [[PLACARD][PLACARD]] has some analogies with
-a method called Causal Layered Synthesis developed by Paul Wildman
+and other review tools).  [[PLACARD][PLACARD]] as a whole is somewhat similar
+to a method called Causal Layered Synthesis developed by Paul Wildman
 cite:wildman2010engaging. Seamon cite:seamon2019christopher develops an
 analysis of Christopher Alexander’s work with some parallels to our
 analysis of DPL via CLA.  The patterns collected in /Fearless Change/ 
@@ -1245,7 +1245,7 @@ design of urban spaces, or, indeed, the future of design patterns.
 Our paper reflects on several domains in which design patterns have
 been used.  Alongside the broader transdisciplinary contribution, we
 have started to develop a set of requirements for software that can
-help people work with these methods.  As Alan Turing said about the
+help people work with these methods.  As Alan Turing said regarding the
 future of computing machinery and intelligence, we can see plenty that
 needs to be done.
 
@@ -1256,15 +1256,14 @@ Lastly, as regards Alexander’s visionary question: perhaps the
 ‘Chartres of programming’ has been hidden in plain view all along.
 Alejandro Jodorowsky refers to the Marseilles Tarot as a “nomadic
 cathedral” \cite{jodorowsky2009way} (p. 10).  Are pattern languages
-the same sort of thing?  Consider that cathedrals were not just a
-place to pray or to do private inward contemplation, but also have
-meaningful layouts, and beautiful images in the form of stained glass
+the same sort of thing?  Consider that cathedrals are not just a
+place to pray or to do private inward contemplation; they also have
+meaningful overall designs, and are accompanied by beautiful images in the form of stained glass
 windows to support people in understanding bible stories and otherwise
 create an appropriate environment to inspire devotion.  Similarly,
 design patterns typically come with images, and through venues like
 PLoP, are associated with spaces of congregation.  With [[PLACARD][PLACARD]], we
-have discovered a potential crossroads that could bring wider
-communities together.
+have discovered a nexus that could bring wider communities together.
 
 
 # \begin{quote}
@@ -1292,7 +1291,7 @@ Legrand, Charles Blass, Stephan Kreutzer, Giuliana Marques, Cris
 Gherhes, Qiantan Hong, Cameron Ray Smith, David O’Toole, Rebecca
 Raper, and Steve Corneli.
 
-The image presented here Figure 1 was made available under the terms of CC Zero by Lapsed Pacifist at =https://commons.wikimedia.org/wiki/File:Shell_to_Sea_placard.jpg=.
+The image appearing in Figure 1 was made available under the terms of CC Zero by Lapsed Pacifist at =https://commons.wikimedia.org/wiki/File:Shell_to_Sea_placard.jpg=.
 
 \appendix
 * NOTES :noexport:
@@ -1943,7 +1942,6 @@ expanding the frontier of what’s possible for human beings.
 | Assess what we’re learning                                          | \textsc{Assessment} |
 | Think about how we can help improve gender balance in Free Software | DIVERSITY           |
 
-
 * APPENDIX: Example PAR: Emacs Research Group, December 2, 2020 
 <<appendix-pars>>
 
@@ -2214,7 +2212,6 @@ seasons.
 # by their time off, they prepare more innovative meals and, while the
 # restaurant remains affordable, they garner enthusiastic crit from
 # foodies.
-
 * APPENDIX: Patterns
 <<appendix>>
 
@@ -2442,15 +2439,42 @@ In our workshop we will then explore the scenarios further by using
 pattern language.  We will use the interactive game Flaws of the Smart
 City to structure game play.
 
+** Related work
+- We could write something in Emacs to play the /Fearless Change/ game.
+- Ray plans to implement a version of this that we could play together, you make paths and there are obstacles, and you try to see whether you can use the Fearless Change patterns to overcome the obstacles that people have made.
+
 ** Training phase (45 minutes)
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
 
+#+begin_quote
+*Prompt:* "Here we will introduce you to each of your roles, their problems and contexts, to familiarize you with these things ..."
+#+end_quote
+
 The workshop involves different roles, and participants will be
-briefed on these roles in separate groups, along with a short general
-introduction.  The four roles are linked with the four resources
-mentioned above:
+briefed on these roles in separate groups, along with *a short general
+introduction*.  It can include a one-page overview of how we expect
+things to go (with a quick example and /an overview of the desired
+outcome, clarifying our intention and stating where we see things to
+be open to interpretation by participants/).
+
+#+begin_quote
+*Hypothesis:* We think that this method will allow people to come together to develop novel and meaningful solutions.
+#+end_quote
+
+- PLACARD is a /tool/ to bring people together people with different perspectives...
+- ... so that they will come up with novel solutions to a problem
+  - It will allow them to think more deeply about the reality than other methods
+  - People will come from their own different existing backgrounds, and should adjust the roles to what they are actually already good at.
+
+- All participants will participate in all aspects of PLACARD in the game phase
+  - ... some will lead on various aspects
+  - There will be some peer learning happening during the workshop
+  - Part of the issue here is to understand what the problems are.
+
+*** Overview
+The four roles are linked with the four resources mentioned above:
 
 - *Historian* (briefed on the Neo-Carbon Energy Scenarios)
 - *Designer* (briefed on the Cooling the Commons cards and pattern methods)
@@ -2458,11 +2482,14 @@ mentioned above:
 - *Analyst* (briefed on CLA)
 
 Players will be asked to define their role via the four CLA layers of
-/litany/, /system/, /worldview/, and /myth/.  I.e., the participants will be asked to describe their problems, social context, worldview, and narratives via a quick Q&A process.
+/litany/, /system/, /worldview/, and /myth/.  I.e., the participants will be
+asked to describe their problems, social context, worldview, and
+narratives via a quick Q&A process.  (The Analyst will go a bit deeper
+into CLA.)
 
 In the general introduction we will give this example: the Cooling the
 Commons pattern language includes the pattern
-\textsc{The Night-Time Commons}.  This pattern proposes to move many daytime activities to the night. 
+\textsc{The Night-Time Commons}.  This pattern proposes to move many daytime activities to the night.
 If we examine this pattern via CLA, we can see some potential problems:
 
 - Litany :: The concern arises that diurnal rhythms are deeply embedded in biology and culture: waking up at a non-standard time could be difficult for many people, interrupting their habits and their coordination with other people.
@@ -2470,10 +2497,53 @@ If we examine this pattern via CLA, we can see some potential problems:
 - Worldview :: Public and domestic rituals are organized about the daily cycle.  People may have self-identity views of who they are relative to clock time, like “early bird gets the worm”.
 - Myth :: Times of day have symbolic associations.
 
+This continues in breakout rooms per role.
+
+*** Briefing for the *Historian* (intro to Neo-Carbon Energy scenarios)
+#+begin_quote
+*Prompt:* Your responsibility will be to know about the game world, and to say what has happened and something about what’s possible in this world. E.g., in the "Radical Startups" scenario it will be possible to *X and Y but not Z*.
+#+end_quote
+
+- How does the scenario holder relate to everyone else...?  They provide the context in which everything else unfolds.
+- Give them the scenario, telling it as a story from the previous workshop as if it was history.
+- They can set up the context and outlines the possible solutions as a story (working from the myth layer).
+- They can reality-check the world that people are living in... a bit like a Game Master in a role-playing set-up
+
+*** Briefing for the *Designer* (intro to Cooling the Commons cards and pattern methods)
+#+begin_quote
+*Prompt:* ...
+#+end_quote
+
+- Maybe closer to the /action/ function of DPL, i.e., coming up with a plan to implement the ideas that the group discussed.
+
+*** Briefing for the *Kaijū Communicator* (intro to Flaws of the Smart City)
+#+begin_quote
+*Prompt:* Your responsibility will be to run the game in the next phase of the workshop.
+#+end_quote
+
+- Maybe closer to the /perception/ function of the PAR.
+- Realistic and well-thought-out role
+- Communicate to people and develop the role
+- Like a coach to get people to say more about what they mean by what they are saying.
+- The cards are just things to suggest an idea, even better would be for people to make up their own roles.
+- "Why instead of building trains do you want to build rickshaw robots?"
+- "Does someone else have an opinion that would be different from that?"
+
+*** Briefing for the *Analyst* (intro to CLA)
+#+begin_quote
+*Prompt:* Your responsibility will be to guide people towards the outcome of your breakout group, to be reported back using the CLA format.  (Similar to Wrapper in peeragogy terms.)
+#+end_quote
+
 ** Part one (1 hour)
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+
+*** Overall training (15 minutes)
+
+*** Small group on-site training (45 minutes)
+
+- 5 pages would best
 
 We will divide participants into four groups (or fewer; so long as
 there are at least four persons per group, representing the four
@@ -2506,14 +2576,14 @@ in a short presentation.  An example tableau appears below:
 
 \begin{center}
 \begin{tabular}{llll}
-Litany & \textbf{Shopping Street} & \textsc{Street Parties \& Fêtes} \\
-System & \textbf{Gamify} & \textsc{Outdoor Cooking}\\
-Worldview & \textbf{Historian} & \textsc{Outdoor Play Areas}\\
-Myth & \textbf{Loss Of Privacy} & \textsc{Signage} \\
+Litany    & \textbf{Shopping Street} & \textsc{Street Parties \& Fêtes}  \\ % Say more about them here...
+System    & \textbf{Gamify}          & \textsc{Outdoor Cooking}          \\
+Worldview & \textbf{Historian}       & \textsc{Outdoor Play Areas}       \\
+Myth      & \textbf{Loss Of Privacy} & \textsc{Signage}                  \\
 \end{tabular}
 \end{center}
 
-\noindent This might be narrated as follows:
+\noindent This might be narrated from inside the game world, roughly as follows:
 
 #+begin_quote
 Suppose there is a monthly event that encourages people to get to know
