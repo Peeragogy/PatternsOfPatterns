@@ -72,6 +72,142 @@
     \flushright Saṁyutta Nikāya Connected Discourses on Causation 12.65.
   \end{minipage}
 #+END_EXPORT
+
+* Summary
+
+This paper is about combining methods to address problems
+patterns can play a role
+I was not so familiar with the other concepts
+
+sensemaking — helps us identify recurring themes
+future studies — helps us organise and see where they lead
+patterns / pattern languages — turns it into actionable advice
+
+then applies this to the future of patterns themselves
+the approach was applied to itself
+
+who is it for?  I think it is for pattern community members and people
+who want to know how e.g. PLoP can be in the future. How to make it a
+good community?
+
+Also for people using the other methods, but mainly for the patterns
+people, but others can learn a lot.
+
+** Favourite points
+
+- Hiroaki: methodology was helpful b/c it depicts collective intelligence
+
+- Takashi: I liked it b/c it is not typical, future directed paper
+  based on methodology. Ambitious and challenging.
+
+- Erika: I liked combining the methods, I liked PLACARD as a way to
+  combine the methods in one word
+
+- Michael: in the four scenarios it articulates discussions that have
+  been ongoing but not resolved
+
+- Yuki: in the 3 methods, the author combined the methods as a whole:
+  we can start from PAR but go back or go forward; it’s a mixed
+  method.
+
+- Mary: I liked it for sharing it with my students, especially the
+  case study, and plan to share it with them in a few weeks.
+
+- Ademar: I liked it in many ways, only 2 now: the way it is written
+  is excellent, I think it’s a good example. It is a good piece of
+  literature and it is not easy to write this way.  In the spirit of
+  the paper, there is intellectual openness, or open-mindedness,
+  forcing me to think beyond the patterns.  We all love patterns, but
+  what’s next?
+
+- So then I tried to fight it and find weaknesses and points where I
+  was too passionate... but I could not find them.
+
+- Thinking of patterns as the engine, actioning the work; and the
+  virtuous cycle can be very powerful.  So I am wondering still what
+  are the drawbacks!
+
+** Suggestions for improvement
+*** Abstract
+- Takashi: in the 3rd line, it says we use "action reviews"; later it
+  is PAR. Maybe it is a more general term, but in page 2 there is only
+  an explanation of PAR.  It is a little inconsistency.  E.g., use
+  Action Review in general?  Later explain what is a PAR as a more
+  specific way.  Or use PAR everywhere.
+- Ademar: it is a small detail but yes
+
+*** Introduction
+
+- Yuki: I didn’t understand Christopher Alexander’s discussion; there
+  is a reference but you could recap the main points in summary to
+  make it more understandable.  (There are many references of
+  Alexander; there is a YouTube talk of OOpsla.)
+
+- Takashi: To add, I feel similar inflection in this first sentence.
+  It is good as a sentence, indicating that there is a discussion
+  before: BUT there is some more discussion on the future of design
+  patterns in the past.  E.g., we had a panel discussion in the PAL
+  conference in Portland, organized by Hiyo Naiz (?). So there is some
+  discussion here.  Focusing on CA, we want to know what is the main
+  point/result.  I want to know a little bit of that (I read the IEEE
+  paper but others won’t have).
+
+- Ademar: maybe instead of saying THIS topic in sentence 2, explain a
+  little more and sumarise the relevant aspects. If the discussion is
+  important for this paper, add a little information about that.
+
+- Michael: At the beginning I wasn’t sure where it was going. The
+  title didn’t tell me it was about the future of patterns.  So now we
+  talk about ‘this discussion’ and it doesn’t actually lay out the map
+  of what to expect.  But don’t add more information; there’s already
+  a lot of information, but add little guideposts.
+
+- Takashi: It’s good to have a subtitle, because the paper has a great
+  new contribution in methodology, emphasise this.
+
+- So, from the title, I expect that there are patterns summarising the
+  other pattern languages or something.  That is confusing for me
+  starting to read the title.  The short title looks cool but it has a
+  danger to mislead readers.  Subtitle looks required.
+
+- Erika: It says the purpose is to ... address significant problems in
+  social networks. But maybe the core of the paper is about patterns,
+  so maybe choose which is ‘the core’.
+
+- If we read only the sentences telling what the paper is about:
+  title, abstract, introduction, conclusion.  But the author is using
+  different sentences.  With the title, you could spend 5 minutes on
+  it and try to guess.  For me it was immediately meta-patterns.  My
+  PhD was on meta-patterns / design patterns.  Ah, OK, it is not
+  those.  Or if you go to the introduction it’s something else.
+
+- These things create different ranges of semantics.  After first
+  sentence of introduction I was not confused but I was wondering.  So
+  suggestion would be to try to change / upgrade the title, but not
+  sure what suggestion evolves.  I’d like to see ‘future’ here in the
+  title.
+
+- Hiroaki: In introduction: We begin by
+  recalling... fundamental-in-the-world and methodological-language.
+  It would be nice to have a diagram showing how to map these.
+
+- Michael: to show how the different approaches connect? 
+
+- No, I think, first fundamental sense is ‘pattern language of
+  physical world’ and the other is ‘elemental language’... 2 parts of
+  pattern language is here.  These have their own features and own
+  character, but I can’t understand at first glance these connections
+  mapping to a fundamental or methodological or physical or not.
+
+- Table 1: outlines the 3 methods sense/think/act — so it is all
+  there. But we don’t have a map where the paper is going, what we
+  might read and explore later.  Maybe it’s possible to create an
+  overview map of some of the things that will be alluded to later.
+  Like ‘community’.  Plant the seeds first, then talk about it.
+
+- There are different ways of doing this: in a broad overview, going
+  through again, then a 3rd time... Like how you teach
+
 * Abstract                                                        :noexport:
 :PROPERTIES:
 :UNNUMBERED: t
@@ -245,6 +381,45 @@ the paper and makes some of the ideas within it interactive.
 # Clarify punctuation usage?  Certainly with coauthors!
 
 * Background
+
+- Ademar: for me this worked well, it brought more things to think
+  about. WE might 3 or 4 readings and you will get even more
+  concepts... I am not sure if we need a section with this label, it
+  could be woven in other sections.
+
+- Methods are also "background", and yet Methods are about something
+  else. Remove it or have a long background section that has
+  subsections.
+
+- The idea that you might need to reread is a sense that it might need
+  some reordering.  If things are much better after 2nd reading, you
+  need something that is after.  So it can be about
+  ordering/repetition.  Sometimes it is good.
+
+- I want to know more immediately... but e.g., context of research, I
+  appreciate what is here; maybe make it shorter, reorder, putting it
+  earlier... so that we go to the point faster.
+
+- Section 4 is also background, so where is the body. Maybe it is good
+  timing to start the main body; making more compact the background
+  and methods, because they want to know the main body.
+
+- Michael: suppose it was part of the book, then there would be
+  chapters on each of the methods. But because it is not a book it
+  tries to put everything in.  Maybe need even more appendices!
+
+- The combination of methods IS a contents, but it looks like some
+  repetition in summary of findings, abstract, context of research.
+  Looks redundant.  Put explanation of method in one part, then start
+  the main point.
+
+- Yuki: two bodies, one is PLACARD, the other is the research with
+  PLACARD.  The author could think which is more important in this
+  paper.
+
+- In this paper the method is "combination of methods" so the
+  question: how to combine these?  And then the result is "how to
+  apply these?"
 
 # Batchelor fits w/ Sarkar, epilogue to Inyatullah
 
@@ -557,6 +732,10 @@ This is certainly a worthy concern, and something we will come back to after con
 * Context of the Research
 <<Materials>>
 
+- Ademar: we can read this as context, but we could also read this as "the concrete studies" or "concrete cases".  Studies: applying PLACARD to two studies.  With some rewriting it will fit here.  Maybe there will be some repetition.
+
+- In this case, the studies might be represented in this section, and then the RESULTS in the next section.  Then weave the text from 4 and 5.  There’s no one way only to make this right.
+
 We applied Causal Layered Analysis in two different contexts, traversing different
 scales.  At the larger scale, we applied CLA to the design pattern
 literature and practices, with the purpose of scaffolding an
@@ -765,13 +944,125 @@ point in time, CLA can be used to integrate these observations into a plan.
 * Discussion
 <<Discussion>>
 
+- Takashi: I am familiar with 2 axes of scenario
+  planning. Environment + some other factor, producing a 2x2, so that
+  there are 4 future scenarios.  So they are almost mutually
+  exclusive, but this provides another type of future scenarios.  This
+  is not about improvement but I want to know about how-to create
+  these scenarios. 
+
+- Michael: I think it builds on this line of thinking in future
+  studies. It cites Peter Schwartz on scenario planning. Paul
+  Scholmerker? The things you called factors are similar to forces.
+  The influence diagram, which is like forces being connected.  Why do
+  they not talk about conflict?  They are almost there.  
+
+- Trends and uncertainties — which are really connections between
+  forces.  The term "influence diagram" suggests we can do this, and
+  then patterns are the resolution.  Sense/reflect/act, and patterns
+  are the act part.
+
+- To me that made a lot of sense.
+
+- Takashi: it mentioned that both Alexander and Schwartz talked about
+  driving forces, but my understanding is that Alexander talked about
+  microscopic forces in a certain environment, whereas Schwartz talks
+  about macro-scenarios.
+
+- Future folks have talkeda about Archetypes, which are clusters of
+  forces. These are basically patterns. "Doomsday scenario" and such.
+  Connecting these explicitly is very nice.
+
+- Takashi: it says "Schwartz does not intend to resolve conflicts" —
+  because the forces can’t be controlled.  But because it is critical
+  they need to take care of the forces to decide their policy or
+  decision making.  But Alexander can design to resolve the conflict
+  in the environment.
+
+- Takashi: this is the first time to read a relationship between
+  Alexander and the future scenario planning method and I want to
+  discuss more about it in the future!
+
+- Yuki: How to also conduct the workshop (the ERG) because in the
+  supplement F it shows a different workshop proposal.  But, how did
+  they actually conduct their workshops with PLACARD?  What are the
+  difficult points?  What did they learn from the workshops?  This
+  could be good to write. But this could also be another paper because
+  this one should focus on PLACARD.
+
+  - JC: So, in Appendix B or our upcoming EmacsConf talk
+
+- MW: This workshop will happen next week so they can’t write it up
+  yet!  Though they probably did similar ones before.
+
+- Ademar: studying the future of patterns; maybe it is not only that,
+  because we have the method here, but I think future should be in the
+  title.
+
+- Michael: If I look at 6.1, 6.2, 6.3, 6.4: these are about the future
+  of how we use patterns.  It’s how we interact with them as a
+  community.  How we apply them to other areas and to challenges like
+  climate change.  The author is saying: this is a method we could use
+  to solve real problems, not just software design issues!
+
+- We have all these people who know a lot about climate change, can we
+  solve problems like that?
+
+- Studying the future of patterns using future studies
+
+- Mary: are the Australians really talking about ethics?  I wasn’t sure. That part confused me a little.
+
+- MW: You could write a paper on ethics Mary! Bringing your background into this.
+
+- Takashi: Similarly I don’t understand this link.
+
+- MW: As pattern authors we make recommendations for policy, so we are ethically responsible for the decisions that are being made!  I’m not responsible for you using my pattern....(?) No.  It’s a responsibility that you have to bear if people follow your patterns.  That might be it.
+
+- But this is fundamentally about the ACT part, not the sense or reflect part. Action and ethics are connected.
+
+- Hiroaki: Does that mean guiding some kind of intervention in the ethical aspect of the discussion?
+
+- MW: I don’t think it’s the main point (JC: the part about Paola...)
+  - I do think it is interesting.
+
+- Ademar: I think, about the scenarios: some of the names were not resonating a lot to me.  E.g., “Patterns Eat Big Tech” — this isn’t so strong but it doesn’t seem to be what initially that would mean.  Try to find a name that is more easy to grasp.  In that scenario, there are a lot of ideas, but the last sentence: soft-skills? I’m not sure about some of these things. In the reference we might have more ideas, but here I need more details to agree or disagree.  Just try to detail more here, and also the name.
+
+- MW: The unequal access, but the connection to Big Tech is unclear. Is that really what this scenario is about?
+
+- Takashi: for me Scenario 3 is a little surprising and confusing.  When reading PLACARD as a methodology to make future studies as in this paper, so why is it here? After reading this paragraph, I understood ... a kind of new thinking is required in this scenario.  But this is not specific to PLACARD.  Maybe it’s a matter of promoting PLACARD, but the name should be "new tools/methods/literacies". That’s more appropriate.
+
+- Ademar: Gush. I thought PLACARD was too fast/specific here. I would generalise. Combining methods (etc.) to scaffold new literacies of collaboration.
+
+- PLACARD is an example.  But it’s really about literacies.  To make people knowledgeable and conversant.
+
+- Yuki: in the conclusion it says "we can exchange PAR and CLA to other methods" if they fulfil the same basic purpose.  So I agree with Takashi’s suggestion.
+
+- MW: What are the FORCES underlying the scenarios?  Also it says they are pegged to the four layers of CLA... does that help understand them?  Maybe that just asks again, what leads us to these scenarios?
+
+- ... since this paper is actually about how scenarios contain forces!
+
+- Ademar: Agree these are meaningful, but then I was wondering: can I imagine more. And the author too.  If we can imagine more, what was the selection criteria?  To add a little more rationale about these 4.
+
+- Identifying the forces would help.  "These two as the top ones."  If you had 100 you might pick 2.  But here we don’t have that information.
+
+- Ademar: this is easier to say than to do.  To define what could be a possible scenario: what ingredients?  Or provide examples... e.g., providing these 4 and "other possible scenarios could be..."
+
+- Hiroaki: I think it would be interesting to create 3 scenarios e.g. in 3 fields (like education)... So, e.g., ELITE TRAINING, FUTURE STUDIES, DPL... these could be 3 scenarios, then another one back to all three.
+
+- To make that connection between the different parts of the paper.
+
+- We can continue discussion in the #burgundy room
+
+- Takashi: put the information about the Portland conference there.
+
+
 # \begin{echo}
 # \begin{flushright}
 # \emph{tl;dr: We consider how the methods described earlier could be used to address climate change adaptation.}
 # \end{flushright}
 # \end{echo}
 
-Informed by the two analyzes described above, we would like to reflect
+Informed by the two analyses described above, we would like to reflect
 on why putting the CLA and DPL methods together can make a big
 difference in practical terms.  To do this, we begin by examining a
 specific problem domain to which CLA and DPL have been applied
